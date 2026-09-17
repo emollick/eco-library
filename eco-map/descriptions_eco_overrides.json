@@ -1,0 +1,1401 @@
+{
+ "_comment": "Review overrides for the fetched description files (descriptions_eco_seen/braidense/bologna.json, which their fetch scripts rewrite wholesale). gen_books_eco.py reads this file first and an entry here wins outright: a `verified: true` text is used as it stands; `description: null` blocks every fetched description for that id and puts the `rejected` note on the book (description_kind none, description_rejected). Keyed by book id.",
+ "braidense:VIAE001105": {
+  "description": "Athanasius Kircher's treatise on light and shadow (optics, sundials, mirrors, the camera obscura and projected images), first printed in Rome in 1646; Eco's copy is the second edition, Amsterdam 1671.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Ars_Magna_Lucis_et_Umbrae",
+  "wikipedia_lang": "en",
+  "wikipedia_title": "Ars Magna Lucis et Umbrae",
+  "verified": true,
+  "note": "the fetched Wikipedia summary was rejected by the title-word check (the record title is the Latin long title); text checked against the record (Amstelodami 1671)"
+ },
+ "braidense:MIL1026611": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article is about Alistair Hamilton, who wrote the introduction, not the book (The Society of Jesus, a Bibliotheca Philosophica Hermetica catalogue)"
+ },
+ "braidense:MIL0467247": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article is about Guido Canziani, the editor of the critical edition, not the anonymous Cymbalum mundi"
+ },
+ "braidense:MIL1039020": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched page is the Sotheby disambiguation page; the record is a Sotheby's auction catalogue (Important Judaica)"
+ },
+ "braidense:VEA1153511": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article is Saint-Saens's opera Ascanio, not Dumas's novel"
+ },
+ "braidense:MIL1023328": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article is about Carlos Gilly, the catalogue's editor, not the catalogue (Paracelsus in der Bibliotheca Philosophica Hermetica)"
+ },
+ "braidense:MIL1027414": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched author stub for Peter Ditchfield is truncated and says nothing about Books fatal to their authors (the review's id MIL1037414 does not exist; this is the Ditchfield record)"
+ },
+ "video:zZEy10fpq3I:2570:bambino-nascosto": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article is about a different work with the same title (the book read on the piano is not the one the article describes)"
+ },
+ "video:zZEy10fpq3I:2592:pinocchio": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article is about the character / the Disney film, not the edition read on the piano"
+ },
+ "video:zZEy10fpq3I:2582:sulle-spalle-dei-giganti": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article describes another book of the same title, not Eco's Sulle spalle dei giganti (2017)"
+ },
+ "photo:fondazione_14_L1-4:filosofia-della-musica": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article is Mazzini's essay Filosofia della musica; the spine on L1-4 is a different book of that title (author not read)"
+ },
+ "video:KZfOaug0mM4:110:dante-alighieri-s-inferno-metaphor": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "the fetched article is about Dante's Inferno; the spine is a study about Dante (metaphor), not the poem"
+ },
+ "bologna:UBO00183608": {
+  "description": "Braccio di Ferro (Popeye the Sailor Man) è un personaggio immaginario creato dal fumettista statunitense Elzie Crisler Segar, apparso in strisce giornaliere e tavole domenicali a fumetti e in cartoni animati cinematografici e televisivi.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Braccio_di_Ferro_(personaggio)",
+  "wikipedia_title": "Braccio di Ferro (personaggio)",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the it article on the character and Segar's strip Thimble Theatre (Braccio di Ferro); the record is the Garzanti 1965 strip collection"
+ },
+ "bologna:UBO09142477": {
+  "description": "Dogme et Rituel de la Haute Magie (English: \"Dogma and Ritual of High Magic\") is the title of Éliphas Lévi's first published treatise on ritual magic, which appeared in two volumes between 1854 (Dogme) and 1856 (Rituel). Each volume is structured into 22 chapters, which parallel the tarot.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Dogme_et_Rituel_de_la_Haute_Magie",
+  "wikipedia_title": "Dogme et Rituel de la Haute Magie",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the 1949 Italian translation"
+ },
+ "bologna:UBO02041120": {
+  "description": "Conspiracy: How the Paranoid Style Flourishes and Where It Comes From is a 1997 book by historian Daniel Pipes.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Conspiracy:_How_the_Paranoid_Style_Flourishes_and_Where_It_Comes_From",
+  "wikipedia_title": "Conspiracy: How the Paranoid Style Flourishes and Where It Comes From",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the 2005 Italian translation Il lato oscuro della storia"
+ },
+ "bologna:UBO00270440": {
+  "description": "Giordano Bruno and the Hermetic Tradition is a 1964 non-fiction book by British historian Frances A. Yates.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Giordano_Bruno_and_the_Hermetic_Tradition",
+  "wikipedia_title": "Giordano Bruno and the Hermetic Tradition",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the 1981 Italian translation"
+ },
+ "bologna:UBO00168890": {
+  "description": "The Art of Memory is a 1966 non-fiction book by British historian Frances A. Yates.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/The_Art_of_Memory",
+  "wikipedia_title": "The Art of Memory",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the 1972 Italian translation L'arte della memoria"
+ },
+ "braidense:UM1E025681": {
+  "description": "Rationale divinorum officiorum è un'opera di Guglielmo Durante del XIII secolo, probabilmente redatta attorno al 1280. Si situa nella tradizione dell'interpretazione allegorica della liturgia, inaugurata da Amalario.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Rationale_divinorum_officiorum",
+  "wikipedia_title": "Rationale divinorum officiorum",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Eco's copy is the Vicenza 1480 incunable (ISTC id00423000)"
+ },
+ "braidense:VEAE131887": {
+  "description": "La Comedìa, o Commedia, conosciuta soprattutto come Divina Commedia, è un poema allegorico-didascalico ed escatologico di Dante Alighieri, scritto in terzine incatenate di endecasillabi (poi chiamate per antonomasia terzine dantesche) in lingua volgare fiorentina.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Divina_Commedia",
+  "wikipedia_title": "Divina Commedia",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the Venice 1491 edition of the Commedia with Cristoforo Landino's commentary (ISTC id00032000)"
+ },
+ "braidense:VEAE144693": {
+  "description": "Il Corpus Hermeticum (\"raccolta delle opere di Ermes\") è una raccolta di scritti filosofico-religiosi di epoca imperiale (II-III secolo d.C.) attribuiti ad Ermete Trismegisto. Rappresenta la fonte d'ispirazione del pensiero ermetico e neoplatonico rinascimentale.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Corpus_Hermeticum",
+  "wikipedia_title": "Corpus Hermeticum",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is Ficino's Latin translation (Pimander / De potestate et sapientia Dei), Venice 1481 (ISTC ih00079000)"
+ },
+ "braidense:MILE062620": {
+  "description": "Der Liber de proprietatibus rerum ist eine Enzyklopädie des Scholastikers Bartholomaeus Anglicus (ca. 1190–1250), der das Werk in Magdeburg im 13. Jahrhundert verfasste. Es ist in 19 systematisch gegliederte Bücher unterteilt.",
+  "description_kind": "article",
+  "description_source": "https://de.wikipedia.org/wiki/De_proprietatibus_rerum",
+  "wikipedia_title": "De proprietatibus rerum",
+  "wikipedia_lang": "de",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no it/en article on the work; the record is the Lyon 1480 incunable (ISTC ib00132000); lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:RMLE008159": {
+  "description": "Le Liber de laudibus Sanctae Crucis (livre des louanges de la Sainte Croix) ou Opus in honorem Sanctae Crucis conditum est un ouvrage rédigé en 810 par Raban Maur, futur l'abbé de Fulda et archevêque de Mayence, pour l'empereur Louis le Pieux.",
+  "description_kind": "article",
+  "description_source": "https://fr.wikipedia.org/wiki/Liber_de_laudibus_Sanctae_Crucis",
+  "wikipedia_title": "Liber de laudibus Sanctae Crucis",
+  "wikipedia_lang": "fr",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no it/en article on the work; the record is the Pforzheim 1503 edition"
+ },
+ "braidense:VEAE143595": {
+  "description": "La città di Dio (in latino De civitate Dei, o anche De civitate Dei contra Paganos) è un'opera latina in ventidue libri scritta da sant'Agostino d'Ippona tra il 413 e il 426.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/La_citt%C3%A0_di_Dio",
+  "wikipedia_title": "La città di Dio",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Eco's copy is the Rome 1470 Sweynheym and Pannartz edition (ISTC ia01232000)"
+ },
+ "braidense:MILE062626": {
+  "description": "Etymologiae (Latin for 'Etymologies'), also known as the Origines ('Origins'), usually abbreviated Orig., is an etymological encyclopedia compiled by the influential Christian bishop Isidore of Seville (c. 560–636) towards the end of his life.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Etymologiae",
+  "wikipedia_title": "Etymologiae",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the it article is a single sentence; Eco's copy is the Strassburg c. 1473 Mentelin edition (ISTC ii00182000)"
+ },
+ "braidense:BVEE002283": {
+  "description": "Monas Hieroglyphica (or The Hieroglyphic Monad) is a book by John Dee, the Elizabethan magus and court astrologer of Elizabeth I of England, published in Antwerp in 1564. It is an exposition of the meaning of an esoteric symbol that he invented.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Monas_Hieroglyphica",
+  "wikipedia_title": "Monas Hieroglyphica",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "braidense:RMRE001716": {
+  "description": "L'Hypnerotomachia Poliphili, letteralmente Combattimento amoroso di Polifilo in sogno, è un romanzo allegorico, stampato a Venezia da Aldo Manuzio il Vecchio nel dicembre 1499, con 169 illustrazioni xilografiche.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Hypnerotomachia_Poliphili",
+  "wikipedia_title": "Hypnerotomachia Poliphili",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "braidense:CAGE000355": {
+  "description": "Le Cronache di Norimberga sono un'opera compilatoria di Hartmann Schedel, scritta in lingua latina nel 1493. Si tratta di una storia illustrata del mondo, la quale segue la narrazione biblica; il libro contiene inoltre la storia di molte delle grandi città dell'Occidente.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Cronache_di_Norimberga",
+  "wikipedia_title": "Cronache di Norimberga",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Liber chronicarum, Nuremberg 1493 (ISTC is00307000)"
+ },
+ "braidense:TO0E039713": {
+  "description": "Horologium oscillatorium: sive de motu pendulorum ad horologia aptato dimostrationes geometricae è un trattato pubblicato da Christiaan Huygens nel 1673; è la sua opera principale su pendoli e orologeria.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Horologium_oscillatorium",
+  "wikipedia_title": "Horologium oscillatorium",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:TO0E080669": {
+  "description": "An Essay Concerning Human Understanding is an essay by John Locke concerning the foundation of human knowledge and understanding. It first appeared in 1689 (although dated 1690) with the printed title An Essay Concerning Humane Understanding.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/An_Essay_Concerning_Human_Understanding",
+  "wikipedia_title": "An Essay Concerning Human Understanding",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "braidense:RMLE018503": {
+  "description": "De umbris idearum (\"Le ombre delle idee\") è un'opera in latino del filosofo Giordano Bruno pubblicata a Parigi nel 1582 dalla tipografia E. Gourbin in un unico volume insieme all'Ars memoriae (\"Arte della memoria\").",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/De_umbris_idearum",
+  "wikipedia_title": "De umbris idearum",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "braidense:RMSE098000": {
+  "description": "Il Tractatus de sphaera, noto anche come De sphaera mundi o semplicemente De sphaera, è un'opera di Giovanni Sacrobosco scritta nel 1235 circa. Esso fu in assoluto il trattato di astronomia più diffuso nel Medioevo: era usato in tutte le università ed il testo fu copiato molte volte prima dell'invenzione della stampa.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Tractatus_de_Sphaera",
+  "wikipedia_title": "Tractatus de Sphaera",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the Ratdolt 1482 Sphaera mundi with Peurbach and Regiomontanus (ISTC ij00405000)"
+ },
+ "braidense:VEAE126338": {
+  "description": "De astronomia (Concerning Astronomy) is a book of stories written in Latin, probably during the reign of Augustus (c. 27 BC – AD 14). Attributed to \"Hyginus\", the text describes 47 of the 48 Ptolemaic constellations.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/De_astronomia",
+  "wikipedia_title": "De astronomia",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Poeticon astronomicon, Ratdolt 1482 (ISTC ih00560000); no it article on the work; lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:VEAE125641": {
+  "description": "Il De chorographia è un trattato di geografia, scritto da Pomponio Mela e pubblicato tra la fine del 43 e l'inizio del 44.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/De_chorographia",
+  "wikipedia_title": "De chorographia",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "De situ orbis, Venice 1478 (ISTC im00450000)"
+ },
+ "braidense:RMLE015118": {
+  "description": "Theatrum Orbis Terrarum (\"Theatre of the Lands of the World\") is considered to be the first true modern atlas. Written by Abraham Ortelius and originally printed on 20 May 1570 in Antwerp, it consisted of a collection of uniform map sheets and supporting text bound to form a book.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Theatrum_Orbis_Terrarum",
+  "wikipedia_title": "Theatrum Orbis Terrarum",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Eco's copy is the 1575 edition; lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:VEAE004723": {
+  "description": "Le Navigationi et viaggi sono una compilazione storico-geografica cinquecentesca, composta dal diplomatico, geografo e umanista trevigiano Giovanni Battista Ramusio (1485-1557). Essa venne pubblicato in tre volumi a Venezia nel 1550, nel 1559 e nel 1556, nella stamperia di Tommaso Giunti.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Delle_navigationi_et_viaggi",
+  "wikipedia_title": "Delle navigationi et viaggi",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Eco's copy is the 1613 edition"
+ },
+ "braidense:BVEE002309": {
+  "description": "Magia Naturalis is a 1558 work of natural magic written by Giambattista della Porta. It has been called \"one of the great masterpieces of the Renaissance philosophical-scientific tradition\".",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Magia_Naturalis",
+  "wikipedia_title": "Magia Naturalis",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the it article is a single sentence; Eco's copy is the 1589 twenty-book edition; lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:LIGE009402": {
+  "description": "De subtilitate è un trattato di Gerolamo Cardano, la cui prima edizione risale al 1550. È una sorta di enciclopedia in 21 libri che racchiude tutta la conoscenza del XVI secolo, in cui convivono superstizioni medievali e brillanti anticipazioni.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/De_subtilitate",
+  "wikipedia_title": "De subtilitate",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "braidense:LIGE005902": {
+  "description": "Tetrabiblos (Greek: Τετράβιβλος, 'Four books'), also known as Apotelesmatiká ('On the effects') and in Latin as Quadripartitum ('Four Parts'), is a text on the philosophy and practice of astrology, written by the Alexandrian scholar Claudius Ptolemy in Koine Greek during the 2nd century CE.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Tetrabiblos",
+  "wikipedia_title": "Tetrabiblos",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Quadripartitum, Ratdolt 1484 (ISTC ip01088000); the it lead is mostly Greek titles; lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:MILE001874": {
+  "description": "Secreta mulierum, also known as De secretis mulierum, is a natural philosophical text from the late thirteenth or early fourteenth century frequently attributed to Albertus Magnus, although it is more likely written by one of his followers.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Secreta_mulierum",
+  "wikipedia_title": "Secreta mulierum",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Rome 1499 incunable (ISTC ia00321000)"
+ },
+ "braidense:MILE001870": {
+  "description": "Liber physiognomiae (The Book of Physiognomy) is a work by the Scottish mathematician, philosopher, and scholar Michael Scot concerning physiognomy; the work is also the final book of a trilogy known as the Liber introductorius.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Liber_physiognomiae",
+  "wikipedia_title": "Liber physiognomiae",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Venice 1477 incunable (ISTC im00551000)"
+ },
+ "braidense:MILE062637": {
+  "description": "Liber physiognomiae (The Book of Physiognomy) is a work by the Scottish mathematician, philosopher, and scholar Michael Scot concerning physiognomy; the work is also the final book of a trilogy known as the Liber introductorius.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Liber_physiognomiae",
+  "wikipedia_title": "Liber physiognomiae",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Venice c. 1490 incunable (ISTC im00561000)"
+ },
+ "braidense:VIAE043046": {
+  "description": "La Naturalis historia (Storia naturale, dal latino, propriamente \"Osservazione della natura\") è un trattato naturalistico in forma enciclopedica scritto da Plinio il Vecchio.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Naturalis_historia",
+  "wikipedia_title": "Naturalis historia",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Venice 1487 incunable, ed. Beroaldo (ISTC ip00795000)"
+ },
+ "braidense:VIAE036800": {
+  "description": "La Vulgata è una traduzione in latino della Bibbia dall'antica versione greca ed ebraica, realizzata alla fine del IV secolo da San Girolamo.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Vulgata",
+  "wikipedia_title": "Vulgata",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is a Latin Bible, Venice 1476 (ISTC ib00547000); the article is on the Vulgate text"
+ },
+ "braidense:RMSE052756": {
+  "description": "Lo Speculum maius è la più importante enciclopedia medievale, scritta da Vincenzo di Beauvais (o Vincentius Bellovacensis nel latino dell'epoca) nel XIII secolo. Composta di oltre tre milioni di parole, fu l'opera più ambiziosa di questo tipo del periodo tardo medievale.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Speculum_maius",
+  "wikipedia_title": "Speculum maius",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Speculum doctrinale, Venice 1494 (ISTC iv00281000), one part of the Speculum maius"
+ },
+ "braidense:RMLE067463": {
+  "description": "Lo Speculum maius è la più importante enciclopedia medievale, scritta da Vincenzo di Beauvais (o Vincentius Bellovacensis nel latino dell'epoca) nel XIII secolo. Composta di oltre tre milioni di parole, fu l'opera più ambiziosa di questo tipo del periodo tardo medievale.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Speculum_maius",
+  "wikipedia_title": "Speculum maius",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Speculum morale, Strassburg 1476 (ISTC iv00288000); the article on the Speculum maius, of which the Morale is the later, pseudo-Vincentian part"
+ },
+ "braidense:UBOE043826": {
+  "description": "Sefer Yetzirah (Hebrew: סֵפֶר יְצִירָה Sēp̄er Yəṣīrā, Book of Formation, or Book of Creation) is a work of Jewish mysticism. Early commentaries, such as the Kuzari, treated it as a treatise on mathematical and linguistic theory, as opposed to one about Kabbalah.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Sefer_Yetzirah",
+  "wikipedia_title": "Sefer Yetzirah",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the 1642 Latin edition with commentaries"
+ },
+ "braidense:PUVE009859": {
+  "description": "Technica Curiosa was an early compendium of scientific and medical technologies. It was one part of a two-volume work, the other being Physica Curiosa, authored by the German Jesuit scholar Gaspar Schott and published in 1664 during the early stages of the Scientific Revolution.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Technica_Curiosa",
+  "wikipedia_title": "Technica Curiosa",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "Eco's copy is the 1687 edition"
+ },
+ "braidense:MILE063037": {
+  "description": "Fama Fraternitatis Rosae Crucis is an anonymous Rosicrucian manifesto published circa 1610 in Kassel, Hesse-Kassel. In 1652, Thomas Vaughan translated the work into English.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Fama_Fraternitatis",
+  "wikipedia_title": "Fama Fraternitatis",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the de title redirects to the Rosenkreuzer article; the record is the 1615 German edition"
+ },
+ "braidense:MUS0118998": {
+  "description": "Musurgia universalis, sive ars magna consoni et dissoni, in X libros digesta o più semplicemente Musurgia universalis è un trattato musicale in lingua latina, scritto tra il 1644 e il 1649 dal gesuita tedesco Athanasius Kircher e pubblicato in due volumi a Roma nel 1650.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Musurgia_universalis",
+  "wikipedia_title": "Musurgia universalis",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "braidense:VEAE001375": {
+  "description": "Oedipus Aegyptiacus is Athanasius Kircher's supreme work of Egyptology. The three full folio tomes of ornate illustrations and diagrams were published in Rome over the period 1652–54.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Oedipus_Aegyptiacus",
+  "wikipedia_title": "Oedipus Aegyptiacus",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the it article is a single sentence"
+ },
+ "braidense:MILE036269": {
+  "description": "Ars magna lucis et umbrae (\"La grande arte della luce e dell'ombra\") è un trattato scritto in lingua latina nel 1646 dal gesuita tedesco Athanasius Kircher e pubblicato a Roma da Lodovico Grignani. Una seconda edizione fu pubblicata ad Amsterdam nel 1671 da Johann Jansson.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Ars_magna_lucis_et_umbrae",
+  "wikipedia_title": "Ars magna lucis et umbrae",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the 1646 Rome first edition"
+ },
+ "braidense:MIL1026937": {
+  "description": "Atlantis: The Antediluvian World is a pseudoarchaeological book published in 1882 by the Minnesota populist politician Ignatius L. Donnelly.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Atlantis:_The_Antediluvian_World",
+  "wikipedia_title": "Atlantis: The Antediluvian World",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "braidense:CFIE023585": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Author and general edition (an Amsterdam, engraving-illustrated 'Oeuvres'/'Oeuvres diverses' of Cyrano de Bergerac) match, but the record is specifically tome 1 while the article's own frontispiece illustration is captioned as coming from tome II of the closely comparable 1709 Amsterdam Desbordes pr"
+ },
+ "braidense:CFI0759278": {
+  "description": "The Treatise of the Three Impostors (Latin: De Tribus Impostoribus) was a long-rumored book denying all three Abrahamic religions: Christianity, Judaism, and Islam, with the \"impostors\" of the title being Jesus, Moses, and Muhammad.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Treatise_of_the_Three_Impostors",
+  "wikipedia_title": "Treatise of the Three Impostors",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the it title is a list page of three works; the record is a 2009 Italian edition with Odifreddi's preface"
+ },
+ "braidense:BVEE000571": {
+  "description": "La Poetica è un trattato di Aristotele, scritto ad uso didattico, probabilmente tra il 334 e il 330 a.C., ed è il primo esempio, nella civiltà occidentale, di un'analisi dell'arte distinta dall'etica e dalla morale.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Poetica_(Aristotele)",
+  "wikipedia_title": "Poetica (Aristotele)",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is Bernardo Segni's 1551 Florentine translation of the Rhetoric and Poetics"
+ },
+ "braidense:MILE063073": {
+  "description": "An Essay Towards a Real Character, and a Philosophical Language is the best-remembered of the numerous works of the English natural philosopher John Wilkins, in which he expounds a new universal language, meant primarily to facilitate international communication among scholars.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/An_Essay_Towards_a_Real_Character%2C_and_a_Philosophical_Language",
+  "wikipedia_title": "An Essay Towards a Real Character, and a Philosophical Language",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:TO0E023178": {
+  "description": "The Sixto-Clementine Vulgate or Clementine Vulgate (Latin: Vulgata Clementina) is an edition of the Latin Vulgate, the official Bible of the Roman Catholic Church. It was the second edition of the Vulgate to be formally authorized by the Catholic Church, the first being the Sixtine Vulgate.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Sixto-Clementine_Vulgate",
+  "wikipedia_title": "Sixto-Clementine Vulgate",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the it title redirects to the generic Vulgata article; the record is a 1758 Sixto-Clementine Bible"
+ },
+ "braidense:RMLE002108": {
+  "description": "L'Ars magna era un metodo inventato da Raimondo Lullo (1235-1315), teologo, filosofo e missionario catalano, da lui descritto nella sua opera Ars compendiosa inveniendi veritatem seu ars magna et maior (1274), tramite il quale si potessero collegare concetti fondamentali, in una sorta di logica meccanica.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Ars_magna",
+  "wikipedia_title": "Ars magna",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the Zetzner 1598 Strasbourg Opera (Ars brevis, Ars generalis ultima etc.); the article is on Llull's Art; lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:BVEE059647": {
+  "description": "Polygraphia is a cryptographic work written by Johannes Trithemius published in 1518 dedicated to the art of steganography.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Polygraphia_(book)",
+  "wikipedia_title": "Polygraphia (book)",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "braidense:NAPE023702": {
+  "description": "The Opus Majus (Latin for \"Greater Work\") is the most important work of Roger Bacon. It was written in Medieval Latin, at the request of Pope Clement IV, to explain the work that Bacon had undertaken.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Opus_Majus",
+  "wikipedia_title": "Opus Majus",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the 1733 Jebb edition"
+ },
+ "braidense:MILE063123": {
+  "description": "La Polvere di simpatia o Unguento armario era un preparato medico composto da una mistura di vetriolo polverizzato e gomma che, all'inizio del XVII secolo, l'inglese sir Kenelm Digby, descrivendolo nel suo Discours sur la poudre de sympathie, aveva reso famoso per il potere di risanare più velocemente una ferita.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Polvere_di_simpatia",
+  "wikipedia_title": "Polvere di simpatia",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the article is on the remedy and names Digby's Discours, of which the record is the 1658 French edition; lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:BVEE000118": {
+  "description": "La filosofia occulta (De occulta philosophia libri III) è uno studio sulla filosofia occulta condotto dal filosofo ed esoterista tedesco Heinrich Cornelius Agrippa di Nettesheim diviso in tre volumi. Tutti e tre i volumi insieme sono comparsi per la prima volta a Colonia nel 1533.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/La_filosofia_occulta",
+  "wikipedia_title": "La filosofia occulta",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the 1533 edition; lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:BVEE026153": {
+  "description": "Il Teatro della Memoria è l'oggetto di una speculazione utopistica dell'umanista rinascimentale Giulio Camillo Delminio, che, nel XVI secolo, concepì – e forse in parte anche realizzò – l'idea di un teatro destinato a recare l'impronta mnemonica di tutta la conoscenza universale.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Teatro_della_Memoria",
+  "wikipedia_title": "Teatro della Memoria",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the article is on Camillo's memory theatre as described in L'idea del theatro (1550); lead shortened by hand at a clause boundary / parenthetical dropped"
+ },
+ "braidense:TO0E016403": {
+  "description": "St Petersburg Dialogues: or Conversations on the Temporal Government of Providence (French: Les Soirées de Saint-Pétersbourg, ou Entretiens sur le Gouvernement Temporel de la Providence) is a 1821 book by the Savoyard diplomat and philosopher Joseph de Maistre.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/St_Petersburg_Dialogues",
+  "wikipedia_title": "St Petersburg Dialogues",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the fr title was not found; the record is the 1821 first edition"
+ },
+ "braidense:UBOE014732": {
+  "description": "The Five Books of the Lives and Deeds of Gargantua and Pantagruel (French: Les Cinq livres des faits et dits de Gargantua et Pantagruel), often shortened to Gargantua and Pantagruel or the Cinq Livres (Five Books), is a pentalogy of novels written in the 16th century by François Rabelais.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel",
+  "wikipedia_title": "Gargantua and Pantagruel",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the record is the 1741 Oeuvres; the fr 'Gargantua et Pantagruel' lead is about the name, not the work"
+ },
+ "braidense:MILE063051": {
+  "description": "Les Mémoires pour servir à l’histoire du jacobinisme sont un essai politique contre-révolutionnaire et anti-Lumières, en cinq tomes, de l'abbé jésuite Augustin Barruel.",
+  "description_kind": "article",
+  "description_source": "https://fr.wikipedia.org/wiki/M%C3%A9moires_pour_servir_%C3%A0_l%27histoire_du_jacobinisme",
+  "wikipedia_title": "Mémoires pour servir à l'histoire du jacobinisme",
+  "wikipedia_lang": "fr",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "bologna:UBO09200088": {
+  "description": "La Somma teologica, frequentemente chiamata anche col titolo originale Summa Theologiae, è la più famosa delle opere di Tommaso d'Aquino. Fu scritta negli ultimi anni di vita dell'autore 1265–1274; la terza e ultima parte rimase incompiuta.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Summa_Theologiae",
+  "wikipedia_title": "Summa Theologiae",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the Leonine-text edition, vol. 1"
+ },
+ "bologna:UBO09254650": {
+  "description": "Le Quaestiones disputatae de veritate, abbreviato anche come QDV, sono un'opera di Tommaso d'Aquino scritta in lingua latina durante il periodo del primo soggiorno a Parigi (dal 1256 al 1259).",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Quaestiones_disputatae_de_veritate",
+  "wikipedia_title": "Quaestiones disputatae de veritate",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "vol. 3 of the Marietti Quaestiones disputatae = De veritate (1)"
+ },
+ "bologna:UBO09254654": {
+  "description": "Le Quaestiones disputatae de veritate, abbreviato anche come QDV, sono un'opera di Tommaso d'Aquino scritta in lingua latina durante il periodo del primo soggiorno a Parigi (dal 1256 al 1259).",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Quaestiones_disputatae_de_veritate",
+  "wikipedia_title": "Quaestiones disputatae de veritate",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "vol. 4 of the Marietti Quaestiones disputatae = De veritate (2)"
+ },
+ "bologna:UBO09755642": {
+  "description": "Le Cours de linguistique générale est une œuvre posthume de Ferdinand de Saussure (1916), considérée comme l'acte de naissance de la linguistique moderne.",
+  "description_kind": "article",
+  "description_source": "https://fr.wikipedia.org/wiki/Cours_de_linguistique_g%C3%A9n%C3%A9rale",
+  "wikipedia_title": "Cours de linguistique générale",
+  "wikipedia_lang": "fr",
+  "verified": true,
+  "verified_by": "notable-pass"
+ },
+ "bologna:UBO00830877": {
+  "description": "Il cannocchiale aristotelico il cui nome completo è Il cannocchiale aristotelico, o sia Idea dell'Arguta et Ingeniosa Elocutione che serve à tutta l'Arte Oratoria, Lapidaria, et Simbolica esaminata co’ Principij del divino Aristotile, è uno dei più importanti saggi di semiotica del Seicento.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Il_cannocchiale_aristotelico",
+  "wikipedia_title": "Il cannocchiale aristotelico",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the 2000 critical edition"
+ },
+ "bologna:UBO01412366": {
+  "description": "Opere di Sigmund Freud (OSF) è il titolo della raccolta, in dodici volumi, di tutti i principali scritti del fondatore della psicoanalisi, oltre ad appunti, annotazioni, carteggi, e altro materiale.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Opere_di_Sigmund_Freud",
+  "wikipedia_title": "Opere di Sigmund Freud",
+  "wikipedia_lang": "it",
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "the article is on the Boringhieri collected edition of which the record is vol. 6"
+ },
+ "braidense:RAVE042181": {
+  "description": "Ubertinus de Casali, Arbor vitae crucifixae Jesu Christi: printed in Venice by Andreas de Bonetis, 12 Mar. 1485 (folio); the incunable edition recorded as ISTC iu00055000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/iu00055000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:MILE062639": {
+  "description": "Alanus de Insulis, Distinctiones dictionum theologicalium: printed in [Strassburg] by [C.W.], not after 1473 (folio); the incunable edition recorded as ISTC ia00169000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ia00169000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:VEAE140717": {
+  "description": "Albumasar, Introductorium in astronomiam (tr. Hermannus Dalmata): printed in Augsburg by Erhard Ratdolt, 7 Feb. 1489 (quarto); the incunable edition recorded as ISTC ia00359000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ia00359000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:RMLE067294": {
+  "description": "Dionysius Periegetes, De situ orbis (tr. Antonius Beccaria): printed in Venice by Franciscus Renner, de Heilbronn, 1478 (quarto); the incunable edition recorded as ISTC id00254000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/id00254000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:MILE062638": {
+  "description": "Auerbach, Johannes, Processus iudiciarius: printed in [Strassburg] by [Johann (Reinhard) Grüninger], about 1488-89 (quarto); the incunable edition recorded as ISTC ia01208000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ia01208000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:VEAE127532": {
+  "description": "Annius, Johannes, Viterbiensis, Auctores vetustissimi (without commentary): printed in [Venice] by Bernardinus Venetus, de Vitalibus, [not before Aug.] 1498 (quarto); the incunable edition recorded as ISTC ia00749000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ia00749000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:VEAE126344": {
+  "description": "Annius, Johannes, Viterbiensis, Auctores vetustissimi (comm. Johannes Annius): printed in Rome by Eucharius Silber, 10 July 1498, 3 Aug. 1498 (folio); the incunable edition recorded as ISTC ia00748000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ia00748000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:MILE062390": {
+  "description": "Paulus Pergulensis, Compendium logicae (add. De sensu composito et diviso, ed. Jacobus Sentinus): printed in Venice by Baptista de Tortis, 13 Sept. 1486 (quarto); the incunable edition recorded as ISTC ip00192000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ip00192000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:MILE062558": {
+  "description": "Petrus de Abano, De venenis (add. Matthaeus Silvaticus, De lapide begaar): printed in Rome by [Stephan Plannck], 29 Apr. 1484 (quarto); the incunable edition recorded as ISTC ip00441000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ip00441000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:VEAE143585": {
+  "description": "Regiomontanus, Johannes (Müller, Johann, of Königsberg), Kalendarium: printed in Venice by Erhard Ratdolt, 9 Aug. 1482 (quarto); the incunable edition recorded as ISTC ir00094000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ir00094000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:RAVE077335": {
+  "description": "Publicius, Jacobus, Artes orandi, epistolandi, memorandi: printed in [Augsburg] by Erhard Ratdolt, 20 Jan. 1490 (quarto); the incunable edition recorded as ISTC ip01098000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ip01098000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:MILE062555": {
+  "description": "Rolewinck, Werner, Fasciculus temporum: printed in [Strassburg] by [Johann Prüss], between 6 Apr. 1490 and 1494 (folio); the incunable edition recorded as ISTC ir00275000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ir00275000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:RMLE061576": {
+  "description": "Thomas Aquinas, Super primo libro Sententiarum Petri Lombardi (ed. Cornelius Sambucus): printed in Venice by Bonetus Locatellus, for Octavianus Scotus, 3 Oct. 1498 (folio); the incunable edition recorded as ISTC it00162000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/it00162000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:VEAE144883": {
+  "description": "Alberti, Johannes Michael, De omnibus ingeniis augendae memoriae: printed in Bologna by Franciscus (Plato) de Benedictis, 24 Jan. 1491 (quarto); the incunable edition recorded as ISTC ia00210000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ia00210000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:CSAE001109": {
+  "description": "Jamblichus, De mysteriis Aegyptiorum, Chaldaeorum, Assyriorum (tr. Marsilius Ficinus; with Proclus, Porphyrius, Synesius, Psellus and others): printed in Venice by Aldus Manutius, Romanus, Sept. 1497 (folio); the incunable edition recorded as ISTC ij00216000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ij00216000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:BRIE015967": {
+  "description": "Jacobus Philippus de Bergamo, Supplementum chronicarum: printed in Venice by Bernardinus Benalius, 15 Dec. 1486 (folio); the incunable edition recorded as ISTC ij00210000.",
+  "description_kind": "catalog",
+  "description_source": "https://data.cerl.org/istc/ij00210000",
+  "wikipedia_title": null,
+  "wikipedia_lang": null,
+  "verified": true,
+  "verified_by": "notable-pass",
+  "note": "no Wikipedia article on the work in it/en/fr/de/la; one sentence from the ISTC record as transcribed in Nuovo & Coletto, AIB Studi 2022 (experience/incunabula.json)"
+ },
+ "braidense:BVEE034126": {
+  "description": "Itinerarium exstaticum quo mundi opificium is a 1656 work by the Jesuit scholar Athanasius Kircher. It is an imaginary dialogue in which an angel named Cosmiel takes the narrator, Theodidactus ('taught by God'), on a journey through the planets.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/Itinerarium_exstaticum",
+  "wikipedia_title": "Itinerarium exstaticum",
+  "wikipedia_lang": "en",
+  "verified": true,
+  "verified_by": "wikipedia pass",
+  "note": "one lookup per remaining notable work (original language and English); the English article is on the work itself"
+ },
+ "bologna:UBO08820674": {
+  "description": "Literature and Revolution is a special issue of the journal Yale French Studies (no. 39, 1967), edited by Jacques Ehrmann and co-published as a book by Beacon Press, gathering essays by Roland Barthes, Victor Serge, Renato Poggioli, Michel Beaujour, Richard Klein and others on the relation between literary form and revolutionary politics.",
+  "description_kind": "article",
+  "description_source": "https://www.jstor.org/stable/i347867",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The article is about Leon Trotsky's 1924 book of the same title, not the 1967 Yale French Studies special issue 'Literature and Revolution' that Jacques Ehrmann edited, which the record describes."
+ },
+ "video:zZEy10fpq3I:566:пражское-кладбище": {
+  "description": "Russian edition of Umberto Eco's The Prague Cemetery (Il cimitero di Praga, 2010).",
+  "description_kind": "edition",
+  "description_source": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=573s",
+  "wikipedia_lang": null,
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "the spine reads the Russian title Пражское кладбище (the Bulgarian edition is Пражкото гробище); the earlier edition note said Bulgarian"
+ },
+ "bologna:UBO01389565": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "catalogue_authority gives 1932-2020 for this Jacques Aubert, but the description's Jacques Aubert lived 1689-1753 and was a Baroque composer and violinist, not a literary scholar; the French Wikipedia disambiguation page for the name lists a separate 'Jacques Aubert (1932-2020), angliciste français'"
+ },
+ "bologna:UBO00693184": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The description's David Hayman is a Scottish actor and director born in 1948, which cannot be the author of a scholarly study of Joyce and Mallarme's style published in 1956; the English Wikipedia disambiguation page for the name lists no literary scholar, so no article about the Joyce-and-comparati"
+ },
+ "bologna:UBO00263699": {
+  "description": "By Paolo Rossi (b. 1923): Paolo Rossi Monti was an Italian philosopher and professor of philosophy at the University of Florence.",
+  "description_kind": "author",
+  "description_source": "https://en.wikipedia.org/wiki/Paolo_Rossi_Monti",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "catalogue_authority gives 1923-2012 for this Paolo Rossi, but the description (b. 1956) is of Paolo Rossi the Italian footballer; the historian of philosophy who wrote this book is a distinct Wikipedia subject, Paolo Rossi Monti, whose description dates (1923-2012) match the catalogue exactly."
+ },
+ "bologna:UBO06117898": {
+  "description": "By Håkan Håkansson (b. 1969): Håkan Håkansson is a Swedish historian of ideas, librarian, and writer.",
+  "description_kind": "author",
+  "description_source": "https://sv.wikipedia.org/wiki/H%C3%A5kan_H%C3%A5kansson_(id%C3%A9historiker)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The description is drawn from the English Wikipedia article on Håkan Håkansson (b. 1947), a Swedish professor of international management known for business-networks research, which does not fit a Lund University dissertation on John Dee and Renaissance occultism; the Swedish Wikipedia disambiguatio"
+ },
+ "bologna:UBO09140356": {
+  "description": "By Fulcanelli: Under the name Fulcanelli appeared Le Mystère des cathédrales in 1926 and Les Demeures philosophales in 1930, works decoding the alchemical symbolism of monuments such as Notre-Dame de Paris and Amiens Cathedral.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Fulcanelli",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The person is right (the fetched article's lead names this exact book, 'Les Demeures philosophales,' as appearing under the Fulcanelli pseudonym in 1930), but the article gives no birth date anywhere; the header's '1926' is the publication year of Fulcanelli's other book, misread as a birth year."
+ },
+ "bologna:UBO02281763": {
+  "description": "By Serge Hutin (b. 1929): Serge Hutin was a French author of works on gnosticism and esotericism, including alchemy, Freemasonry, and secret societies.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Serge_Hutin",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The person is right — Serge Hutin wrote widely on gnosticism, esotericism and secret societies, matching this book on the Gnostics exactly — but the header's '(b. 1927)' contradicts the article's own sentence, which states he was born 2 April 1929."
+ },
+ "bologna:UBO09164217": {
+  "description": "By Benjamin Walker: Benjamin Walker was the pen name of George Benjamin Walker, a British, Indian-born author on religion and philosophy and an authority on esoterica.",
+  "description_kind": "author",
+  "description_source": "https://en.wikipedia.org/wiki/Benjamin_Walker_(author)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The title-page responsibility statement names the author as 'Benjamin Walker,' not Brenda Walker; the description's Brenda Walker (1957-2024) was an Australian novelist, a field mismatch for a 1989 scholarly work on Gnosticism, whereas an author named Benjamin Walker who wrote on religion, philosoph"
+ },
+ "bologna:UBO00197947": {
+  "description": "By Paolo Rossi (b. 1923): Paolo Rossi Monti was an Italian philosopher and historian of science.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Paolo_Rossi_Monti",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates the author 1923-2012, but the description's Paolo Rossi (b. 1956) is the Italian footballer — a 33-year mismatch and a field mismatch (athlete vs. the philosopher/historian-of-science author of 'Clavis universalis'); the real author is Paolo Rossi Monti, whose Wikipedia dat"
+ },
+ "bologna:UBO00779163": {
+  "description": "By Louis Bergeron (b. 1929): Louis Bergeron was a French historian who devoted his work to the history of capitalism and industry in France.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Louis_Bergeron_(historien)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority gives Bergeron's dates as 1929-2014, but the description describes a Louis Bergeron born 1811 and died 1890, a 19th-century journalist and playwright - over a century off, and the fr.wikipedia 'Bergeron' disambiguation page confirms these are two distinct namesakes."
+ },
+ "bologna:UBO00862770": {
+  "description": "By Victor Ehrenberg (b. 1891): Victor Ehrenberg (1891-1976) was a German-British historian of ancient Greece whose best-known book, The People of Aristophanes, examined the sociology of Old Attic comedy.",
+  "description_kind": "author",
+  "description_source": "https://en.wikipedia.org/wiki/Victor_Ehrenberg_(historian)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The book is a sociological study of Aristophanes and ancient Athens, but the description profiles the jurist Victor Ehrenberg (1851-1929); Wikipedia's disambiguation page shows he is a different person from the ancient historian Victor Ehrenberg (1891-1976), whose article names his best-known book a"
+ },
+ "bologna:UBO00676436": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The catalogue authority dates this author \"1957-\", confirmed independently on the library record, but the description profiles a 15th-century friar (circa 1405-1479) - an impossible match for a 1999 study of automotive-press language."
+ },
+ "bologna:UBO00357129": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "catalogue_authority and the catalogue record both give the contributor's birth year as 1946, seven years before the description's 1953, and the described painter/engraver does not fit this philosophical essay on Luigi Pareyson's ontology of freedom; a Wikipedia search for a philosopher named Giusepp"
+ },
+ "bologna:UBO05862229": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The Wikipedia article is about a politician (b. Sarno, 1940, elected to the Chamber of Deputies in 1994, defeated 1996, no academic content), but the book is a Laterza philosophy monograph on 19th-20th century aesthetics, and a site search turns up a distinct, real Aldo Trione active as an aesthetic"
+ },
+ "braidense:TO00771693": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The description is of a Swiss football midfielder born 1975, which does not fit a co-author of this 1999 scholarly book on the history of alchemy; a German-Wikipedia citation confirms the real Geheimnisse der Alchemie by Manuel Bachmann and Thomas Hofmeier exists, but no dedicated biography of that "
+ },
+ "braidense:PAL0108602": {
+  "description": "By Samuel-Auguste Tissot (b. 1728): Samuel Auguste André David Tissot was a notable 18th-century Swiss physician.",
+  "description_kind": "author",
+  "description_source": "https://en.wikipedia.org/wiki/Samuel-Auguste_Tissot",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The fetched description_source page is about Tissot SA, the Swiss watch company, not a person, while the catalogue authority names the physician Tissot, Samuel Auguste André David, author of the well-known 18th-century Onanism treatise this book reprints."
+ },
+ "braidense:MIL0560452": {
+  "description": "By Jean Martin: Jean Martin (died 1553) was a French Renaissance humanist known for the editions of classical and modern works he had translated into French, including the Hypnerotomachia Poliphili (Songe de Poliphile) by Francesco Colonna.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Jean_Martin_(humaniste)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The description matches a modern stage/screen actor named Jean Martin (1922-2009); the translator actually credited on the title page is the 16th-century French humanist Jean Martin (d. 1553), whose Wikipedia article lists this same translation among his works, so the two are different people entire"
+ },
+ "braidense:TO01884282": {
+  "description": "By Pierre Zaccone (b. 1818): Pierre Zaccone was a French playwright and popular novelist, born in Douai on 2 April 1818 and died in Morlaix on 21 April 1895.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Pierre_Zaccone",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The catalogue authority explicitly names the author 'Zaccone, Pierre', but the matched description is of Alessandro Zaccone, an Italian motorcycle racer born 1999 — impossible for an 1800s French history of secret societies; the true author is the French novelist Pierre Zaccone, as confirmed by the "
+ },
+ "braidense:TO01884287": {
+  "description": "By Pierre Zaccone (b. 1818): Pierre Zaccone was a French playwright and popular novelist, born in Douai on 2 April 1818 and died in Morlaix on 21 April 1895.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Pierre_Zaccone",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Same set and responsibility statement ('par P. Zaccone') as TO01884282 and TO01884297, whose authority record names 'Zaccone, Pierre'; the matched description is instead of Alessandro Zaccone, a motorcycle racer born 1999, who cannot be the author of this 1800s work."
+ },
+ "braidense:TO01021404": {
+  "description": "By Francesco Viganò (b. 1807): Francesco Viganò was an Italian economist, writer, and patriot, known for his pioneering work in the cooperative movement and for giving strong impetus to the popular banking movement, founding several savings banks.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Francesco_Vigan%C3%B2_(economista)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates the author <1807-1891>, but the description's Francesco Viganò (en.wikipedia.org) is a sitting Constitutional Court judge and Bocconi law professor born in 1966, a different person by more than a century; the 1845 popular-legend pamphlet fits the economist/writer/patriot Fr"
+ },
+ "video:KZfOaug0mM4:101:widening-gyre": {
+  "description": "By Joseph Frank (b. 1918): Joseph Frank (October 6, 1918 – February 27, 2013) was an American literary scholar and a leading expert on the life and work of Russian novelist Fyodor Dostoevsky.",
+  "description_kind": "author",
+  "description_source": "https://en.wikipedia.org/wiki/Joseph_Frank_(writer)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Frank Kermode's complete Wikipedia bibliography (fetched) does not include this title, and OpenLibrary lists 'The Widening Gyre' (Rutgers/Indiana University Press, 1963) under 'Frank, Joseph'; the spine's top line 'FRANK' is the author's surname, not a first name paired with Kermode."
+ },
+ "bologna:UBO00805781": {
+  "description": "By Giuseppe Conte (b. 1945): Giuseppe Conte (born 15 November 1945 in Imperia) is an Italian writer, poet, librettist, playwright, translator and literary critic.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Giuseppe_Conte_(scrittore)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates the author 1945-, but the description (b. 1964) is the Wikipedia article on the Italian politician and jurist Giuseppe Conte (prime minister 2018-2021) rather than the poet; the Italian Wikipedia disambiguation page lists a separate 'Giuseppe Conte (1945) - scrittore e poet"
+ },
+ "bologna:UBO08819955": {
+  "description": "By Jean Richer (b. 1915): Jean Richer, born in Paris on 4 February 1915 and died in Nice on 21 February 1992, was a French university professor and erudite writer specializing in the history of literary symbolism and esoteric doctrines.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Jean_Richer_(universitaire)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The description's Jean Richer is a 17th-century astronomer (1630-1696) per fr.wikipedia, but catalogue_authority dates this author 1915-1992; a search found a distinct 'Jean Richer (universitaire)' (1915-1992), a French literature professor and leading Gérard de Nerval scholar whose dates match the "
+ },
+ "bologna:UBO08820004": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Fetched the fr.wikipedia article: this Jacques Bony is a stained-glass artist (peintre-verrier, 1918-2003) whose entire body of work is religious stained glass and painting, with no literary scholarship; a clear field mismatch for an academic study 'L'esthétique de Nerval' (SEDES, 'Esthétique' serie"
+ },
+ "bologna:UBO09127564": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Fetched the fr.wikipedia article: this Michel Lamy is a biologist/ecologist at the University of Bordeaux (b. 1939) whose roughly twenty books are all popular-science/ecology titles, with nothing on Jules Verne, esotericism, or Rennes-le-Château; no disambiguation page for the name exists, so no oth"
+ },
+ "bologna:UBO02150246": {
+  "description": "By Pierre Moreau (b. 1895): Pierre Moreau (22 August 1895 – 17 July 1972) was a French Romance-languages scholar and literary historian.",
+  "description_kind": "author",
+  "description_source": "https://de.wikipedia.org/wiki/Pierre_Moreau",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The description's Pierre Moreau is a Canadian senator born in 1957, who would have been -9 years old when this book was published in 1966; the fr.wikipedia Pierre Moreau disambiguation page lists a distinct 'Pierre Moreau (professeur)' (1895-1972), a French professor of Romance literature (confirmed"
+ },
+ "bologna:UBO00728600": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Catalogue authority gives dates 1955- for this Carlini, Antonio, confirmed by the catalogue record's own contributor field 'Carlini, Antonio <1955- >' (a musicologist), but the description is of a different, unrelated Antonio Carlini, an Italian sculptor and painter who died in 1945 (it.wikipedia.or"
+ },
+ "bologna:UBO06121474": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The description's Massimo Birindelli is an Italian sports shooter (b. 1956) per English Wikipedia, a field mismatch for this 1987 scholarly book on architecture and irregular symmetries; opensearch on Italian and English Wikipedia plus the Italian 'Birindelli' surname disambiguation page (which list"
+ },
+ "bologna:UBO09145828": {
+  "description": "By Giulio Confalonieri (b. 1926): Giulio Confalonieri was an Italian graphic designer.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Giulio_Confalonieri_(grafico)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority gives dates '1926-2008', a roughly 30-year mismatch with the description's Giulio Confalonieri (1896-1972), a musicologist; Italian Wikipedia disambiguates a separate article for 'Giulio Confalonieri (grafico)', an Italian graphic designer distinct from the musicologist, a much b"
+ },
+ "bologna:UBO08820724": {
+  "description": "By Giuseppe Conte (b. 1945): Giuseppe Conte is an Italian writer, poet, librettist, playwright, translator and literary critic.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Giuseppe_Conte_(scrittore)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority gives dates '1945-' but description describes a person born 1964 who is a politician/jurist (former Prime Minister), a field mismatch for this 1987 poetry collection; the Italian Wikipedia disambiguation page for 'Giuseppe Conte' lists a separate article for the 1945-born writer/"
+ },
+ "bologna:UBO09148648": {
+  "description": "By Giulio Confalonieri (b. 1926): Giulio Confalonieri (Milan, 20 August 1926 – Milan, 2008) was an Italian graphic designer, one of the leading figures of postwar Italian graphic design.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Giulio_Confalonieri_(grafico)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority gives dates 1926-2008 for this author, but the description is of a musicologist/composer Giulio Confalonieri who lived 1896-1972, a mismatch of decades."
+ },
+ "bologna:UBO06122051": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The description's Romanian-born Portuguese philatelist (1890-1963) cannot have drawn the illustrations for this 1996 Mexican artist's book; role 'dsr' and responsibility 'dibujos de Eduardo Cohen' call for a working artist, not a philatelist who died 33 years earlier."
+ },
+ "bologna:UBO01202620": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Catalogue authority gives Russo, Alessandro <1949- > (confirmed on the catalogue record itself) as co-author of this 1972 Zanichelli Dante-criticism anthology, but the linked description is of an Alessandro Russo born 1957, a jazz guitarist/violinist/composer — an 8-year date mismatch and an unrelat"
+ },
+ "bologna:UBO09142919": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The only Wikipedia article under this name is of a Paris lawyer and politician (6 Aug 1863 - 18 Feb 1942, member of the Union républicaine démocratique), per the article's own lead and its 'personnalité politique française' description; the book is a 1984 academic critical study of a 14th-century pa"
+ },
+ "bologna:UBO09201153": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The 1887 Paris dissertation on Aquinas's philosophy of beauty ('par P. Vallet') cannot be by the description's Pierre Vallet, a French embroiderer/engraver who died in 1657, 230 years before publication; the French Wikipedia disambiguation page for the name lists only that engraver and an unrelated "
+ },
+ "bologna:UBO01529339": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The book investigating Italian school textbooks was published in 1972, twelve years before the description's Claudio Venturi (a footballer) was even born, in 1960; a full-text search of Italian Wikipedia for the author alongside the publisher's name returned no results, so no article on the real aut"
+ },
+ "bologna:UBO00254727": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The Italian Wikipedia article describes a lawyer-politician (law degree, 'Avvocato cassazionista', Noi Moderati party) who became undersecretary of state in April 2026, not a philosopher, and cannot be the author of this 1996 academic book on truth theories in analytic philosophy; the real author is"
+ },
+ "bologna:UBO00740591": {
+  "description": "By William Gaunt: William Gaunt was a British artist and art historian, best known for his books on British 19th-century art.",
+  "description_kind": "author",
+  "description_source": "https://en.wikipedia.org/wiki/William_Gaunt_(art_historian)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The description (an English actor born 1937) cannot be the author of this 1962 Italian translation of an art-historical study of Victorian aestheticism/decadentism; English Wikipedia search finds the actual author is William Gaunt, a British artist and art historian known for books on British 19th-c"
+ },
+ "bologna:UBO09141082": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The description (a Franco-Belgian film director, 1931-2003) does not fit a 1992 Presses Universitaires de France scholarly monograph on the 'Jesuit myth' in 19th-century French historiography (Beranger to Michelet); a French Wikipedia search for the academic author of this book found no dedicated ar"
+ },
+ "bologna:UBO00309729": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The catalogue record's title-page statement reads 'di Jacopo da Sanseverino' for a travel-genre 'Libro piccolo di meraviglie' with an appendix from Vatican MS Barb. Lat. 4048, edited by literary historian Marziano Guglielminetti, whereas the fetched Wikipedia description is of Jacopo Salimbeni, an u"
+ },
+ "bologna:UBO02368879": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The catalogue gives no author dates, and the Wikipedia article is about the Milan TV director/semiologist Gianfranco Bettetini (1933-2017), whose exhaustive, actively maintained bibliography of cinema/TV/semiotics scholarship (including a 2006 title) contains no trace of this 2006 local memoir on WW"
+ },
+ "bologna:UBO00276297": {
+  "description": "By Michael Howard (b. 1922): Sir Michael Eliot Howard was an English military historian, Regius Professor of Modern History at the University of Oxford and founder of the Department of War Studies at King's College London.",
+  "description_kind": "author",
+  "description_source": "https://en.wikipedia.org/wiki/Michael_Howard_(historian)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates (1922-2019) for military historian Michael Howard conflict by 19+ years with the description's Michael Howard, Baron Howard of Lympne, a Conservative politician born 1941 — confirmed as a different person via the English Wikipedia article on 'Michael Howard (historian)', wh"
+ },
+ "bologna:UBO00352080": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Catalogue authority gives '1946-' for this Marco Innocenti, 32 years before the description's sport shooter born 1978; the Italian Wikipedia disambiguation page for 'Marco Innocenti' lists several namesakes (a 1966-2022 writer/screenwriter, a journalist and essayist, a sport shooter, a paralympic te"
+ },
+ "bologna:UBO01194585": {
+  "description": "By Hans Kayser (b. 1911): Hans Kayser was a German Egyptologist.",
+  "description_kind": "author",
+  "description_source": "https://de.wikipedia.org/wiki/Hans_Kayser_(%C3%84gyptologe)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates (1911-1989) don't match the description's German music theorist (1891-1964); the German Wikipedia disambiguation page for 'Hans Kayser' lists a distinct 'Hans Kayser (Ägyptologe), 1911-1989, deutscher Ägyptologe' whose dates match the catalogue exactly, consistent with the "
+ },
+ "bologna:UBO00262655": {
+  "description": "By Robert Klein (b. 1918): Robert Klein was a Romanian-born historian of ideas who wrote in French, specializing in the writings of Renaissance artists.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Robert_Klein_(historien_de_l%27art)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates (1918-1967) rule out the description's American comedian born 1942; the French Wikipedia article 'Robert Klein (historien de l'art)' describes a Romanian-French historian of ideas (1918-1967) specializing in Renaissance artists' writings, matching the catalogue dates and th"
+ },
+ "bologna:UBO09628109": {
+  "description": "By Jean Lacroix (b. 1900): Jean Lacroix was a French philosopher.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Jean_Lacroix_(philosophe)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates (1900-1986) rule out the description's French fencer born 1884; the French Wikipedia disambiguation page for 'Jean Lacroix' lists a separate 'Jean Lacroix (1900-1986), philosophe français' whose dates match the catalogue exactly and whose field fits a book on Marxism, exist"
+ },
+ "bologna:UBO09968322": {
+  "description": "By Andrea Bonomi (b. 1940): Andrea Bonomi was an Italian philosopher.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Andrea_Bonomi_(filosofo)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Description's birth year (1923) and occupation (footballer) conflict with the catalogue authority dates (1940-2025) and with the book's subject, a philosophical work on presupposition and anaphora; this is a mix-up with the footballer Andrea Bonomi rather than the philosopher."
+ },
+ "bologna:UBO09966967": {
+  "description": "By Andrea Bonomi (b. 1940): Andrea Bonomi was an Italian philosopher.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Andrea_Bonomi_(filosofo)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Same mix-up: the description is of the footballer (b. 1923) while the catalogue authority gives 1940-2025 and the book is a philosophical study of Lévi-Strauss's anthropology, fitting the philosopher Andrea Bonomi instead."
+ },
+ "bologna:UBO00449668": {
+  "description": "By Andrea Bonomi (b. 1940): Andrea Bonomi was an Italian philosopher.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Andrea_Bonomi_(filosofo)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Same mix-up: the description is of the footballer (b. 1923) while the catalogue authority gives 1940-2025 (role 070, author) and the book is a philosophical study of reference, fitting the philosopher Andrea Bonomi instead."
+ },
+ "bologna:UBO01560197": {
+  "description": "By Giuseppe Conte (b. 1945): Giuseppe Conte is an Italian writer, poet, librettist, playwright, translator, and literary critic.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Giuseppe_Conte_(scrittore)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority gives dates '1945-' for this author but the description is of politician Giuseppe Conte born 1964 (a 19-year gap), and the 1975 poetry-subject book predates the politician's birth by chronological impossibility."
+ },
+ "bologna:UBO00325197": {
+  "description": "By Giuseppe Conte (b. 1945): Giuseppe Conte is an Italian writer, poet, librettist, playwright, translator, and literary critic.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Giuseppe_Conte_(scrittore)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Same mismatch as UBO01560197: catalogue dates '1945-' for the author of this 1972 book on Baroque poetics, but the description is of the politician Giuseppe Conte born 1964."
+ },
+ "bologna:UBO09150035": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Description's lawyer/politician died in 1906, seven decades before this 1976 paperback tie-in to the TV show 'Mary Hartman, Mary Hartman' (not a reprint of an older work); a Wikipedia search for a writer named Daniel Lockwood returned nothing."
+ },
+ "bologna:UBO00833745": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The subjects mark this as a journalist's autobiography ('GIORNALISMO E GIORNALI. PERSONE'), but the description is of a footballer; a Wikipedia search found only the footballer Giorgio Fanti (born 26 April 1945) with an article, no page for a journalist of that name."
+ },
+ "bologna:UBO00403549": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Description is a Danish football manager born 1973, six years after this 1979 scholarly monograph on John Wilkins was published; the actual author is Thomas Frank (Vienna 1925 - Naples 1990), professor of History of the English Language at the University of Naples, whose bibliography on the universi"
+ },
+ "bologna:UBO01900365": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Description is a Canadian provincial politician and engineer (1934-2024) from British Columbia, which does not fit a 1977 Columbia University Press monograph on the philosophy of discourse; the actual author is Russell A. Fraser (1927-2014), Shakespeare scholar and professor of English at the Univer"
+ },
+ "bologna:UBO03473672": {
+  "description": "By Albert Henry (b. 1910): Albert Henry was a Belgian Romance philologist and Walloon activist.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Albert_Henry",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority gives the author's dates as 1910-2002, but the description's Cook Islands premier was born 1907 and died 1981 (both a >1 year date mismatch and a field mismatch: politician vs. the book's philology/semiotics of metaphor and metonymy); the actual author is Albert Henry (1910-2002)"
+ },
+ "bologna:UBO09967077": {
+  "description": "By János Kelemen (b. 1943): János Kelemen was a Széchenyi Prize-winning Hungarian philosopher, historian of philosophy, and Italianist, a university professor and full member of the Hungarian Academy of Sciences.",
+  "description_kind": "author",
+  "description_source": "https://hu.wikipedia.org/wiki/Kelemen_J%C3%A1nos_(filoz%C3%B3fus)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates for Kelemen, János are 1943-2024, eight years off the description's stated birth year 1951, and 'astronomer' does not fit a 1991 Italian book reconstructing Kant's semiotics of aesthetic judgment; the it.wikipedia article is a namesake, not the philosopher."
+ },
+ "bologna:UBO02714294": {
+  "description": "By Jean Perrot (b. 1925): Jean Perrot was a French linguist, born on 23 April 1925 in Malesherbes and died on 4 May 2011 in Paris, who specialized in Finno-Ugric languages.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Jean_Perrot_(linguiste)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates Jean Perrot 1925- for this 1959 Que sais-je? volume 'La Linguistique', but the description is of an archaeologist born 1920; the Wikipedia disambiguation page for Jean Perrot lists a separate linguist (1925-2011) whose own bibliography names this exact book."
+ },
+ "bologna:UBO02728104": {
+  "description": "By Jean Petitot (b. 1944): Jean Petitot, born on 8 April 1944 in Paris, is a French philosopher of science and applied mathematician.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Jean_Petitot_(philosophe)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The description is of a 17th-century Genevan enamel painter (1607-1691), impossible for a 2009 book on scientific epistemology in Bompiani's semiotics series; the Wikipedia disambiguation page for Jean Petitot lists a separate philosopher of science and applied mathematician born 1944 whose field fi"
+ },
+ "bologna:UBO09734888": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The item is a 2009 university thesis on local television with no catalogue authority entry at all, i.e. an ordinary student, while the description is of a retired Neapolitan basketball player and coach born 1966; no Italian Wikipedia disambiguation page exists for the name, so no other candidate art"
+ },
+ "bologna:UBO02059991": {
+  "description": "By Luigi Berti (b. 1904): Luigi Berti was an Italian literary critic, poet, writer and translator.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Luigi_Berti_(scrittore)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The description's Luigi Berti is a policeman born 1828 and died 1890, but the catalogue authority gives dates 1904-1964 for this Berti — over 70 years apart, so a different person; the description came from the wrong Wikipedia namesake."
+ },
+ "bologna:UBO04710285": {
+  "description": "By Jacques Dubois (b. 1933): Jacques Dubois, born 20 March 1933 in Liège and died in the same city on 12 February 2026, was a Belgian academic, intellectual, and journalist.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Jacques_Dubois_(professeur)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates the author 1933-2026, but the fetched description profiles Jacobus Sylvius (1478-1555), a Renaissance anatomist who died centuries before this 1978 sociology-of-literature book could be written."
+ },
+ "bologna:UBO09844773": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Catalogue authority dates the author born 1951, but the fetched description profiles a Riccardo Motta who was an Italian prefect born 1878 and died 1962 -- decades too early to have written this 1995 book; no Italian Wikipedia disambiguation page for the name exists (404), so no article for the real"
+ },
+ "bologna:UBO00686975": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The it.wikipedia.org article titled 'Aldo Trione' (fetched: structured description 'politico italiano (1940-)', and the article body covers only his 1994 election to the Camera dei Deputati with the Progressisti and his Nocera Inferiore constituency) is entirely about a politician with no scholarly "
+ },
+ "bologna:UBO00897162": {
+  "description": "By Mario Biondi (b. 1939): Mario Biondi is an Italian writer, journalist, and translator, best known for the novel Gli occhi di una donna, which won the 1985 Premio Campiello.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Mario_Biondi_(scrittore)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority gives Biondi's dates as 1939-, but the description's Mario Biondi was born 1971 and is a singer, not the novelist/translator of this 1999 book; fetched the Italian Wikipedia summary for 'Mario Biondi (scrittore)' and its Wikidata entry (Q354085, birth date 1939-05-17), confirming"
+ },
+ "bologna:UBO01148615": {
+  "description": "By Giuseppe Conte (b. 1945): Giuseppe Conte is an Italian writer, poet, librettist, playwright, translator, and literary critic.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Giuseppe_Conte_(scrittore)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority gives Conte's dates as 1945-, but the description's Giuseppe Conte was born 1964 and is the politician/lawyer (Italian prime minister 2018-2021), not the poet-novelist who published this 2002 novel in Longanesi's 'La gaja scienza' series; fetched the Italian Wikipedia summary for"
+ },
+ "bologna:UBO01928200": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Description (confirmed via the Wikipedia summary API) is an Indian aerospace engineer who worked for ISRO, not the scholar who wrote \"The Theatric Universe: A Study of the Nāṭyaśāstra\" (1974), a book on ancient Sanskrit dramatic theory; occupation and field do not fit."
+ },
+ "bologna:UBO06118086": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Catalogue authority records Angelini's birth year as 1940 (confirmed on the catalogue page as 'Angelini, Claudio <1940- >'), but the description's Wikipedia summary gives 1943-2015 for the Roman/New York journalist - a 3-year gap exceeding the 1-year tolerance, despite the giornalista-e-scrittore pr"
+ },
+ "bologna:UBO08819911": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Description is a French stained-glass artist (peintre-verrier, 1918-2003), but the book is a scholarly study of Gerard de Nerval's narrative technique published by literary press Jose Corti; a French Wikipedia search turns up a distinct 'Jacques Bony, specialiste de Nerval' cited in Nerval scholarsh"
+ },
+ "bologna:UBO01012071": {
+  "description": "By Maurizio Calvesi (b. 1927): Maurizio Calvesi was an Italian art historian and essayist, professor emeritus at Sapienza University of Rome and one of the foremost authorities on Renaissance, Baroque and twentieth-century Italian art history.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Maurizio_Calvesi_(saggista)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates (1927-2020) contradict the description's birth year (1954) by 27 years and its 'cinematographer' field; the it.wikipedia 'Maurizio Calvesi' page is a disambiguation between that cinematographer and an art historian (b. 1927, d. 2020) who specialized in the Hypnerotomachia P"
+ },
+ "bologna:UBO09756371": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Description is film director Claude Chabrol, but this book is a semiotic study of Gospel narrative co-authored with semiotician Louis Marin in a 'Bibliotheque de sciences religieuses' series; the fr.wikipedia 'Chabrol' disambiguation page lists only the filmmaker under that name, so no article exist"
+ },
+ "bologna:UBO00861540": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "Description is film director Claude Chabrol, but this book is a semiological analysis of women's-magazine advice columns published in Mouton's scholarly 'Approaches to Semiotics' series, unrelated to filmmaking; the fr.wikipedia 'Chabrol' disambiguation page lists only the filmmaker under that name,"
+ },
+ "bologna:UBO00256249": {
+  "description": "By Giuseppe Conte (b. 1945): Giuseppe Conte is an Italian writer, poet, librettist, playwright, translator and literary critic, born in Imperia.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Giuseppe_Conte_(scrittore)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Catalogue authority dates (1945-) contradict the description's birth year (1964) by 19 years and its politician/lawyer field (Italy's former Prime Minister); the it.wikipedia 'Giuseppe Conte (disambigua)' page separately lists 'Giuseppe Conte (1945) - scrittore e poeta italiano', matching the catalo"
+ },
+ "bologna:UBO06122010": {
+  "description": null,
+  "description_kind": "none",
+  "rejected": "The description's Pierre Claude was a French serviceman who died 25 September 1939 near Wintzenbach (confirmed on fr.wikipedia.org, which categorizes the article under WWII/military history/aviation), 61 years before this novel was catalogued as published in 2000 with the title-page statement 'Pierr"
+ },
+ "bologna:UBO01328275": {
+  "description": "Roman Jakobson: A Bibliography of His Writings gathers the scholarly publications of the linguist and literary theorist Roman Jakobson (1896-1982), with a foreword by C. H. van Schooneveld. Mouton published it in The Hague in 1971 as No. 134 in the Janua Linguarum: Series Minor.",
+  "description_kind": "article",
+  "description_source": "https://searchworks.stanford.edu/view/1245432",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The catalogue record (fetched) describes a 60-page list of Jakobson's publications, while the fetched article is a biographical sketch of Jakobson the person, not a description of the bibliography."
+ },
+ "braidense:TO0E012446": {
+  "description": "The Bibliographie instructive, ou Traité de la connaissance des livres rares et singuliers is a multi-volume descriptive bibliography of rare and notable books compiled by the Paris bookseller Guillaume-François De Bure (1732-1782) and issued in Paris between 1763 and 1768; this volume, the first of two on belles-lettres, surveys literary rarities.",
+  "description_kind": "article",
+  "description_source": "https://fr.wikipedia.org/wiki/Guillaume-Fran%C3%A7ois_Debure",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The article describes the modern Paris publishing house Les Belles Lettres (founded 1919); the record is volume 3 (Belles-lettres, tome 1) of De Bure's 1765 rare-book bibliography, an unrelated 18th-century reference work merely classed under the 'belles-lettres' subject heading."
+ },
+ "braidense:TO0E012447": {
+  "description": "The Bibliographie instructive, ou Traité de la connaissance des livres rares et singuliers is a multi-volume descriptive bibliography of rare and notable books compiled by the Paris bookseller Guillaume-François De Bure (1732-1782) and issued in Paris between 1763 and 1768; this volume is the second of two devoted to belles-lettres, continuing the survey of literary rarities.",
+  "description_kind": "article",
+  "description_source": "https://fr.wikipedia.org/wiki/Guillaume-Fran%C3%A7ois_Debure",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "The article describes the modern Paris publishing house Les Belles Lettres (founded 1919); the record is volume 4 (Belles-Lettres, tome 2) of the same De Bure bibliography, an unrelated 18th-century reference work merely classed under that subject heading."
+ },
+ "bologna:UBO00858523": {
+  "description": "American Renaissance: Art and Expression in the Age of Emerson and Whitman is a 1941 work of literary criticism by the American scholar F. O. Matthiessen, published by Oxford University Press. It examines Ralph Waldo Emerson, Henry David Thoreau, Nathaniel Hawthorne, Herman Melville and Walt Whitman, arguing that their work of the early 1850s gave American democracy its first mature literary expression; the Italian edition was partly translated by Cesare Pavese.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/American_Renaissance_(literature)",
+  "wikipedia_lang": "en",
+  "wikipedia_title": null,
+  "verified": true,
+  "note": "Fetching the article showed it covers the American Renaissance as a literary-historical period (Emerson, Whitman, transcendentalism, Boston culture) rather than summarizing Matthiessen's specific 1941 critical monograph the record catalogues."
+ }
+}

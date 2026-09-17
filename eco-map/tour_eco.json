@@ -1,0 +1,161 @@
+{
+ "_comment": "Guided tour of the map. Stops are visited in order; target is a room id, bookcase id, object id or book id (unknown targets are dropped with a warning). quote = {video_id, timestamp_s} picks the quotation with that raw second from quotes_eco.json / experience quotes.json / eco-video quotes files, or an inline {text, text_it, speaker, url}. The route follows the 2015 Ferrario long take (zZEy10fpq3I 00:49-01:58: salotto door, coat passage, long corridor, glazed-door turn, study, desk row) and enters the Stanza degli antichi at the start of the corridor.",
+ "title": "A walk through the flat, room by room",
+ "camera_note": "camera = {pos, target} in world metres (y up), chosen so each stop looks at the bookcase or object its caption describes at eye level. The vestibule stop targets bookcase C with B and D in view; the turn stop targets the French window; the bookcase A stops look along the corridor at eye level; the desk stop is a three-quarter view from inside the study.",
+ "stops": [
+  {
+   "id": "stop-salotto-door",
+   "target": "obj:salotto:fine-canvas",
+   "fallback": "salotto",
+   "caption": "Salotto. The walk starts in the living room and leaves it past the white canvas with the word 'fine', the sofas, the coffee table piled with new books and the vitrines of open antique books and shells.",
+   "quote": {
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 115
+   },
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=50s"
+  },
+  {
+   "id": "stop-vestibolo",
+   "target": "vest-C",
+   "fallback": "vestibolo",
+   "camera": {
+    "pos": [
+     1.9,
+     1.55,
+     7.95
+    ],
+    "target": [
+     2.3,
+     1.45,
+     11.7
+    ]
+   },
+   "caption": "Vestibule. A narrow passage with coats on an open rail, framed prints and the 'GOSH!' pasta-flag picture; Joyce and Kabbalah on bookcase B, the books on books on C, esotericism, encyclopaedism and alchemy on D around the door to the corridor.",
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=53s"
+  },
+  {
+   "id": "stop-antichi",
+   "target": "antichi",
+   "caption": "Stanza degli antichi, opening off the start of the long corridor: the all-wood rare-book room with the glazed cherry cabinets (Braidense ECO.01-04), the oak table with the green leather inset, magnifier and book cradle, the music stand and lute, the jar of dog testicles, the Carceri engraving and the balcony on the Castello.",
+   "quote": {
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 3093
+   }
+  },
+  {
+   "id": "stop-precious",
+   "target": "rare-04",
+   "caption": "The most precious books (ECO.03): Dee 1564, Bruno 1582, Khunrath 1609, Locke 1690 beside the incunabula: all 36 of Eco's incunabula listed by Nuovo and Coletto (AIB Studi 2022) are here, 19 of them in this section and 17 under ECO.01, each with Eco's own card.",
+   "quote": {
+    "video_id": "M8IWTOFNlOc",
+    "timestamp_s": 1350
+   }
+  },
+  {
+   "id": "stop-corridor-start",
+   "target": "corridor-02",
+   "camera": {
+    "pos": [
+     24.3,
+     1.55,
+     8.75
+    ],
+    "target": [
+     23.1,
+     1.35,
+     9.75
+    ]
+   },
+   "caption": "The long corridor, bookcase A: 25 bays of fiction with the framed prints opposite. Carlotta Eco begins her account of the library here, at the nineteenth-century feuilletons.",
+   "quote": {
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 2589
+   },
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=59s"
+  },
+  {
+   "id": "stop-corridor-middle",
+   "target": "corridor-13",
+   "camera": {
+    "pos": [
+     15.4,
+     1.55,
+     8.75
+    ],
+    "target": [
+     14.2,
+     1.35,
+     9.75
+    ]
+   },
+   "caption": "Halfway down the corridor: French literature along the line, Italian below, comics on the top shelves. Organised by sector, never alphabetically; a living thing rather than an archive.",
+   "quote": {
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 2649
+   }
+  },
+  {
+   "id": "stop-turn",
+   "target": "obj:corridoio:window",
+   "fallback": "corridor2-F",
+   "camera": {
+    "pos": [
+     22.9,
+     1.5,
+     9.25
+    ],
+    "target": [
+     24.1,
+     1.35,
+     8.45
+    ]
+   },
+   "caption": "The turn at the barred glazed balcony door with the radiator below: a short second leg (art, theatre, music, architecture, aesthetics) before the study door.",
+   "quote": {
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 3064
+   },
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=81s"
+  },
+  {
+   "id": "stop-study-door",
+   "target": "obj:studio:stepladder",
+   "fallback": "study-I",
+   "caption": "Into the big study past the stepladder and the folded ironing board: the low island bookcases piled with books, the ceiling fan, the philosophy wall from the Presocratics to the moderns.",
+   "quote": {
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 323
+   },
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=85s"
+  },
+  {
+   "id": "stop-desk",
+   "target": "obj:studio:desk-row",
+   "fallback": "studio",
+   "camera": {
+    "pos": [
+     28.4,
+     1.7,
+     17.5
+    ],
+    "target": [
+     26.3,
+     0.85,
+     19.6
+    ]
+   },
+   "caption": "The desk row under the windows, with two workstations, boxes of books on the floor and piles on the desks, and a white door beside the last shelf.",
+   "quote": {
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 515
+   },
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=105s"
+  },
+  {
+   "id": "stop-eco-wall",
+   "target": "study-Q",
+   "caption": "Bookcase Q: Eco's own works and their translations into some forty languages, the bays labelled Q4/Q5 'ECO IBERICI'; the books about him are on the island bookcase M-B (R and S, at the far right, hold psychology and sociology).",
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=567s"
+  }
+ ]
+}

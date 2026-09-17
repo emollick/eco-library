@@ -1,0 +1,8 @@
+{
+  "eco": {
+    "site_id": "f9417e32-0249-4b7e-ba64-ebdaf6bde200",
+    "url": "https://eco-library-map.netlify.app",
+    "src": "/mnt/project-files/eco-map",
+    "index": "index_eco.html"
+  }
+}

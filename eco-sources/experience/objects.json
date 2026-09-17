@@ -1,0 +1,2523 @@
+[
+ {
+  "id": "o01",
+  "item": "Salotto (living room)",
+  "kind": "room",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Large living room on the Castello side (Paris Review 2008: the castle fills the windows). Pale pink-cream walls, high ceiling, parquet floor with a light rug. Contents seen: upright piano against one wall under framed drawings; white plaster male nude statue on a plinth beside the door to the vestibule; three black-framed glass vitrines in a row against one wall in front of a wooden bookcase (salotto-vetrine); a 19th-c. wooden cabinet full of objects (salotto-wood) with a big TV next to it; a black square coffee table buried under book piles; two white slip-covered armchairs, white sofa(s), one cognac leather club armchair (Eco's interview seat); Tolomeo-type arm floor lamp with parchment shade; a second tall floor lamp; small dark chest/side table by the door.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4442,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+   "image": "frames/film_t_011402.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Box room approx 7 x 6 m, ceiling ~3.5 m. Two windows on the Castello (street) wall. Door to vestibule on the wall where the statue stands; piano on the adjacent wall.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 33,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=33s",
+    "image": "frames/p1_t_000033.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 3050,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3050s",
+    "image": "frames/film_t_005050.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_1.png"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+   }
+  ]
+ },
+ {
+  "id": "o02",
+  "item": "Vestibolo (entrance passage with coats)",
+  "kind": "room",
+  "room": "vestibolo",
+  "bookcase": "vest-B / vest-C / vest-D",
+  "description": "Short passage between the salotto door and the long corridor, about 1.5 m wide and 3-4 m long. Left wall: coat hooks/rail with dark overcoats and a hat; beyond them a low white shelf with a small figurine on top and a wall of ~15 framed prints. Right wall: white full-height shelving (Kabbalah/Joyce/esoterica cases B-C-D per Fondazione captions) with a second coat rail with black coats and a hat hung on the shelf end. Facing the walker at the end: the GOSH! pasta-flag artwork with a black twisted mobile hanging in front of it; the walker turns right there into the long corridor. The rare-book room door opens off this passage (coats and white shelves are visible through the rare-room door at film 424 s).",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 54,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=54s",
+   "image": "frames/film_t_000054.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Model as a 1.5 x 3.5 m passage; shelves one side, coats and prints the other; GOSH! on the end wall; 90-degree right turn into the corridor. Rare-room door on the Castello side of the passage.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 301,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=301s",
+    "image": "frames/p1_t_000501.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zj1kwT87ne0",
+    "timestamp_s": 303,
+    "url": "https://www.youtube.com/watch?v=zj1kwT87ne0&t=303s",
+    "image": "frames/p2_t_000505.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 424,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=424s",
+    "image": "frames/film_t_000704.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o03",
+  "item": "Corridoio lungo (long corridor, bookcase A)",
+  "kind": "corridor",
+  "room": "corridoio",
+  "bookcase": "corridor-01..25",
+  "description": "Very long straight corridor (~20 m, ~1.6 m wide) lined with white full-height shelving 11 shelves high on the right-hand side for its whole length (Fondazione bookcase A, 25 bays). In the first third the left wall is shelved too (both sides shelves, film 62-70 s); for the rest the left wall is plain with a row of small framed prints/plexiglass frames. A sliding ladder on a rail and a folding stepladder stand in the corridor. Ceiling with recessed spots; carpeted floor (beige) in the corridor, parquet elsewhere. At the far end a tall French window with vertical iron bars (balcony door), a radiator beneath it, a small metal waste-bin, a wall spotlight above the door.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 62,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=62s",
+   "image": "frames/film_t_000102.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "20.8 x 1.6 m box; shelves right (25 bays x 0.8 m); left wall: shelves for bays 1-7, prints for the rest; balcony door at the far end; door into the study on the left ~1.5 m before the end.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 309,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=309s",
+    "image": "frames/p1_t_000509.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 321,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=321s",
+    "image": "frames/p1_t_000521.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4504,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4504s",
+    "image": "frames/film_t_011504.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_3.png"
+   }
+  ]
+ },
+ {
+  "id": "o04",
+  "item": "Corridor end lobby by the balcony door",
+  "kind": "corridor",
+  "room": "corridoio",
+  "bookcase": null,
+  "description": "The last 2 m of the long corridor: on the left a plain wall with a small speckled grey abstract canvas (~50 x 70 cm) and a switch plate; ahead the French window with vertical bars and a low radiator, a wall lamp above; to the right the last bays of case A. The study door opens on the left just here (Eco turns left at film 82 s / Hq66 329 s).",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 80,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=80s",
+   "image": "frames/film_t_000120.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Place the balcony door on the corridor end wall; door to study on the left wall 1-2 m before it.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 327,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=327s",
+    "image": "frames/p1_t_000527.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4504,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4504s",
+    "image": "frames/film_t_011504.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o05",
+  "item": "Studio grande (the big study)",
+  "kind": "room",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Large bright room (~14 x 10 m) with white full-height shelving on every wall plus low island bookcases ('pettine e isola') standing in the middle; two white 3-blade ceiling fans; recessed ceiling spots; windows along one long wall (French windows with shutters onto an internal terrace with planters); radiators under the windows; parquet floor. Furniture: L-shaped black desk with computer, printer and phone by the windows; 2-3 black mesh office chairs; a black round pedestal table (~1.4 m dia) at the window end; black leather two-seater sofa; black leather armchair; sliding ladders on rails; black wheeled filing cabinet; white cupboards under the islands; framed caricature portraits of Eco and framed drawings on the pillars between windows; a white door with notes pinned on it on the far wall (where Eco takes a book in the 2015 walk).",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 116,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=116s",
+   "image": "frames/film_t_000156.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Box 14 x 10 m; window wall opposite the corridor door; islands run perpendicular to the long wall; desk in the corner nearest the corridor door by the windows; round table at the far end by the windows.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 361,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=361s",
+    "image": "frames/p1_t_000601.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4510,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4510s",
+    "image": "frames/film_t_011510.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_5.png"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_11.png"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.gettyimages.com/photos/umberto-eco-home",
+    "image": "/mnt/project-files/eco-sources/eco-photos/getty_953403568_1024.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o06",
+  "item": "Stanza degli antichi (rare-book room)",
+  "kind": "room",
+  "room": "antichi",
+  "bookcase": "rare-01 / rare-02 / rare-03",
+  "description": "Small high-ceilinged room (~6.5 x 3.6 m; family says originally elliptical) with a French window and wrought-iron balcony looking straight at the corner tower of the Castello Sforzesco. Both long walls: cherry-wood glazed bookcases with a band of drawers/cupboards at waist height, folios and vellum quartos behind glass, mirabilia between the books. Centre: long dark oak table with leather inset and six cane-seat chairs. End wall opposite the balcony: white wall with framed engravings, the door to the vestibule (white shelving and coat hooks visible beyond it). Cognac leather armchair and yellow-shaded floor lamp by the balcony; small round tripod side table; music stand with score and recorder; pendant lamp on a ceiling rail; radiator under the balcony door.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/02_Studio%20antichi%20milano_foto%20curtiparini_MG_9923.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_02_Studio_antichi_milano_foto_curtiparini_MG_9923.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Model as 6.5 x 3.6 m rectangle (or ellipse), balcony on the Castello facade, door to vestibule opposite; cabinets 2.6 m high both long sides; table 2.4 x 1.0 m centred.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/01_Studio%20antichi%20milano_foto%20curtiparini.webp",
+    "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_01_Studio_antichi_milano_foto_curtiparini.webp"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 356,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=356s",
+    "image": "frames/film_t_000556.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 424,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=424s",
+    "image": "frames/film_t_000704.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 306,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=306s",
+    "image": "frames/film_t_000506.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o07",
+  "item": "Internal terrace with planters (outside the study windows)",
+  "kind": "fixture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "An outdoor terrace/loggia along the study's window wall: a row of terracotta planters with pansies and bergenias on the parapet, ivy climbing the wall, a drainpipe, an air-conditioner unit; through one window the dictionary shelves (LE ROBERT spines = Fondazione Nb 'Dictionaries') and a pendant lamp; through an open French window tall shelves with a sliding ladder and a low bookcase with piles.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 320,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=320s",
+   "image": "frames/film_t_000520.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Optional exterior: a 1.5 m deep terrace outside the study windows with 6-8 planters; helps locate the study on the courtyard side.",
+  "also_seen": []
+ },
+ {
+  "id": "o08",
+  "item": "Balcony onto the Castello (rare-book room)",
+  "kind": "fixture",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "Small wrought-iron balcony outside the rare-room French window; view of the round corner tower of the Castello Sforzesco across trees and the road (Renate Ramge looks out at film 306 s).",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 306,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=306s",
+   "image": "frames/film_t_000506.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Balcony 1.2 x 0.6 m with iron railing; skybox with castle tower.",
+  "also_seen": []
+ },
+ {
+  "id": "o09",
+  "item": "Coffee-table book piles (salotto)",
+  "kind": "pile",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Black square coffee table (~1.2 x 1.2 m, low) entirely covered by 10-14 stacks of new books and art catalogues, each 6-15 books, 15-35 cm tall, mostly hardbacks with dust jackets, a few large art books; spines face the sofa. Present in 2015 and 2022. On top of the piles a small orrery-like model (brass rods with small painted spheres). Legible covers in 2015: 'Inventing the Enemy' (Eco), 'Имя розы' (Russian Name of the Rose), 'Une image peut en cacher une autre', 'Italia Vostra'; in 2022 Adelphi/Einaudi paperbacks, 'Privati' (?), Deutschland.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4442,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+   "image": "frames/film_t_011402.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "12 stacks on a 1.2 m black table, heights 15-35 cm, jacketed hardbacks; keep one stack with a red spine on top.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 33,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=33s",
+    "image": "frames/p1_t_000033.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "B-M8V0PcCrw",
+    "timestamp_s": 445,
+    "url": "https://www.youtube.com/watch?v=B-M8V0PcCrw&t=445s",
+    "image": "frames/p3_t_000445.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+   }
+  ]
+ },
+ {
+  "id": "o10",
+  "item": "Piles on top of the upright piano",
+  "kind": "pile",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Dark mahogany upright piano; its top lid carries 5-6 horizontal stacks (10-20 books each, 25-40 cm tall) and the music shelf/keyboard lid carries another 8-10 stacks (8-15 books, up to 30 cm). Legible: 'Gianni Vattimo', 'Giorgio Morandi - une retrospective', 'Il volto del 900' (Skira), Neil MacGregor 'Vivere con gli dei', Umberto Eco 'Der ewige Faschismus' (2 copies), 'Il nome della rosa', Sofia Bignamini 'I mutanti', 'Versus' journal, Hoepli/Iliprandi 'Note', 'Il Novecento', 'Umberto Eco - A passo di gambero', 'ECO' (Enciclopedia). A crowned wooden Child-Jesus statuette stands on top among the piles.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 2574,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2574s",
+   "image": "frames/film_t_004254.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Piano 1.5 m wide x 1.25 m high; piles on top 0.3-0.4 m; piles on the fold-down music shelf 0.2-0.3 m.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+   }
+  ]
+ },
+ {
+  "id": "o11",
+  "item": "Desk piles and papers (study desk)",
+  "kind": "pile",
+  "room": "studio",
+  "bookcase": null,
+  "description": "The L-shaped black desk and the low black return beside it are heaped with stacks of papers, magazines, folders and books (10-20 stacks, 10-30 cm), plus a telephone, a printer, a desk lamp and the computer monitor; more books lie on the windowsill behind.",
+  "source": {
+   "type": "video",
+   "video_id": "Hq66X9f-zgc",
+   "timestamp_s": 363,
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=363s",
+   "image": "frames/p1_t_000601.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Long desk 2.4 x 0.8 m + return 1.2 m; cover 70% of the surface with paper/book stacks 0.1-0.3 m.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 116,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=116s",
+    "image": "frames/film_t_000156.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 102,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=102s",
+    "image": "frames/film_t_000142.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o12",
+  "item": "Piles on the black round table (study)",
+  "kind": "pile",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Black round pedestal table by the study windows with 6-8 stacks of books (5-12 each) and loose papers; in 2011 (Getty) the same table was covered with papers, folders, a roll of tape and a black bag.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4510,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4510s",
+   "image": "frames/film_t_011510.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Round table dia 1.4 m, 0.72 m high, black; 6 stacks 10-20 cm.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.gettyimages.com/photos/umberto-eco-home",
+    "image": "/mnt/project-files/eco-sources/eco-photos/getty_953403568_1024.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o13",
+  "item": "Horizontal stacks on top of the low island bookcases (study)",
+  "kind": "pile",
+  "room": "studio",
+  "bookcase": "study-M-A / study-Na / study-Oa",
+  "description": "The tops of the 2.1 m island bookcases (M, N, O) carry a continuous line of horizontally stacked books, 20-40 cm high along their whole length; the red Treccani-type set and box sets stand on top of Oa.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.milanotoday.it/~media/horizontal-hi/66703973657346/eco-casa-milano-aubreymcfato-creative-commons-2.jpg",
+   "image": "/mnt/project-files/eco-sources/eco-photos/milanotoday_zanni.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "On each island top add a row of flat stacks 0.3 m high; red uniform set of ~20 volumes on Oa.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall/23_Oa.webp",
+    "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_23_Oa.webp"
+   },
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 335,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=335s",
+    "image": "frames/p1_t_000531.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o14",
+  "item": "Books and boxes on the study floor",
+  "kind": "pile",
+  "room": "studio",
+  "bookcase": "study-P",
+  "description": "Cardboard boxes of books, a white box, folders and loose books sit on the floor at the base of the shelves and islands (Getty 2011; Zanni 2010: 'scatoloni ovunque'); a large black-and-white photo poster leans against the foot of a shelf (film 784 s); black box files fill the bottom row of case P.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.gettyimages.com/photos/umberto-eco-home",
+   "image": "/mnt/project-files/eco-sources/eco-photos/getty_953403568_1024.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "3-5 cardboard boxes 0.4 m at the base of P and the islands; one poster leaning; bottom shelf of P = black box files.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 784,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=784s",
+    "image": "frames/film_t_001304.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall/13_P.webp",
+    "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_13_P.webp"
+   }
+  ]
+ },
+ {
+  "id": "o15",
+  "item": "Piles on top of a white low cabinet (study corner)",
+  "kind": "pile",
+  "room": "studio",
+  "bookcase": null,
+  "description": "A white cabinet (~1.2 m high) next to a shelving unit carries 3 stacks of books (one 'Sainte-Beuve Port-Royal' box set) and papers; the shelves beside it have flat stacks of pamphlets and folders on the lower shelves.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.flickr.com/photos/mglarsen/5772422901",
+   "image": "/mnt/project-files/eco-sources/eco-photos/flickr_5772422901_b.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "White cabinet 1.2 x 0.6 x 1.2 m with 3 stacks 0.15 m on top.",
+  "also_seen": []
+ },
+ {
+  "id": "o16",
+  "item": "Vellum quartos standing on the rare-room table",
+  "kind": "pile",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "A row of ~25 vellum-bound quartos standing spine-up along the far edge of the oak table, several flat stacks of small volumes, loose papers, a gilt reading tray and the big round magnifying lens on its stand in front.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 460,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=460s",
+   "image": "frames/film_t_000740.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Row of 25 cream vellum books 20 cm tall along one long edge of the table; 3 flat stacks; lens on stand.",
+  "also_seen": []
+ },
+ {
+  "id": "o17",
+  "item": "Corridor shelf overflow (horizontal books on shelves)",
+  "kind": "pile",
+  "room": "corridoio",
+  "bookcase": "corridor-01..25",
+  "description": "Throughout case A many shelves have books laid flat on top of the upright row (2-6 horizontal books per shelf), and packets of pamphlets; no piles on the corridor floor were seen.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_3.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Add 2-6 flat books on ~40% of shelves; keep the corridor floor clear.",
+  "also_seen": []
+ },
+ {
+  "id": "o18",
+  "item": "2015 interview coffee-table books",
+  "kind": "pile",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Two small stacks placed on the coffee table in front of Eco for the 2015 interview: 'Inventing the Enemy' (English, striped cover), 'Имя розы', a French exhibition catalogue 'Une image peut en cacher une autre'.",
+  "source": {
+   "type": "video",
+   "video_id": "B-M8V0PcCrw",
+   "timestamp_s": 24,
+   "url": "https://www.youtube.com/watch?v=B-M8V0PcCrw&t=24s",
+   "image": null
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Optional: 3 recognisable covers on the near corner of the coffee table.",
+  "also_seen": []
+ },
+ {
+  "id": "o19",
+  "item": "Upright piano",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Dark polished mahogany upright piano with panelled front, brass castors, a matching piano stool; piled with books (see o10). Above it a large framed drawing of many tiny figures and several framed sketches and small prints.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Box 1.5 x 0.6 x 1.25 m dark wood against the salotto wall adjacent to the door; stool 0.5 m.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 293,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=293s",
+    "image": "frames/p1_t_000453.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 2574,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2574s",
+    "image": "frames/film_t_004254.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o20",
+  "item": "White plaster statue (male nude)",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Life-size white plaster cast of a classical male nude (Praxitelean youth; arms missing, head turned), standing on a white cubic plinth ~0.5 m high beside the salotto door to the vestibule; in 2022 it wears a small orange-red cap/wreath on its head. Total height ~2.2 m.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4442,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+   "image": "frames/film_t_011402.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "White statue 1.7 m on a 0.5 m plinth, immediately left of the salotto->vestibule door.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 293,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=293s",
+    "image": "frames/p1_t_000453.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 29,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=29s",
+    "image": "frames/p1_t_000029.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_1.png"
+   }
+  ]
+ },
+ {
+  "id": "o21",
+  "item": "Three glass vitrines (salotto-vetrine)",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": "salotto-vetrine",
+  "description": "Three black-framed glass display cabinets on castors, each ~0.8 m wide x 2.0 m high, side by side against the salotto wall in front of a dark wooden bookcase: left one displays open antique illustrated books on stands; middle one open illuminated/illustrated books and a row of small volumes; right one shells, sea urchins, dried pomegranates and seed pods, coral, a puffer fish. Two small dioramas (a miniature garden and a miniature library with a photo of Eco) sit on top of the left vitrine.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_1.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "3 glass boxes 0.8 x 0.45 x 2.0 m, black frames, 5 glass shelves each; open books on 2, natural objects in the third; 2 small boxes on top.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4442,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+    "image": "frames/film_t_011402.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4452,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4452s",
+    "image": "frames/film_t_011412.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://aubreymcfato.com/wp-content/uploads/2010/05/umberto_eco_in_his_house_banner.jpg",
+    "image": "/mnt/project-files/eco-sources/eco-photos/zanni_banner_orig.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o22",
+  "item": "Wooden cabinet of curiosities (salotto-wood)",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": "salotto-wood",
+  "description": "19th-century pine/walnut dresser-bookcase ~2.2 m wide x 2.6 m high: glazed upper cupboards, open middle shelves, panelled cupboards below. Filled with objects (see o38-o40): gilt bronze foot, typographic drawer, white faceted panel, glass and wooden spheres on stands, ostrich and emu eggs, wooden clock, oval-framed sepia family photographs, silver bell, bat skeleton in an acrylic box, terracotta head, bottles of coloured sand, a nun/Madonna doll, clock movement. A large flat-screen TV on a stand is beside it; a floor lamp in front.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 316,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=316s",
+   "image": "frames/film_t_000516.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Brown cabinet 2.2 x 0.5 x 2.6 m on the salotto wall opposite the sofa; 4 shelf bands; populate with 30-40 small props.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 308,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=308s",
+    "image": "frames/film_t_000508.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 312,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=312s",
+    "image": "frames/film_t_000512.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 3050,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3050s",
+    "image": "frames/film_t_005050.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o23",
+  "item": "Cognac leather club armchair (Eco's seat)",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Rounded cognac/orange leather club armchair (Poltrona Frau 'Vanity Fair' type) in the salotto, in front of the vitrines; Eco sits in it for the 2015 interview and for the Louisiana Channel interview.",
+  "source": {
+   "type": "video",
+   "video_id": "B-M8V0PcCrw",
+   "timestamp_s": 445,
+   "url": "https://www.youtube.com/watch?v=B-M8V0PcCrw&t=445s",
+   "image": "frames/p3_t_000445.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Rounded armchair 0.9 m wide, cognac leather, facing the coffee table.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4442,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+    "image": "frames/film_t_011402.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "M8IWTOFNlOc",
+    "timestamp_s": 301,
+    "url": "https://www.youtube.com/watch?v=M8IWTOFNlOc&t=301s",
+    "image": null
+   }
+  ]
+ },
+ {
+  "id": "o24",
+  "item": "White slip-covered sofas and armchairs",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Two white loose-covered armchairs and a white three-seat sofa (plus a white footstool) around the coffee table; one armchair stands directly in front of the statue's plinth.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4442,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+   "image": "frames/film_t_011402.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Sofa 2.2 m + 2 armchairs 0.9 m, all white fabric.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 3050,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3050s",
+    "image": "frames/film_t_005050.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+   }
+  ]
+ },
+ {
+  "id": "o25",
+  "item": "Floor lamps (salotto)",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "A tall Artemide Tolomeo-type cantilever floor lamp with a large parchment cone shade over the seating area, and a second slender floor lamp with a white shade next to the wooden cabinet.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4442,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+   "image": "frames/film_t_011402.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Cantilever lamp 2.2 m with 0.5 m cone shade; second lamp 1.7 m.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 3050,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3050s",
+    "image": "frames/film_t_005050.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o26",
+  "item": "Black coffee table",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Low black square coffee table (~1.2 m) between sofa and armchairs, invisible under the book piles.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Black slab table 1.2 x 1.2 x 0.35 m.",
+  "also_seen": []
+ },
+ {
+  "id": "o27",
+  "item": "Small dark chest / side table by the salotto door",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "A small dark wooden chest of drawers (~0.7 m wide) beside the statue, under two small vertical frames; a phone and small objects on it.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4442,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+   "image": "frames/film_t_011402.jpg"
+  },
+  "confidence": "partially-seen",
+  "modelling_note": "0.7 x 0.4 x 0.8 m dark wood box beside the door.",
+  "also_seen": []
+ },
+ {
+  "id": "o28",
+  "item": "Television on stand",
+  "kind": "furniture",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Large flat-screen TV on a black stand at the corner of the wooden cabinet, opposite the white sofa.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Black TV 1.1 m wide on a low stand.",
+  "also_seen": []
+ },
+ {
+  "id": "o29",
+  "item": "Coat hooks and coats (vestibule)",
+  "kind": "furniture",
+  "room": "vestibolo",
+  "bookcase": null,
+  "description": "Wall coat rail on the left and a second on the right at the start of the passage: 5-6 dark overcoats, a black hat and a grey fedora hanging at head height; they frame the 2015 walk.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 54,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=54s",
+   "image": "frames/film_t_000054.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Two rails of 3 hanging coats each, 1.7 m high, both walls of the vestibule; one hat.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 301,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=301s",
+    "image": "frames/p1_t_000501.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 418,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=418s",
+    "image": "frames/film_t_000658.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o30",
+  "item": "Sliding ladder on rail (corridor)",
+  "kind": "furniture",
+  "room": "corridoio",
+  "bookcase": "corridor-08",
+  "description": "Aluminium rolling ladder hooked on the rail that runs along case A at ~2.3 m height (rail visible in the Fondazione survey and the 2022 photo); seen standing about a third of the way down the corridor.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 62,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=62s",
+   "image": "frames/film_t_000102.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Ladder 2.5 m leaning against the shelves at 75 degrees, hooked to a horizontal rail at 2.3 m.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_3.png"
+   }
+  ]
+ },
+ {
+  "id": "o31",
+  "item": "Folding step-ladder at the study door",
+  "kind": "furniture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "A white folding household stepladder leans against the shelving just inside the study door from the corridor (2015 walk).",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 84,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=84s",
+   "image": "frames/film_t_000124.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Folding stepladder 1.6 m by the corridor->study door.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 329,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=329s",
+    "image": "frames/p1_t_000529.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o32",
+  "item": "Sliding ladders on rails (study)",
+  "kind": "furniture",
+  "room": "studio",
+  "bookcase": "study-Q",
+  "description": "Two chrome rolling ladders hooked on the rails of the study's tall wall shelving (Getty 2011 shows Eco standing on one; Flickr 2011 shows another in front of case Q).",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.flickr.com/photos/mglarsen/5772998464",
+   "image": "/mnt/project-files/eco-sources/eco-photos/flickr_5772998464_b.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Two 2.8 m chrome ladders on the study long walls.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.gettyimages.com/photos/umberto-eco-home",
+    "image": "/mnt/project-files/eco-sources/eco-photos/getty_953403568_1024.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o33",
+  "item": "L-shaped black desk with computer",
+  "kind": "furniture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Black desk against the window wall with a return at right angles; computer monitor, keyboard, printer, telephone, desk lamp; black wheeled drawer unit underneath; radiator and windows behind it.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 102,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=102s",
+   "image": "frames/film_t_000142.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Desk 2.4 x 0.8 m + return 1.2 x 0.6 m, black; monitor; office chair.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 347,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=347s",
+    "image": "frames/p1_t_000547.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_5.png"
+   }
+  ]
+ },
+ {
+  "id": "o34",
+  "item": "Black office chairs",
+  "kind": "furniture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Two or three black mesh-back swivel office chairs at the desk and the return.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_5.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "3 black office chairs.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 363,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=363s",
+    "image": "frames/p1_t_000601.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o35",
+  "item": "Black round pedestal table",
+  "kind": "furniture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Round black table (~1.4 m diameter) on a cross-shaped pedestal at the window end of the study, always covered with papers and book stacks.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4510,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4510s",
+   "image": "frames/film_t_011510.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Black disc 1.4 m on cross pedestal.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.gettyimages.com/photos/umberto-eco-home",
+    "image": "/mnt/project-files/eco-sources/eco-photos/getty_953403568_1024.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o36",
+  "item": "Black leather sofa and armchair",
+  "kind": "furniture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Black leather two-seater sofa against the shelves near the windows (2022 photo) and a black leather armchair by the round table; the grandson sits on the sofa in the film.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_5.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Black leather sofa 1.6 m; armchair 0.9 m.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 800,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=800s",
+    "image": "frames/film_t_001320.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4510,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4510s",
+    "image": "frames/film_t_011510.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o37",
+  "item": "Black wheeled filing cabinet",
+  "kind": "furniture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Black metal cabinet on castors (~0.9 x 0.6 x 0.9 m) standing free in the study with a computer monitor, a box and bundles of books on top.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 784,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=784s",
+   "image": "frames/film_t_001304.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Black box 0.9 x 0.6 x 0.9 m near the Garzantine shelf.",
+  "also_seen": []
+ },
+ {
+  "id": "o38",
+  "item": "Ceiling fans and spotlights",
+  "kind": "fixture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Two white three-blade ceiling fans on rods and a grid of recessed halogen spots in the study ceiling.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_5.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "2 fans, ~12 spots.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 361,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=361s",
+    "image": "frames/p1_t_000601.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o39",
+  "item": "Study door with pinned notes",
+  "kind": "fixture",
+  "room": "studio",
+  "bookcase": "study-I",
+  "description": "White flush door on the study's far wall with two paper notices pinned/taped at eye level, three light switches beside it, a framed print (green/pink/red abstract portrait) to its right; Eco takes a book from the shelf immediately left of this door.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 104,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=104s",
+   "image": "frames/film_t_000144.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Door 0.9 x 2.1 m on the study wall opposite the corridor door; shelves (door surround = Fondazione I) either side.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 349,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=349s",
+    "image": "frames/p1_t_000549.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o40",
+  "item": "Cherry glazed bookcases with drawers",
+  "kind": "rare-book-room-fixture",
+  "room": "antichi",
+  "bookcase": "rare-01 / rare-02",
+  "description": "Two runs of cherry-wood cabinets (~2.6 m high) on the long walls: glazed upper cupboards, a band of flat drawers with brass ring pulls, glazed lower cupboards; books shelved upright with vellum spines, mirabilia between them; one lower open bay near the door holds Eco's own works and box files (Fondazione 04 shows the right-hand run: 5 bays + a drawer column).",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/04_Libreria%20Antichi%20DX.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_04_Libreria_Antichi_DX.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Cabinets 0.8 m bays x 7 shelves, cherry colour, glass doors; drawer band at 1.1 m.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 356,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=356s",
+    "image": "frames/film_t_000556.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 852,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=852s",
+    "image": "frames/film_t_001412.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o41",
+  "item": "Rare-room oak table and chairs",
+  "kind": "rare-book-room-fixture",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "Long dark oak table (~2.4 x 1.0 m) with red-brown leather inset and gilt border, turned legs; six wooden chairs with cane seats (three each side); table used to show books: open folios, the row of vellum quartos, gilt reading tray, papers, a glass case with a white porcelain object, a brass hinged tray.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/02_Studio%20antichi%20milano_foto%20curtiparini_MG_9923.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_02_Studio_antichi_milano_foto_curtiparini_MG_9923.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Table 2.4 x 1.0 x 0.78 m centred in the room; 6 chairs; 2 open folios on top.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 460,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=460s",
+    "image": "frames/film_t_000740.jpg"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.gettyimages.com/detail/news-photo/rendezvous-with-umberto-eco-at-home-in-milan-en-italie-%C3%A0-news-photo/160862244",
+    "image": "/mnt/project-files/eco-sources/eco-photos/getty_160862244_1024.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o42",
+  "item": "Large magnifying lens on stand",
+  "kind": "rare-book-room-fixture",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "A big round magnifying glass (~25 cm) in a wooden ring on a stand, kept on the oak table (Zanni 2010: 'un'enorme lente sul tavolo'); Carlotta Eco holds it at film 460 s.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 460,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=460s",
+   "image": "frames/film_t_000740.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Lens dia 0.25 m on a 0.3 m wooden stand on the table.",
+  "also_seen": []
+ },
+ {
+  "id": "o43",
+  "item": "Armchair and floor lamp by the balcony",
+  "kind": "rare-book-room-fixture",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "Cognac leather club armchair beside the balcony door with a slim floor lamp with a warm yellow drum shade behind it; a small round tripod side table between them.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/01_Studio%20antichi%20milano_foto%20curtiparini.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_01_Studio_antichi_milano_foto_curtiparini.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Armchair 0.9 m, lamp 1.6 m with yellow shade, side table dia 0.5 m, all in the balcony corner.",
+  "also_seen": []
+ },
+ {
+  "id": "o44",
+  "item": "Music stand with score and recorder",
+  "kind": "rare-book-room-fixture",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "Carved wooden music stand (pierced with diamond motifs) holding an open manuscript score with a dark-wood baroque alto recorder with ivory-coloured rings laid across it; stands by the wall of framed prints near the balcony. Eco played the recorder here almost daily (Fondazione; captions at film 348 s: 'si chiudeva a suonare il flauto').",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3220,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3220s",
+   "image": "frames/film_t_005340.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Wooden music stand 1.3 m with open score; 0.5 m recorder on its lip.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 352,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=352s",
+    "image": null
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/01_Studio%20antichi%20milano_foto%20curtiparini.webp",
+    "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_01_Studio_antichi_milano_foto_curtiparini.webp"
+   }
+  ]
+ },
+ {
+  "id": "o45",
+  "item": "Pendant lamp on ceiling rail",
+  "kind": "rare-book-room-fixture",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "White enamel industrial pendant lamp hanging from a rail/cable across the rare room ceiling near the balcony.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/01_Studio%20antichi%20milano_foto%20curtiparini.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_01_Studio_antichi_milano_foto_curtiparini.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "One white pendant, 0.3 m, at 2.4 m.",
+  "also_seen": []
+ },
+ {
+  "id": "o46",
+  "item": "Glass case with white porcelain object (rare-room table)",
+  "kind": "rare-book-room-fixture",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "A clear acrylic display box (~40 cm) on the near corner of the oak table containing a white glazed ceramic form (a cloud-like sculpture); next to it a gilt brass folding reading tray.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/01_Studio%20antichi%20milano_foto%20curtiparini.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_01_Studio_antichi_milano_foto_curtiparini.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Acrylic cube 0.4 m with white blob; brass tray 0.3 m.",
+  "also_seen": []
+ },
+ {
+  "id": "o47",
+  "item": "GOSH! pasta-flag assemblage",
+  "kind": "artwork",
+  "room": "vestibolo",
+  "bookcase": null,
+  "description": "Framed assemblage ~1.2 x 0.9 m: an Italian tricolour whose white band is real rigatoni pasta under glass, a black twisted plastic ribbon hanging in front, and the caption 'GOSH!' on a white panel below. Hangs on the wall facing the walker at the end of the vestibule, next to the white shelves (in 2022 shot beside case B/C).",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3058,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3058s",
+   "image": "frames/film_t_005058.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Flat 1.2 x 0.9 m green/pasta/red panel on the vestibule end wall, at 1.5 m; twisted black strip in front.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 54,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=54s",
+    "image": "frames/film_t_000054.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zj1kwT87ne0",
+    "timestamp_s": 305,
+    "url": "https://www.youtube.com/watch?v=zj1kwT87ne0&t=305s",
+    "image": "frames/p2_t_000505.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o48",
+  "item": "Wall of framed prints (vestibule)",
+  "kind": "artwork",
+  "room": "vestibolo",
+  "bookcase": null,
+  "description": "About 15 framed graphic prints hung salon-style on the vestibule wall beside GOSH!: mostly 1960s-70s abstract/concrete art and typographic prints (a red-green poster with black shapes, a print with 'AB C' letters, yellow-red-black stripes, a pink circle, a striped disk); white frames and plexiglass.",
+  "source": {
+   "type": "video",
+   "video_id": "zj1kwT87ne0",
+   "timestamp_s": 305,
+   "url": "https://www.youtube.com/watch?v=zj1kwT87ne0&t=305s",
+   "image": "frames/p2_t_000505.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "15 rectangles 0.3-0.6 m in 3 rows on the vestibule left wall.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 56,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=56s",
+    "image": "frames/film_t_000056.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 303,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=303s",
+    "image": "frames/p1_t_000503.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o49",
+  "item": "Black twisted hanging mobile",
+  "kind": "artwork",
+  "room": "vestibolo",
+  "bookcase": null,
+  "description": "A black twisted-ribbon sculpture (~0.8 m) hanging from the ceiling in front of the GOSH! panel.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3058,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3058s",
+   "image": "frames/film_t_005058.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Thin black helix 0.8 m hung at 1.6 m in front of GOSH!.",
+  "also_seen": []
+ },
+ {
+  "id": "o50",
+  "item": "Framed prints along the corridor wall",
+  "kind": "artwork",
+  "room": "corridoio",
+  "bookcase": null,
+  "description": "Row of small framed prints and plexiglass-boxed graphics on the plain left wall of the long corridor at eye height (opposite case A), continuing to the corridor end; near the end a multi-coloured collage print and a framed 'XGM' typographic print.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_3.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "10-12 frames 0.3-0.5 m at 1.5 m along the left wall, spaced ~1.5 m.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4504,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4504s",
+    "image": "frames/film_t_011504.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4496,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4496s",
+    "image": null
+   }
+  ]
+ },
+ {
+  "id": "o51",
+  "item": "Speckled grey abstract canvas at the corridor end",
+  "kind": "artwork",
+  "room": "corridoio",
+  "bookcase": null,
+  "description": "Small unframed canvas (~0.5 x 0.7 m) with a dense speckled grey/white pattern on the left wall just before the balcony door.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 80,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=80s",
+   "image": "frames/film_t_000120.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "0.5 x 0.7 m grey noise texture on the left wall 1 m before the end.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 327,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=327s",
+    "image": "frames/p1_t_000527.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o52",
+  "item": "Burnt-book artwork (salotto)",
+  "kind": "artwork",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "A charred book and burnt Catalan printed pages ('L'encens i la ca...') mounted between glass and board with four wooden clamps, ~0.45 x 0.6 m, hung on the wall next to the wooden cabinet.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3054,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3054s",
+   "image": "frames/film_t_005054.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Flat 0.45 x 0.6 m panel with burnt-paper texture beside the cabinet.",
+  "also_seen": []
+ },
+ {
+  "id": "o53",
+  "item": "Framed drawings above the white sofa",
+  "kind": "artwork",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Above the white sofa: a white relief/drawing in a white frame (~0.5 m) and a larger framed drawing with a coastline/figure map (~0.8 m); a small painting of a house (Castello view?) and small objects on the wall near the cabinet; a framed dotted composition on the right wall.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3050,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3050s",
+   "image": "frames/film_t_005050.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "2 frames above the sofa; 1 small painting by the cabinet; 1 frame on the right wall.",
+  "also_seen": []
+ },
+ {
+  "id": "o54",
+  "item": "Framed pictures around the salotto door and statue",
+  "kind": "artwork",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Two narrow vertical frames with rows of tiny drawings beside the door; a white canvas with an orange cup and the word 'fine' behind the statue; a colourful framed painting (foliage) top left; on the piano wall a large framed sheet of dozens of small figures, a framed sketch of a coast, a small framed 'eco' embroidery/print, and a framed map-like drawing.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4442,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+   "image": "frames/film_t_011402.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Cluster of 6-8 frames around the door and 5-6 above the piano.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+   }
+  ]
+ },
+ {
+  "id": "o55",
+  "item": "Miniature library diorama with Eco's photo",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "A framed box diorama (~0.35 x 0.25 m) of a miniature wooden library with a fireplace and a photo of Eco in a red sweater over the mantel; together with a second diorama (a miniature garden) it sits on top of the left glass vitrine.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4422,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4422s",
+   "image": "frames/film_t_011342.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Two small boxes 0.35 x 0.25 m on top of the left vitrine.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4442,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+    "image": "frames/film_t_011402.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o56",
+  "item": "Caricature portraits of Eco (study)",
+  "kind": "artwork",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Framed humorous portraits of Eco on the study pillars and shelf ends: a painting of Eco writing in a red frame and a framed drawing (Getty 2011); a framed engraved-style portrait and a drawing on the pillar by the round table (film 4510 s); a comics page ('Eco' strip) taped to a shelf end (film 784 s). CriticaLetteraria: 'ritratti umoristici di Eco alle pareti'.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.gettyimages.com/photos/umberto-eco-home",
+   "image": "/mnt/project-files/eco-sources/eco-photos/getty_953403568_1024.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "3-4 frames 0.4-0.6 m on the pillars between the study windows.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4510,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4510s",
+    "image": "frames/film_t_011510.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 784,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=784s",
+    "image": "frames/film_t_001304.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o57",
+  "item": "Framed engravings in the rare-book room",
+  "kind": "artwork",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "On the door-end wall two large framed engravings (Piranesi-style architectural fantasy, and a baroque allegory with putti); by the balcony a group of small framed prints and maps (an old map of Puglia/Italy, engraved portraits, an emblem print); a round barometer and a clock on the wall near the balcony.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 424,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=424s",
+   "image": "frames/film_t_000704.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "2 frames 0.7 m on the end wall; 6 small frames 0.3 m in two columns by the balcony; barometer + clock dials.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/02_Studio%20antichi%20milano_foto%20curtiparini_MG_9923.webp",
+    "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_02_Studio_antichi_milano_foto_curtiparini_MG_9923.webp"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 852,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=852s",
+    "image": "frames/film_t_001412.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o58",
+  "item": "Arman paintbrush collage and lute (reported)",
+  "kind": "artwork",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Paris Review 2008 lists in the living room 'a lute, a collection of recorders, a collage of paintbrushes' by Arman 'dedicated especially to me'. Not identified in any frame.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.lazanganeh.com/pdfs/paris_review_art_of_fiction.pdf",
+   "image": null
+  },
+  "confidence": "reported-in-text",
+  "modelling_note": "Optional: a 0.6 m framed accumulation of paintbrushes and a lute leaning in the salotto.",
+  "also_seen": []
+ },
+ {
+  "id": "o59",
+  "item": "Objects on the wooden cabinet, middle shelf",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": "salotto-wood",
+  "description": "Left to right on the open shelf: a gilt bronze cast of a right foot; a white typographic drawer (4x4 compartments) holding black cylinders; a large white faceted panel; a glass sphere on a turned stand; a dark wooden sphere (globe) on a stand; an ostrich egg on a black stand; a wooden mantel clock with a small dial; a dark emu egg in a glass; a wooden ball on a black block.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 316,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=316s",
+   "image": "frames/film_t_000516.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "9 small props on one 2 m shelf at 1.6 m.",
+  "also_seen": []
+ },
+ {
+  "id": "o60",
+  "item": "Family photographs and small silver on the wooden cabinet",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": "salotto-wood",
+  "description": "Lower shelf: eight oval gilt-framed sepia photographs (19th/early-20th-c. family portraits) hung on the back panel, two larger square-framed daguerreotype-style portraits, a silver repousse frame, a silver hand bell, a small silver box, a silver dish, a framed photo of a group, and a figurine in a glass frame of a bearded man with round glasses playing a recorder (an Eco caricature puppet).",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 316,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=316s",
+   "image": "frames/film_t_000516.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Cluster of 12-15 small props 0.1-0.25 m on the 1.0 m shelf.",
+  "also_seen": []
+ },
+ {
+  "id": "o61",
+  "item": "Curiosities in the upper cabinet",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": "salotto-wood",
+  "description": "Upper open bays and glazed parts: a terracotta classical female head; a gilt bronze disc relief (Pomodoro-style); a cracked ostrich egg on a black stand; four glass bottles of layered coloured sand; stacked small wooden boxes; a wooden cigar press; a leather case; a snuff box; a small book 'Gunga Din'; a carved terracotta grotesque; a bat skeleton mounted in a clear acrylic box; a pocket stopwatch; a wooden hat-block; a carved wooden nun/Madonna figure with veil; a clock mechanism (gears) behind glass.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 308,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=308s",
+   "image": "frames/film_t_000508.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "15-20 props 0.1-0.3 m across the upper shelves.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 312,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=312s",
+    "image": "frames/film_t_000512.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o62",
+  "item": "Shells, coral, pomegranates and puffer fish (vitrine)",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": "salotto-vetrine",
+  "description": "Right-hand vitrine: glass shelves with dozens of shells, sea urchins, a spiny puffer fish, dried pomegranates, lotus seed pods, coral branches, a small skull-like shell and pieces of driftwood; in 1998/2010 photos the same cases held open antique books, a lute-shaped object and porcelain.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4452,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4452s",
+   "image": "frames/film_t_011412.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Populate 5 glass shelves with ~40 natural specimens.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_1.png"
+   }
+  ]
+ },
+ {
+  "id": "o63",
+  "item": "Open antique illustrated books in the vitrines",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": "salotto-vetrine",
+  "description": "Left and middle vitrines: 6-8 open antique illustrated books (Renaissance/17th-c. engravings, an illuminated manuscript facsimile, an emblem book) propped on stands, plus a row of small volumes; Eco displayed the books of his current research here.",
+  "source": {
+   "type": "video",
+   "video_id": "B-M8V0PcCrw",
+   "timestamp_s": 317,
+   "url": "https://www.youtube.com/watch?v=B-M8V0PcCrw&t=317s",
+   "image": "frames/p3_t_000317.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Open books 0.35 m on stands, 2 per shelf.",
+  "also_seen": [
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+    "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_1.png"
+   },
+   {
+    "type": "photo",
+    "video_id": null,
+    "timestamp_s": null,
+    "url": "https://aubreymcfato.com/wp-content/uploads/2010/05/umberto_eco_in_his_house_banner.jpg",
+    "image": "/mnt/project-files/eco-sources/eco-photos/zanni_banner_orig.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o64",
+  "item": "Orrery / planetary model on the coffee table",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "A tabletop model of small painted spheres on thin brass rods (orrery/armillary type, ~0.4 m) standing on the book piles of the coffee table.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4442,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4442s",
+   "image": "frames/film_t_011402.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Small orrery 0.4 m on top of the piles.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 3050,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3050s",
+    "image": "frames/film_t_005050.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o65",
+  "item": "Crowned wooden Child-Jesus statuette on the piano",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Polychrome carved wooden Christ-Child (~0.35 m) with a metal crown, one arm raised, standing on top of the piano among the book piles.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "image": "/mnt/project-files/eco-sources/eco-photos/criticaletteraria_2022_7.png"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "0.35 m figurine on the piano top.",
+  "also_seen": []
+ },
+ {
+  "id": "o66",
+  "item": "Figurine on the vestibule shelf",
+  "kind": "object",
+  "room": "vestibolo",
+  "bookcase": null,
+  "description": "A small dark figurine/toy (a seated character) on the top of the low white shelf at the start of the vestibule, right side.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 54,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=54s",
+   "image": "frames/film_t_000054.jpg"
+  },
+  "confidence": "partially-seen",
+  "modelling_note": "0.25 m figurine on the shelf top at 1.7 m.",
+  "also_seen": []
+ },
+ {
+  "id": "o67",
+  "item": "Specimen jar 'Canis familiaris organi genitali' (dog testicles)",
+  "kind": "object",
+  "room": "antichi",
+  "bookcase": "rare-01",
+  "description": "Glass museum jar (~0.25 m) with a black lid and paper label, containing dog genital organs in formalin, shelved between the leather-bound volumes on a rare-room shelf; Renate Ramge names it at film 853 s ('sono i testicoli del cane') and the grandson lifts it out at 852 s.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/03_ANTICHI-24.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_03_ANTICHI-24.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Glass cylinder 0.08 x 0.25 m with pale organs inside, on a rare-room shelf between books.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 852,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=852s",
+    "image": "frames/film_t_001412.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o68",
+  "item": "Mirabilia on the rare-room shelves",
+  "kind": "object",
+  "room": "antichi",
+  "bookcase": "rare-02",
+  "description": "Between the antiquarian books (Fondazione text; Renate Ramge in Rivista Studio): shells, coral branches, small wooden models, a gilt astrolabe-like instrument, a small framed print, a brass compass, an armillary; Fondazione 04 shows a globe, a small framed landscape, a cup, an oval box and a gilt object among the spines.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall_antichi/04_Libreria%20Antichi%20DX.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_04_Libreria_Antichi_DX.webp"
+  },
+  "confidence": "partially-seen",
+  "modelling_note": "Scatter 8-10 small props (shell, coral, globe, brass instrument) on the rare-room shelves in front of the books.",
+  "also_seen": []
+ },
+ {
+  "id": "o69",
+  "item": "Gilt reading tray and brass instrument on the rare-room table",
+  "kind": "object",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "Gilt brass hinged book-tray/reading stand and a folding brass instrument, plus a glass paperweight and two silver-rimmed dishes, on the oak table; Carlotta lifts the tray with white gloves at film 460 s.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 460,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=460s",
+   "image": "frames/film_t_000740.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "0.3 m brass tray on the table near the lens.",
+  "also_seen": []
+ },
+ {
+  "id": "o70",
+  "item": "Recorders and scores (rare room)",
+  "kind": "object",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "A dark baroque alto recorder on the music stand; Paris Review mentions 'a collection of recorders'; the Fondazione: 'gli spartiti e i flauti che Eco suonava quasi ogni giorno'. Open score on the stand.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3220,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3220s",
+   "image": "frames/film_t_005340.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "1 recorder on the stand, 2 more lying on a shelf.",
+  "also_seen": []
+ },
+ {
+  "id": "o71",
+  "item": "Carved 'UMBERTO ECO' plaque and ECO divider cards",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": "study-Q",
+  "description": "On top of the Q bookcase (Eco's own works): a carved pine relief plaque (~0.25 m) reading UMBERTO / ECO with a bird motif, and a row of white card dividers printed 'ECO' standing among the stacked foreign editions; handwritten labels 'Q4', 'Q5', 'ECO IBERICI', 'NDR TRADUZIONI' on the shelf edges.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 326,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=326s",
+   "image": "frames/film_t_000526.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Plaque 0.25 m on top of case Q; 4-5 white cards; paper labels on shelf edges.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 566,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=566s",
+    "image": "frames/film_t_000926.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o72",
+  "item": "Foreign editions of Eco's novels (case Q)",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": "study-Q",
+  "description": "Case Q bays Q4-Q5: dense rows of Eco's translations (Russian, Dutch, Croatian, Polish, Korean, Turkish, Greek, German, English...), many stacked horizontally; a bright wall of coloured jackets.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 566,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=566s",
+   "image": "frames/film_t_000926.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Fill Q with colourful jacketed books, 30% laid flat.",
+  "also_seen": []
+ },
+ {
+  "id": "o73",
+  "item": "Garzantine and CD racks by the black cabinet",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": null,
+  "description": "A narrow white tower of CDs/DVDs stands between two tall shelving units; 'Le Garzantine - Medioevo' and the white ANRW-like uniform sets on a shelf end; a photocopied comics page in a plastic sleeve pinned on the shelf end.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 784,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=784s",
+   "image": "frames/film_t_001304.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "0.3 m wide CD tower 2 m high between two cases.",
+  "also_seen": []
+ },
+ {
+  "id": "o74",
+  "item": "Black box files (bottom of case P)",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": "study-P",
+  "description": "The bottom shelf of the 10-bay case P is a run of black lever-arch box files with white labels (about 25), plus red and green binders and a green filing box.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall/13_P.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_13_P.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "25 black boxes 0.08 x 0.32 m on the bottom shelf of P.",
+  "also_seen": []
+ },
+ {
+  "id": "o75",
+  "item": "Red Treccani-type encyclopaedia set on island Oa",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": "study-Oa",
+  "description": "A uniform red-and-gold set of ~20 volumes and a black set of ~12 stand on top of the low island Oa; below it Garzantine, orange/yellow paperback series, box sets and coloured folders; a framed Kandinsky-like print and a framed cartoon sheet lean on the island's end.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall/23_Oa.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_23_Oa.webp"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Red set on top of Oa; 2 frames leaning on its end panel.",
+  "also_seen": []
+ },
+ {
+  "id": "o76",
+  "item": "Coloured sticky labels and inventory tags on spines",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Many spines in the study carry small yellow/green/pink sticky labels (the Fondazione inventory numbers for annotated/dedicated copies, 'un'etichetta e un numero').",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 326,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=326s",
+   "image": "frames/film_t_000526.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Add tiny coloured tabs on ~10% of study spines.",
+  "also_seen": []
+ },
+ {
+  "id": "o77",
+  "item": "Ecolinus comic and comics on the top/bottom corridor shelves",
+  "kind": "object",
+  "room": "corridoio",
+  "bookcase": "corridor-01..25",
+  "description": "Comics live on the highest and lowest shelves of the corridor (Topolino, Linus, Peanuts, Asterix, Mandrake, Sturmtruppen); an 'Ecolinus' tribute issue is handled at film 236 s; a Pinocchio edition and 'Il corsaro delle tenebre' sit at eye level near bay A (2022, Carlotta).",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 2600,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2600s",
+   "image": "frames/film_t_004320.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Top and bottom shelves of A: bright thin comic albums.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 236,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=236s",
+    "image": null
+   }
+  ]
+ },
+ {
+  "id": "o78",
+  "item": "Dictionaries behind the desk (case Nb)",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": "study-Nb",
+  "description": "Rows of big dictionaries (Le Robert, Clave, Zingarelli...) on the island behind the desk, visible from the terrace through the window.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 320,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=320s",
+   "image": "frames/film_t_000520.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Thick uniform tomes on Nb, 4 shelves.",
+  "also_seen": []
+ },
+ {
+  "id": "o79",
+  "item": "Wall of ancient-art catalogues (case E)",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": "salotto-E",
+  "description": "Low 5-bay x 5-shelf white case with art catalogues (Puglia, Bernini, Rembrandt, Giorgione, Klimt, Bruegel) - many large format, some leaning; placed by the Fondazione among the working library, probably in the salotto behind the vitrines.",
+  "source": {
+   "type": "photo",
+   "video_id": null,
+   "timestamp_s": null,
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall/01_E.webp",
+   "image": "/mnt/project-files/eco-sources/eco-photos/fondazione_01_E.webp"
+  },
+  "confidence": "partially-seen",
+  "modelling_note": "Low case 4 m wide, 2.1 m high, big art books.",
+  "also_seen": []
+ },
+ {
+  "id": "o80",
+  "item": "Eco seated for the 2015 interview",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Eco in the cognac leather armchair, cigar-less, in front of the middle vitrine with the statue behind his shoulder; a white armchair beside him; sound boom with grey windscreen in the foreground; the camera is a static tripod shot at seated eye level from across the coffee table.",
+  "source": {
+   "type": "video",
+   "video_id": "Hq66X9f-zgc",
+   "timestamp_s": 33,
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=33s",
+   "image": "frames/p1_t_000033.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Camera A: static, 1.1 m high, 3 m from the armchair, 35 mm lens.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "B-M8V0PcCrw",
+    "timestamp_s": 445,
+    "url": "https://www.youtube.com/watch?v=B-M8V0PcCrw&t=445s",
+    "image": "frames/p3_t_000445.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 29,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=29s",
+    "image": "frames/p1_t_000029.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o81",
+  "item": "Eco rises and walks out of the salotto",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Start of the walk: Steadicam behind Eco at ~1.5 m; he crosses the salotto past the piano (left) and the statue (right) and goes through the door into the vestibule.",
+  "source": {
+   "type": "video",
+   "video_id": "Hq66X9f-zgc",
+   "timestamp_s": 293,
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=293s",
+   "image": "frames/p1_t_000453.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Path point 1: salotto door, heading N; camera 1.5 m behind, 1.5 m high.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 295,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=295s",
+    "image": "frames/p1_t_000455.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 48,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=48s",
+    "image": null
+   }
+  ]
+ },
+ {
+  "id": "o82",
+  "item": "Eco walks the long corridor",
+  "kind": "object",
+  "room": "corridoio",
+  "bookcase": null,
+  "description": "Steadicam follows 1.5-2 m behind Eco (dark waistcoat, white shirt) down the corridor; the camera drifts right to graze the spines of case A; ceiling spots reflect; the balcony door grows at the end; 2015 part 1 t=309-327, film 62-80 s (b/w).",
+  "source": {
+   "type": "video",
+   "video_id": "Hq66X9f-zgc",
+   "timestamp_s": 315,
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=315s",
+   "image": "frames/p1_t_000513.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Path points 3-4: straight 18 m walk, speed ~0.7 m/s; camera yaw slightly right.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 70,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=70s",
+    "image": "frames/film_t_000104.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "B-M8V0PcCrw",
+    "timestamp_s": 321,
+    "url": "https://www.youtube.com/watch?v=B-M8V0PcCrw&t=321s",
+    "image": null
+   }
+  ]
+ },
+ {
+  "id": "o83",
+  "item": "Eco turns left into the study past the step-ladder",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": null,
+  "description": "At the corridor end Eco turns left through the open door into the study; a folding stepladder and framed pictures at the door; the study islands and ceiling fans appear.",
+  "source": {
+   "type": "video",
+   "video_id": "Hq66X9f-zgc",
+   "timestamp_s": 329,
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=329s",
+   "image": "frames/p1_t_000529.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Path point 5: 90-degree left turn 1.5 m before the balcony door.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 84,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=84s",
+    "image": "frames/film_t_000124.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 331,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=331s",
+    "image": "frames/p1_t_000531.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o84",
+  "item": "Eco walks between the islands to the desk",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": null,
+  "description": "He walks along an aisle between an island and the wall shelves toward the windows, passes a white cabinet and a framed picture, reaches the desk with the computer.",
+  "source": {
+   "type": "video",
+   "video_id": "Hq66X9f-zgc",
+   "timestamp_s": 341,
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=341s",
+   "image": "frames/p1_t_000541.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Path points 6-7: 8 m along an island aisle to the desk by the windows.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 345,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=345s",
+    "image": "frames/p1_t_000545.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 94,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=94s",
+    "image": "frames/film_t_000134.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 102,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=102s",
+    "image": "frames/film_t_000142.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o85",
+  "item": "Eco takes a book down and leafs through it",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": "study-I",
+  "description": "Beside the white door with pinned notes he reaches up to a shelf at ~1.8 m, pulls out a red-spined volume, opens it and reads for ~6 s, then puts it back and walks on (2015 part 1 t=351-359, film 104-112).",
+  "source": {
+   "type": "video",
+   "video_id": "Hq66X9f-zgc",
+   "timestamp_s": 355,
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=355s",
+   "image": "frames/p1_t_000555.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Animation: stop at the door surround (case I), reach up, hold 6 s, replace; camera swings to a 3/4 front view.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 351,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=351s",
+    "image": "frames/p1_t_000551.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 353,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=353s",
+    "image": "frames/p1_t_000553.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 108,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=108s",
+    "image": null
+   }
+  ]
+ },
+ {
+  "id": "o86",
+  "item": "Eco walks away down the study (final wide shot)",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Final shot: the camera stays by the desk while Eco walks away between the desk and the wall shelves toward the far end of the study, under the ceiling fans, past piles on the desk and the black chairs; fade to black (2015 part 1 t=361-371; film 116-136 b/w).",
+  "source": {
+   "type": "video",
+   "video_id": "Hq66X9f-zgc",
+   "timestamp_s": 363,
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=363s",
+   "image": "frames/p1_t_000601.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Camera fixed at the desk, 1.4 m high, wide lens; Eco walks 10 m away.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "Hq66X9f-zgc",
+    "timestamp_s": 369,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=369s",
+    "image": "frames/p1_t_000609.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 116,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=116s",
+    "image": "frames/film_t_000156.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o87",
+  "item": "Eco playing the recorder (archival, location uncertain)",
+  "kind": "object",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "Archival clip of Eco playing a recorder at a rustic wooden music stand in front of shelves, next to a rough plank door: probably the Monte Cerignone house, not Milan.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3240,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3240s",
+   "image": null
+  },
+  "confidence": "partially-seen",
+  "modelling_note": "Do not place in Milan; reference only.",
+  "also_seen": []
+ },
+ {
+  "id": "o88",
+  "item": "Girl on roller skates (2022 epilogue walk)",
+  "kind": "object",
+  "room": "corridoio",
+  "bookcase": null,
+  "description": "The film's epilogue re-runs the walk in reverse with a granddaughter on inline skates: rare-room dark corridor with prints -> long corridor toward the balcony door -> left into the study -> round table; useful as a second camera pass of the same route in colour.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4496,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4496s",
+   "image": null
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Alternative replay path in colour: film 4484-4512 s.",
+  "also_seen": [
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4504,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4504s",
+    "image": "frames/film_t_011504.jpg"
+   },
+   {
+    "type": "video",
+    "video_id": "zZEy10fpq3I",
+    "timestamp_s": 4510,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4510s",
+    "image": "frames/film_t_011510.jpg"
+   }
+  ]
+ },
+ {
+  "id": "o89",
+  "item": "Corridor floor and ceiling finish",
+  "kind": "fixture",
+  "room": "corridoio",
+  "bookcase": null,
+  "description": "Beige carpet-like floor in the corridor and vestibule (parquet in salotto, study and rare room); flat white ceiling with a line of recessed spots; skirting-height sockets; the corridor ceiling is lower than the rooms.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4504,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4504s",
+   "image": "frames/film_t_011504.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Corridor floor beige, rooms light oak parquet; ceiling white.",
+  "also_seen": []
+ },
+ {
+  "id": "o90",
+  "item": "Balcony door with iron bars at the corridor end",
+  "kind": "fixture",
+  "room": "corridoio",
+  "bookcase": null,
+  "description": "Tall white French window (~1.0 x 2.6 m) with a decorative vertical iron grille and a lower panelled section; radiator underneath; opens onto the internal terrace.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4504,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4504s",
+   "image": "frames/film_t_011504.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "French window with 7 vertical bars at the corridor end, radiator 0.6 m below.",
+  "also_seen": []
+ },
+ {
+  "id": "o91",
+  "item": "Study windows with shutters and radiators",
+  "kind": "fixture",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Three or four tall French windows with white frames and folding shutters along the study's long wall, radiators beneath, deep sills used for piles.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 4510,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4510s",
+   "image": "frames/film_t_011510.jpg"
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "4 windows 1.2 x 2.6 m at 3 m spacing.",
+  "also_seen": []
+ },
+ {
+  "id": "o92",
+  "item": "Salotto windows toward the Castello",
+  "kind": "fixture",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Windows on the outer wall of the salotto (blinds/curtains, bright daylight) through which the Castello is seen (Paris Review); a tall window at the far left of the 2022 wide shot.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3050,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3050s",
+   "image": "frames/film_t_005050.jpg"
+  },
+  "confidence": "partially-seen",
+  "modelling_note": "2 windows 1.2 x 2.6 m on the street wall.",
+  "also_seen": []
+ },
+ {
+  "id": "o93",
+  "item": "Fondazione cataloguing labels on shelf edges",
+  "kind": "object",
+  "room": "studio",
+  "bookcase": null,
+  "description": "Paper labels on shelf edges (e.g. 'Q4', 'ECO IBERICI', 'NDR TRADUZIONI', 'FRANCOFORTE', 'DELEUZE') and section tabs added during the inventory.",
+  "source": {
+   "type": "video",
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3192,
+   "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3192s",
+   "image": null
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Small white labels on the shelf lips in the study.",
+  "also_seen": []
+ },
+ {
+  "id": "o94",
+  "item": "Louisiana Channel interview setting (2015)",
+  "kind": "object",
+  "room": "salotto",
+  "bookcase": null,
+  "description": "Eco in the cognac armchair with the vitrines (shells and coral) soft-focus behind him; confirms the vitrine with natural objects stood behind the armchair in 2015.",
+  "source": {
+   "type": "video",
+   "video_id": "M8IWTOFNlOc",
+   "timestamp_s": 301,
+   "url": "https://www.youtube.com/watch?v=M8IWTOFNlOc&t=301s",
+   "image": null
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Same armchair/vitrine placement as o22.",
+  "also_seen": []
+ },
+ {
+  "id": "o95",
+  "item": "Braidense Studiolo reconstruction (not the flat)",
+  "kind": "rare-book-room-fixture",
+  "room": "antichi",
+  "bookcase": null,
+  "description": "The Braidense 'Studiolo Umberto Eco' (2022) rebuilt the rare room as a rectangle with the same cherry cabinets, oak table and exhibition cases; askanews clip shows it with visitors. Use only as a cross-check for cabinet proportions.",
+  "source": {
+   "type": "video",
+   "video_id": "iRXEQVTI95k",
+   "timestamp_s": 40,
+   "url": "https://www.youtube.com/watch?v=iRXEQVTI95k&t=40s",
+   "image": null
+  },
+  "confidence": "seen-clearly",
+  "modelling_note": "Reference only.",
+  "also_seen": []
+ }
+]

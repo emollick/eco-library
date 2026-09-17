@@ -1,0 +1,9 @@
+{
+  "_comment": "Qualifications of University of Bologna copy records whose own fields contradict one another, keyed by record id. giver_note prints in the book panel's copy section next to the catalogue's 'Autore della dedica' heading; drop_givers keeps that heading as evidence but takes the name off the 'Given to Eco' colouring and the givers list. status names the kind of problem (contradicted: the record's claim cannot be true as it stands).",
+  "UBO00189116": {
+    "giver_note": "The catalogue names Matilde Serao, one of the three novelists this book is about, as the giver. She died in 1927; the copy is from 1979 and the inscription is dated 25-6-79, so the Matilde who signed it is someone else.",
+    "drop_givers": true,
+    "status": "contradicted",
+    "source": "UNIMARC 317 'Autore della dedica: Serao, Matilde' against the record's year (1979) and the inscription's date; Matilde Serao (1856-1927), Treccani, Dizionario Biografico degli Italiani, https://www.treccani.it/enciclopedia/matilde-serao_(Dizionario-Biografico)/"
+  }
+}

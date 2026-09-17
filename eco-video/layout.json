@@ -1,0 +1,2316 @@
+{
+ "library": "Umberto Eco's library, Milan apartment",
+ "address": "Piazza Castello 13, Milan, top floor (state before the 2021 rare-book transfer and the 2026 move to Bologna)",
+ "generated": "2026-09-08",
+ "units": "metres; wall letters N/E/S/W are map-local (the true compass orientation of the flat is not documented; the Stanza degli antichi balcony faces the Castello Sforzesco)",
+ "assumptions": {
+  "bay_width_m": 0.8,
+  "half_bay_width_m": 0.4,
+  "full_height_m": 3.5,
+  "low_unit_height_m": 2.1,
+  "shelf_pitch_full_height_m": 0.32,
+  "volumes_per_shelf_metre": [
+   33,
+   40
+  ],
+  "bologna_density_volumes_per_metre": 53
+ },
+ "sources": [
+  {
+   "id": "fondazione-lebiblioteche",
+   "kind": "text",
+   "url": "https://fondazioneumbertoeco.org/en/lebiblioteche",
+   "title": "Fondazione Umberto Eco, \"Le biblioteche\"",
+   "note": "Ring-shaped flat, reinforced floors, full-height corridor shelving (literature, comics, press/media, art) leading to the big study with comb-and-island bookcases (philosophy, science, history, semiotics, books by/on Eco); Stanza degli antichi with balcony on the Castello."
+  },
+  {
+   "id": "fondazione-galleries",
+   "kind": "photo",
+   "url": "https://fondazioneumbertoeco.org/user/themes/quark/images/scrollwall/",
+   "title": "Fondazione scrollwall galleries (Studio Curti Parini): rectified frontal photographs of bookcases A-S and of the Stanza degli antichi",
+   "note": "Bay and shelf counts below were made by looking at these 650 px images; captions give the subject of each lettered bookcase."
+  },
+  {
+   "id": "criticaletteraria-2022",
+   "kind": "photo",
+   "url": "https://www.criticaletteraria.org/2022/11/blog-post_813.html",
+   "title": "CriticaLetteraria, \"Un pomeriggio nella casa-biblioteca di Umberto Eco\" (Nov 2022, photos Curti Parini)",
+   "note": "Room sequence salotto -> vestibolo -> corridoio -> studio; corridor photo (shelves one side only), two wide views of the study (comb/island units, desk, door with over-door shelves), salotto vitrines, piano, Stanza degli antichi."
+  },
+  {
+   "id": "zanni-2010",
+   "kind": "text",
+   "url": "https://aubreymcfato.com/2010/05/13/intervista-a-umberto-eco-per-wmi/",
+   "title": "Andrea Zanni, visit of 24 Apr 2010 (Wikimedia Italia)",
+   "note": "\"La libreria nel lunghissimo corridoio e solo la narrativa\"; big room: on the right a whole bookcase of his own works in translation, far right books about him, central part with the \"sezione dei cretini\" and boxes; rare-book room a small all-wood \"stanzino\" with a big lens on the table."
+  },
+  {
+   "id": "parisreview-2008",
+   "kind": "text",
+   "url": "https://www.lazanganeh.com/pdfs/paris_review_art_of_fiction.pdf",
+   "title": "Lila Azam Zanganeh, Paris Review 185 (2008), Art of Fiction 197",
+   "note": "\"labyrinth of corridors lined with bookcases that reach all the way up to extraordinarily high ceilings - thirty thousand volumes\"; study with his complete works in translation; living room with the castle in the windows, glass cases of seashells and rare comics, a lute, recorders."
+  },
+  {
+   "id": "carriere-2011",
+   "kind": "text",
+   "url": "https://archive.org/details/thisisnotendofbo0000ecou",
+   "title": "Eco & Carriere, This Is Not the End of the Book (2011)",
+   "note": "50,000 books in his various homes, 1,200 rare titles; the Castello Sforzesco library \"right across from our building\"; the rare collection is the Bibliotheca semiologica curiosa lunatica magica et pneumatica."
+  },
+  {
+   "id": "breraplus-idea",
+   "kind": "text",
+   "url": "https://breraplus.org/",
+   "title": "BreraPlus, \"The Idea of the Library\" documentary page",
+   "note": "Moved house over thirty years ago for the books, strengthened the floor, filled the corridors with bookshelves, set aside the Room of the Ancients with a balcony overlooking the Castello Sforzesco."
+  },
+  {
+   "id": "rivista-studio-2022",
+   "kind": "text",
+   "url": "https://www.rivistastudio.com/",
+   "title": "Rivista Studio, 8 May 2022 (Studiolo at the Braidense)",
+   "note": "73 boxes = 1,328 volumes; \"la stanza tutta per se originale di Eco era di forma ellittica, mentre quella in Braidense e rettangolare\"."
+  },
+  {
+   "id": "ansa-2022",
+   "kind": "text",
+   "url": "https://www.ansa.it/",
+   "title": "ANSA, 4 May 2022, Studiolo Umberto Eco",
+   "note": "Rare books were kept \"in una stanza con vista sul castello Sforzesco\"; over 1,300 titles arranged as he ordered them; flutes, sticks, comics, Peanuts figures, dog testicles in formalin on the shelves."
+  },
+  {
+   "id": "braidense-opac",
+   "kind": "catalog",
+   "url": "http://opac.braidense.it/",
+   "title": "Biblioteca Nazionale Braidense OPAC, shelfmark ECO.xx (eco-sources/braidense_eco_all.csv, 2,105 records)",
+   "note": "Shelfmark ECO.<section>.<running no.>: the running number records the order the volumes had in the author's home (Braidense, May 2022, p. 6). ECO.01 = the books on the shelves of his library (997 running numbers used, max 1107; hermetica/curiosa), ECO.02 = the books kept elsewhere in the studiolo, on the desk for example (165, max 169; 19th-c. French sets), ECO.03 = the most precious books (37, max 77: Dee 1564, Bruno 1582, Khunrath 1609, Locke 1690 alongside incunabula), ECO.04 = the library's own section of Eco's publications, created as a research tool (102): not a shelf of the flat."
+  },
+  {
+   "id": "aib-2022",
+   "kind": "catalog",
+   "url": "https://aibstudi.aib.it/article/download/13386/224",
+   "title": "Nuovo & Coletto, \"Gli incunaboli di Umberto Eco\", AIB Studi 62 (2022)",
+   "note": "36 incunabula listed; fund displayed \"nello stesso ordine ideato dal professore\"."
+  },
+  {
+   "id": "unibo-2026",
+   "kind": "text",
+   "url": "https://www.artribune.com/progettazione/2026/07/apertura-biblioteca-umberto-eco-bologna/",
+   "title": "Unibo / Artribune / Il Resto del Carlino, opening of the Biblioteca Eco in Bologna (July 2026)",
+   "note": "32,000+ volumes reinstalled on 600 linear metres in 10 thematic rooms; the Milan shelves were surveyed one by one before the move; the density there (about 53 vols/m) is an upper bound for Milan."
+  },
+  {
+   "id": "getty-1998",
+   "kind": "photo",
+   "url": "https://www.gettyimages.com/detail/news-photo/rendezvous-with-umberto-eco-at-home-in-milan-en-italie-%C3%A0-news-photo/160862244",
+   "title": "Alvaro Canovas / Paris Match, 31 Mar 1998: Eco in the Stanza degli antichi",
+   "note": "Wooden glazed cabinets with a drawer column; desk with barometer; spine \"Alchimie\" readable on a modern-reference shelf at left."
+  },
+  {
+   "id": "getty-2011",
+   "kind": "photo",
+   "url": "https://www.gettyimages.com/photos/umberto-eco-home",
+   "title": "Eric Vandeville / Gamma-Rapho, 1 Mar 2011: Eco on a ladder in the big study",
+   "note": "Black round table, white full-height shelving with a rail at about 2.3 m, low double-sided island unit with green box files, ceiling about 3.5 m."
+  },
+  {
+   "id": "flickr-2011",
+   "kind": "photo",
+   "url": "https://www.flickr.com/photos/mglarsen/5772998464",
+   "title": "Martin Gruner Larsen, Flickr, 9 May 2011: Eco in front of the bookcase of his own works",
+   "note": "Bookcase Q: 6+ bays, sliding ladder on a rail, \"ECO\" spines readable; second frame shows a low unit with cupboards below (N/O type) and \"SAINTE-BEUVE PORT-ROYAL\"."
+  },
+  {
+   "id": "zanni-photo-2010",
+   "kind": "photo",
+   "url": "https://aubreymcfato.com/wp-content/uploads/2010/05/umberto_eco_in_his_house_banner.jpg",
+   "title": "Andrea Zanni, 24 Apr 2010 (CC BY-SA): salotto vitrines and wooden cabinet",
+   "note": "Three glass display cases with open antique illustrated books and shells; dark wooden bookcase with CDs and hi-fi behind."
+  },
+  {
+   "id": "video-ferrario-2015-1",
+   "kind": "video",
+   "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc",
+   "title": "Umberto Eco, Sulla memoria (Davide Ferrario, 2015), parte 1",
+   "note": "Tracking walk through the corridors at the end of each part (source of the viral 80 s clip). Its captions were read; no frames of it are cited."
+  },
+  {
+   "id": "video-ferrario-2015-2",
+   "kind": "video",
+   "url": "https://www.youtube.com/watch?v=zj1kwT87ne0",
+   "title": "Sulla memoria, parte 2",
+   "note": "As part 1."
+  },
+  {
+   "id": "video-ferrario-2015-3",
+   "kind": "video",
+   "url": "https://www.youtube.com/watch?v=B-M8V0PcCrw",
+   "title": "Sulla memoria, parte 3",
+   "note": "As part 1."
+  },
+  {
+   "id": "video-biblioteca-del-mondo-clip",
+   "kind": "video",
+   "url": "https://www.youtube.com/watch?v=ygvl-_gtAP8",
+   "title": "Clip from \"Umberto Eco - La biblioteca del mondo\" (Ferrario 2022), English subtitles",
+   "note": "00:00:53-00:01:02 \"The house is big otherwise I wouldn't know where to put the books. I was evicted from the last one after an inspection by the city engineers because they were afraid the floors would collapse\"; 00:01:22 \"When I arrived 25 years ago they were 30,000\"; 00:01:38 \"They are my books, translations... and they are books on me\" (spoken in front of bookcase Q / M-B)."
+  },
+  {
+   "id": "video-corriere-bologna-2026",
+   "kind": "video",
+   "url": "https://www.youtube.com/watch?v=NtPk4irDiM8",
+   "title": "Corriere della Sera, 3 Jul 2026: the 32,000 books arranged as in the Milan house",
+   "note": "Bologna reinstallation, same order; not the apartment."
+  },
+  {
+   "id": "video-telecity-2026",
+   "kind": "video",
+   "url": "https://www.youtube.com/watch?v=KZfOaug0mM4",
+   "title": "Telecity News 24, 3 Jul 2026",
+   "note": "00:00:47-00:01:05 lists the thematic rooms in Bologna: comics and popular culture, works by/on Eco, ancient and medieval philosophy, history of ideas, semiotics, translation and theory of languages, world literatures on time-lines, Kabbalah/magic/alchemy/occultism."
+  },
+  {
+   "id": "video-askanews-studiolo-2022",
+   "kind": "video",
+   "url": "https://www.youtube.com/watch?v=iRXEQVTI95k",
+   "title": "askanews, 5 May 2022: Studiolo Umberto Eco at the Braidense",
+   "note": "Reconstructed rare-book room (rectangular); 1,300 volumes, 36 incunabula."
+  },
+  {
+   "id": "braidense-studiolo-2022",
+   "kind": "document",
+   "title": "Biblioteca Nazionale Braidense, 'L'idea della biblioteca. La collezione di libri antichi di Umberto Eco alla Biblioteca Nazionale Braidense', press kit, 4 May 2022 (p. 6: the transfer of August 2021, 73 boxes, 1,328 volumes; the shelfmark sections ECO.01 to ECO.04)",
+   "url": "https://bibliotecabraidense.org/wp-content/uploads/2023/01/Braidense-Umberto-Eco-studiolo.pdf",
+   "note": "The library's own account of the catalogue: the running number records the order the volumes had in the author's home; ECO.04 gathers the author's publications as research tools."
+  }
+ ],
+ "rooms": [
+  {
+   "id": "salotto",
+   "name": "Living room",
+   "name_it": "Salotto",
+   "order": 1,
+   "blurb": "Modern furnishings, the Castello Sforzesco in the windows, glass display cases with open antique illustrated books, seashells and rare comics, a lute and recorders (parisreview-2008, zanni-photo-2010). In 2022 the guided visit started here: art books, \"libri da esposizione\", encyclopaedias and atlases, and the vitrine in which Eco displayed the books of his current research (criticaletteraria-2022). The plaster statue and the three vitrines stand on the W wall beside the vestibule door, the cases 1.2 m out from the wall with the credenza and the dining table behind them, the curiosity cabinet and a second door on the E wall, the piano on the door wall; no wall of library books is in the room (bookcase E stands in the art corridor).",
+   "approx_size_m": [
+    7.5,
+    7.6
+   ],
+   "size_note": "7.5 (E-W) x 7.6 (N-S) m from the wall sequences of the footage (eco-video/salotto/salotto_layout.json); drawn at that size (ROOM_PLAN origin [0, -0.6]: the door wall stays at world z 7.0 against the vestibule, the room grows north and east; the rare-book room moves 1 m east with it)",
+   "door": {
+    "wall": "S",
+    "offset_m": 1.0,
+    "note": "vestibule door, white leaf with a mirror panel and a glazed transom, hinged on the E jamb; the footage puts it 0.3-0.7 m from the SW corner, offset 1.0 kept so the vestibule N-wall door (offset 0.5 = x 1.0-1.9) and the 2015 walk path (x 1.5) stay aligned"
+   },
+   "doors_extra": [
+    {
+     "wall": "E",
+     "offset_m": 3.1,
+     "width_m": 0.9,
+     "note": "door 2: white leaf standing open into the room at 50:51, closed in the Curti Parini photo; destination not walked in any footage; z 3.3-4.2 from the window wall in the footage reading (salotto_layout.json door-2), the chrome floor lamp and the burnt-book assemblage S of it, the curiosity cabinet beyond"
+    }
+   ],
+   "windows": [
+    {
+     "wall": "N",
+     "offset_m": 2.5,
+     "width_m": 1.2,
+     "height_m": 2.6,
+     "radiator": true,
+     "note": "window 1, French window with a radiator below it, the Castello tower in the view (03:50, 05:08); offsets from the W end of the wall; the page draws the window"
+    },
+    {
+     "wall": "N",
+     "offset_m": 5.1,
+     "width_m": 1.2,
+     "height_m": 2.6,
+     "note": "window 2, seen at the far left of 50:51 (medium)"
+    },
+    {
+     "wall": "W",
+     "offset_m": 3.6,
+     "width_m": 1.2,
+     "height_m": 2.4,
+     "note": "bright opening (window or glazed door) behind vitrines 1-2 (medium); offset from the N end of the wall; drawn as a window behind the free-standing cases"
+    }
+   ],
+   "sources": [
+    "parisreview-2008",
+    "criticaletteraria-2022",
+    "zanni-photo-2010",
+    "zanni-2010",
+    "fondazione-galleries",
+    "video-film-2022"
+   ],
+   "furniture": [
+    "white slip-covered sofas and armchairs around the coffee table with piles of new books",
+    "tan leather club armchair in front of the vitrines",
+    "upright piano with piles of books (criticaletteraria-2022)",
+    "plaster statue beside vitrine 1",
+    "TV",
+    "glazed curiosity cabinet",
+    "credenza with CDs and hi-fi behind the vitrines",
+    "dining table with six chairs in the NW pocket",
+    "lectern, small book table, folding stool and low chest at the windows"
+   ],
+   "walls": [
+    {
+     "wall_id": "salotto-N",
+     "wall_name": "Window wall (Castello side): chest with three paintings, chrome lamp, stool, lectern and small table at window 1, ropes painting, window 2, corner drawings",
+     "wall": "N",
+     "order": 1,
+     "bookcases": []
+    },
+    {
+     "wall_id": "salotto-E",
+     "wall_name": "Cabinet wall: blank corner, door 2, chrome lamp, burnt-book assemblage, glazed curiosity cabinet, small gilt painting and the TV in the SE corner",
+     "wall": "E",
+     "order": 2,
+     "bookcases": [
+      {
+       "id": "salotto-wood",
+       "label": "Glazed dark pine cabinet of curiosities (bat skeleton, saint bust, ostrich egg, clock, oval family photographs, bottles; not a book run)",
+       "order": 1,
+       "offset_m": 4.42,
+       "width_m": 2.4,
+       "height_m": 2.3,
+       "shelves": 4,
+       "subject": "Objects, curiosities; a few books",
+       "subject_it": "Oggetti, curiosita'; pochi libri",
+       "fondazione_bay": null,
+       "source_ids": [
+        "video-film-2022",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Film 05:07-05:15 pan (glazed top, three bays), 50:51 wide (E wall S of door 2, burnt-book assemblage between door and cabinet) and photo criticaletteraria_2022_7 (left frame, frontal). E wall, z 4.5-6.9 from the N corner (the film gives 4.6-7.0); door 2 at z 3.1-4.0; the small gilt painting and the TV in the corner S of it. In the 2010 Zanni photograph its objects were still in the credenza behind the vitrines.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.5,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 9.6,
+       "est_volumes": [
+        316,
+        384
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "salotto-S",
+     "wall_name": "Door wall: vestibule door at the W end, the arc lamp beside it, the gilt and the dark-framed paintings over sofa A, the piano with two drawings above it at the E end, the blue tile panel and the 'eco' print beside the piano",
+     "wall": "S",
+     "order": 3,
+     "bookcases": []
+    },
+    {
+     "wall_id": "salotto-W",
+     "wall_name": "Display wall: side cabinet and prints in the door corner, 'fine' canvas, plaster statue, the three vitrines 1.2 m out from the wall, bright opening, credenza with CDs and hi-fi, dining pocket",
+     "wall": "W",
+     "order": 4,
+     "bookcases": [
+      {
+       "id": "salotto-vetrine",
+       "label": "Three glass display cases (vetrine): open antique illustrated books, shells, mirabilia; case 1 (S end) beside the plaster statue",
+       "order": 1,
+       "offset_m": 2.52,
+       "setback_m": 1.2,
+       "width_m": 2.4,
+       "height_m": 1.9,
+       "shelves": 5,
+       "subject": "Display cases: open antique illustrated books, seashells, rare comics",
+       "subject_it": "Vetrine: libri antichi illustrati aperti, conchiglie, fumetti rari",
+       "fondazione_bay": null,
+       "source_ids": [
+        "video-film-2022",
+        "zanni-photo-2010",
+        "criticaletteraria-2022",
+        "parisreview-2008"
+       ],
+       "evidence": "Film 74:03-74:13 wide (statue, then cases 1-3 with the credenza behind), 64:00 (cases 1-2 behind Eco in the club armchair, statue and vestibule door handle at left), 09:42, photo criticaletteraria_2022_1 (statue immediately left of case 1; steel-and-glass cases about 0.8 x 0.45 x 1.9 m each). W wall, z 2.6-5.0 from the N corner (offset_m 2.52 from the S end; the statue at z 5.3-5.9 and the canvas and prints beyond it). The row stands free about 1.2 m in front of the wall, with the bright opening and the credenza behind it and the club armchair just in front of cases 1-2. Drawn as three glazed cases with their contents (open books, standing volumes, shells); they hold no library slots.",
+       "confidence": "high",
+       "kind": "display",
+       "depth_m": 0.45,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 12.0,
+       "est_volumes": null,
+       "note_v5": "kind 'display' units get no filler slots: their contents are drawn from the footage, not as spines"
+      }
+     ]
+    }
+   ],
+   "shelf_metres_m": 21.6
+  },
+  {
+   "id": "vestibolo",
+   "name": "Entrance hall / vestibule",
+   "name_it": "Ingresso / vestibolo",
+   "order": 2,
+   "blurb": "The 2022 visit passes from the salotto into a vestibule with a shelf for Joyce and shelves of Kabbalah, mystery, magic, the Templars, the devil and alchemy (criticaletteraria-2022), which matches Fondazione bookcases B and D. The turn-of-the-century lift lands the visitor in \"a labyrinth of corridors lined with bookcases\" (parisreview-2008). Drawn as a 3 x 4.5 m passage running from the salotto door to the corridor door (D on the corridor side, C on the end wall, B and the coats and prints opposite); the rare-book room opens off the start of the corridor just beyond it.",
+   "approx_size_m": [
+    3.0,
+    4.5
+   ],
+   "door": {
+    "wall": "N",
+    "offset_m": 0.5,
+    "note": "door from the salotto (the salotto door sits at 1.0-1.9 m along its S wall; both offsets are measured from the wall start on the room-origin side)"
+   },
+   "sources": [
+    "criticaletteraria-2022",
+    "fondazione-galleries",
+    "parisreview-2008",
+    "video-telecity-2026"
+   ],
+   "walls": [
+    {
+     "wall_id": "vest-W",
+     "wall_name": "Joyce and Kabbalah wall",
+     "wall": "W",
+     "order": 1,
+     "bookcases": [
+      {
+       "id": "vest-B",
+       "label": "Bookcase B: Jewish thought, magic, Kabbalah, Joyce",
+       "order": 1,
+       "width_m": 2.0,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "Jewish thought, magic, Kabbalah, and Joyce",
+       "subject_it": "Pensiero ebraico, magia, Cabala e Joyce",
+       "fondazione_bay": "B",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 06_B: two 0.8 m bays plus a 0.4 m half bay, 11 shelves (4 above the ladder rail, 7 below), full height. Room placement from the 2022 account of the vestibule (\"uno scaffale per Joyce; Cabala, mistero, magia...\").",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.4
+       ],
+       "shelf_metres_m": 22.0,
+       "est_volumes": [
+        726,
+        880
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "vest-S",
+     "wall_name": "Door wall to the corridor (bookcase D around the doorway)",
+     "wall": "E",
+     "order": 2,
+     "bookcases": [
+      {
+       "id": "vest-D",
+       "label": "Bookcase D: esotericism, encyclopedism, alchemy (door surround: two full bays and a two-bay bridge over the door)",
+       "order": 1,
+       "width_m": 3.2,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "Esotericism, encyclopedism, alchemy",
+       "subject_it": "Esoterismo, enciclopedismo, alchimia",
+       "fondazione_bay": "D",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 07_D: a doorway (c. 1.6 m wide, 2.1 m high) flanked by two 11-shelf bays, with 2 bays x 5 shelves bridging above the door. The door is assumed to be the vestibule-to-corridor passage (medium): it could equally be the salotto door.",
+       "confidence": "medium",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 4,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "door_span_m": [
+        0.8,
+        2.4
+       ],
+       "door_bay_indexes": [
+        1,
+        2
+       ],
+       "shelves_over_door": 5,
+       "shelves_side_bays": 11,
+       "shelf_metres_m": 25.6,
+       "est_volumes": [
+        844,
+        1024
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "vest-E",
+     "wall_name": "End wall: books on books (C), the GOSH! picture beside it",
+     "wall": "S",
+     "order": 3,
+     "bookcases": [
+      {
+       "id": "vest-C",
+       "label": "Bookcase C: books on books",
+       "order": 1,
+       "width_m": 2.0,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "Books on books",
+       "subject_it": "Libri sui libri",
+       "fondazione_bay": "C",
+       "source_ids": [
+        "fondazione-galleries"
+       ],
+       "evidence": "Fondazione gallery 05_C: a 0.4 m half bay plus two 0.8 m bays, 11 shelves, full height (several shelves half empty, some fine bindings). Placed in the vestibule only because C sits between B and D in the Fondazione lettering; no text places it.",
+       "confidence": "low",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.4,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 22.0,
+       "est_volumes": [
+        726,
+        880
+       ]
+      }
+     ]
+    }
+   ],
+   "shelf_metres_m": 69.6
+  },
+  {
+   "id": "corridoio",
+   "name": "Long corridor (bookcase A)",
+   "name_it": "Corridoio lungo",
+   "order": 4,
+   "blurb": "\"La libreria nel lunghissimo corridoio e solo la narrativa\" (zanni-2010): the \"bosco narrativo\", Italian and French authors at eye level from Dante to contemporaries, comics on the highest and lowest shelves - Topolino, Sturmtruppen, Mandrake, Linus, Peanuts, Asterix, Corriere dei Piccoli (criticaletteraria-2022). The Fondazione survey photographs it as bookcase A, 25 bays of 11 shelves on one side of a c. 1.6 m wide corridor with a ladder rail (fondazione-galleries).",
+   "approx_size_m": [
+    20.8,
+    1.6
+   ],
+   "door": {
+    "wall": "W",
+    "offset_m": 0.05,
+    "width_m": 1.45,
+    "note": "doorway of bookcase D (vestibule side)"
+   },
+   "sources": [
+    "fondazione-galleries",
+    "fondazione-lebiblioteche",
+    "criticaletteraria-2022",
+    "zanni-2010",
+    "parisreview-2008",
+    "video-ferrario-2015-1",
+    "video-ferrario-2015-2",
+    "video-ferrario-2015-3"
+   ],
+   "walls": [
+    {
+     "wall_id": "corr-S",
+     "wall_name": "Shelved side of the corridor (25 bays, sliding ladder)",
+     "wall": "S",
+     "order": 1,
+     "bookcases": [
+      {
+       "id": "corridor-01",
+       "label": "Corridor bay 1 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 1,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A1",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 08_A-da 1 a 6: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bay 1 top shelves hold uniform hardback sets (Meridiani-type); bays 3-6 include multi-volume sets and a yellow paperback run. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-02",
+       "label": "Corridor bay 2 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 2,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A2",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 08_A-da 1 a 6: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bay 1 top shelves hold uniform hardback sets (Meridiani-type); bays 3-6 include multi-volume sets and a yellow paperback run. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-03",
+       "label": "Corridor bay 3 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 3,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A3",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 08_A-da 1 a 6: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bay 1 top shelves hold uniform hardback sets (Meridiani-type); bays 3-6 include multi-volume sets and a yellow paperback run. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-04",
+       "label": "Corridor bay 4 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 4,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A4",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 08_A-da 1 a 6: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bay 1 top shelves hold uniform hardback sets (Meridiani-type); bays 3-6 include multi-volume sets and a yellow paperback run. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-05",
+       "label": "Corridor bay 5 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 5,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A5",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 08_A-da 1 a 6: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bay 1 top shelves hold uniform hardback sets (Meridiani-type); bays 3-6 include multi-volume sets and a yellow paperback run. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-06",
+       "label": "Corridor bay 6 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 6,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A6",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 08_A-da 1 a 6: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bay 1 top shelves hold uniform hardback sets (Meridiani-type); bays 3-6 include multi-volume sets and a yellow paperback run. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-07",
+       "label": "Corridor bay 7 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 7,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A7",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 09_A-da 7 a 12: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top shelves carry horizontal stacks of comics/magazines (the 2022 account: comics on the highest and lowest shelves). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-08",
+       "label": "Corridor bay 8 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 8,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A8",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 09_A-da 7 a 12: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top shelves carry horizontal stacks of comics/magazines (the 2022 account: comics on the highest and lowest shelves). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-09",
+       "label": "Corridor bay 9 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 9,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A9",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 09_A-da 7 a 12: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top shelves carry horizontal stacks of comics/magazines (the 2022 account: comics on the highest and lowest shelves). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-10",
+       "label": "Corridor bay 10 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 10,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A10",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 09_A-da 7 a 12: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top shelves carry horizontal stacks of comics/magazines (the 2022 account: comics on the highest and lowest shelves). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-11",
+       "label": "Corridor bay 11 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 11,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A11",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 09_A-da 7 a 12: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top shelves carry horizontal stacks of comics/magazines (the 2022 account: comics on the highest and lowest shelves). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-12",
+       "label": "Corridor bay 12 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 12,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A12",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 09_A-da 7 a 12: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top shelves carry horizontal stacks of comics/magazines (the 2022 account: comics on the highest and lowest shelves). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-13",
+       "label": "Corridor bay 13 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 13,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A13",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 10_A-da 13 a 18: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top two shelves hold red box files and comic albums; bottom shelf of bays 13-15 has blue bound volumes lying flat (Linus/Corriere dei Piccoli type runs). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-14",
+       "label": "Corridor bay 14 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 14,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A14",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 10_A-da 13 a 18: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top two shelves hold red box files and comic albums; bottom shelf of bays 13-15 has blue bound volumes lying flat (Linus/Corriere dei Piccoli type runs). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-15",
+       "label": "Corridor bay 15 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 15,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A15",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 10_A-da 13 a 18: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top two shelves hold red box files and comic albums; bottom shelf of bays 13-15 has blue bound volumes lying flat (Linus/Corriere dei Piccoli type runs). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-16",
+       "label": "Corridor bay 16 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 16,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A16",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 10_A-da 13 a 18: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top two shelves hold red box files and comic albums; bottom shelf of bays 13-15 has blue bound volumes lying flat (Linus/Corriere dei Piccoli type runs). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-17",
+       "label": "Corridor bay 17 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 17,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A17",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 10_A-da 13 a 18: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top two shelves hold red box files and comic albums; bottom shelf of bays 13-15 has blue bound volumes lying flat (Linus/Corriere dei Piccoli type runs). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-18",
+       "label": "Corridor bay 18 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 18,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A18",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 10_A-da 13 a 18: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Top two shelves hold red box files and comic albums; bottom shelf of bays 13-15 has blue bound volumes lying flat (Linus/Corriere dei Piccoli type runs). One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-19",
+       "label": "Corridor bay 19 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 19,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A19",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 11_A-da 19 a 25: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bays 19-25: top shelves with albums and box files; the last panel shows 7 bays. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-20",
+       "label": "Corridor bay 20 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 20,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A20",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 11_A-da 19 a 25: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bays 19-25: top shelves with albums and box files; the last panel shows 7 bays. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-21",
+       "label": "Corridor bay 21 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 21,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A21",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 11_A-da 19 a 25: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bays 19-25: top shelves with albums and box files; the last panel shows 7 bays. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-22",
+       "label": "Corridor bay 22 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 22,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A22",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 11_A-da 19 a 25: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bays 19-25: top shelves with albums and box files; the last panel shows 7 bays. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-23",
+       "label": "Corridor bay 23 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 23,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A23",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 11_A-da 19 a 25: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bays 19-25: top shelves with albums and box files; the last panel shows 7 bays. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-24",
+       "label": "Corridor bay 24 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 24,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A24",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 11_A-da 19 a 25: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bays 19-25: top shelves with albums and box files; the last panel shows 7 bays. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      },
+      {
+       "id": "corridor-25",
+       "label": "Corridor bay 25 of 25 (bookcase A): world literatures, studies, comics",
+       "order": 25,
+       "width_m": 0.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "World literatures - texts, studies, comics",
+       "subject_it": "Letterature del mondo - testi, studi, fumetti",
+       "fondazione_bay": "A25",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "zanni-2010",
+        "video-ferrario-2015-1"
+       ],
+       "evidence": "Fondazione gallery panel 11_A-da 19 a 25: 11 shelves (4 above the ladder rail, 7 below), c. 0.8 m wide, c. 3.5 m high. Bays 19-25: top shelves with albums and box files; the last panel shows 7 bays. One-sided corridor: photo criticaletteraria_2022_3 shows shelves on one side and framed prints on the other. Shown in the Ferrario 2015 tracking walks.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 1,
+       "bay_widths_m": [
+        0.8
+       ],
+       "shelf_metres_m": 8.8,
+       "est_volumes": [
+        290,
+        352
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "corr-N",
+     "wall_name": "Opposite side: framed prints, no shelves",
+     "wall": "N",
+     "order": 2,
+     "bookcases": []
+    }
+   ],
+   "shelf_metres_m": 220.0,
+   "doors_extra": [
+    {
+     "wall": "N",
+     "offset_m": 4.5,
+     "note": "door of the Stanza degli antichi, on the print wall near the start of the corridor; 4.5 m from the corridor start"
+    }
+   ]
+  },
+  {
+   "id": "corridoio-arte",
+   "name": "Second corridor leg (art, theatre, music)",
+   "name_it": "Secondo corridoio (arte)",
+   "order": 5,
+   "blurb": "The Fondazione describes the corridor shelving as running from literature and comics through \"stampa, comunicazione e mass media, arte e iconologia\" to the study, in a ring-shaped flat (fondazione-lebiblioteche). Bookcases H, G and F (contemporary art, theatre, music; architecture, design, labyrinths; aesthetics and photography) are placed on this second leg because no photographed study wall has room for them; the room itself is not photographed (fondazione-galleries).",
+   "approx_size_m": [
+    10.0,
+    1.6
+   ],
+   "door": {
+    "wall": "W",
+    "offset_m": 0.4
+   },
+   "sources": [
+    "fondazione-lebiblioteche",
+    "fondazione-galleries"
+   ],
+   "walls": [
+    {
+     "wall_id": "corr2-S",
+     "wall_name": "Shelved side",
+     "wall": "S",
+     "order": 1,
+     "bookcases": [
+      {
+       "id": "corridor2-H",
+       "label": "Bookcase H: contemporary art, theatre, music (7 bays)",
+       "order": 1,
+       "width_m": 5.6,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "Contemporary art, theatre, music",
+       "subject_it": "Arte contemporanea, teatro, musica",
+       "fondazione_bay": "H",
+       "source_ids": [
+        "fondazione-galleries"
+       ],
+       "evidence": "Fondazione gallery 02_H: 7 bays, 11 shelves (4 above the rail, 7 below), full height; exhibition catalogues, box files. Room placement is a guess (see room blurb).",
+       "confidence": "low",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 7,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 61.6,
+       "est_volumes": [
+        2032,
+        2464
+       ]
+      },
+      {
+       "id": "corridor2-G",
+       "label": "Bookcase G: architecture, design, labyrinths (2 bays)",
+       "order": 2,
+       "width_m": 1.6,
+       "height_m": 3.5,
+       "shelves": 10,
+       "subject": "Architecture, design, labyrinths",
+       "subject_it": "Architettura, design, labirinti",
+       "fondazione_bay": "G",
+       "source_ids": [
+        "fondazione-galleries"
+       ],
+       "evidence": "Fondazione gallery 03_G: 2 bays, 10 shelves visible (3 above the rail incl. box files and folders, 7 below); the top of the unit is cropped, so 11 is possible. Room placement is a guess.",
+       "confidence": "low",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 2,
+       "bay_widths_m": [
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 16.0,
+       "est_volumes": [
+        528,
+        640
+       ]
+      },
+      {
+       "id": "corridor2-F",
+       "label": "Bookcase F: aesthetics and photography (2 bays)",
+       "order": 3,
+       "width_m": 1.6,
+       "height_m": 3.5,
+       "shelves": 10,
+       "subject": "Aesthetics and photography",
+       "subject_it": "Estetica e fotografia",
+       "fondazione_bay": "F",
+       "source_ids": [
+        "fondazione-galleries"
+       ],
+       "evidence": "Fondazione gallery 04_F: 2 bays, 10 shelves visible (3 above the rail, 7 below), orange Einaudi-type run at mid height. Room placement is a guess.",
+       "confidence": "low",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 2,
+       "bay_widths_m": [
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 16.0,
+       "est_volumes": [
+        528,
+        640
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "corr2-N",
+     "wall_name": "Opposite side: framed prints; bookcase E (ancient art) stands here, position a guess",
+     "wall": "N",
+     "order": 2,
+     "bookcases": [
+      {
+       "id": "salotto-E",
+       "label": "Bookcase E: ancient art and art catalogues (low white unit), on the print side of the art corridor",
+       "order": 1,
+       "width_m": 4.0,
+       "height_m": 2.1,
+       "shelves": 5,
+       "subject": "Ancient art and art catalogues",
+       "subject_it": "Arte antica e cataloghi d'arte",
+       "fondazione_bay": "E",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 01_E: 5 bays x 5 tall shelves of large art books. No salotto frame or photograph shows this unit and all four salotto walls are accounted for; the 06:45 shot of 'art books on white shelves' behind a red-clothed table is doubtful and shows a visitor, not Eco. The Fondazione text puts 'arte e iconologia' in the corridors, so it stands on the N wall of the art corridor opposite F and G. Wall and position are a guess.",
+       "confidence": "low",
+       "kind": "low",
+       "depth_m": 0.32,
+       "bays": 5,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 20.0,
+       "est_volumes": [
+        660,
+        800
+       ],
+       "offset_m": 4.9,
+       "position_note_v5": "on the art corridor N wall; the unit's id salotto-E is kept for the placements"
+      }
+     ]
+    }
+   ],
+   "shelf_metres_m": 113.6
+  },
+  {
+   "id": "studio",
+   "name": "The big study",
+   "name_it": "Lo studio grande",
+   "order": 6,
+   "blurb": "Reached at the end of the corridors: \"il grande studio di Umberto Eco, con biblioteche dalla complessa struttura a pettine e isola\" holding philosophy, science, history, philology, mnemonics, puzzles, publishing, linguistics and semiotics, and the books by and on Eco (fondazione-lebiblioteche). Behind the desk the working tools (dictionaries, lexica); one whole wall of philosophy from the Presocratics, the opposite side semiotics, linguistics and literary theory; his own works in 60+ languages on the right and books about him at the far right (criticaletteraria-2022, zanni-2010); a black round table, sliding ladders and a black sofa appear in the 2011 and 2022 photographs (getty-2011, criticaletteraria-2022).",
+   "approx_size_m": [
+    14.0,
+    10.0
+   ],
+   "door": {
+    "wall": "N",
+    "offset_m": 2.0
+   },
+   "sources": [
+    "fondazione-lebiblioteche",
+    "fondazione-galleries",
+    "criticaletteraria-2022",
+    "zanni-2010",
+    "parisreview-2008",
+    "getty-2011",
+    "flickr-2011",
+    "video-biblioteca-del-mondo-clip"
+   ],
+   "furniture": [
+    "desk with computer near the E wall (criticaletteraria_2022_5)",
+    "black round table (getty-2011)",
+    "two sliding ladders on the rails (flickr-2011, getty-2011)",
+    "black leather sofa (criticaletteraria_2022_5)",
+    "ceiling fans",
+    "boxes of books to give away (zanni-2010)"
+   ],
+   "walls": [
+    {
+     "wall_id": "studio-N",
+     "wall_name": "Philosophy wall: I (door) then L1-12, ancient to modern",
+     "wall": "N",
+     "order": 1,
+     "bookcases": [
+      {
+       "id": "study-I",
+       "label": "Bookcase I: ancient, late antique and Christian philosophy (door surround, 5 bays)",
+       "order": 1,
+       "width_m": 4.0,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "Ancient, Late Antique, and Christian philosophy",
+       "subject_it": "Filosofia antica, tardoantica e cristiana",
+       "fondazione_bay": "I",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 17_I: bays 1-2 and 4-5 full height (11 shelves), bay 3 is a doorway (c. 0.8 m wide, 2.1 m high) with 4 shelves above it. Identified with the corridor door seen with over-door shelving in photo criticaletteraria_2022_5. Start of the \"whole wall of philosophy from the Presocratics\" (2022 visit).",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 5,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "door_span_m": [
+        1.6,
+        2.4
+       ],
+       "door_bay_indexes": [
+        2
+       ],
+       "shelves_over_door": 4,
+       "shelves_side_bays": 11,
+       "shelf_metres_m": 38.4,
+       "est_volumes": [
+        1267,
+        1536
+       ]
+      },
+      {
+       "id": "study-L1-4",
+       "label": "Bookcase L, bays 1-4: encyclopedias and medieval philosophy",
+       "order": 2,
+       "width_m": 3.2,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "Encyclopedias and medieval philosophy",
+       "subject_it": "Enciclopedie e filosofia medievale",
+       "fondazione_bay": "L1-4",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 14_L1-4: 4 bays, 11 shelves; bay 1 holds uniform reference sets (Patrologia-type cream volumes on 4 shelves). Same wall as I by subject sequence (medium: the L run could turn a corner).",
+       "confidence": "medium",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 4,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 35.2,
+       "est_volumes": [
+        1161,
+        1408
+       ]
+      },
+      {
+       "id": "study-L5-7",
+       "label": "Bookcase L, bays 5-7: history of ideas",
+       "order": 3,
+       "width_m": 2.4,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "History of ideas",
+       "subject_it": "Storia delle idee",
+       "fondazione_bay": "L5-7",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 15_L5-7: 3 bays, 11 shelves, several half-empty upper shelves.",
+       "confidence": "medium",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 26.4,
+       "est_volumes": [
+        871,
+        1056
+       ]
+      },
+      {
+       "id": "study-L8-12",
+       "label": "Bookcase L, bays 8-12: Renaissance and modern philosophy, 20th-century history",
+       "order": 4,
+       "width_m": 3.6,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "Renaissance and modern philosophy, 20th-century history",
+       "subject_it": "Filosofia rinascimentale e moderna, storia del Novecento",
+       "fondazione_bay": "L8-12",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 16_L8-12: a 0.4 m half bay plus 4 full bays, 11 shelves; Laterza philosopher paperbacks (Berkeley, Locke, Hume, Montesquieu, Voltaire, Schelling) on the middle shelves.",
+       "confidence": "medium",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 5,
+       "bay_widths_m": [
+        0.4,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 39.6,
+       "est_volumes": [
+        1306,
+        1584
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "studio-S",
+     "wall_name": "Semiotics wall: P (opposite the philosophy wall), windows beyond",
+     "wall": "S",
+     "order": 2,
+     "bookcases": [
+      {
+       "id": "study-P",
+       "label": "Bookcase P: text theory, linguistics, semiotics, philosophy of language and mind, logic (10 bays)",
+       "order": 1,
+       "width_m": 8.0,
+       "height_m": 3.5,
+       "shelves": 10,
+       "subject": "Text theory, linguistics, semiotics, philosophy of language and mind, logic",
+       "subject_it": "Teoria del testo, linguistica, semiotica, filosofia del linguaggio e della mente, logica",
+       "fondazione_bay": "P",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 13_P: 10 bays, 10 shelves (4 above the rail, 6 below), black box files on the bottom shelf. The same box-file bottom row identifies P as the long left wall in photos criticaletteraria_2022_11/13, i.e. the \"opposite side\" with semiotics and linguistics of the 2022 account. Width c. 8 m.",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 10,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 80.0,
+       "est_volumes": [
+        2640,
+        3200
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "studio-E",
+     "wall_name": "Eco wall: Q (his own works) with R and S beside it",
+     "wall": "E",
+     "order": 3,
+     "bookcases": [
+      {
+       "id": "study-Q",
+       "label": "Bookcase Q: books by Eco and translations into 40 languages (6 bays)",
+       "order": 1,
+       "width_m": 4.8,
+       "height_m": 3.5,
+       "shelves": 11,
+       "subject": "Books by Eco and translations into 40 languages",
+       "subject_it": "Libri di Eco e traduzioni in 40 lingue",
+       "fondazione_bay": "Q",
+       "source_ids": [
+        "fondazione-galleries",
+        "flickr-2011",
+        "parisreview-2008",
+        "zanni-2010",
+        "video-biblioteca-del-mondo-clip"
+       ],
+       "evidence": "Fondazione gallery 12_Q: 6 bays, 11 shelves, sliding ladder rail; the Flickr 2011 photo shows Eco in front of it with \"ECO\" spines legible. Zanni 2010: \"sulla destra un'intera libreria di libri scritti da lui e tradotti in ogni lingua\". Film clip ygvl-_gtAP8 00:01:38 \"They are my books, translations...\".",
+       "confidence": "high",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 6,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 52.8,
+       "est_volumes": [
+        1742,
+        2112
+       ]
+      },
+      {
+       "id": "study-R",
+       "label": "Bookcase R: miscellany of psychology and sociology (3 bays, 2 m high)",
+       "order": 2,
+       "width_m": 2.4,
+       "height_m": 2.1,
+       "shelves": 6,
+       "subject": "Miscellany of psychology and sociology",
+       "subject_it": "Miscellanea di psicologia e sociologia",
+       "fondazione_bay": "R",
+       "source_ids": [
+        "fondazione-galleries"
+       ],
+       "evidence": "Fondazione gallery 25_R: 3 bays, 6 shelves, c. 2.1 m high, no cupboard. Position beside Q is a guess (it is photographed as a wall unit, not an island).",
+       "confidence": "low",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 14.4,
+       "est_volumes": [
+        475,
+        576
+       ]
+      },
+      {
+       "id": "study-S",
+       "label": "Bookcase S: psychoanalysis, anthropology, sociology, publishing (3 bays, 2 m high)",
+       "order": 3,
+       "width_m": 2.4,
+       "height_m": 2.1,
+       "shelves": 5,
+       "subject": "Psychoanalysis, anthropology, sociology, and publishing",
+       "subject_it": "Psicoanalisi, antropologia, sociologia ed editoria",
+       "fondazione_bay": "S",
+       "source_ids": [
+        "fondazione-galleries"
+       ],
+       "evidence": "Fondazione gallery 26_S: 3 bays, 5 tall shelves, c. 2.1 m high (a uniform black set on the top shelf). Position is a guess.",
+       "confidence": "low",
+       "kind": "wall",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 12.0,
+       "est_volumes": [
+        396,
+        480
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "studio-free",
+     "wall_name": "Comb and island units in the middle of the room",
+     "wall": "free",
+     "order": 4,
+     "bookcases": [
+      {
+       "id": "study-M-A",
+       "label": "Island M, face A: continental philosophy, philosophical miscellany (5 bays, 6 shelves)",
+       "order": 1,
+       "width_m": 4.0,
+       "height_m": 2.1,
+       "shelves": 6,
+       "subject": "Continental philosophy, philosophical miscellany",
+       "subject_it": "Filosofia continentale, miscellanea filosofica",
+       "fondazione_bay": "M-A",
+       "source_ids": [
+        "fondazione-galleries",
+        "getty-2011",
+        "zanni-2010"
+       ],
+       "evidence": "Fondazione gallery 18_M-A: 5 bays, 6 shelves, c. 2.1 m high, books stacked on top. Read as one face of a double-sided island (M-A/M-B have identical 5-bay 6-shelf carcasses); the Getty 2011 photo shows such a low double-sided unit beside the round table. The island stands parallel to the door wall, face B towards the door: film 0:01:29 and 1:15:11, 2015 walk 5:33-5:37.",
+       "confidence": "medium",
+       "kind": "island",
+       "depth_m": 0.32,
+       "bays": 5,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "island_of": "study-M",
+       "face": "A",
+       "shelf_metres_m": 24.0,
+       "est_volumes": [
+        792,
+        960
+       ],
+       "position": {
+        "x": 7.0,
+        "z": 2.34,
+        "rotationY": 180
+       }
+      },
+      {
+       "id": "study-M-B",
+       "label": "Island M, face B: books by Eco and materials about Eco (5 bays, 6 shelves)",
+       "order": 2,
+       "width_m": 4.0,
+       "height_m": 2.1,
+       "shelves": 6,
+       "subject": "Books by Eco and materials about Eco",
+       "subject_it": "Libri di Eco e materiali su Eco",
+       "fondazione_bay": "M-B",
+       "source_ids": [
+        "fondazione-galleries",
+        "zanni-2010",
+        "video-biblioteca-del-mondo-clip"
+       ],
+       "evidence": "Fondazione gallery 19_M-B: 5 bays, 6 shelves; uniform runs of Eco's Bompiani editions (teal, blue) on the top shelves, piles of offprints and a typewriter case below. Zanni 2010: \"sull'estrema destra vari scaffali di libri scritti su di lui\". The island stands parallel to the door wall, face B towards the door: film 0:01:29 and 1:15:11, 2015 walk 5:33-5:37.",
+       "confidence": "medium",
+       "kind": "island",
+       "depth_m": 0.32,
+       "bays": 5,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+       ],
+       "island_of": "study-M",
+       "face": "B",
+       "shelf_metres_m": 24.0,
+       "est_volumes": [
+        792,
+        960
+       ],
+       "position": {
+        "x": 7.0,
+        "z": 2.66,
+        "rotationY": 0
+       }
+      },
+      {
+       "id": "study-Na",
+       "label": "Comb unit N, face a: translation, publishing, aesthetics (3 bays, 4 open shelves over cupboards)",
+       "order": 3,
+       "width_m": 2.4,
+       "height_m": 2.1,
+       "shelves": 4,
+       "subject": "Translation, publishing, aesthetics",
+       "subject_it": "Traduzione, editoria, estetica",
+       "fondazione_bay": "Na",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 20_Na: 3 bays, 4 open shelves above a row of cupboards, c. 2.1 m high, books on top. The three N faces and two O faces are the \"pettine\" (comb) units seen perpendicular to the wall in photo criticaletteraria_2022_5; which faces are back to back is not known. Stands across the room, at right angles to P, in the row of comb teeth (film 1:14:27-1:14:31, photo criticaletteraria_2022_5); which tooth is which, and which faces are back to back, is not known.",
+       "confidence": "medium",
+       "kind": "island",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "island_of": "study-N",
+       "face": "a",
+       "cupboard_below": true,
+       "shelf_metres_m": 9.6,
+       "est_volumes": [
+        316,
+        384
+       ],
+       "position": {
+        "x": 10.44,
+        "z": 7.2,
+        "rotationY": -90
+       }
+      },
+      {
+       "id": "study-Nb",
+       "label": "Comb unit N, face b: dictionaries (3 bays, 4 open shelves over cupboards; framed pictures on the side panels)",
+       "order": 4,
+       "width_m": 2.4,
+       "height_m": 2.1,
+       "shelves": 4,
+       "subject": "Dictionaries",
+       "subject_it": "Dizionari",
+       "fondazione_bay": "Nb",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 21_Nb: 3 bays with blank side panels carrying framed prints (a MAD Alfred E. Neuman, a cross-stitch motto), 4 shelves over cupboards; Zanichelli, Le Robert, Devoto-Oli dictionaries; uniform sets on top. The 2022 visit puts \"dizionari, lessici enciclopedici e geografici\" behind the desk. Stands across the room, at right angles to P, in the row of comb teeth (film 1:14:27-1:14:31); the low unit with the calligraphy, the photograph and the row of ECO paperbacks stands at its near end (film 0:05:23-0:05:31). Which tooth is which is not known.",
+       "confidence": "medium",
+       "kind": "island",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "island_of": "study-N",
+       "face": "b",
+       "cupboard_below": true,
+       "shelf_metres_m": 9.6,
+       "est_volumes": [
+        316,
+        384
+       ],
+       "position": {
+        "x": 6.5,
+        "z": 7.2,
+        "rotationY": 90
+       }
+      },
+      {
+       "id": "study-Nc",
+       "label": "Comb unit N, face c: philosophy of science (3 bays, 4 open shelves over cupboards)",
+       "order": 5,
+       "width_m": 2.4,
+       "height_m": 2.1,
+       "shelves": 4,
+       "subject": "Philosophy of science",
+       "subject_it": "Filosofia della scienza",
+       "fondazione_bay": "Nc",
+       "source_ids": [
+        "fondazione-galleries"
+       ],
+       "evidence": "Fondazione gallery 22_Nc: 3 bays, 4 shelves over cupboards, statuettes on top. Stands across the room, at right angles to P, in the row of comb teeth (film 1:14:27-1:14:31, photo criticaletteraria_2022_5); which tooth is which, and which faces are back to back, is not known.",
+       "confidence": "medium",
+       "kind": "island",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "island_of": "study-N",
+       "face": "c",
+       "cupboard_below": true,
+       "shelf_metres_m": 9.6,
+       "est_volumes": [
+        316,
+        384
+       ],
+       "position": {
+        "x": 10.76,
+        "z": 7.2,
+        "rotationY": 90
+       }
+      },
+      {
+       "id": "study-Oa",
+       "label": "Comb unit O, face a: encyclopedias, manuals (2 bays plus end panel, 4 shelves over cupboards)",
+       "order": 6,
+       "width_m": 1.6,
+       "height_m": 2.1,
+       "shelves": 4,
+       "subject": "Encyclopedias, manuals",
+       "subject_it": "Enciclopedie, manuali",
+       "fondazione_bay": "Oa",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022"
+       ],
+       "evidence": "Fondazione gallery 23_Oa: 2 bays and a blank end panel with two framed items; red and black uniform sets (Treccani-type) on top. The red set on top of the nearest island in photos criticaletteraria_2022_11/13 matches, placing O in front of wall P. Stands across the room, at right angles to P, in the row of comb teeth (film 1:14:27-1:14:31, photo criticaletteraria_2022_13); which tooth is which, and which faces are back to back, is not known.",
+       "confidence": "medium",
+       "kind": "island",
+       "depth_m": 0.32,
+       "bays": 2,
+       "bay_widths_m": [
+        0.8,
+        0.8
+       ],
+       "island_of": "study-O",
+       "face": "a",
+       "cupboard_below": true,
+       "end_panel_m": 0.8,
+       "shelf_metres_m": 6.4,
+       "est_volumes": [
+        211,
+        256
+       ],
+       "position": {
+        "x": 8.42,
+        "z": 7.2,
+        "rotationY": -90
+       }
+      },
+      {
+       "id": "study-Ob",
+       "label": "Comb unit O, face b: semiotics, linguistics, literary studies (3 bays, 4 shelves over cupboards)",
+       "order": 7,
+       "width_m": 2.4,
+       "height_m": 2.1,
+       "shelves": 4,
+       "subject": "Semiotics, linguistics, literary studies",
+       "subject_it": "Semiotica, linguistica, studi letterari",
+       "fondazione_bay": "Ob",
+       "source_ids": [
+        "fondazione-galleries"
+       ],
+       "evidence": "Fondazione gallery 24_Ob: 3 bays, 4 shelves over cupboards; Peanuts figurines and a uniform set on top. Stands across the room, at right angles to P, in the row of comb teeth (film 1:14:27-1:14:31); which tooth is which, and which faces are back to back, is not known.",
+       "confidence": "medium",
+       "kind": "island",
+       "depth_m": 0.32,
+       "bays": 3,
+       "bay_widths_m": [
+        0.8,
+        0.8,
+        0.8
+       ],
+       "island_of": "study-O",
+       "face": "b",
+       "cupboard_below": true,
+       "shelf_metres_m": 9.6,
+       "est_volumes": [
+        316,
+        384
+       ],
+       "position": {
+        "x": 8.74,
+        "z": 7.2,
+        "rotationY": 90
+       }
+      }
+     ]
+    }
+   ],
+   "shelf_metres_m": 391.6,
+   "windows": [
+    {
+     "wall": "W",
+     "offset_m": 0.9,
+     "width_m": 1.3,
+     "height_m": 2.2,
+     "radiator": true,
+     "note": "Window with a radiator under it to the right of the door on entering (film 1:15:13, frame t_011512; the girl on skates passes it at 1:15:09)"
+    },
+    {
+     "wall": "S",
+     "offset_m": 1.0,
+     "width_m": 1.3,
+     "height_m": 2.2,
+     "radiator": true,
+     "note": "Window with a slatted blind and a radiator over the desk row (film 0:01:43, frame t_000142; 2015 interview 0:05:47)"
+    },
+    {
+     "wall": "S",
+     "offset_m": 3.7,
+     "width_m": 1.2,
+     "height_m": 2.9,
+     "radiator": false,
+     "note": "Floor-length French window with dark louvred shutters beside the desk row and the sofa (film 0:01:43 and 0:13:19, frames t_000142 and t_001318). Which wall of the real room these two openings are on is not settled (notes.md); they are drawn on the wall the map already gives the desk row."
+    }
+   ]
+  },
+  {
+   "id": "antichi",
+   "name": "Room of the Ancients (rare-book room)",
+   "name_it": "Stanza degli antichi / Studiolo",
+   "order": 3,
+   "blurb": "A small all-wood room with a balcony on the Castello Sforzesco, no telephone or computer, flutes and scores, the books shelved next to mirabilia - dog testicles in formalin, shells, coral, wooden models (ansa-2022, breraplus-idea, zanni-2010); the family recalls its original shape as elliptical, whereas the Braidense Studiolo that reproduces it is rectangular (rivista-studio-2022). It held the Bibliotheca semiologica curiosa lunatica magica et pneumatica, 1,328 volumes at the transfer of August 2021 (carriere-2011, braidense-opac, aib-2022). Braidense's catalogue documents the transferred collection and its ordering: the running number of a shelfmark records the order the volumes had in the author's home, ECO.01 the books on the shelves of the room, ECO.02 the books kept elsewhere in it (on the desk, for example), ECO.03 the most precious books. Its additional ECO.04 section brings together publications by Eco for research and does not by itself establish a copy's original position in the Milan apartment (braidense-studiolo-2022, p. 6).",
+   "approx_size_m": [
+    6.5,
+    3.6
+   ],
+   "door": {
+    "wall": "S",
+    "offset_m": 0.5,
+    "note": "door onto the print wall of the long corridor, near its start (a low shelf takes the other half of this wall)"
+   },
+   "sources": [
+    "fondazione-galleries",
+    "criticaletteraria-2022",
+    "getty-1998",
+    "ansa-2022",
+    "rivista-studio-2022",
+    "braidense-opac",
+    "aib-2022",
+    "carriere-2011",
+    "zanni-2010",
+    "video-askanews-studiolo-2022",
+    "braidense-studiolo-2022"
+   ],
+   "furniture": [
+    "long oak table with green leather inset, six chairs, a big magnifying lens (fondazione 02, zanni-2010)",
+    "armchair and floor lamp by the balcony door",
+    "framed maps and prints on the end wall",
+    "radiator under the balcony door"
+   ],
+   "catalog_note": "Braidense ECO.xx shelfmarks (2,105 records in the export; the library counted 1,328 volumes at the transfer, and a record is not a volume: set records stand behind their volumes, works bound together share a shelfmark): ECO.01 the books on the shelves of the room (c. 1,570 records / 997 running numbers used up to 1107: hermetica, Kircher, Fludd, Rosicrucians, curiosa; median year 1719); ECO.02 the books kept elsewhere in the room, on the desk for example (372 records / 165 numbers to 169: 19th-c. French sets, Dumas, Sue, Peladan, \"fous litteraires\"; median 1856); ECO.03 the most precious books (51 records / 37 numbers to 77: Dee 1564, Bruno 1582, Khunrath 1609, Locke 1690 alongside incunabula; median 1563; 17 of Eco's 36 incunabula are absent from the Braidense export and are listed from AIB Studi 2022); ECO.04 the library's own reference section of Eco's publications (110 records / 102 numbers; Italian editions 1975-2025, most of them inventoried by the Braidense between 1996 and 2016, the rest from 2022 on): not a shelf of the flat, so its records are listed as reference entries and drawn on no cabinet. At 30-40 volumes per metre the three shelved runs need about 25-33 m + 6-8 m + 1-2.5 m = c. 32-44 shelf metres; the two wall units drawn below offer c. 80 m, consistent with loosely shelved folios and the mirabilia between them.",
+   "walls": [
+    {
+     "wall_id": "antichi-N",
+     "wall_name": "Balcony wall (Castello Sforzesco): most precious books (ECO.03)",
+     "wall": "N",
+     "order": 1,
+     "bookcases": [
+      {
+       "id": "rare-04",
+       "label": "Most precious books (ECO.03): Dee 1564, Bruno 1582, Khunrath 1609, Locke 1690, the incunabula",
+       "order": 1,
+       "width_m": 1.2,
+       "height_m": 2.4,
+       "shelves": 7,
+       "subject": "Most precious books (ECO.03): Dee, Bruno, Khunrath, Locke, the incunabula",
+       "subject_it": "I libri più preziosi (ECO.03): Dee, Bruno, Khunrath, Locke, gli incunaboli",
+       "fondazione_bay": "antichi-ECO.03",
+       "kind": "cabinet",
+       "glazed": true,
+       "depth_m": 0.4,
+       "offset_m": 0.5,
+       "offset_note": "0.5 m of the balcony wall left free at the west corner so the cabinet starts clear of the left-hand cabinet (rare-01, 0.45 m deep), which runs to within 0.6 m of that corner",
+       "confidence": "low",
+       "source_ids": [
+        "braidense-opac",
+        "aib-2022"
+       ],
+       "catalog_range": "ECO.03.0001-0077",
+       "evidence": "Braidense shelfmark ECO.03 is the \"most precious books\" section, a grouping by value whose place in the room the catalogue does not give, so this cabinet stands in for it (Dee 1564, Bruno 1582, Khunrath 1609, Locke 1690 alongside incunabula; AIB Studi 2022 lists 36 incunabula, 17 of them absent from the Braidense export). Drawing it as its own glazed cabinet beside the balcony door is a placement guess: the running numbers give the order, not the wall.",
+       "est_volumes": [
+        60,
+        90
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "antichi-W",
+     "wall_name": "Left wall (SX): glazed wooden cabinets",
+     "wall": "W",
+     "order": 2,
+     "bookcases": [
+      {
+       "id": "rare-01",
+       "label": "Left-hand rare-book cabinet (SX): main run ECO.01, hermetica and curiosa",
+       "order": 1,
+       "width_m": 5.85,
+       "height_m": 2.4,
+       "shelves": 7,
+       "subject": "Rare books: hermetica, alchemy, Kircher, Fludd, Rosicrucians, curiosa (Braidense ECO.01, first part)",
+       "subject_it": "Libri antichi: ermetismo, alchimia, Kircher, Fludd, rosacroce, curiosa (ECO.01, prima parte)",
+       "fondazione_bay": "antichi-SX",
+       "source_ids": [
+        "fondazione-galleries",
+        "criticaletteraria-2022",
+        "getty-1998",
+        "braidense-opac"
+       ],
+       "evidence": "Photos fondazione 01/02 (Studio antichi) and criticaletteraria_2022_16: the left wall is lined end to end with cherry-wood cabinets, glazed upper section (4 rows), a drawer/cabinet band, glazed lower section (2-3 rows); c. 2.4 m high under a c. 3.5 m ceiling. Bay widths and the 7-row count are copied from the surveyed right-hand unit (no frontal survey of the left wall is public). Assignment of ECO.01 to this wall is a guess: the running numbers give the order the books had in the flat, not the wall.",
+       "confidence": "medium",
+       "kind": "cabinet",
+       "depth_m": 0.45,
+       "bays": 6,
+       "bay_widths_m": [
+        0.45,
+        1.5,
+        0.8,
+        0.8,
+        0.8,
+        1.5
+       ],
+       "catalog_range": "ECO.01.0001-c.0700",
+       "glazed": true,
+       "shelf_metres_m": 40.9,
+       "est_volumes": [
+        1349,
+        1636
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "antichi-E",
+     "wall_name": "Right wall (DX): glazed wooden cabinets, photographic survey",
+     "wall": "E",
+     "order": 3,
+     "bookcases": [
+      {
+       "id": "rare-02",
+       "label": "Right-hand rare-book cabinet (DX, Fondazione survey): end of ECO.01, French sets ECO.02",
+       "order": 1,
+       "width_m": 5.85,
+       "height_m": 2.4,
+       "shelves": 7,
+       "subject": "Rare books: end of the ECO.01 run, 19th-c. French sets (ECO.02)",
+       "subject_it": "Libri antichi: fine di ECO.01, serie francesi dell'Ottocento (ECO.02)",
+       "fondazione_bay": "antichi-DX",
+       "source_ids": [
+        "fondazione-galleries",
+        "braidense-opac",
+        "aib-2022"
+       ],
+       "evidence": "Fondazione gallery 04_Libreria Antichi DX (\"Rare book library on the right: photographic survey\"): six columns - a 0.45 m column with 9 drawers below, a 1.5 m double bay, three 0.8 m bays (the central one recessed with a wooden model), a 1.5 m double bay; rows: 4 glazed above, 1 open band, 2 glazed below = 7 shelf rows, c. 5.8 m wide, c. 2.4 m high; a jar of specimens and a Shakespeare stand among the books. Which ECO series stood here is a guess; the ECO.02 books were kept off the shelves according to the Braidense (on the desk, for example), so this cabinet stands in for that.",
+       "confidence": "medium",
+       "kind": "cabinet",
+       "depth_m": 0.45,
+       "bays": 6,
+       "bay_widths_m": [
+        0.45,
+        1.5,
+        0.8,
+        0.8,
+        0.8,
+        1.5
+       ],
+       "catalog_range": "ECO.01.c.0700-1107; ECO.02.0001-0169",
+       "glazed": true,
+       "shelf_metres_m": 40.9,
+       "est_volumes": [
+        1349,
+        1636
+       ]
+      }
+     ]
+    },
+    {
+     "wall_id": "antichi-S",
+     "wall_name": "Door wall (to the white shelving beyond)",
+     "wall": "S",
+     "order": 4,
+     "bookcases": [
+      {
+       "id": "rare-03",
+       "label": "Low shelf at the door end (contents not identified)",
+       "order": 1,
+       "width_m": 1.6,
+       "height_m": 1.0,
+       "shelves": 2,
+       "subject": "Low shelf at the door end: a run of books seen in a photograph, none of them identified",
+       "subject_it": "Ripiano basso accanto alla porta: libri visibili in fotografia, non identificati",
+       "fondazione_bay": "antichi-door-end",
+       "source_ids": [
+        "fondazione-galleries",
+        "getty-1998"
+       ],
+       "evidence": "Photo fondazione 02 shows a low run of books on a ledge at the door end and, through the door, the white full-height shelving of the corridor; the Getty 1998 frame shows a narrow shelf of modern reference (\"Alchimie\") at the left of the desk. Size is a guess; what stood on it is not identified.",
+       "confidence": "low",
+       "kind": "low",
+       "depth_m": 0.3,
+       "bays": 2,
+       "bay_widths_m": [
+        0.8,
+        0.8
+       ],
+       "shelf_metres_m": 3.2
+      }
+     ]
+    }
+   ],
+   "shelf_metres_m": 93.4,
+   "position_note": "Opens off the START of the long corridor (bookcase A), on the print-wall side, a few metres after the vestibule; the walk to the study passes its door first. The 2015 long take shows Eco taking a book beside a white door at the far end of the study; that door is not the rare room's."
+  }
+ ],
+ "counts": {
+  "rooms": 6,
+  "bookcases": 53,
+  "bays": 134,
+  "shelf_metres_total": 911.3,
+  "shelf_metres_working_library": 804.4,
+  "est_volumes_working_library": [
+   26545,
+   32176
+  ],
+  "target_volumes_working_library": 33000,
+  "rare_volumes": 1328
+ },
+ "notes": [
+  "Geometry is a reconstruction from photographs and visitor accounts; no floor plan of the apartment has been published. Room sizes, door positions and the assignment of bookcases to walls are estimates unless the evidence field says a photo or text supports them.",
+  "The Fondazione lettering A-S (Italian alphabet: no J, K) reads as a walk order: A corridor, B-D vestibule, E-H art, I-L philosophy wall, M-O islands, P semiotics wall, Q Eco's works, R-S psychology/sociology. Every bookcase id keeps its letter (study-P, corridor-07, rare-02).",
+  "Shelf counts are what the 650 px rectified photographs show: full-height units have 11 shelves (4 above a sliding-ladder rail at c. 2.3 m, 7 below), P has 10, low units 4-6. Two units (F, G) are cropped at the top and may have an 11th shelf.",
+  "Capacity check: 804 shelf metres of working-library shelving at 33-40 volumes per metre gives 26,545-32,176 volumes against the c. 33,000 counted by the Fondazione (32,000+ moved to Bologna). Bologna re-shelved them on 600 linear metres (53/m), so the Milan run was not full everywhere - the photos show gaps, piles lying flat and boxes on the floor.",
+  "Not modelled: piles on the piano, coffee table and desk; the \"scatoloni ovunque\" (2010); the Monte Cerignone house (c. 11,000 volumes); any bedroom or kitchen shelving - no source places bookcases there.",
+  "The Ferrario 2015 tracking walks and the 2022 film show the corridor and the study in motion; the bookcases are identified from the photographs, and the spines read from the frames of the 2022 film cite the second at which they appear.",
+  "For the builder: bookcases[].kind extends the schema with \"island\" (double-sided low unit; island_of/face group the faces), \"cabinet\" (glazed wood), \"display\" (glass vitrine) and \"low\"; door_span_m gives the doorway inside a door-surround unit (D, I); est_volumes and shelf_metres_m are derived fields.",
+  "ECO.03 is the \"most precious books\" section, not an incunabula section; it is drawn as its own glazed cabinet (rare-04) on the balcony wall, a guess; 17 of the 36 incunabula (AIB Studi 2022) are absent from the Braidense export and are added from the experience/incunabula list. The Stanza degli antichi opens off the START of the long corridor (print-wall side, near the vestibule), not at the end of the walk; rooms are ordered salotto, vestibolo, antichi, corridoio, corridoio-arte, studio, and the corridor carries a second door (doors_extra) for it.",
+  "The vestibule is drawn transposed (3 x 4.5 m) so that the salotto door (N), bookcase D with the corridor doorway (E) and the end wall with C (S) form the passage the 2015 take walks through; the corridor doorway is the D door bridge (1.45 m).",
+  "The salotto is drawn at 7.5 x 7.6 m from the wall sequences of the footage (eco-video/salotto/salotto_layout.json); bookcase E stands in the art corridor; the windows listed per room are drawn by the page.",
+  "ECO.04: the Braidense's account of its catalogue (press kit of 4 May 2022, p. 6) describes ECO.04 as a section created to gather the author's publications as research tools, unlike ECO.01 to ECO.03, which record the order the volumes had in the flat. The map therefore lists the ECO.04 records as reference entries on a table in the study and draws none of them on the low shelf at the door end (rare-03), whose contents are not identified."
+ ]
+}

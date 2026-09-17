@@ -1,0 +1,397 @@
+{
+ "_comment": [
+  "Maps the labels spine readers write (room_id, wall_id, wall_name, Fondazione bookcase letters) to bookcase ids in eco-video/layout.json.",
+  "gen_books_eco.py resolves a reading in this order: an explicit bookcase id on the record (bookcase_id / build_bookcase_id / bookcase);",
+  "a Fondazione letter in wall_name (\"Bookcase 'E'\", \"Bookcase 'A', shelves 7-12\" = bays 7-12) via `letters`;",
+  "wall_id via `aliases` then via the layout's own wall ids (first bookcase of that wall, or the list in `wall_default`);",
+  "`patterns` are tried (in order, case-insensitive) on wall_id and then on wall_name when the exact aliases fail; a value of \"@fallback\" means the subject map's fallback bookcases (Milan position unknown). Readings resolved only at room level are placed on a bookcase of that room chosen by the wall label's hash and get placement \"inferred\" instead of \"seen\".",
+  "A value of \"@pile\" (and any frame whose view is \"stack\", \"pile\" or \"piano\") makes the reading a pile object in the room the frame names instead of shelf books.",
+  "\"@subject\" places each reading on a bookcase chosen by subject_map_eco.json from its title/author (for books filmed after the move to Bologna: origin video, placement inferred). `exclude_rooms` lists room_id values whose readings are not Eco's books; they are dropped and listed in meta.counts.spine.rejected_other.",
+  "room_id via `aliases` then `room_default`. Values may be a bookcase id, a list of bookcase ids (books spread over them in order),",
+  "a layout wall id (studio-N ...) or a layout room id (studio ...). Keys are matched case-insensitively after trimming.",
+  "Edit freely: this file is data, the generator only reads it.",
+  "`label_patterns` (tried on wall_id + wall_name before the room-level fallback, only for the working-library rooms): [regex, target] places the reading on that bookcase as seen; [regex, target, \"label\", name] marks a label that names a subject rather than a bay, so the placement is inferred (tier guess with the label as reason); [regex, target, \"context\", name] names the bookcase from the pass's own description of the wall (its wall_name, such as 'Own-works library wall with rolling ladder'), which is no tag in the frame: the placement is inferred ('read on film at ...; the shot shows no shelf tag, and bookcase ... is inferred from the shot's context') and the tier a guess. A pattern without a level that matches no call tag, no capitals and nothing the reader quoted is treated the same, with a warning. Independently of this list, the Fondazione call tags a reader records in the wall name ('Q4/Q5', 'Q4.9', 'L11.5/L12.6', 'A 13') are parsed: the letter picks the unit (A + bay = corridor bay; L + bay = L1-4 / L5-7 / L8-12). Only when no label is known does a 'study' reading fall back to room_default (P), and then its tier is guess with the reason stated.",
+  "`reading_fixes`: reading id -> fields to overwrite on that reading (null removes the field) plus a `note` the page may show as reading_note; for a reader's slip such as the neighbouring spine's author copied onto a title. Applied by id or to the record a reading was merged into (merged_ids). A fix is applied when the consolidated reading is ingested, before the piles are built, so a fixed title/author takes part in the merges (same pile, across piles, deferred walls): a reading corrected to the title of another reading of the same spine becomes one book with it (the survivor keeps the corrected reading's id in merged_ids and shows the fix's note)."
+ ],
+ "letters": {
+  "A": [
+   "corridor-01",
+   "corridor-02",
+   "corridor-03",
+   "corridor-04",
+   "corridor-05",
+   "corridor-06",
+   "corridor-07",
+   "corridor-08",
+   "corridor-09",
+   "corridor-10",
+   "corridor-11",
+   "corridor-12",
+   "corridor-13",
+   "corridor-14",
+   "corridor-15",
+   "corridor-16",
+   "corridor-17",
+   "corridor-18",
+   "corridor-19",
+   "corridor-20",
+   "corridor-21",
+   "corridor-22",
+   "corridor-23",
+   "corridor-24",
+   "corridor-25"
+  ],
+  "B": "vest-B",
+  "C": "vest-C",
+  "D": "vest-D",
+  "E": "salotto-E",
+  "F": "corridor2-F",
+  "G": "corridor2-G",
+  "H": "corridor2-H",
+  "I": "study-I",
+  "L": [
+   "study-L1-4",
+   "study-L5-7",
+   "study-L8-12"
+  ],
+  "L1-4": "study-L1-4",
+  "L5-7": "study-L5-7",
+  "L8-12": "study-L8-12",
+  "M": [
+   "study-M-A",
+   "study-M-B"
+  ],
+  "M-A": "study-M-A",
+  "M-B": "study-M-B",
+  "N": [
+   "study-Na",
+   "study-Nb",
+   "study-Nc"
+  ],
+  "Na": "study-Na",
+  "Nb": "study-Nb",
+  "Nc": "study-Nc",
+  "O": [
+   "study-Oa",
+   "study-Ob"
+  ],
+  "Oa": "study-Oa",
+  "Ob": "study-Ob",
+  "P": "study-P",
+  "Q": "study-Q",
+  "R": "study-R",
+  "S": "study-S",
+  "SX": "rare-01",
+  "DX": "rare-02",
+  "ANTICHI-SX": "rare-01",
+  "ANTICHI-DX": "rare-02"
+ },
+ "aliases": {
+  "study": "studio",
+  "big study": "studio",
+  "studio": "studio",
+  "studio grande": "studio",
+  "lo studio": "studio",
+  "study-philosophy": "studio-N",
+  "study-semiotics": "study-P",
+  "study-eco": "study-Q",
+  "study-islands": "studio-free",
+  "philosophy wall": "studio-N",
+  "semiotics wall": "study-P",
+  "eco wall": "study-Q",
+  "desk wall": "study-Q",
+  "corridor": "corridoio",
+  "corridoio": "corridoio",
+  "long corridor": "corridoio",
+  "hallway": "corridoio",
+  "bosco narrativo": "corridoio",
+  "corridor-art": "corridoio-arte",
+  "art corridor": "corridoio-arte",
+  "second corridor": "corridoio-arte",
+  "corridoio-arte": "corridoio-arte",
+  "living room": "salotto",
+  "salotto": "salotto",
+  "soggiorno": "salotto",
+  "lounge": "salotto",
+  "salon": "salotto",
+  "piano room": "salotto",
+  "vestibule": "vestibolo",
+  "vestibolo": "vestibolo",
+  "entrance": "vestibolo",
+  "ingresso": "vestibolo",
+  "hall": "vestibolo",
+  "entrance hall": "vestibolo",
+  "rare": "antichi",
+  "rare-book room": "antichi",
+  "rare books": "antichi",
+  "antichi": "antichi",
+  "stanza degli antichi": "antichi",
+  "studiolo": "antichi",
+  "room of the ancients": "antichi",
+  "braidense": "antichi",
+  "braidense-studiolo": "antichi",
+  "studiolo umberto eco": "antichi",
+  "rare-left": "rare-01",
+  "rare-right": "rare-02",
+  "rare-door": "rare-03",
+  "antichi-sx": "rare-01",
+  "antichi-dx": "rare-02",
+  "bologna": "@subject",
+  "biblioteca eco": "@subject",
+  "bologna-eco-library": "@subject",
+  "palazzo poggi": "@subject",
+  "unknown": null,
+  "unclear": null,
+  "other": null,
+  "living": "salotto",
+  "office": "studio",
+  "corridor-gallery-wall": "corridoio",
+  "living-glass-cabinet-1": "salotto-vetrine",
+  "living-desk-stack-1": "@pile",
+  "living-coffee-table-1": "@pile",
+  "living-coffeetable-1": "@pile",
+  "table-closeup-1": "@pile",
+  "table-closeup-2": "@pile",
+  "corridor-entry": "corridor-01",
+  "corridor-entry-1": "corridor-01",
+  "corridor-to-office-1": "corridor-25",
+  "study-entry-1": "study-I",
+  "bologna-reinstalled": "@subject"
+ },
+ "wall_default": {
+  "studio-N": [
+   "study-I",
+   "study-L1-4",
+   "study-L5-7",
+   "study-L8-12"
+  ],
+  "studio-S": "study-P",
+  "studio-E": [
+   "study-Q",
+   "study-R",
+   "study-S"
+  ],
+  "studio-free": [
+   "study-M-A",
+   "study-M-B",
+   "study-Na",
+   "study-Nb",
+   "study-Nc",
+   "study-Oa",
+   "study-Ob"
+  ],
+  "corr-S": "A",
+  "corr2-S": [
+   "corridor2-H",
+   "corridor2-G",
+   "corridor2-F"
+  ],
+  "vest-W": "vest-B",
+  "vest-S": "vest-D",
+  "vest-E": "vest-C",
+  "salotto-E": [
+   "salotto-vetrine",
+   "salotto-E"
+  ],
+  "salotto-W": "salotto-wood",
+  "antichi-W": "rare-01",
+  "antichi-E": "rare-02",
+  "antichi-S": "rare-03"
+ },
+ "room_default": {
+  "salotto": "salotto-E",
+  "vestibolo": "vest-D",
+  "corridoio": "A",
+  "corridoio-arte": "corridor2-H",
+  "studio": "study-P",
+  "antichi": "rare-02"
+ },
+ "label_patterns": [
+  [
+   "ECO IBERICI|\\bQ4/Q5\\b",
+   "study-Q"
+  ],
+  [
+   "foreign-language editions of Umberto Eco|Umberto Eco's own (?:works|books)|own-works library wall|Eco's own works",
+   "study-Q",
+   "context",
+   "the pass's own name for the study's wall of Eco's own works"
+  ],
+  [
+   "Pensiero Occidentale",
+   "study-L8-12"
+  ],
+  [
+   "\\bL11\\.\\d|\\bL12\\.\\d|call tags L11/L12",
+   "study-L8-12"
+  ],
+  [
+   "FRANCOFORTE|DELEUZE|Frankfurt School",
+   "study-M-A",
+   "label",
+   "subject tabs FRANCOFORTE / DELEUZE (continental philosophy)"
+  ],
+  [
+   "Encyclop[eé]die\\b.*L11|L11\\.5-L12\\.8",
+   "study-L8-12"
+  ]
+ ],
+ "patterns": [
+  [
+   "coffee.?table|table.?closeup|desk.?stack|table stack|pile on the table",
+   "@pile"
+  ],
+  [
+   "glass.?cabinet|vetrin|vitrine|display case",
+   "salotto-vetrine"
+  ],
+  [
+   "bologna|palazzo poggi|biblioteca eco",
+   "@subject"
+  ],
+  [
+   "\\banrw\\b|aufstieg und niedergang|classics reference|archive shelf|reference set",
+   "@subject"
+  ],
+  [
+   "right-hand|\\bDX\\b|right wall",
+   "rare-02"
+  ],
+  [
+   "left-hand|\\bSX\\b|left wall",
+   "rare-01"
+  ],
+  [
+   "rare|studiolo|antichi|glazed",
+   "antichi"
+  ],
+  [
+   "office|study|studio",
+   "studio"
+  ],
+  [
+   "corridor|corrido|hallway",
+   "corridoio"
+  ],
+  [
+   "living|salotto|piano",
+   "salotto"
+  ],
+  [
+   "vestib|entrance|ingresso",
+   "vestibolo"
+  ]
+ ],
+ "exclude_rooms": [
+  "other"
+ ],
+ "reading_fixes": {
+  "video:NtPk4irDiM8:65:bernini": {
+   "author": null,
+   "spine_text": null,
+   "note": "The spine reads only 'Bernini'; the neighbouring spine is Christian Tümpel's Rembrandt, a different book. Author unknown."
+  },
+  "video:zZEy10fpq3I:2578:inconsolabile-pensiero": {
+   "title": "L'innominabile attuale",
+   "author": "Roberto Calasso",
+   "language": "it",
+   "note": "The white Adelphi-style spine with the black title box in pile 3 of 6 on the lid (42:58) reads 'Calasso L'innominabile attuale'. One physical book."
+  },
+  "video:zZEy10fpq3I:2582:sulle-spalle-dei-giganti": {
+   "title": "Sulle spalle di Umberto",
+   "author": null,
+   "note": "The upside-down cream spine of the large volume on top of pile 1 of 6 on the lid (43:02) reads 'Sulle spalle di Umberto', not Eco's Sulle spalle dei giganti. One physical book."
+  },
+  "video:zZEy10fpq3I:2578:omicidio-di-umberto-eco": {
+   "title": "L'eredità di Umberto Eco",
+   "author": null,
+   "note": "The white spine with the black title band in pile 5 of 6 on the lid (42:58) reads 'L'Eredità di Umberto Eco'; the name before the title ('Giorgio M...') is not legible. One physical book."
+  },
+  "video:zZEy10fpq3I:2582:eco": {
+   "title": "Auf den Schultern von Riesen",
+   "author": "Umberto Eco",
+   "language": "de",
+   "note": "The large black volume at the bottom of pile 6 of 6 on the lid shows 'ECO' in white capitals; at full resolution the whole spine reads 'ECO / Auf den Schultern von Riesen / HANSER', the German edition of Sulle spalle dei giganti. One physical book."
+  },
+  "video:zZEy10fpq3I:2582:by-lia-levi": {
+   "title": "L'anima ciliegia",
+   "note": "The red spine in pile 1 of 6 on the lid reads 'LIA LEVI · L'ANIMA CILIEGIA'. One physical book."
+  },
+  "video:zZEy10fpq3I:2582:by-roberto-campari": {
+   "title": "Storie di percorso",
+   "note": "The black spine in pile 4 of 6 on the lid reads 'Roberto Campari Storie di percorso'. One physical book."
+  },
+  "video:zZEy10fpq3I:2570:by-anna-ottani-cavina": {
+   "title": "Una passione a Manhattan",
+   "note": "The green Adelphi-style spine in pile 5 of 6 on the keyboard shelf reads 'Anna Ottani Cavina Una passione a Manhattan'. One physical book."
+  },
+  "video:zZEy10fpq3I:2582:by-giuseppe-tornatore": {
+   "title": "Breve autobiografia",
+   "note": "The spine in pile 5 of 6 on the lid (42:58) carries the red script title 'Breve autobiografia' over an author's name that may be Giuseppe Tornatore. One physical book."
+  },
+  "video:zZEy10fpq3I:2582:by-giovanna-cosenza": {
+   "title": "Cerchi di capire, prof",
+   "note": "The blue spine at the bottom of pile 6 of 6 on the keyboard shelf (43:02) reads 'GIOVANNA COSENZA Cerchi di capire, prof'. One physical book."
+  },
+  "video:zZEy10fpq3I:450:joco-seriorum-naturae-et-artis-diatribe": {
+   "catalog_record": "braidense:MILE062399",
+   "note": "Schott's Joco-seriorum naturae et artis (Braidense ECO.01.0285, Bamberg 1677), read on the cabinet spine at 7:31 and 1:15:17-1:15:25; the shelf is the Kircher shelf, but the work appeared under the pseudonym Aspasius Caramuelius, not under Kircher's name."
+  },
+  "video:zZEy10fpq3I:2080:thesaurus-armamentarii-medico": {
+   "catalog_record": "braidense:SGEE001055",
+   "note": "The spine reads 'THESAVRVS ARMAMENTARI. MEDICO. / 1697': Mynsicht's Thesaurus et armamentarium medico-chimicum, Genevae 1697 (Braidense ECO.01.0459/1)."
+  },
+  "video:zZEy10fpq3I:4513:joco-seriorum-naturae-et-artis-sive-magi": {
+   "title": "Ars magna sciendi, in XII libros digesta",
+   "author": "Athanasius Kircher",
+   "language": "la",
+   "catalog_record": "braidense:UFIE003433",
+   "note": "The title page open on the table of the rare-book room at 1:15:14 reads 'Athanasii Kircheri ... Ars magna sciendi in XII libros digesta': this copy, Braidense ECO.01.0433. The 'Joco-seriorum naturae et artis' spine seen in the cabinet at 7:31 and 1:15:17 is another book."
+  },
+  "video:zZEy10fpq3I:4513:ars-magna-sciendi-kircher-title-page": {
+   "placement_note": "The folio open on the table is Eco's copy of Kircher's Ars magna sciendi (Braidense shelfmark ECO.01.0433, whose record stands in cabinet rare-01); this pile entry is the display position seen at 1:15:14.",
+   "note": "The title page open on the table at 1:15:14 reads 'ARS MAGNA SCIENDI'."
+  },
+  "video:FeIUY9EhZgI:39:alciphron-ovvero-il-filosofo-minuto": {
+   "title": "Alcifrone ossia il filosofo minuzioso",
+   "note": "Both spines read 'BERKELEY / ALCIFRONE OSSIA IL FILOSOFO MINU...' at 0:39 of the two trailers and 35:19 of the film; the full spine reads 'Alcifrone ossia il filosofo minuzioso / a cura di Daniele Bertini / testo inglese a fronte' (the Bompiani 'Il pensiero occidentale' edition). One physical book: merged into video:FeIUY9EhZgI:39:alcifrone-ossia-il-filosofo-minuzioso (the shorter spelling stays a title variant)."
+  },
+  "video:ygvl-_gtAP8:37:opus-mago-caballisticum": {
+   "title": "Opus mago-cabbalisticum et theosophicum",
+   "language": "la",
+   "catalog_record": "braidense:LO1E008833",
+   "note": "Georg von Welling's Opus mago-cabbalisticum et theosophicum (published as Gregorius Anglus Sallwigt; Braidense ECO.01.0405/1), read at 0:38 of the clip (rare room), 6:05 of the film (living room) and 8:29 (vestibule B, tag B3 within 12 s). The first reading's spelling 'caballisticum' stays a title variant; the book is the catalogue copy, not a second guessed copy on B."
+  },
+  "video:ygvl-_gtAP8:36:anatomia-amphitheatrum": {
+   "title": "Anatomiae Amphitheatrum",
+   "author": "Robert Fludd",
+   "note": "The spine in the askanews clip (0:37) reads 'FLVDD / ANATOMIA / AMPHITHEATRVM / 1719', on the same rare-room shelf where the film shows it at 6:05 and 8:29: Fludd's Anatomiae amphitheatrum, one physical book."
+  },
+  "video:iRXEQVTI95k:51:service-de-la-beaute": {
+   "title": "Le Service de la Sûreté",
+   "author": "Gustave Macé",
+   "language": "fr",
+   "catalog_record": "braidense:IEI0018292",
+   "note": "The spine on the rare-room shelf beside 'I misteri di Torino' in the askanews clip (0:51) reads 'R. MACÉ / LE SERVICE DE LA SÛRETÉ': Gustave Macé's Le service de la Sûreté, Braidense ECO.01.1066."
+  },
+  "video:zZEy10fpq3I:2570:bambini-di-marte": {
+   "confidence": "low",
+   "note": "The spine fifth from the top of pile 11 (42:51) reads either 'I bambini di Marte / Lazzarato' or 'Lazzatto I bambini di Moloch'; neither the title nor the author is legible enough to decide, so the book is a guess."
+  },
+  "video:zZEy10fpq3I:2582:il-nome-della-rosa": {
+   "title": "Imię róży",
+   "author": "Umberto Eco",
+   "language": "pl",
+   "work": "Il nome della rosa (1980)",
+   "note": "The spine reads 'umberto eco  Imię róży': the Polish translation of Il nome della rosa (white cover, lying across the top of pile 7 on the piano keyboard shelf, 43:03). The card shows the Polish title; the Italian work is its original."
+  },
+  "video:zZEy10fpq3I:825:giornale-di-gian-burrasca": {
+   "title": "Il giornalino di Gian Burrasca",
+   "note": "The spine reads 'Il giorna… di Gian Burrasca'; Vamba's book is Il giornalino di Gian Burrasca (1912)."
+  },
+  "video:zZEy10fpq3I:2643:eroi-del-racconto-popolare": {
+   "publisher": null,
+   "note": "The publisher is not legible on the spine; the catalogued edition of Eroi del racconto popolare is Bologna, Edison, in two volumes."
+  }
+ }
+}

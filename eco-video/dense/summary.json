@@ -1,0 +1,55 @@
+{
+ "frames_read": 1127,
+ "piano_pass_readings_left_to_piano_piles_json": 189,
+ "spine_fragments_without_title_or_author": 359,
+ "sightings": 1447,
+ "books": 433,
+ "by_tier": {
+  "probable": 206,
+  "guess": 158,
+  "certain": 69
+ },
+ "by_confidence": {
+  "high": 236,
+  "medium": 134,
+  "low": 63
+ },
+ "by_source": {
+  "zZEy10fpq3I": 220,
+  "KZfOaug0mM4": 73,
+  "ygvl-_gtAP8": 44,
+  "M8IWTOFNlOc": 30,
+  "FeIUY9EhZgI": 22,
+  "NtPk4irDiM8": 18,
+  "iRXEQVTI95k": 15,
+  "bcK8rOkcb3k": 11
+ },
+ "by_bookcase": {
+  "room:studio": 114,
+  "room:other": 52,
+  "room:antichi": 44,
+  "room:unknown": 41,
+  "study-Q": 38,
+  "study-L8-12": 33,
+  "room:bologna": 31,
+  "room:salotto": 28,
+  "vest-B": 13,
+  "room:corridoio": 7,
+  "study-M-A": 7,
+  "corridor-10": 7,
+  "corridor-02": 6,
+  "corridor2-G": 5,
+  "study-Oa": 4,
+  "study-L1-4": 3
+ },
+ "new_vs_confirmed": {
+  "new": 188,
+  "confirms_existing": 245
+ },
+ "catalog_matched": {
+  "none": 286,
+  "bologna": 60,
+  "braidense": 50,
+  "notable": 37
+ }
+}

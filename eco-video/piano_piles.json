@@ -1,0 +1,3769 @@
+{
+ "_readme": "Piano piles in Umberto Eco's salotto as seen in the 2022 film 'Umberto Eco: La biblioteca del mondo' (YouTube zZEy10fpq3I, unofficial upload), 42:50-43:05, the only pass of any source that shows the piano. Frames were re-extracted at 5 fps from the 1080p stream; film_time_s are true film seconds (the 0.96 s offset of the earlier 0.5-fps frames is already applied). Twelve piles: six on the lid, six on the closed keyboard fallboard shelf (the third and fourth shelf piles stand touching each other in the centre). Books are listed top to bottom. pile_id is the wall id the build already uses for these piles (objects_map_eco.json obj:salotto:piano-pile-01..12); 'frames' holds the same readings in the spines_*.jsonl shape (view 'stack') so gen_books_eco.py can ingest them. agreement_with_earlier_reading compares this transcription with spines_zZEy10fpq3I_piano.jsonl: confirms = same book read by both; differs = both saw a book there but read it differently (both readings kept, see earlier_reading); new = not in the earlier reading. Tiers: certain = full title legible; probable = most letters legible; guess = fragment.",
+ "video_id": "zZEy10fpq3I",
+ "film_pass": {
+  "start_s": 2570,
+  "end_s": 2585,
+  "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+ },
+ "pile_count": {
+  "lid": 6,
+  "keyboard_shelf": 6,
+  "total": 12
+ },
+ "stats": {
+  "items": 118,
+  "titled": 76,
+  "unlabelled": 42,
+  "confirms": 52,
+  "new": 21,
+  "differs": 3,
+  "tiers": {
+   "probable": 24,
+   "certain": 26,
+   "guess": 26
+  },
+  "conf": {
+   "medium": 24,
+   "high": 26,
+   "low": 26
+  }
+ },
+ "piles": [
+  {
+   "pile_id": "salotto-piano-pile-01",
+   "object_id": "obj:salotto:piano-pile-01",
+   "reader_label": "T1",
+   "level": "lid",
+   "index_left_to_right": 1,
+   "position": "far left of the piano lid",
+   "book_count": 5,
+   "books": [
+    {
+     "pos": 1,
+     "title": "Sulle spalle di Umberto",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Sulle spalle di Umberto",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Sulle spalle di Umberto",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO08453366",
+      "title": "Fenomenologia di Umberto Eco indagine sulle origini di un mito intellettuale contemporaneo",
+      "score": 82.1,
+      "kind": "title"
+     },
+     "notes": "Lying with spine facing out but rotated 180°/upside-down relative to the others (title reads inverted). Small square logo at spine end, publisher not identifiable. Title is presumably a play on Eco's own 'Sulle spalle dei giganti' (cf. the German 'Auf den Schultern von Riesen' book in pile T6)."
+    },
+    {
+     "pos": 2,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin two-tone spine, cream on the left / dark teal on the right, tiny printed text on both halves illegible even at high zoom",
+     "confidence": "low"
+    },
+    {
+     "pos": 3,
+     "title": "L'anima ciliegia",
+     "author": "Lia Levi",
+     "publisher": "e/o (Edizioni E/O)",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "LIA LEVI · L'ANIMA CILIEGIA",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": null,
+      "author": "Lia Levi",
+      "confidence": "low"
+     },
+     "matched": null,
+     "notes": "Red spine, white lettering, small 'e/o' publisher roundel."
+    },
+    {
+     "pos": 4,
+     "title": "[Terre ...]",
+     "author": "Anna Ottani Cavina",
+     "publisher": "il Mulino",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Anna Ottani Cavina  [T]e[rr]e [?]",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Terre senz'ombra",
+      "author": "Anna Ottani Cavina",
+      "confidence": "medium"
+     },
+     "matched": null,
+     "notes": "Steel-blue 'Universale Paperbacks il Mulino' style spine (windmill/bracket logo + numbered black tab, '16' or similar). Author name is clearly legible; the italic white title could not be resolved further."
+    },
+    {
+     "pos": 5,
+     "title": "Immagini dell'Italia, I",
+     "author": "[Marzano]",
+     "publisher": "il Mulino",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "[Marzano?]   Immagini dell'Italia, I",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Immagini dell'Italia. 1",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO02685197",
+      "title": "Immagini",
+      "score": 76.7,
+      "kind": "title+author"
+     },
+     "notes": "Same il Mulino 'Universale Paperbacks' design as pos 4, title printed in a black box on the spine, clearly 'Immagini dell'Italia, I/1'. Author name only partly legible."
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0104.jpg",
+     "film_time_s": 2580.6,
+     "time": "00:43:00.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s"
+    },
+    {
+     "frame": "p_0126.jpg",
+     "film_time_s": 2585.0,
+     "time": "00:43:05.0",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2585s"
+    }
+   ],
+   "notes": "Small, tidy pile of 5 books on the far-left edge of the piano lid, all fairly thin paperbacks."
+  },
+  {
+   "pile_id": "salotto-piano-pile-02",
+   "object_id": "obj:salotto:piano-pile-02",
+   "reader_label": "T2",
+   "level": "lid",
+   "index_left_to_right": 2,
+   "position": "left of centre on the piano lid",
+   "book_count": 9,
+   "books": [
+    {
+     "pos": 1,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "very thin white sliver at the very top of the stack, text not visible (page edge or wrapper of book below)",
+     "confidence": "low"
+    },
+    {
+     "pos": 2,
+     "title": "Il bel [...]",
+     "author": "Pietro [?]",
+     "publisher": "possibly La nave di Teseo (small crescent-moon colophon)",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[Pietro] [?]   Il bel [?]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il bel tacere",
+      "author": "Pietro Salabe",
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2582:bel-tacere",
+      "title": "Il bel tacere",
+      "score": 100.0,
+      "kind": "title+author"
+     },
+     "notes": "Slate-teal spine with a small numeral and a crescent-moon logo on the right end, matching the same crescent logo seen elsewhere in this collection on confirmed 'La nave di Teseo' spines (see T4)."
+    },
+    {
+     "pos": 3,
+     "title": null,
+     "author": null,
+     "publisher": "Oscar Mondadori (small red circular 'Oscar' logo visible)",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[?] · [?]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "White spine, faint reddish serif text, unreadable; small red circular Mondadori Oscar logo bottom right is clear."
+    },
+    {
+     "pos": 4,
+     "title": "Il mistero de...",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[?] [?]   Il mistero de[...]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "differs",
+     "earlier_reading": {
+      "title": "Il bel tacere",
+      "author": "Pietro Salabe",
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO09199564",
+      "title": "Il *mistero del Graal",
+      "score": 92.0,
+      "kind": "title"
+     },
+     "notes": "Thick coral/salmon spine with a small blue bird-like logo top right; only 'Il mistero de...' of the title is legible."
+    },
+    {
+     "pos": 5,
+     "title": "Fenice",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "editore rosso ... Fenice",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Thin red spine below pos 4; word 'Fenice' fairly legible on the right, rest illegible."
+    },
+    {
+     "pos": 6,
+     "title": "[...] la primavera",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[gioventù] del sud ... la primavera",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Thin dark-red spine below pos 5; fragments 'la primavera' legible on the right."
+    },
+    {
+     "pos": 7,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "teal booklet spine, 'TEMPO DI LIBRI ... Programma 2017' — book-fair program pamphlet, not a regular book",
+     "confidence": "low"
+    },
+    {
+     "pos": 8,
+     "title": "Il Novecento",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Il Novecento / il secondo tempo",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il Novecento",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2578:novecento",
+      "title": "Il Novecento",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "notes": "Orange spine, bold white title clearly legible, small subtitle 'il secondo tempo' beneath it (faint), numbered tab on right edge — looks like a partwork/collectible history volume."
+    },
+    {
+     "pos": 9,
+     "title": "Il Novecento",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Il Novecento / il secondo tempo",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il Novecento",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2578:novecento",
+      "title": "Il Novecento",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "notes": "Lime-green twin of pos 8 — same series/title, different colour volume, same faint 'il secondo tempo' subtitle and numbered tab."
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0104.jpg",
+     "film_time_s": 2580.6,
+     "time": "00:43:00.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s"
+    },
+    {
+     "frame": "p_0126.jpg",
+     "film_time_s": 2585.0,
+     "time": "00:43:05.0",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2585s"
+    }
+   ],
+   "notes": "Tall pile of 9 items including one non-book pamphlet (book-fair programme). The middle coral/red section (pos 4-6) is genuinely at the resolution limit of the source video; readings there are low-confidence fragments only."
+  },
+  {
+   "pile_id": "salotto-piano-pile-03",
+   "object_id": "obj:salotto:piano-pile-03",
+   "reader_label": "T3",
+   "level": "lid",
+   "index_left_to_right": 3,
+   "position": "centre-left of the piano lid",
+   "book_count": 11,
+   "books": [
+    {
+     "pos": 1,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "pale/cream spine, magazine-like heading, fragment 'No. 3[9]' visible, rest illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 2,
+     "title": "Lo scaffale infinito",
+     "author": "Andrea Kerbaker",
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Andrea Kerbaker   Lo scaffale infinito",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Lo scaffale infinito",
+      "author": "Andrea Kerbaker",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2578:scaffale-infinito",
+      "title": "Lo scaffale infinito",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "notes": "Black spine, clearly legible white title, small arrow-like logo and photographic band along the spine."
+    },
+    {
+     "pos": 3,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin plain white/cream spine, no legible text",
+     "confidence": "low"
+    },
+    {
+     "pos": 4,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin teal/turquoise spine (1 of 3 near-identical stacked volumes), faint white text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 5,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin teal/turquoise spine (2 of 3), same series as pos 4, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 6,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin teal/turquoise spine (3 of 3), same series as pos 4-5, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 7,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "white pamphlet, 'CONVEGNO INTERNAZIONALE ... Ravenna ... [aprile] 1-2, 2013' — conference-proceedings booklet, not a regular book",
+     "confidence": "low"
+    },
+    {
+     "pos": 8,
+     "title": "Ciarlatani",
+     "author": "Fausto Colombo",
+     "publisher": "possibly La nave di Teseo (crescent-moon colophon)",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Fausto Colombo   Ciarlatani",
+     "tier": "probable",
+     "tier_reason": "most letters legible, some inferred",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Blue spine, author and title both fairly legible; small crescent-moon logo on the right, same mark seen elsewhere on confirmed 'La nave di Teseo' spines."
+    },
+    {
+     "pos": 9,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin cream/off-white spine, no legible text",
+     "confidence": "low"
+    },
+    {
+     "pos": 10,
+     "title": "L'insopportabile [...] (word after 'insopportabile' uncertain)",
+     "author": "[Colonna]",
+     "publisher": "il Mulino",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[Colonna]  L'insopportabile [scelta/azzardo]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Grey 'il Mulino Universale Paperbacks' spine (windmill/bracket logo, black title box), same design family as T1 pos 4-5."
+    },
+    {
+     "pos": 11,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "white spine at the bottom of the pile, small circular logo, printed text too faint to read",
+     "confidence": "low"
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0104.jpg",
+     "film_time_s": 2580.6,
+     "time": "00:43:00.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s"
+    },
+    {
+     "frame": "p_0126.jpg",
+     "film_time_s": 2585.0,
+     "time": "00:43:05.0",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2585s"
+    }
+   ],
+   "notes": "Very tall pile (11 items) built from thin volumes, including two non-book pamphlets (an unidentified magazine and conference proceedings) and a run of 3 near-identical thin teal volumes that appear to be a numbered series — none of these could be read even under heavy digital zoom, this is a genuine resolution ceiling of the source footage, not a lack of effort."
+  },
+  {
+   "pile_id": "salotto-piano-pile-04",
+   "object_id": "obj:salotto:piano-pile-04",
+   "reader_label": "T4",
+   "level": "lid",
+   "index_left_to_right": 4,
+   "position": "centre-right of the piano lid",
+   "book_count": 13,
+   "books": [
+    {
+     "pos": 1,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "ragged-edged pale pamphlet, small icons top left, fragment '...Programma 201[7]' visible — looks like another book/culture-fair programme",
+     "confidence": "low"
+    },
+    {
+     "pos": 2,
+     "title": null,
+     "author": null,
+     "publisher": "La nave di Teseo",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "32  [?]   [?]   La nave di Teseo",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Mint/teal spine, numbered '32' on the left, publisher name 'La nave di Teseo' legible on the right; author/title in the middle not resolvable."
+    },
+    {
+     "pos": 3,
+     "title": "Storie di percorso",
+     "author": "Roberto Campari",
+     "publisher": "La nave di Teseo",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "2  Roberto Campari   Storie di percorso",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": null,
+      "author": "Roberto Campari",
+      "confidence": "low"
+     },
+     "matched": null,
+     "notes": "Black spine, numbered '2', crescent-moon colophon on the right matching the 'La nave di Teseo' mark seen on the neighbouring numbered volume (pos 2) and elsewhere in this collection."
+    },
+    {
+     "pos": 4,
+     "title": null,
+     "author": "[...]ghezzi",
+     "publisher": "La nave di Teseo",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "3  [?]ghezzi   Devo anda[re] ... [?]   La nave di Teseo",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO01602439",
+      "title": "Vienna-Berlino-Hollywood il *cinema della grande emigrazione",
+      "score": 80.0,
+      "kind": "author-only"
+     },
+     "notes": "Black spine, numbered '3', same series as pos 2-3; publisher name legible, author/title only partly."
+    },
+    {
+     "pos": 5,
+     "title": "Umberto Eco e il PCI",
+     "author": "Claudio e Gianfranc[esc]o [Crippa?]",
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Claudio e Gianfranc[esc]o [Crippa?]   UMBERTO ECO E IL PCI",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Umberto Eco e il PCI",
+      "author": null,
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2582:umberto-eco-e-il-pci",
+      "title": "Umberto Eco e il PCI",
+      "score": 95,
+      "kind": "exact"
+     },
+     "notes": "Red spine, bold white capitals title very clearly legible; the two co-authors' names are smaller and harder to pin down exactly."
+    },
+    {
+     "pos": 6,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin white offprint/pamphlet, faint '2 [word]' visible",
+     "confidence": "low"
+    },
+    {
+     "pos": 7,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin white offprint/pamphlet, faint '3 [word]' visible, same style as pos 6",
+     "confidence": "low"
+    },
+    {
+     "pos": 8,
+     "title": "Versus",
+     "author": null,
+     "publisher": "il Mulino (?)",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "VERSUS | [?] | N.[?]   il Mulino [20??]",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Versus",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:versus",
+      "title": "Versus",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "notes": "Yellow spine, 'VERSUS' clearly legible (Eco's own semiotics journal was historically 'VS - Versus'); issue number and exact publisher line not fully resolvable."
+    },
+    {
+     "pos": 9,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "item wrapped in bubble wrap, spine/title not visible at all",
+     "confidence": "low"
+    },
+    {
+     "pos": 10,
+     "title": "Il paradiso delle aragoste",
+     "author": "Edward [?]",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Edward [?]   Il paradiso delle aragoste",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il paradiso delle aragoste",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2578:paradiso-delle-aragoste",
+      "title": "Il paradiso delle aragoste",
+      "score": 95,
+      "kind": "exact"
+     },
+     "notes": "Pink spine, title clearly legible; author's two-line name only 'Edward' is confidently read."
+    },
+    {
+     "pos": 11,
+     "title": null,
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[?]   MEDIUM CONTATTO [8]2 (?)",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Steel-blue spine, only fragments of bold caps legible."
+    },
+    {
+     "pos": 12,
+     "title": null,
+     "author": "Umberto Eco",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "ECO   [...]",
+     "tier": "probable",
+     "tier_reason": "most letters legible, some inferred",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO09976417",
+      "title": "Bábeli beszélgetés Minimálnapló",
+      "score": 80.0,
+      "kind": "author-only"
+     },
+     "notes": "White spine, 'ECO' legible in a bold sans, remainder of the title too small/faint to resolve; small black-dot logo."
+    },
+    {
+     "pos": 13,
+     "title": "Questo è Kafka",
+     "author": "Reiner Stach",
+     "publisher": "il Mulino",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Reiner Stach   QUESTO È KAFKA",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Questo e Kafka",
+      "author": "Reiner Stach",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2578:questo-e-kafka",
+      "title": "Questo e Kafka",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "notes": "Grey-taupe spine at the bottom of the pile, il Mulino windmill/bracket logo, author and title both clearly legible."
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0104.jpg",
+     "film_time_s": 2580.6,
+     "time": "00:43:00.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s"
+    },
+    {
+     "frame": "p_0126.jpg",
+     "film_time_s": 2585.0,
+     "time": "00:43:05.0",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2585s"
+    }
+   ],
+   "notes": "Very tall pile (13 items), the tallest of the six top piles, mixing a 3-volume numbered 'La nave di Teseo' series, two 'VERSUS'-style offprints, a bubble-wrapped unidentified item, and several clearly legible single volumes at the bottom."
+  },
+  {
+   "pile_id": "salotto-piano-pile-05",
+   "object_id": "obj:salotto:piano-pile-05",
+   "reader_label": "T5",
+   "level": "lid",
+   "index_left_to_right": 5,
+   "position": "right of centre on the piano lid",
+   "book_count": 7,
+   "books": [
+    {
+     "pos": 1,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "white pamphlet/bellyband, 'Qual è il libro italiano più tradotto al mondo?' ('What is the most translated Italian book in the world?') — promotional insert, not a standalone book",
+     "confidence": "low"
+    },
+    {
+     "pos": 2,
+     "title": "Scritti a mano",
+     "author": "Matteo Motolese",
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "SCRITTI A MANO · MATTEO MOTOLESE",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Scritti a mano",
+      "author": "Matteo Motolese",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2578:scritti-a-mano",
+      "title": "Scritti a mano",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "notes": "Cream spine with yellow accent band, bold serif title and author both very clearly legible."
+    },
+    {
+     "pos": 3,
+     "title": "[...]",
+     "author": "Giuseppe Tornatore",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "GIUSEPPE TORNATORE   [?]",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Breve autobiografia",
+      "author": "Giuseppe Tornatore",
+      "confidence": "low"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2578:breve-autobiografia",
+      "title": "Breve autobiografia",
+      "score": 80.0,
+      "kind": "author-only"
+     },
+     "notes": "Black spine, author name in bold white caps clearly legible; the red italic title beneath it could not be resolved."
+    },
+    {
+     "pos": 4,
+     "title": null,
+     "author": "[Thomas ?]",
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[Thomas] [?]   [?]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO03667698",
+      "title": "Poesie di Dylan Thomas con testo a fronte",
+      "score": 80.0,
+      "kind": "author-only"
+     },
+     "notes": "White spine, small numeral '5' and logo top-left, grey text too faint to read beyond a probable first name 'Thomas'."
+    },
+    {
+     "pos": 5,
+     "title": "[Onor. mensile] L'eredità di Umberto Eco",
+     "author": "Giorgio [Manzoni?]",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Giorgio [Manzoni?]   ONOR. MENSILE  L'Eredità di Umberto Eco",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "L'eredità di Umberto Eco",
+      "author": null,
+      "confidence": "low"
+     },
+     "matched": null,
+     "notes": "Black spine with a small speech-bubble logo; the subtitle 'L'eredità di Umberto Eco' ('The legacy of Umberto Eco') is clearly legible, the preceding two words and author's surname less certain."
+    },
+    {
+     "pos": 6,
+     "title": null,
+     "author": "Ivano Dionigi",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "IVANO DIONIGI   [?]",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": null,
+      "author": "Ivano Dionigi",
+      "confidence": "low"
+     },
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO00313667",
+      "title": "Lucrezio le parole e le cose",
+      "score": 80.0,
+      "kind": "author-only"
+     },
+     "notes": "Thin grey spine, author's name clearly legible in caps; no separate title text resolvable on the visible portion of the spine."
+    },
+    {
+     "pos": 7,
+     "title": "A passo di gambero",
+     "author": "Umberto Eco",
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "UMBERTO ECO   A PASSO DI GAMBERO",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "A passo di gambero",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "braidense",
+      "id": "braidense:MIL0913859",
+      "title": "A passo di gambero",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "notes": "Two-tone navy/white spine at the base of the pile, both author and title very clearly legible (Eco's well-known essay collection)."
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0104.jpg",
+     "film_time_s": 2580.6,
+     "time": "00:43:00.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s"
+    },
+    {
+     "frame": "p_0126.jpg",
+     "film_time_s": 2585.0,
+     "time": "00:43:05.0",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2585s"
+    }
+   ],
+   "notes": "Compact, very legible pile of 7 items (including one promotional pamphlet) — several titles/authors here are among the most confidently read in the whole survey."
+  },
+  {
+   "pile_id": "salotto-piano-pile-06",
+   "object_id": "obj:salotto:piano-pile-06",
+   "reader_label": "T6",
+   "level": "lid",
+   "index_left_to_right": 6,
+   "position": "far right of the piano lid",
+   "book_count": 8,
+   "books": [
+    {
+     "pos": 1,
+     "title": "La luce oltre il nero",
+     "author": "Lorenzo Puglisi",
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "LA LUCE OLTRE IL NERO · LORENZO PUGLISI",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "La luce oltre il vetro",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": null,
+     "notes": "Lying flat, spine facing out, dark cover with clearly legible white title and author."
+    },
+    {
+     "pos": 2,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "beige/tan spine with a row of colourful vertical stripes (like a strip of little coloured panels), printed author/title text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 3,
+     "title": null,
+     "author": null,
+     "publisher": "possibly La nave di Teseo",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[?]   [?]   ... di Teseo (?)",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Thin black spine, faint white text; right end may read '... di Teseo', consistent with the 'La nave di Teseo' spines identified in T3/T4, but not certain."
+    },
+    {
+     "pos": 4,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "white spine, small black dot logo, printed text essentially invisible",
+     "confidence": "low"
+    },
+    {
+     "pos": 5,
+     "title": "[...]",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "Archivio   [Mirabile ...]   99. [Formaggi? Bocchini? R. Linnaeus?]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Dark red spine, word 'Archivio' at the left clearly legible, remaining text (a title plus what look like several contributor names after '99.') too small to resolve confidently."
+    },
+    {
+     "pos": 6,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "white spine below the red one, small logo bottom right, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 7,
+     "title": null,
+     "author": "[Fiorella ?]",
+     "publisher": "Einaudi (uncertain reading)",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[Fiorella?] [?]   Einaudi",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Pale blue spine with a small downward-triangle icon; 'Einaudi'-like wordmark on the right, rest of the text not resolvable."
+    },
+    {
+     "pos": 8,
+     "title": "Auf den Schultern von Riesen",
+     "author": "Umberto Eco",
+     "publisher": "Carl Hanser Verlag",
+     "language": "de",
+     "confidence": "high",
+     "spine_text": "ECO   Auf den Schultern von Riesen   HANSER",
+     "tier": "certain",
+     "tier_reason": "full title legible on the spine",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "notes": "Large black spine at the base of the pile — the GERMAN edition of Eco's 'Sulle spalle dei giganti' ('On the Shoulders of Giants'); 'ECO' and 'HANSER' both very clearly legible, German title legible in one of the two source frames."
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0104.jpg",
+     "film_time_s": 2580.6,
+     "time": "00:43:00.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s"
+    },
+    {
+     "frame": "p_0126.jpg",
+     "film_time_s": 2585.0,
+     "time": "00:43:05.0",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2585s"
+    }
+   ],
+   "notes": "Pile of 8 items at the far right of the lid; ends with a large, clearly identifiable German-language Eco volume (Hanser edition), a nice cross-check against the 'Sulle spalle di Umberto' book seen at the top of pile T1."
+  },
+  {
+   "pile_id": "salotto-piano-pile-07",
+   "object_id": "obj:salotto:piano-pile-07",
+   "reader_label": "L1",
+   "level": "keyboard-shelf",
+   "index_left_to_right": 1,
+   "position": "left of the piano",
+   "book_count": 11,
+   "books": [
+    {
+     "pos": 1,
+     "title": "Imię róży",
+     "author": "Umberto Eco",
+     "publisher": null,
+     "language": "pl",
+     "confidence": "high",
+     "spine_text": "umberto eco / imię róży",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il nome della rosa",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2862:imie-rozy",
+      "title": "Imię róży",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "title_note": "Polish edition of \"Il nome della rosa\" (The Name of the Rose)"
+    },
+    {
+     "pos": 2,
+     "title": "Storia della bellezza",
+     "author": "Umberto Eco",
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[...]a alla bellezza",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il nome della rosa",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "braidense",
+      "id": "braidense:VIA0203868",
+      "title": "Storia della bellezza",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 3,
+     "title": "Marie Curie",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "MARIE CURIE",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Marie Curie",
+      "author": null,
+      "confidence": "low"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:marie-curie",
+      "title": "Marie Curie",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 4,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "tan/cream spine, small green logo, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 5,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "white spine, small turquoise label, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 6,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thick white/cream hardcover, dark ribbon bookmark hanging out, spine text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 7,
+     "title": null,
+     "author": null,
+     "publisher": "La nave di Teseo",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[...] / La nave di Teseo →",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "title_note": "title obscured by a leather bookmark; publisher logo (ship/arrow mark) for La nave di Teseo visible"
+    },
+    {
+     "pos": 8,
+     "title": "[...]della memoria",
+     "author": null,
+     "publisher": "Bompiani",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[...]ELLA MEMORIA ... BOMPIANI",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "differs",
+     "earlier_reading": {
+      "title": "Il nome della rosa",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": null
+    },
+    {
+     "pos": 9,
+     "title": "A proposito di niente",
+     "author": "Woody Allen",
+     "publisher": "La nave di Teseo (?)",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "[Woody Allen?] ... A proposito di niente",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "A proposito di niente",
+      "author": "Woody Allen",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2578:proposito-di-niente",
+      "title": "A proposito di niente",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 10,
+     "title": "Il nome della rosa",
+     "author": "Umberto Eco",
+     "publisher": "La nave di Teseo (?) / Bompiani",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Eco   Il nome della rosa",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il nome della rosa",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "braidense",
+      "id": "braidense:RAV0047653",
+      "title": "Il nome della rosa",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 11,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "dark maroon/wine spine, BOMPIANI logo visible bottom edge, text in deep shadow / illegible",
+     "confidence": "low"
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0054.jpg",
+     "film_time_s": 2570.6,
+     "time": "00:42:50.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s"
+    },
+    {
+     "frame": "p_0062.jpg",
+     "film_time_s": 2572.2,
+     "time": "00:42:52.2",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2572s"
+    }
+   ],
+   "notes": "Tall single stack, base sits directly on the piano fallboard. Top book is a Polish translation of Eco's Il nome della rosa; several spines carry the crescent/ship mark used by La nave di Teseo (the publisher that reissued Eco's backlist after 2015). Bottom third of the stack is in heavy shadow, limiting legibility."
+  },
+  {
+   "pile_id": "salotto-piano-pile-08",
+   "object_id": "obj:salotto:piano-pile-08",
+   "reader_label": "L2",
+   "level": "keyboard-shelf",
+   "index_left_to_right": 2,
+   "position": "left-of-centre of the piano",
+   "book_count": 18,
+   "books": [
+    {
+     "pos": 1,
+     "title": "Interviste e colloqui",
+     "author": "Beno",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Beno   Interviste e colloqui",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Interviste e colloqui",
+      "author": "Luciano Berio",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:interviste-e-colloqui",
+      "title": "Interviste e colloqui",
+      "score": 95,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 2,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin teal/green spine, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 3,
+     "title": "Due sigari in riva al mare",
+     "author": "Michael Köhlmeier",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Michael Köhlmeier   Due sigari in riva al mare",
+     "tier": "probable",
+     "tier_reason": "most letters legible, some inferred",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null
+    },
+    {
+     "pos": 4,
+     "title": "Versus (journal), issue 2/2021, n.132",
+     "author": null,
+     "publisher": "il Mulino",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "VERSUS | 2/2021 | N.132 ... il Mulino",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Versus",
+      "author": null,
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "braidense",
+      "id": "braidense:CFI0627385",
+      "title": "2",
+      "score": 100.0,
+      "kind": "title"
+     }
+    },
+    {
+     "pos": 5,
+     "title": "Gianni Vattimo",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Gianni Vattimo",
+     "tier": "probable",
+     "tier_reason": "most letters legible, some inferred",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null,
+     "title_note": "thick cream/sage volume, photo cover; likely an interview/collected-writings volume on or by Vattimo"
+    },
+    {
+     "pos": 6,
+     "title": "Archivio di memoria",
+     "author": "Fabio Mauri",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "FABIO MAURI   Archivio di memoria",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Artificio di memoria",
+      "author": "Fabio Mauri",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:artificio-di-memoria",
+      "title": "Artificio di memoria",
+      "score": 87.4,
+      "kind": "title+author"
+     },
+     "title_note": "exhibition catalogue, black spine with round \"(G)\" logo"
+    },
+    {
+     "pos": 7,
+     "title": "I misteri dell'altare di Isenheim di Grünewald",
+     "author": "Giovanni [Testori?]",
+     "publisher": "Bompiani",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "GIOVANNI [TESTORI?]   I MISTERI DELL'ALTARE DI ISENHEIM DI GRÜNEWALD",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "I misteri dell'altare di Isenheim di Grunewald",
+      "author": "Giovanni Reale",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:misteri-dell-altare-di-isenheim-di-grune",
+      "title": "I misteri dell'altare di Isenheim di Grunewald",
+      "score": 100,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 8,
+     "title": "Romanino e la \"Sistina dei poveri\" a Pisogne",
+     "author": null,
+     "publisher": "Bompiani",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "[...] ROMANINO E LA \"SISTINA DEI POVERI\" A PISOGNE",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Romanino e la 'Sistina dei poveri' a Pisogne",
+      "author": null,
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:romanino-e-la-sistina-dei-poveri-a-pisog",
+      "title": "Romanino e la 'Sistina dei poveri' a Pisogne",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 9,
+     "title": "Una scrittura sconcertante: Arnaldo Pomodoro, Opere 1953-1985",
+     "author": null,
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Una scrittura sconcertante: Arnaldo Pomodoro, Opere 1953-1985",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Una scrittura sconcertante",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO00803397",
+      "title": "Opere",
+      "score": 100.0,
+      "kind": "title"
+     }
+    },
+    {
+     "pos": 10,
+     "title": "Voglia di libri",
+     "author": "Marco Andreose",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Marco Andreose   Voglia di libri",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Voglia di libri",
+      "author": "Mario Andreose",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:voglia-di-libri",
+      "title": "Voglia di libri",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 11,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin white pamphlet/booklet, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 12,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin white pamphlet/booklet, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 13,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin white pamphlet/booklet, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 14,
+     "title": null,
+     "author": null,
+     "publisher": "possibly Adelphi",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[Alexandre Kojève?] ... Concetto, tempo, discorso (?)",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null
+    },
+    {
+     "pos": 15,
+     "title": "Il bene e il male",
+     "author": "Giulio Giorello, Vittorio Sgarbi",
+     "publisher": "La nave di Teseo",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Giulio Giorello, Vittorio Sgarbi   Il bene e il male   La nave di Teseo",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il bene e il male",
+      "author": "Giulio Giorello, Vittorio Sgarbi",
+      "confidence": "medium"
+     },
+     "matched": null
+    },
+    {
+     "pos": 16,
+     "title": null,
+     "author": "I. Pezzini, R. Finocchi",
+     "publisher": "Mimesis",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "I. Pezzini - R. Finocchi (a cura di) [...] MIMESIS",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": null,
+      "author": "I. Pezzini; B. Finocchi (a cura di)",
+      "confidence": "low"
+     },
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO01173122",
+      "title": "Trailer, spot, videoclip, siti, banner le forme brevi della comunicazione audiovisiva",
+      "score": 80.0,
+      "kind": "author-only"
+     }
+    },
+    {
+     "pos": 17,
+     "title": "Critique (journal)",
+     "author": null,
+     "publisher": null,
+     "language": "fr",
+     "confidence": "low",
+     "spine_text": "[Alexandre Prstwocz Petitfrere?] ... CRITIQUE",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null
+    },
+    {
+     "pos": 18,
+     "title": "Vivere con gli dèi",
+     "author": "Neil MacGregor",
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Neil MacGregor   Vivere con gli dèi",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Vivere con gli dei",
+      "author": "Neil MacGregor",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:vivere-con-gli-dei",
+      "title": "Vivere con gli dei",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0054.jpg",
+     "film_time_s": 2570.6,
+     "time": "00:42:50.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s"
+    },
+    {
+     "frame": "p_0062.jpg",
+     "film_time_s": 2572.2,
+     "time": "00:42:52.2",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2572s"
+    }
+   ],
+   "notes": "Very tall stack topped by a book/catalogue about Beno, with a thick cream volume captioned 'Gianni Vattimo' near the top. Several Bompiani-published art catalogues (Fabio Mauri, Giovanni [Testori], Romanino) in the upper-middle. Base rests on Neil MacGregor's 'Vivere con gli dèi', immediately beside (and overlapping in the crops with) pile L3's own base row of German Eco editions."
+  },
+  {
+   "pile_id": "salotto-piano-pile-09",
+   "object_id": "obj:salotto:piano-pile-09",
+   "reader_label": "L3a",
+   "level": "keyboard-shelf",
+   "index_left_to_right": 3,
+   "position": "centre of the keyboard shelf, left stack of the adjacent pair",
+   "book_count": 14,
+   "books": [
+    {
+     "pos": 1,
+     "title": "Note",
+     "author": "Giancarlo Iliprandi",
+     "publisher": "Hoepli",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "HOEPLI   Note   Giancarlo Iliprandi",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Note",
+      "author": "Giancarlo Iliprandi",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:note",
+      "title": "Note",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 2,
+     "title": null,
+     "author": "Gillo Dorfles",
+     "publisher": "Skira",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "GILLO DORFLES [Skira]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": null,
+      "author": "Gillo Dorfles",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO00169180",
+      "title": "Artificio e natura",
+      "score": 80.0,
+      "kind": "author-only"
+     },
+     "title_note": "title printed on front cover, not legible on spine"
+    },
+    {
+     "pos": 3,
+     "title": "Il volto del '900: da Matisse a Bacon. Capolavori dal Centre Pompidou",
+     "author": null,
+     "publisher": "Skira",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "IL VOLTO DEL '900 - da Matisse a Bacon - Capolavori dal Centre Pompidou [Skira]",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il volto del '900: da Matisse a Bacon, capolavori dal Centre Pompidou",
+      "author": null,
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:volto-del-900-da-matisse-a-bacon-capolav",
+      "title": "Il volto del '900: da Matisse a Bacon, capolavori dal Centre Pompidou",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 4,
+     "title": "Giorgio Morandi: Une rétrospective",
+     "author": null,
+     "publisher": "Skira / BOZAR Books",
+     "language": "fr",
+     "confidence": "high",
+     "spine_text": "GIORGIO MORANDI   Une rétrospective   [Skira / BOZAR Books]",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Giorgio Morandi: une retrospective",
+      "author": null,
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:giorgio-morandi-une-retrospective",
+      "title": "Giorgio Morandi: une retrospective",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 5,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "white spine, small logo and red cursive 'adelphi'-style mark, title illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 6,
+     "title": "L'era della comunicazione",
+     "author": "Umberto Eco",
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[Umberto E]CO   L'ERA DELLA COMUNICAZIONE",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "L'era della comunicazione",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "braidense",
+      "id": "braidense:LO11881706",
+      "title": "L'era della comunicazione",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 7,
+     "title": "I geroglifici di Sir Thomas Browne",
+     "author": "Roberto Calasso",
+     "publisher": "Adelphi",
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Roberto Calasso   I geroglifici di Sir Thomas Browne",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il ceffo di Sir Thomas Browne",
+      "author": "Roberto Calasso",
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:ceffo-di-sir-thomas-browne",
+      "title": "Il ceffo di Sir Thomas Browne",
+      "score": 87.1,
+      "kind": "title+author"
+     }
+    },
+    {
+     "pos": 8,
+     "title": "Il bambino nascosto",
+     "author": "Roberto Andò",
+     "publisher": "La nave di Teseo",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Andò   Il bambino nascosto",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il bambino nascosto",
+      "author": "Roberto Ando",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:bambino-nascosto",
+      "title": "Il bambino nascosto",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 9,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin teal spine, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 10,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin orange/salmon spine, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 11,
+     "title": "Das Irrenhaus",
+     "author": "Michael Krüger",
+     "publisher": "Hanser",
+     "language": "de",
+     "confidence": "medium",
+     "spine_text": "Das Irrenhaus   [Hanser]",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Das Irrenhaus",
+      "author": null,
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:irrenhaus",
+      "title": "Das Irrenhaus",
+      "score": 95,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 12,
+     "title": "Der ewige Faschismus",
+     "author": "Umberto Eco",
+     "publisher": "Hanser",
+     "language": "de",
+     "confidence": "high",
+     "spine_text": "[Umbe]rto ECO   DER EWIGE FASCHISMUS   HANSER",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "L'era della comunicazione",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:ewige-faschismus",
+      "title": "Der ewige Faschismus",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "title_note": "German edition of \"Il fascismo eterno\" / Ur-Fascism"
+    },
+    {
+     "pos": 13,
+     "title": "Der ewige Faschismus",
+     "author": "Umberto Eco",
+     "publisher": "Hanser",
+     "language": "de",
+     "confidence": "high",
+     "spine_text": "[...] ECO   DER EWIGE FASCHISMUS   HANSER",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "L'era della comunicazione",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:ewige-faschismus",
+      "title": "Der ewige Faschismus",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "title_note": "second copy of the same title"
+    },
+    {
+     "pos": 14,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin white/grey pamphlet at base, text illegible",
+     "confidence": "low"
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0054.jpg",
+     "film_time_s": 2570.6,
+     "time": "00:42:50.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s"
+    },
+    {
+     "frame": "p_0062.jpg",
+     "film_time_s": 2572.2,
+     "time": "00:42:52.2",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2572s"
+    }
+   ],
+   "notes": "This crop actually covers TWO piles side by side, resting close together with a visible wood-panel gap above them in the wide overview shot: a left tower (Hoepli/Note/Il volto del '900/Giorgio Morandi, continuing down through Adelphi/Calasso/Andò paperbacks to two German Eco 'Der ewige Faschismus' copies) and a right tower (Guido Piovene's Bompiani-boxed 'Viaggio in Italia' sitting on a run of pale-blue Adelphi paperbacks: Calasso and Fabre). Both sub-stacks appear to bottom out near the same row of books, so the true base could not be fully disambiguated. Position numbers restart for each of the two sub-stacks (see 'stack' field on each book)."
+  },
+  {
+   "pile_id": "salotto-piano-pile-10",
+   "object_id": "obj:salotto:piano-pile-10",
+   "reader_label": "L3b",
+   "level": "keyboard-shelf",
+   "index_left_to_right": 4,
+   "position": "centre of the keyboard shelf, right stack of the adjacent pair",
+   "book_count": 4,
+   "books": [
+    {
+     "pos": 1,
+     "title": "Viaggio in Italia",
+     "author": "Guido Piovene",
+     "publisher": "Bompiani",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Guido Piovene   VIAGGIO IN ITALIA   [BOMPIANI]",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Viaggio in Italia",
+      "author": "Guido Piovene",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:viaggio-in-italia",
+      "title": "Viaggio in Italia",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 2,
+     "title": null,
+     "author": "Roberto Calasso",
+     "publisher": "Adelphi",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "Adelphi ... Calasso ... [title illegible]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il cacciatore celeste",
+      "author": "Roberto Calasso",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO01667190",
+      "title": "Cento lettere a uno sconosciuto",
+      "score": 80.0,
+      "kind": "author-only"
+     }
+    },
+    {
+     "pos": 3,
+     "title": "Ricordi di un entomologo I",
+     "author": "Jean-Henri Fabre",
+     "publisher": "Adelphi",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Fabre   Ricordi di un entomologo I   [713]",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Ricordi di un entomologo I",
+      "author": "Jean-Henri Fabre",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:ricordi-di-un-entomologo-i",
+      "title": "Ricordi di un entomologo I",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 4,
+     "title": "Il Cacciatore Celeste",
+     "author": "Roberto Calasso",
+     "publisher": "Adelphi",
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Calasso   Il Cacciatore Celeste   [650]",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il cacciatore celeste",
+      "author": "Roberto Calasso",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:cacciatore-celeste",
+      "title": "Il cacciatore celeste",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0054.jpg",
+     "film_time_s": 2570.6,
+     "time": "00:42:50.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s"
+    },
+    {
+     "frame": "p_0062.jpg",
+     "film_time_s": 2572.2,
+     "time": "00:42:52.2",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2572s"
+    }
+   ],
+   "notes": "This crop actually covers TWO piles side by side, resting close together with a visible wood-panel gap above them in the wide overview shot: a left tower (Hoepli/Note/Il volto del '900/Giorgio Morandi, continuing down through Adelphi/Calasso/Andò paperbacks to two German Eco 'Der ewige Faschismus' copies) and a right tower (Guido Piovene's Bompiani-boxed 'Viaggio in Italia' sitting on a run of pale-blue Adelphi paperbacks: Calasso and Fabre). Both sub-stacks appear to bottom out near the same row of books, so the true base could not be fully disambiguated. Position numbers restart for each of the two sub-stacks (see 'stack' field on each book)."
+  },
+  {
+   "pile_id": "salotto-piano-pile-11",
+   "object_id": "obj:salotto:piano-pile-11",
+   "reader_label": "L4",
+   "level": "keyboard-shelf",
+   "index_left_to_right": 5,
+   "position": "right-of-centre of the piano",
+   "book_count": 9,
+   "books": [
+    {
+     "pos": 1,
+     "title": "Un sogno per tutti",
+     "author": null,
+     "publisher": "Skira",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[...] Un sogno per tutti   [Skira]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": {
+      "catalog": "bologna",
+      "id": "bologna:UBO04241786",
+      "title": "Il *sogno di scrivere perché lo abbiamo tutti, perché è giusto realizzarlo",
+      "score": 75.9,
+      "kind": "title"
+     },
+     "title_note": "grayscale photo/portrait cover"
+    },
+    {
+     "pos": 2,
+     "title": "I Mutanti",
+     "author": "Sofia Bignamini",
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "SOFIA BIGNAMINI   I MUTANTI",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "I mutanti",
+      "author": "Sofia Bignamini",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:mutanti",
+      "title": "I mutanti",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 3,
+     "title": "I bambini di Moloch",
+     "author": "Lazzatto",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Lazzatto   I bambini di Moloch",
+     "tier": "probable",
+     "tier_reason": "most letters legible, some inferred",
+     "agreement_with_earlier_reading": "differs",
+     "earlier_reading": {
+      "title": "I bambini di Marte",
+      "author": "Lazzarato",
+      "confidence": "medium"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:bambini-di-marte",
+      "title": "I bambini di Marte",
+      "score": 81.1,
+      "kind": "title+author"
+     }
+    },
+    {
+     "pos": 4,
+     "title": "L'era della comunicazione",
+     "author": "Umberto Eco",
+     "publisher": null,
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "UMBERTO ECO [...] ERA DELLA [...]",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "L'era della comunicazione",
+      "author": "Umberto Eco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "braidense",
+      "id": "braidense:LO11881706",
+      "title": "L'era della comunicazione",
+      "score": 100.0,
+      "kind": "exact"
+     },
+     "title_note": "similar-looking thin white Eco paperback also seen in pile L3; may be a different Eco title given the physical gap between the two towers"
+    },
+    {
+     "pos": 5,
+     "title": "Il Crollo",
+     "author": "Lorenzo Pregliasco",
+     "publisher": null,
+     "language": "it",
+     "confidence": "high",
+     "spine_text": "Lorenzo Pregliasco   IL CROLLO   [ricognizione geografica delle... parole che hanno agito e distrutto la Seconda Repubblica]",
+     "tier": "certain",
+     "tier_reason": "full title legible and the earlier reader read the same",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": "Il crollo",
+      "author": "Lorenzo Pregliasco",
+      "confidence": "high"
+     },
+     "matched": {
+      "catalog": "reading",
+      "id": "video:zZEy10fpq3I:2570:crollo",
+      "title": "Il crollo",
+      "score": 100.0,
+      "kind": "exact"
+     }
+    },
+    {
+     "pos": 6,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin white/lavender pamphlet, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 7,
+     "title": "Una passione a Manhattan",
+     "author": "Anna Ottani Cavina",
+     "publisher": null,
+     "language": "it",
+     "confidence": "medium",
+     "spine_text": "Anna Ottani Cavina   Una passione a Manhattan",
+     "tier": "probable",
+     "tier_reason": "most letters legible; the earlier independent reading agrees",
+     "agreement_with_earlier_reading": "confirms",
+     "earlier_reading": {
+      "title": null,
+      "author": "Anna Ottani Cavina",
+      "confidence": "medium"
+     },
+     "matched": null
+    },
+    {
+     "pos": 8,
+     "title": null,
+     "author": "Blaise Cendrars",
+     "publisher": "La nave di Teseo (?)",
+     "language": "it",
+     "confidence": "low",
+     "spine_text": "[Blaise Cendrars?]   Il primo [...] del mondo",
+     "tier": "guess",
+     "tier_reason": "fragment or partial letters only",
+     "agreement_with_earlier_reading": "new",
+     "earlier_reading": null,
+     "matched": null
+    },
+    {
+     "pos": 9,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin white pamphlet at base, text illegible",
+     "confidence": "low"
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0054.jpg",
+     "film_time_s": 2570.6,
+     "time": "00:42:50.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s"
+    },
+    {
+     "frame": "p_0062.jpg",
+     "film_time_s": 2572.2,
+     "time": "00:42:52.2",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2572s"
+    }
+   ],
+   "notes": "A separate, self-contained tower to the right of pile L3, resting on its own small Bompiani-labelled box (title not legible) at the very base. Topped by a photo-cover Skira book and Sofia Bignamini's 'I Mutanti'."
+  },
+  {
+   "pile_id": "salotto-piano-pile-12",
+   "object_id": "obj:salotto:piano-pile-12",
+   "reader_label": "L5",
+   "level": "keyboard-shelf",
+   "index_left_to_right": 6,
+   "position": "right of the piano",
+   "book_count": 9,
+   "books": [
+    {
+     "pos": 1,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "light-blue paper/pamphlet lying flat on top, printed ruled lines, no legible title",
+     "confidence": "low"
+    },
+    {
+     "pos": 2,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin mint/pale-green spine, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 3,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "black-covered book, tan/mustard spine label numbered '726' (Adelphi 'Fabula'-style black series), title illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 4,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "thin mint-green spine, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 5,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "black-covered book, red/maroon spine label numbered '796' (Adelphi 'Fabula'-style black series), title illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 6,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "blue spine, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 7,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "white spine, text illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 8,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "green spine, possibly 'Strindberg', text mostly illegible",
+     "confidence": "low"
+    },
+    {
+     "pos": 9,
+     "unlabelled": true,
+     "count": 1,
+     "spine_text": "blue spine at base, cut off by shelf edge, text illegible",
+     "confidence": "low"
+    }
+   ],
+   "frames": [
+    {
+     "frame": "p_0054.jpg",
+     "film_time_s": 2570.6,
+     "time": "00:42:50.6",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s"
+    },
+    {
+     "frame": "p_0062.jpg",
+     "film_time_s": 2572.2,
+     "time": "00:42:52.2",
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2572s"
+    }
+   ],
+   "notes": "Narrowest and rightmost of the lower piles; mostly small black-covered paperbacks with coloured Adelphi-style numbered spine labels (726, 796) that could not be read at this resolution. Sits beside (and slightly behind) pile L4."
+  }
+ ],
+ "frames": [
+  {
+   "frame": "p_0104.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s",
+   "timestamp_s": 2581,
+   "timestamp_true_s": 2580.6,
+   "time": "00:43:00",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-01",
+   "wall_name": "salotto upright piano, lid, pile 1 of 6 (far left of the piano lid)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 1 of 6 on the lid, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "title": "Sulle spalle di Umberto",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Sulle spalle di Umberto",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 2,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin two-tone spine, cream on the left / dark teal on the right, tiny printed text on both halves illegible even at high zoom",
+       "confidence": "low"
+      },
+      {
+       "pos": 3,
+       "title": "L'anima ciliegia",
+       "author": "Lia Levi",
+       "publisher": "e/o (Edizioni E/O)",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "LIA LEVI · L'ANIMA CILIEGIA",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "title": "[Terre ...]",
+       "author": "Anna Ottani Cavina",
+       "publisher": "il Mulino",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Anna Ottani Cavina  [T]e[rr]e [?]",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 5,
+       "title": "Immagini dell'Italia, I",
+       "author": "[Marzano]",
+       "publisher": "il Mulino",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "[Marzano?]   Immagini dell'Italia, I",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0104.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s",
+   "timestamp_s": 2581,
+   "timestamp_true_s": 2580.6,
+   "time": "00:43:00",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-02",
+   "wall_name": "salotto upright piano, lid, pile 2 of 6 (left of centre on the piano lid)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 2 of 6 on the lid, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "very thin white sliver at the very top of the stack, text not visible (page edge or wrapper of book below)",
+       "confidence": "low"
+      },
+      {
+       "pos": 2,
+       "title": "Il bel [...]",
+       "author": "Pietro [?]",
+       "publisher": "possibly La nave di Teseo (small crescent-moon colophon)",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[Pietro] [?]   Il bel [?]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 3,
+       "title": null,
+       "author": null,
+       "publisher": "Oscar Mondadori (small red circular 'Oscar' logo visible)",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[?] · [?]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "title": "Il mistero de...",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[?] [?]   Il mistero de[...]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 5,
+       "title": "Fenice",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "editore rosso ... Fenice",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 6,
+       "title": "[...] la primavera",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[gioventù] del sud ... la primavera",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 7,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "teal booklet spine, 'TEMPO DI LIBRI ... Programma 2017' — book-fair program pamphlet, not a regular book",
+       "confidence": "low"
+      },
+      {
+       "pos": 8,
+       "title": "Il Novecento",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Il Novecento / il secondo tempo",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 9,
+       "title": "Il Novecento",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Il Novecento / il secondo tempo",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0104.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s",
+   "timestamp_s": 2581,
+   "timestamp_true_s": 2580.6,
+   "time": "00:43:00",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-03",
+   "wall_name": "salotto upright piano, lid, pile 3 of 6 (centre-left of the piano lid)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 3 of 6 on the lid, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "pale/cream spine, magazine-like heading, fragment 'No. 3[9]' visible, rest illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 2,
+       "title": "Lo scaffale infinito",
+       "author": "Andrea Kerbaker",
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Andrea Kerbaker   Lo scaffale infinito",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 3,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin plain white/cream spine, no legible text",
+       "confidence": "low"
+      },
+      {
+       "pos": 4,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin teal/turquoise spine (1 of 3 near-identical stacked volumes), faint white text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 5,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin teal/turquoise spine (2 of 3), same series as pos 4, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 6,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin teal/turquoise spine (3 of 3), same series as pos 4-5, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 7,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "white pamphlet, 'CONVEGNO INTERNAZIONALE ... Ravenna ... [aprile] 1-2, 2013' — conference-proceedings booklet, not a regular book",
+       "confidence": "low"
+      },
+      {
+       "pos": 8,
+       "title": "Ciarlatani",
+       "author": "Fausto Colombo",
+       "publisher": "possibly La nave di Teseo (crescent-moon colophon)",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Fausto Colombo   Ciarlatani",
+       "tier": "probable",
+       "tier_reason": "most letters legible, some inferred",
+       "series": null
+      },
+      {
+       "pos": 9,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin cream/off-white spine, no legible text",
+       "confidence": "low"
+      },
+      {
+       "pos": 10,
+       "title": "L'insopportabile [...] (word after 'insopportabile' uncertain)",
+       "author": "[Colonna]",
+       "publisher": "il Mulino",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[Colonna]  L'insopportabile [scelta/azzardo]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 11,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "white spine at the bottom of the pile, small circular logo, printed text too faint to read",
+       "confidence": "low"
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0104.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s",
+   "timestamp_s": 2581,
+   "timestamp_true_s": 2580.6,
+   "time": "00:43:00",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-04",
+   "wall_name": "salotto upright piano, lid, pile 4 of 6 (centre-right of the piano lid)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 4 of 6 on the lid, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "ragged-edged pale pamphlet, small icons top left, fragment '...Programma 201[7]' visible — looks like another book/culture-fair programme",
+       "confidence": "low"
+      },
+      {
+       "pos": 2,
+       "title": null,
+       "author": null,
+       "publisher": "La nave di Teseo",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "32  [?]   [?]   La nave di Teseo",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 3,
+       "title": "Storie di percorso",
+       "author": "Roberto Campari",
+       "publisher": "La nave di Teseo",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "2  Roberto Campari   Storie di percorso",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "title": null,
+       "author": "[...]ghezzi",
+       "publisher": "La nave di Teseo",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "3  [?]ghezzi   Devo anda[re] ... [?]   La nave di Teseo",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 5,
+       "title": "Umberto Eco e il PCI",
+       "author": "Claudio e Gianfranc[esc]o [Crippa?]",
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Claudio e Gianfranc[esc]o [Crippa?]   UMBERTO ECO E IL PCI",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 6,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin white offprint/pamphlet, faint '2 [word]' visible",
+       "confidence": "low"
+      },
+      {
+       "pos": 7,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin white offprint/pamphlet, faint '3 [word]' visible, same style as pos 6",
+       "confidence": "low"
+      },
+      {
+       "pos": 8,
+       "title": "Versus",
+       "author": null,
+       "publisher": "il Mulino (?)",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "VERSUS | [?] | N.[?]   il Mulino [20??]",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 9,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "item wrapped in bubble wrap, spine/title not visible at all",
+       "confidence": "low"
+      },
+      {
+       "pos": 10,
+       "title": "Il paradiso delle aragoste",
+       "author": "Edward [?]",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Edward [?]   Il paradiso delle aragoste",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 11,
+       "title": null,
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[?]   MEDIUM CONTATTO [8]2 (?)",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 12,
+       "title": null,
+       "author": "Umberto Eco",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "ECO   [...]",
+       "tier": "probable",
+       "tier_reason": "most letters legible, some inferred",
+       "series": null
+      },
+      {
+       "pos": 13,
+       "title": "Questo è Kafka",
+       "author": "Reiner Stach",
+       "publisher": "il Mulino",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Reiner Stach   QUESTO È KAFKA",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0104.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s",
+   "timestamp_s": 2581,
+   "timestamp_true_s": 2580.6,
+   "time": "00:43:00",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-05",
+   "wall_name": "salotto upright piano, lid, pile 5 of 6 (right of centre on the piano lid)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 5 of 6 on the lid, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "white pamphlet/bellyband, 'Qual è il libro italiano più tradotto al mondo?' ('What is the most translated Italian book in the world?') — promotional insert, not a standalone book",
+       "confidence": "low"
+      },
+      {
+       "pos": 2,
+       "title": "Scritti a mano",
+       "author": "Matteo Motolese",
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "SCRITTI A MANO · MATTEO MOTOLESE",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 3,
+       "title": "[...]",
+       "author": "Giuseppe Tornatore",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "GIUSEPPE TORNATORE   [?]",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "title": null,
+       "author": "[Thomas ?]",
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[Thomas] [?]   [?]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 5,
+       "title": "[Onor. mensile] L'eredità di Umberto Eco",
+       "author": "Giorgio [Manzoni?]",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Giorgio [Manzoni?]   ONOR. MENSILE  L'Eredità di Umberto Eco",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 6,
+       "title": null,
+       "author": "Ivano Dionigi",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "IVANO DIONIGI   [?]",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 7,
+       "title": "A passo di gambero",
+       "author": "Umberto Eco",
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "UMBERTO ECO   A PASSO DI GAMBERO",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0104.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2581s",
+   "timestamp_s": 2581,
+   "timestamp_true_s": 2580.6,
+   "time": "00:43:00",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-06",
+   "wall_name": "salotto upright piano, lid, pile 6 of 6 (far right of the piano lid)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 6 of 6 on the lid, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "title": "La luce oltre il nero",
+       "author": "Lorenzo Puglisi",
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "LA LUCE OLTRE IL NERO · LORENZO PUGLISI",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 2,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "beige/tan spine with a row of colourful vertical stripes (like a strip of little coloured panels), printed author/title text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 3,
+       "title": null,
+       "author": null,
+       "publisher": "possibly La nave di Teseo",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[?]   [?]   ... di Teseo (?)",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "white spine, small black dot logo, printed text essentially invisible",
+       "confidence": "low"
+      },
+      {
+       "pos": 5,
+       "title": "[...]",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "Archivio   [Mirabile ...]   99. [Formaggi? Bocchini? R. Linnaeus?]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 6,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "white spine below the red one, small logo bottom right, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 7,
+       "title": null,
+       "author": "[Fiorella ?]",
+       "publisher": "Einaudi (uncertain reading)",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[Fiorella?] [?]   Einaudi",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 8,
+       "title": "Auf den Schultern von Riesen",
+       "author": "Umberto Eco",
+       "publisher": "Carl Hanser Verlag",
+       "language": "de",
+       "confidence": "high",
+       "spine_text": "ECO   Auf den Schultern von Riesen   HANSER",
+       "tier": "certain",
+       "tier_reason": "full title legible on the spine",
+       "series": null
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0054.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s",
+   "timestamp_s": 2571,
+   "timestamp_true_s": 2570.6,
+   "time": "00:42:50",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-07",
+   "wall_name": "salotto upright piano, keyboard shelf, pile 1 of 6 (left of the piano)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 1 of 6 on the keyboard shelf, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "title": "Imię róży",
+       "author": "Umberto Eco",
+       "publisher": null,
+       "language": "pl",
+       "confidence": "high",
+       "spine_text": "umberto eco / imię róży",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 2,
+       "title": "Storia della bellezza",
+       "author": "Umberto Eco",
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[...]a alla bellezza",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 3,
+       "title": "Marie Curie",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "MARIE CURIE",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "tan/cream spine, small green logo, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 5,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "white spine, small turquoise label, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 6,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thick white/cream hardcover, dark ribbon bookmark hanging out, spine text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 7,
+       "title": null,
+       "author": null,
+       "publisher": "La nave di Teseo",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[...] / La nave di Teseo →",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 8,
+       "title": "[...]della memoria",
+       "author": null,
+       "publisher": "Bompiani",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[...]ELLA MEMORIA ... BOMPIANI",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 9,
+       "title": "A proposito di niente",
+       "author": "Woody Allen",
+       "publisher": "La nave di Teseo (?)",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "[Woody Allen?] ... A proposito di niente",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 10,
+       "title": "Il nome della rosa",
+       "author": "Umberto Eco",
+       "publisher": "La nave di Teseo (?) / Bompiani",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Eco   Il nome della rosa",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 11,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "dark maroon/wine spine, BOMPIANI logo visible bottom edge, text in deep shadow / illegible",
+       "confidence": "low"
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0054.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s",
+   "timestamp_s": 2571,
+   "timestamp_true_s": 2570.6,
+   "time": "00:42:50",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-08",
+   "wall_name": "salotto upright piano, keyboard shelf, pile 2 of 6 (left-of-centre of the piano)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 2 of 6 on the keyboard shelf, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "title": "Interviste e colloqui",
+       "author": "Beno",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Beno   Interviste e colloqui",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 2,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin teal/green spine, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 3,
+       "title": "Due sigari in riva al mare",
+       "author": "Michael Köhlmeier",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Michael Köhlmeier   Due sigari in riva al mare",
+       "tier": "probable",
+       "tier_reason": "most letters legible, some inferred",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "title": "Versus (journal), issue 2/2021, n.132",
+       "author": null,
+       "publisher": "il Mulino",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "VERSUS | 2/2021 | N.132 ... il Mulino",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 5,
+       "title": "Gianni Vattimo",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Gianni Vattimo",
+       "tier": "probable",
+       "tier_reason": "most letters legible, some inferred",
+       "series": null
+      },
+      {
+       "pos": 6,
+       "title": "Archivio di memoria",
+       "author": "Fabio Mauri",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "FABIO MAURI   Archivio di memoria",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 7,
+       "title": "I misteri dell'altare di Isenheim di Grünewald",
+       "author": "Giovanni [Testori?]",
+       "publisher": "Bompiani",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "GIOVANNI [TESTORI?]   I MISTERI DELL'ALTARE DI ISENHEIM DI GRÜNEWALD",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 8,
+       "title": "Romanino e la \"Sistina dei poveri\" a Pisogne",
+       "author": null,
+       "publisher": "Bompiani",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "[...] ROMANINO E LA \"SISTINA DEI POVERI\" A PISOGNE",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 9,
+       "title": "Una scrittura sconcertante: Arnaldo Pomodoro, Opere 1953-1985",
+       "author": null,
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Una scrittura sconcertante: Arnaldo Pomodoro, Opere 1953-1985",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 10,
+       "title": "Voglia di libri",
+       "author": "Marco Andreose",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Marco Andreose   Voglia di libri",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 11,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin white pamphlet/booklet, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 12,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin white pamphlet/booklet, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 13,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin white pamphlet/booklet, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 14,
+       "title": null,
+       "author": null,
+       "publisher": "possibly Adelphi",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[Alexandre Kojève?] ... Concetto, tempo, discorso (?)",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 15,
+       "title": "Il bene e il male",
+       "author": "Giulio Giorello, Vittorio Sgarbi",
+       "publisher": "La nave di Teseo",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Giulio Giorello, Vittorio Sgarbi   Il bene e il male   La nave di Teseo",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 16,
+       "title": null,
+       "author": "I. Pezzini, R. Finocchi",
+       "publisher": "Mimesis",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "I. Pezzini - R. Finocchi (a cura di) [...] MIMESIS",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 17,
+       "title": "Critique (journal)",
+       "author": null,
+       "publisher": null,
+       "language": "fr",
+       "confidence": "low",
+       "spine_text": "[Alexandre Prstwocz Petitfrere?] ... CRITIQUE",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 18,
+       "title": "Vivere con gli dèi",
+       "author": "Neil MacGregor",
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Neil MacGregor   Vivere con gli dèi",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0054.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s",
+   "timestamp_s": 2571,
+   "timestamp_true_s": 2570.6,
+   "time": "00:42:50",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-09",
+   "wall_name": "salotto upright piano, keyboard shelf, pile 3 of 6 (centre of the keyboard shelf, left stack of the adjacent pair)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 3 of 6 on the keyboard shelf, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "title": "Note",
+       "author": "Giancarlo Iliprandi",
+       "publisher": "Hoepli",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "HOEPLI   Note   Giancarlo Iliprandi",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 2,
+       "title": null,
+       "author": "Gillo Dorfles",
+       "publisher": "Skira",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "GILLO DORFLES [Skira]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 3,
+       "title": "Il volto del '900: da Matisse a Bacon. Capolavori dal Centre Pompidou",
+       "author": null,
+       "publisher": "Skira",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "IL VOLTO DEL '900 - da Matisse a Bacon - Capolavori dal Centre Pompidou [Skira]",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "title": "Giorgio Morandi: Une rétrospective",
+       "author": null,
+       "publisher": "Skira / BOZAR Books",
+       "language": "fr",
+       "confidence": "high",
+       "spine_text": "GIORGIO MORANDI   Une rétrospective   [Skira / BOZAR Books]",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 5,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "white spine, small logo and red cursive 'adelphi'-style mark, title illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 6,
+       "title": "L'era della comunicazione",
+       "author": "Umberto Eco",
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[Umberto E]CO   L'ERA DELLA COMUNICAZIONE",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 7,
+       "title": "I geroglifici di Sir Thomas Browne",
+       "author": "Roberto Calasso",
+       "publisher": "Adelphi",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Roberto Calasso   I geroglifici di Sir Thomas Browne",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 8,
+       "title": "Il bambino nascosto",
+       "author": "Roberto Andò",
+       "publisher": "La nave di Teseo",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Andò   Il bambino nascosto",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 9,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin teal spine, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 10,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin orange/salmon spine, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 11,
+       "title": "Das Irrenhaus",
+       "author": "Michael Krüger",
+       "publisher": "Hanser",
+       "language": "de",
+       "confidence": "medium",
+       "spine_text": "Das Irrenhaus   [Hanser]",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 12,
+       "title": "Der ewige Faschismus",
+       "author": "Umberto Eco",
+       "publisher": "Hanser",
+       "language": "de",
+       "confidence": "high",
+       "spine_text": "[Umbe]rto ECO   DER EWIGE FASCHISMUS   HANSER",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 13,
+       "title": "Der ewige Faschismus",
+       "author": "Umberto Eco",
+       "publisher": "Hanser",
+       "language": "de",
+       "confidence": "high",
+       "spine_text": "[...] ECO   DER EWIGE FASCHISMUS   HANSER",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 14,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin white/grey pamphlet at base, text illegible",
+       "confidence": "low"
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0054.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s",
+   "timestamp_s": 2571,
+   "timestamp_true_s": 2570.6,
+   "time": "00:42:50",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-10",
+   "wall_name": "salotto upright piano, keyboard shelf, pile 4 of 6 (centre of the keyboard shelf, right stack of the adjacent pair)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 4 of 6 on the keyboard shelf, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "title": "Viaggio in Italia",
+       "author": "Guido Piovene",
+       "publisher": "Bompiani",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Guido Piovene   VIAGGIO IN ITALIA   [BOMPIANI]",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 2,
+       "title": null,
+       "author": "Roberto Calasso",
+       "publisher": "Adelphi",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "Adelphi ... Calasso ... [title illegible]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 3,
+       "title": "Ricordi di un entomologo I",
+       "author": "Jean-Henri Fabre",
+       "publisher": "Adelphi",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Fabre   Ricordi di un entomologo I   [713]",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "title": "Il Cacciatore Celeste",
+       "author": "Roberto Calasso",
+       "publisher": "Adelphi",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Calasso   Il Cacciatore Celeste   [650]",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0054.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s",
+   "timestamp_s": 2571,
+   "timestamp_true_s": 2570.6,
+   "time": "00:42:50",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-11",
+   "wall_name": "salotto upright piano, keyboard shelf, pile 5 of 6 (right-of-centre of the piano)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 5 of 6 on the keyboard shelf, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "title": "Un sogno per tutti",
+       "author": null,
+       "publisher": "Skira",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[...] Un sogno per tutti   [Skira]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 2,
+       "title": "I Mutanti",
+       "author": "Sofia Bignamini",
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "SOFIA BIGNAMINI   I MUTANTI",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 3,
+       "title": "I bambini di Moloch",
+       "author": "Lazzatto",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Lazzatto   I bambini di Moloch",
+       "tier": "probable",
+       "tier_reason": "most letters legible, some inferred",
+       "series": null
+      },
+      {
+       "pos": 4,
+       "title": "L'era della comunicazione",
+       "author": "Umberto Eco",
+       "publisher": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "UMBERTO ECO [...] ERA DELLA [...]",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 5,
+       "title": "Il Crollo",
+       "author": "Lorenzo Pregliasco",
+       "publisher": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Lorenzo Pregliasco   IL CROLLO   [ricognizione geografica delle... parole che hanno agito e distrutto la Seconda Repubblica]",
+       "tier": "certain",
+       "tier_reason": "full title legible and the earlier reader read the same",
+       "series": null
+      },
+      {
+       "pos": 6,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin white/lavender pamphlet, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 7,
+       "title": "Una passione a Manhattan",
+       "author": "Anna Ottani Cavina",
+       "publisher": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Anna Ottani Cavina   Una passione a Manhattan",
+       "tier": "probable",
+       "tier_reason": "most letters legible; the earlier independent reading agrees",
+       "series": null
+      },
+      {
+       "pos": 8,
+       "title": null,
+       "author": "Blaise Cendrars",
+       "publisher": "La nave di Teseo (?)",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "[Blaise Cendrars?]   Il primo [...] del mondo",
+       "tier": "guess",
+       "tier_reason": "fragment or partial letters only",
+       "series": null
+      },
+      {
+       "pos": 9,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin white pamphlet at base, text illegible",
+       "confidence": "low"
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  },
+  {
+   "frame": "p_0054.jpg",
+   "video_id": "zZEy10fpq3I",
+   "source_kind": "video",
+   "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2571s",
+   "timestamp_s": 2571,
+   "timestamp_true_s": 2570.6,
+   "time": "00:42:50",
+   "room_id": "living",
+   "wall_id": "salotto-piano-pile-12",
+   "wall_name": "salotto upright piano, keyboard shelf, pile 6 of 6 (right of the piano)",
+   "view": "stack",
+   "shelf_rows_visible": 1,
+   "same_as_frame": null,
+   "rows": [
+    {
+     "row": 1,
+     "row_label": "pile 6 of 6 on the keyboard shelf, top to bottom",
+     "books": [
+      {
+       "pos": 1,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "light-blue paper/pamphlet lying flat on top, printed ruled lines, no legible title",
+       "confidence": "low"
+      },
+      {
+       "pos": 2,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin mint/pale-green spine, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 3,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "black-covered book, tan/mustard spine label numbered '726' (Adelphi 'Fabula'-style black series), title illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 4,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "thin mint-green spine, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 5,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "black-covered book, red/maroon spine label numbered '796' (Adelphi 'Fabula'-style black series), title illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 6,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "blue spine, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 7,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "white spine, text illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 8,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "green spine, possibly 'Strindberg', text mostly illegible",
+       "confidence": "low"
+      },
+      {
+       "pos": 9,
+       "unlabelled": true,
+       "count": 1,
+       "spine_text": "blue spine at base, cut off by shelf edge, text illegible",
+       "confidence": "low"
+      }
+     ]
+    }
+   ],
+   "notes": "second independent transcription (heavy pass, 2026-09-09) of the piano piles seen in the 42:50-43:05 pull-back; frames re-extracted at 5 fps from the 1080p upload"
+  }
+ ]
+}

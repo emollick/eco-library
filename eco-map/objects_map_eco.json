@@ -1,0 +1,3182 @@
+{
+ "_comment": "How the objects inventoried from the footage (eco-video/objects_from_video.json) become objects of the map. Rules are tried in order; the first whose room (or '*'), kind (optional) and regex `match` on the label (or `hint` on the position hint) fit takes the object; several shots that match one rule are merged into one object (all timestamps kept as sightings, titles merged, count = max). Positions are room-local metres (x to the right, z downwards on the plan); `anchor` places the object in front of a bookcase (`dist` metres from its face, `along` metres from its centre, `on_top` on its top board), on/near another object of this file (`object`, `offset`, `on_top`), or on a wall (`wall` N/E/S/W, `at` metres along it, `dist` from it). `attach` records the sighting on a bookcase instead of drawing an object (cabinet contents, shelf labels, books lying flat). `skip` drops it (ceilings, radiators, footage of other places). `walls` lists the consolidated wall ids (books_by_wall_eco.json, without the video prefix) whose pile readings belong to this object; an entry may be an object {\"wall\": id, \"raw_from\": s, \"raw_to\": s} limited to a window of the reader's raw seconds, so one reader's wall can feed two piles of the same piece of furniture; with `defer: true` the entry is only a fallback: a consolidated book read on that wall is placed by its sightings on other (non-deferred) walls and comes here only when it has none (the salotto piano: the old 'study-desk-piles-1' pass is deferred to the twelve per-pile walls salotto-piano-pile-NN). An object anchor may give `along_frac` (0 = the carrying object's left end as seen from its front, 1 = its right end) instead of, or on top of, an `offset` along its width; `dims_m` [w, d, h] on a rule is copied to the object; `crop` is the thumbnail window of its best frame. `position_hint`, `books_high`, `thumb_frame` and `thumb_raw_s` on the piano pile rules document the placement and are not read by the generator. The object's room wins over the reader's room label: a pile read from a frame belongs to the pile the inventory places, never to a shelf as well. `shape` is a hint for the page (box, cylinder, sphere, torus, flat, stand, lute). Unmatched objects are placed automatically from their position hint.",
+ "rules": [
+  {
+   "room": "*",
+   "match": "^eco |girl on roller|interview setting|reconstruction \\(not the flat\\)|playing the recorder|arman paintbrush|corridor floor and ceiling|study windows with shutters|salotto windows|internal terrace|pendant lamp|ceiling fans|piles of books on the black table|framed portrait cover cards",
+   "skip": true,
+   "note": "route notes, fixtures and reports without a frame"
+  },
+  {
+   "room": "antichi",
+   "match": "specimen jar",
+   "attach": "rare-01"
+  },
+  {
+   "room": "antichi",
+   "match": "mirabilia on the rare-room shelves|recorders and scores",
+   "attach": "rare-02"
+  },
+  {
+   "id": "obj:antichi:armchair",
+   "room": "antichi",
+   "kind": "chair",
+   "match": "armchair and floor lamp",
+   "label": "Armchair with floor lamp and side table by the balcony",
+   "position": [
+    1.0,
+    1.1
+   ],
+   "rotation": 135,
+   "size": [
+    0.85,
+    0.8,
+    0.85
+   ]
+  },
+  {
+   "id": "obj:antichi:porcelain",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "porcelain",
+   "label": "Glass case with a white porcelain object and a brass tray",
+   "anchor": {
+    "object": "obj:antichi:table",
+    "on_top": true,
+    "offset": [
+     0.25,
+     -0.5
+    ]
+   },
+   "size": [
+    0.3,
+    0.3,
+    0.3
+   ],
+   "shape": "box"
+  },
+  {
+   "id": "obj:antichi:lens",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "magnifying lens on stand|large magnifying lens",
+   "label": "Large magnifying lens on a wooden stand",
+   "anchor": {
+    "object": "obj:antichi:table",
+    "on_top": true,
+    "offset": [
+     -0.25,
+     0.3
+    ]
+   },
+   "size": [
+    0.25,
+    0.42,
+    0.12
+   ],
+   "shape": "torus"
+  },
+  {
+   "id": "obj:studio:caricatures",
+   "room": "studio",
+   "kind": "artwork",
+   "match": "caricature portraits of eco",
+   "label": "Caricature portraits of Eco between the study windows",
+   "anchor": {
+    "wall": "S",
+    "at": 5.0,
+    "dist": 0.03
+   },
+   "size": [
+    0.5,
+    0.6,
+    0.04
+   ]
+  },
+  {
+   "room": "studio",
+   "match": "black box files \\(bottom",
+   "attach": "study-P"
+  },
+  {
+   "room": "studio",
+   "match": "red treccani",
+   "attach": "study-Oa"
+  },
+  {
+   "room": "studio",
+   "match": "foreign editions of eco|plaque and eco divider",
+   "attach": "study-Q"
+  },
+  {
+   "room": "studio",
+   "match": "dictionaries behind the desk",
+   "attach": "study-Nb"
+  },
+  {
+   "room": "studio",
+   "match": "door with pinned notes|sticky labels|cataloguing labels",
+   "attach": "study-I"
+  },
+  {
+   "id": "obj:studio:cd-tower",
+   "room": "studio",
+   "match": "cd rack|cd tower|garzantine",
+   "label": "Garzantine and CD tower between two cases",
+   "position": [
+    12.4,
+    5.8
+   ],
+   "size": [
+    0.3,
+    2.0,
+    0.3
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "obj:studio:filing-cabinet",
+   "room": "studio",
+   "match": "filing cabinet",
+   "label": "Black wheeled filing cabinet by the Garzantine shelf",
+   "position": [
+    12.4,
+    6.6
+   ],
+   "size": [
+    0.9,
+    0.9,
+    0.6
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "obj:studio:low-cupboard-piles",
+   "room": "studio",
+   "kind": "pile",
+   "match": "piles on top of a white low cabinet",
+   "label": "Piles on the white low cabinet",
+   "anchor": {
+    "object": "obj:studio:low-cupboard",
+    "on_top": true,
+    "offset": [
+     0,
+     0
+    ]
+   },
+   "size": [
+    0.86,
+    1.2,
+    0.41
+   ]
+  },
+  {
+   "id": "obj:studio:desk-return",
+   "room": "studio",
+   "kind": "desk",
+   "match": "^desk return$",
+   "label": "Desk return",
+   "anchor": {
+    "object": "obj:studio:desk-row",
+    "offset": [
+     -1.5,
+     -0.6
+    ]
+   },
+   "rotation": 90,
+   "size": [
+    1.2,
+    0.75,
+    0.6
+   ]
+  },
+  {
+   "room": "corridoio",
+   "match": "corridor shelf overflow|ecolinus|comics on the top",
+   "attach": "corridor-12"
+  },
+  {
+   "id": "obj:corridoio:speckled",
+   "room": "corridoio",
+   "kind": "artwork",
+   "match": "speckled|grey abstract",
+   "label": "Speckled grey abstract canvas before the corridor end",
+   "anchor": {
+    "wall": "N",
+    "at": 18.9,
+    "dist": 0.03
+   },
+   "size": [
+    0.5,
+    0.7,
+    0.04
+   ]
+  },
+  {
+   "id": "obj:corridoio:window",
+   "room": "corridoio",
+   "match": "french window|balcony door with iron bars|glazed door",
+   "label": "French window with iron bars at the corridor end, radiator below",
+   "anchor": {
+    "wall": "N",
+    "at": 20.1,
+    "dist": 0.04
+   },
+   "_note": "The corridor's E wall is the doorway into the art leg of the map (the walk passes through it), so the window is drawn on the last 1.3 m of the print wall beside that opening.",
+   "size": [
+    1.3,
+    2.4,
+    0.08
+   ],
+   "kind": "other",
+   "shape": "window"
+  },
+  {
+   "id": "obj:vestibolo:mobile",
+   "room": "vestibolo",
+   "kind": "curiosity",
+   "match": "mobile|twisted",
+   "label": "Black twisted hanging mobile in front of the GOSH! picture",
+   "position": [
+    0.85,
+    0.6
+   ],
+   "base_y": 1.2,
+   "size": [
+    0.15,
+    0.8,
+    0.15
+   ],
+   "shape": "cylinder"
+  },
+  {
+   "room": "*",
+   "match": "ceiling|spotlight|radiator|planter|balcony planters|water cooler|window",
+   "skip": true,
+   "note": "fixtures not worth a box"
+  },
+  {
+   "room": "salotto",
+   "_comment": "Positions are room-local metres of the 7.5 x 7.6 m salotto (x from the W display wall, z from the N window wall; the vestibule door is in the S wall at x 1.0-1.9). They are the footage readings of eco-video/salotto/salotto_objects.json mirrored into the map's frame (x_map = 7.5 - x_reading, z unchanged; that file counts x from the opposite wall).",
+   "match": "^$"
+  },
+  {
+   "room": "salotto",
+   "kind": "glass_case",
+   "match": "vitrine|glass case|display case",
+   "attach": "salotto-vetrine"
+  },
+  {
+   "room": "salotto",
+   "match": "pomegranate|puffer fish|shells, coral|open antique illustrated books in the vitrines|vitrine contents|comic albums in the vitrine",
+   "attach": "salotto-vetrine"
+  },
+  {
+   "room": "salotto",
+   "match": "wall of ancient-art catalogues|art books on white shelves",
+   "attach": "salotto-E",
+   "note": "case E is not seen in the salotto and stands in the art corridor; the 06:45 sighting is a room guess"
+  },
+  {
+   "room": "salotto",
+   "match": "objects on the wooden cabinet|family photographs and small silver|curiosities in the upper cabinet|cabinet of curiosities \\(salotto-wood\\)",
+   "attach": "salotto-wood"
+  },
+  {
+   "id": "obj:salotto:credenza",
+   "room": "salotto",
+   "kind": "other",
+   "match": "cabinet with cds|hi-fi|credenza",
+   "label": "Dark credenza behind the vitrines: CD racks and the hi-fi on its shelves, shells and photographs in its glazed top",
+   "position": [
+    0.25,
+    2.1
+   ],
+   "rotation": 90,
+   "size": [
+    2.6,
+    2.3,
+    0.5
+   ],
+   "dims_m": [
+    2.6,
+    0.5,
+    2.3
+   ],
+   "shape": "box",
+   "thumb_frame": "s_010549_50.jpg",
+   "crop": [
+    0.57,
+    0.0,
+    1.0,
+    0.45
+   ],
+   "evidence": "film 65:52 (behind Eco at the dining table: CD racks and hi-fi), 03:50 (behind Carlotta), 18:45 archive (dials and oval photographs), 74:13 wide (behind case 3), photo criticaletteraria_2022_1 and Zanni 2010; W wall z 0.8-3.4, the case row 1.2 m in front of it",
+   "confidence": "high",
+   "description": "The long dark credenza on the W wall behind the three vitrines. Its open shelves hold rows of CDs and the hi-fi, seen behind Eco at the dining table (65:52) and in the crop above; its glazed top holds shells, round dials and oval family photographs (the 18:45 archive shot); cupboards and a drawer band below.",
+   "_v7": "label within the new 120-character cap, text covers both the CD shelves the crop shows and the glazed top"
+  },
+  {
+   "id": "obj:salotto:credenza-photos",
+   "room": "salotto",
+   "kind": "curiosity",
+   "match": "dials and family photographs",
+   "label": "Round dials and oval family photographs in the credenza's glazed top",
+   "anchor": {
+    "object": "obj:salotto:credenza",
+    "offset": [
+     0,
+     0.12
+    ],
+    "base_y": 1.55
+   },
+   "size": [
+    0.6,
+    0.3,
+    0.2
+   ],
+   "shape": "flat",
+   "crop": [
+    0.32,
+    0.09,
+    0.56,
+    0.35
+   ],
+   "evidence": "film 18:45 archive shot",
+   "confidence": "medium",
+   "_v6": "crop: the round dial and the oval photographs in the glazed top, left of Eco's head (18:45)"
+  },
+  {
+   "id": "obj:salotto:three-paintings",
+   "room": "salotto",
+   "kind": "artwork",
+   "match": "small gilt-framed paintings",
+   "label": "Three small framed paintings in a row over the low chest at the E end of the window wall",
+   "anchor": {
+    "wall": "N",
+    "at": 0.8,
+    "dist": 0.03,
+    "base_y": 1.35
+   },
+   "size": [
+    1.2,
+    0.5,
+    0.04
+   ],
+   "thumb_frame": "t_000348.jpg",
+   "crop": [
+    0.32,
+    0.02,
+    0.44,
+    0.17
+   ],
+   "evidence": "film 03:50 two-shot (over the chest, far left; the reader's 'above the wooden cabinet' is the chest, not the curiosity cabinet), photo Zanni 2010",
+   "confidence": "high"
+  },
+  {
+   "room": "salotto",
+   "kind": "curiosity",
+   "hint": "wooden cabinet",
+   "attach": "salotto-wood"
+  },
+  {
+   "room": "salotto",
+   "kind": "artwork",
+   "hint": "wooden cabinet, glazed|above the wooden cabinet",
+   "attach": "salotto-wood"
+  },
+  {
+   "id": "obj:salotto:sofa-window",
+   "room": "salotto",
+   "kind": "sofa",
+   "match": "sofa|armchairs and sofa|slip-covered",
+   "hint": "in front of the windows|window",
+   "label": "White slip-covered sofa against the window wall under the ropes painting (Renate's seat in the 03:50 two-shot)",
+   "position": [
+    4.7,
+    0.8
+   ],
+   "rotation": 0,
+   "size": [
+    2.0,
+    0.8,
+    0.95
+   ],
+   "evidence": "film 03:50 two-shot (Renate at right, ropes painting behind), 50:51 (sofa with a pillow at the near left); between the two windows",
+   "confidence": "medium",
+   "_v6": "no picture: every frame of the 03:50 two-shot shows Renate sitting on it (a person crop is worse than none)",
+   "thumb_frame": "t_005050.jpg",
+   "crop": [
+    0.31,
+    0.66,
+    0.47,
+    0.92
+   ],
+   "_v7": "crop: the sofa with its pillow at the near left of the 50:50 wide shot, nobody on it",
+   "count": null,
+   "description": "The white slip-covered sofa under the ropes painting on the window wall, Renate Eco's seat in the 03:50 two-shot; the 50:50 wide shot shows it with a pillow at the near left."
+  },
+  {
+   "id": "obj:salotto:sofas",
+   "room": "salotto",
+   "kind": "sofa",
+   "match": "sofa|armchairs and sofa|slip-covered",
+   "label": "White slip-covered sofa A with a purple throw, on the door side of the coffee table under the dark-framed painting",
+   "position": [
+    3.9,
+    5.7
+   ],
+   "rotation": 180,
+   "size": [
+    2.1,
+    0.8,
+    0.95
+   ],
+   "thumb_frame": "t_005050.jpg",
+   "crop": [
+    0.55,
+    0.72,
+    0.8,
+    1.0
+   ],
+   "evidence": "film 32:49 (Renate and Carlotta reading on it, painting above, arc lamp shade at right), 74:13 wide (near left), 50:51 (near right)",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:child-jesus",
+   "room": "salotto",
+   "kind": "curiosity",
+   "match": "child-jesus|statuette on the piano",
+   "label": "Crowned polychrome wooden Child-Jesus statuette on the piano, among the piles",
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "on_top": true,
+    "offset": [
+     0.45,
+     -0.2
+    ]
+   },
+   "size": [
+    0.14,
+    0.38,
+    0.14
+   ],
+   "shape": "stand",
+   "thumb_photo": "criticaletteraria_2022_7.png",
+   "crop": [
+    0.66,
+    0.1,
+    0.73,
+    0.33
+   ],
+   "evidence": "photo criticaletteraria_2022_7 (right frame: on the piano between the lid piles, one arm raised)",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:diorama",
+   "room": "salotto",
+   "kind": "curiosity",
+   "match": "diorama",
+   "label": "Two shadow-box dioramas (a garden, the miniature library with Eco's photograph) on top of vitrine 1, beside the statue",
+   "anchor": {
+    "bookcase": "salotto-vetrine",
+    "on_top": true,
+    "along": -0.8
+   },
+   "size": [
+    0.55,
+    0.25,
+    0.25
+   ],
+   "size_from": "two shadow boxes side by side on the vitrine top; the film inventory measured one box (w 0.35 d 0.25 h 0.40)",
+   "shape": "flat",
+   "evidence": "film 73:41-74:03 (the miniature library), 74:13 wide (both boxes on case 1), photo criticaletteraria_2022_1",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:tv",
+   "room": "salotto",
+   "match": "television|\\btv\\b",
+   "label": "Flat-screen television on a low stand in the SE corner, between the curiosity cabinet and the piano",
+   "position": [
+    7.25,
+    7.2
+   ],
+   "rotation": -90,
+   "size": [
+    0.7,
+    0.55,
+    0.4
+   ],
+   "kind": "other",
+   "thumb_photo": "criticaletteraria_2022_7.png",
+   "crop": [
+    0.38,
+    0.4,
+    0.47,
+    0.56
+   ],
+   "evidence": "photo criticaletteraria_2022_7 (left frame: TV right of the cabinet under the small gilt painting); E wall, corner S of the cabinet",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:white-armchair",
+   "room": "salotto",
+   "match": "white armchair",
+   "label": "White slip-covered armchair in front of the plaster statue",
+   "position": [
+    1.4,
+    5.55
+   ],
+   "rotation": 90,
+   "size": [
+    0.9,
+    0.8,
+    0.9
+   ],
+   "kind": "sofa",
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.39,
+    0.5,
+    0.58,
+    0.75
+   ],
+   "evidence": "film 64:00 (statue legs and plinth behind the armchair), 09:42 (left of the club armchair), 74:13 wide",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:white-armchair-se",
+   "room": "salotto",
+   "kind": "sofa",
+   "create": true,
+   "label": "White slip-covered armchair SE of the coffee table (Carlotta's seat in the 03:50 two-shot)",
+   "position": [
+    3.0,
+    2.75
+   ],
+   "rotation": 35,
+   "size": [
+    1.0,
+    0.8,
+    0.95
+   ],
+   "description": "The armchair Carlotta Eco sits in for the two-shot towards the window wall, turned towards the coffee table; the credenza and the dining table are behind her in that frame.",
+   "evidence": "film 03:50 two-shot (Carlotta at left, credenza behind), 74:13 wide (white piece at the right edge)",
+   "confidence": "medium",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 229.0,
+   "frame": "t_000348.jpg",
+   "_v6": "no picture: Carlotta sits in it in every frame of the 03:50 two-shot",
+   "crop": [
+    0.0,
+    0.33,
+    0.12,
+    0.8
+   ],
+   "_v7": "crop: the back and arm of the armchair at the left edge of the 03:48 two-shot, without its sitter"
+  },
+  {
+   "id": "obj:salotto:coffee-table",
+   "room": "salotto",
+   "kind": "desk",
+   "match": "coffee table",
+   "label": "Low black coffee table covered in piles of new books, with the brass orrery and a candlestick",
+   "position": [
+    4.0,
+    4.3
+   ],
+   "size": [
+    1.6,
+    0.4,
+    1.2
+   ],
+   "dims_m": [
+    1.6,
+    1.2,
+    0.4
+   ],
+   "walls": [
+    "living-coffee-table-1",
+    "living-coffeetable-1",
+    "table-closeup-1",
+    "living-desk-stack-1",
+    "table-closeup-2"
+   ],
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.15,
+    0.68,
+    0.65,
+    1.0
+   ],
+   "evidence": "film 74:13 wide, 32:49, 50:51: centre of the sitting area, sofa A on the door side, the club and white armchairs towards the cases, the window sofa and Carlotta's armchair towards the windows",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:coffee-piles",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "coffee.?table|interview coffee-table books",
+   "label": "Piles of new books on the coffee table",
+   "anchor": {
+    "object": "obj:salotto:coffee-table",
+    "on_top": true,
+    "offset": [
+     -0.3,
+     0
+    ]
+   },
+   "walls": [
+    "living-coffee-table-1",
+    "living-coffeetable-1",
+    "table-closeup-1",
+    "living-desk-stack-1",
+    "table-closeup-2"
+   ],
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.15,
+    0.68,
+    0.65,
+    1.0
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:orrery",
+   "room": "salotto",
+   "kind": "curiosity",
+   "match": "orrery|planetarium|planetary model",
+   "label": "Brass orrery on the coffee table",
+   "anchor": {
+    "object": "obj:salotto:coffee-table",
+    "on_top": true,
+    "offset": [
+     0.45,
+     0.15
+    ]
+   },
+   "size": [
+    0.24,
+    0.3,
+    0.24
+   ],
+   "shape": "sphere",
+   "thumb_frame": "s_003249_62.jpg",
+   "crop": [
+    0.52,
+    0.35,
+    0.63,
+    0.72
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:club-armchair",
+   "room": "salotto",
+   "kind": "chair",
+   "match": "club armchair|leather armchair|eco's seat",
+   "label": "Tan leather club armchair, Eco's interview seat, in front of vitrines 1-2 facing the coffee table",
+   "position": [
+    2.55,
+    4.1
+   ],
+   "rotation": 90,
+   "size": [
+    0.95,
+    0.8,
+    0.9
+   ],
+   "dims_m": [
+    0.95,
+    0.9,
+    0.8
+   ],
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.52,
+    0.47,
+    0.86,
+    0.85
+   ],
+   "evidence": "film 09:42, 62:33, 64:00 (cases 1-2 behind Eco), 74:13 wide; 2015 walk 04:53; about 0.6 m in front of the free-standing cases",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:piano",
+   "room": "salotto",
+   "kind": "piano",
+   "match": "piano",
+   "label": "Upright piano used as a book table, against the door wall at its E end near the TV corner",
+   "position": [
+    5.6,
+    7.27
+   ],
+   "rotation": 180,
+   "size": [
+    1.45,
+    1.22,
+    0.62
+   ],
+   "dims_m": [
+    1.45,
+    0.62,
+    1.22
+   ],
+   "thumb_photo": "criticaletteraria_2022_7.png",
+   "crop": [
+    0.57,
+    0.33,
+    0.91,
+    0.87
+   ],
+   "evidence": "film 42:50-43:04 pull-back (the piano only); 2015 walk 04:53 (piano at left, vestibule door ahead, statue at right); 50:51 rules out the E wall; photo criticaletteraria_2022_7 pairs it with the cabinet wall, the blue tile panel and the 'eco' print beside it. Door wall, E part: low-medium.",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-01",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano lid pile 1\\b",
+   "label": "Piano lid, pile 1 of 6 (leftmost)",
+   "position_hint": "on the lid at 0.07 of the piano length from the left end",
+   "books_high": 5,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "on_top": true,
+    "along_frac": 0.07,
+    "offset": [
+     0,
+     -0.12
+    ]
+   },
+   "size": [
+    0.22,
+    0.122,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.122
+   ],
+   "crop": [
+    0.03,
+    0.05,
+    0.18,
+    0.27
+   ],
+   "thumb_frame": "t_004302.jpg",
+   "thumb_raw_s": 2582,
+   "walls": [
+    "salotto-piano-pile-01"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-02",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano lid pile 2\\b",
+   "label": "Piano lid, pile 2 of 6 (second from the left)",
+   "position_hint": "on the lid at 0.24 of the piano length from the left end",
+   "books_high": 9,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "on_top": true,
+    "along_frac": 0.24,
+    "offset": [
+     0,
+     -0.12
+    ]
+   },
+   "size": [
+    0.22,
+    0.221,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.221
+   ],
+   "crop": [
+    0.18,
+    0.05,
+    0.345,
+    0.27
+   ],
+   "thumb_frame": "t_004302.jpg",
+   "thumb_raw_s": 2582,
+   "walls": [
+    "salotto-piano-pile-02"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-03",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano lid pile 3\\b",
+   "label": "Piano lid, pile 3 of 6 (third from the left)",
+   "position_hint": "on the lid at 0.42 of the piano length from the left end",
+   "books_high": 11,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "on_top": true,
+    "along_frac": 0.42,
+    "offset": [
+     0,
+     -0.12
+    ]
+   },
+   "size": [
+    0.22,
+    0.27,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.27
+   ],
+   "crop": [
+    0.34,
+    0.01,
+    0.53,
+    0.27
+   ],
+   "thumb_frame": "t_004302.jpg",
+   "thumb_raw_s": 2582,
+   "walls": [
+    "salotto-piano-pile-03",
+    {
+     "wall": "study-desk-piles-1",
+     "raw_from": 2578,
+     "raw_to": 2581,
+     "defer": true,
+     "note": "the reader of part4 labelled the film's 42:50-43:03 pass over the salotto piano 'study-desk-piles-1' with one row per pile but no pile ids; its readings go to the pile the per-pile readings (salotto-piano-pile-NN) name, and only a reading absent from those falls back here"
+    }
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-04",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano lid pile 4\\b",
+   "label": "Piano lid, pile 4 of 6 (fourth from the left)",
+   "position_hint": "on the lid at 0.60 of the piano length from the left end",
+   "books_high": 13,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "on_top": true,
+    "along_frac": 0.6,
+    "offset": [
+     0,
+     -0.12
+    ]
+   },
+   "size": [
+    0.22,
+    0.319,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.319
+   ],
+   "crop": [
+    0.52,
+    0.01,
+    0.69,
+    0.27
+   ],
+   "thumb_frame": "t_004302.jpg",
+   "thumb_raw_s": 2582,
+   "walls": [
+    "salotto-piano-pile-04"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-05",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano lid pile 5\\b",
+   "label": "Piano lid, pile 5 of 6 (fifth from the left)",
+   "position_hint": "on the lid at 0.77 of the piano length from the left end",
+   "books_high": 7,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "on_top": true,
+    "along_frac": 0.77,
+    "offset": [
+     0,
+     -0.12
+    ]
+   },
+   "size": [
+    0.22,
+    0.172,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.172
+   ],
+   "crop": [
+    0.68,
+    0.05,
+    0.845,
+    0.27
+   ],
+   "thumb_frame": "t_004302.jpg",
+   "thumb_raw_s": 2582,
+   "walls": [
+    "salotto-piano-pile-05"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-06",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano lid pile 6\\b",
+   "label": "Piano lid, pile 6 of 6 (rightmost)",
+   "position_hint": "on the lid at 0.92 of the piano length from the left end",
+   "books_high": 8,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "on_top": true,
+    "along_frac": 0.92,
+    "offset": [
+     0,
+     -0.12
+    ]
+   },
+   "size": [
+    0.22,
+    0.196,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.196
+   ],
+   "crop": [
+    0.83,
+    0.08,
+    0.99,
+    0.27
+   ],
+   "thumb_frame": "t_004302.jpg",
+   "thumb_raw_s": 2582,
+   "walls": [
+    "salotto-piano-pile-06"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-07",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano keyboard-shelf pile 1\\b",
+   "label": "Piano keyboard shelf, pile 1 of 6 (leftmost)",
+   "position_hint": "on the keyboard shelf at 0.10 of the piano length from the left end",
+   "books_high": 11,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "along_frac": 0.1,
+    "offset": [
+     0,
+     0.3
+    ],
+    "base_y": 0.78
+   },
+   "size": [
+    0.22,
+    0.27,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.27
+   ],
+   "crop": [
+    0.04,
+    0.48,
+    0.215,
+    0.93
+   ],
+   "thumb_frame": "t_004302.jpg",
+   "thumb_raw_s": 2582,
+   "walls": [
+    "salotto-piano-pile-07"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-08",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano keyboard-shelf pile 2\\b",
+   "label": "Piano keyboard shelf, pile 2 of 6 (second from the left)",
+   "position_hint": "on the keyboard shelf at 0.29 of the piano length from the left end",
+   "books_high": 18,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "along_frac": 0.29,
+    "offset": [
+     0,
+     0.3
+    ],
+    "base_y": 0.78
+   },
+   "size": [
+    0.22,
+    0.441,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.441
+   ],
+   "crop": [
+    0.12,
+    0.22,
+    0.4,
+    0.93
+   ],
+   "thumb_frame": "t_004250.jpg",
+   "thumb_raw_s": 2570,
+   "walls": [
+    "salotto-piano-pile-08",
+    {
+     "wall": "study-desk-piles-1",
+     "raw_from": 2570,
+     "raw_to": 2577,
+     "defer": true,
+     "note": "the reader of part4 labelled the film's 42:50-43:03 pass over the salotto piano 'study-desk-piles-1' with one row per pile but no pile ids; its readings go to the pile the per-pile readings (salotto-piano-pile-NN) name, and only a reading absent from those falls back here"
+    }
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-09",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano keyboard-shelf pile 3\\b",
+   "label": "Piano keyboard shelf, pile 3 of 6 (third from the left)",
+   "position_hint": "on the keyboard shelf at 0.42 of the piano length from the left end, the left one of two stacks standing touching each other at the centre of the shelf",
+   "books_high": 14,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "along_frac": 0.42,
+    "offset": [
+     0,
+     0.3
+    ],
+    "base_y": 0.78
+   },
+   "size": [
+    0.22,
+    0.343,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.343
+   ],
+   "crop": [
+    0.33,
+    0.39,
+    0.68,
+    0.93
+   ],
+   "thumb_frame": "t_004250.jpg",
+   "thumb_raw_s": 2570,
+   "walls": [
+    "salotto-piano-pile-09"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-10",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano keyboard-shelf pile 4\\b",
+   "label": "Piano keyboard shelf, pile 4 of 6 (fourth from the left)",
+   "position_hint": "on the keyboard shelf at 0.57 of the piano length from the left end, the right one of two stacks standing touching each other at the centre of the shelf (touches pile 3)",
+   "books_high": 4,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "along_frac": 0.57,
+    "offset": [
+     0,
+     0.3
+    ],
+    "base_y": 0.78
+   },
+   "size": [
+    0.22,
+    0.098,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.098
+   ],
+   "crop": [
+    0.54,
+    0.64,
+    0.74,
+    0.93
+   ],
+   "thumb_frame": "t_004250.jpg",
+   "thumb_raw_s": 2570,
+   "walls": [
+    "salotto-piano-pile-10"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-11",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano keyboard-shelf pile 5\\b",
+   "label": "Piano keyboard shelf, pile 5 of 6 (fifth from the left)",
+   "position_hint": "on the keyboard shelf at 0.75 of the piano length from the left end",
+   "books_high": 9,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "along_frac": 0.75,
+    "offset": [
+     0,
+     0.3
+    ],
+    "base_y": 0.78
+   },
+   "size": [
+    0.22,
+    0.221,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.221
+   ],
+   "crop": [
+    0.72,
+    0.52,
+    1.0,
+    0.93
+   ],
+   "thumb_frame": "t_004250.jpg",
+   "thumb_raw_s": 2570,
+   "walls": [
+    "salotto-piano-pile-11"
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:piano-pile-12",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^piano keyboard-shelf pile 6\\b",
+   "label": "Piano keyboard shelf, pile 6 of 6 (rightmost)",
+   "position_hint": "on the keyboard shelf at 0.93 of the piano length from the left end",
+   "books_high": 9,
+   "anchor": {
+    "object": "obj:salotto:piano",
+    "along_frac": 0.93,
+    "offset": [
+     0,
+     0.3
+    ],
+    "base_y": 0.78
+   },
+   "size": [
+    0.22,
+    0.221,
+    0.16
+   ],
+   "dims_m": [
+    0.22,
+    0.16,
+    0.221
+   ],
+   "crop": [
+    0.83,
+    0.64,
+    0.995,
+    0.93
+   ],
+   "thumb_frame": "t_004302.jpg",
+   "thumb_raw_s": 2582,
+   "walls": [
+    "salotto-piano-pile-12",
+    {
+     "wall": "study-desk-piles-1",
+     "raw_from": 2582,
+     "raw_to": 2590,
+     "defer": true,
+     "note": "the reader of part4 labelled the film's 42:50-43:03 pass over the salotto piano 'study-desk-piles-1' with one row per pile but no pile ids; its readings go to the pile the per-pile readings (salotto-piano-pile-NN) name, and only a reading absent from those falls back here"
+    }
+   ],
+   "books_high_source": "spines_zZEy10fpq3I_piano_heavy.jsonl (second reading, 1080p re-extract): books counted top to bottom, unlabelled spines included",
+   "confidence": "medium"
+  },
+  {
+   "id": "skip:salotto:piano-aggregate-piles",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^six stacks on the piano|^piles on top of the upright piano",
+   "skip": true,
+   "note": "the film inventory's two aggregate objects (44 + 71 books, 'Six stacks on the piano lid' / '... fallboard shelf') and experience o10 ('Piles on top of the upright piano') are superseded by the twelve per-pile objects above (objects_from_video.json shot 2570, labels 'Piano lid pile n of 6' / 'Piano keyboard-shelf pile n of 6'); their titles are all re-read pile by pile in spines_zZEy10fpq3I_piano.jsonl and, in a second independent pass, spines_zZEy10fpq3I_piano_heavy.jsonl (which fixes the heights: books_high)"
+  },
+  {
+   "id": "obj:salotto:piano-drawings",
+   "room": "salotto",
+   "kind": "artwork",
+   "match": "framed pictures around the salotto door and statue|drawings above the piano",
+   "label": "Two large framed drawings above the piano",
+   "anchor": {
+    "wall": "S",
+    "at": 5.6,
+    "dist": 0.03,
+    "base_y": 2.0
+   },
+   "size": [
+    2.2,
+    1.0,
+    0.04
+   ],
+   "thumb_photo": "criticaletteraria_2022_7.png",
+   "crop": [
+    0.53,
+    0.02,
+    0.9,
+    0.33
+   ],
+   "evidence": "photo criticaletteraria_2022_7 right frame (two drawings of many tiny figures above the piano); film 43:04 shows the piano only",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:small-picture-piano",
+   "room": "salotto",
+   "kind": "artwork",
+   "create": true,
+   "label": "Small framed picture beside the drawings over the piano, towards the door",
+   "anchor": {
+    "wall": "S",
+    "at": 4.5,
+    "dist": 0.03,
+    "base_y": 1.95
+   },
+   "size": [
+    0.3,
+    0.4,
+    0.03
+   ],
+   "crop": [
+    0.87,
+    0.1,
+    0.97,
+    0.3
+   ],
+   "evidence": "photo criticaletteraria_2022_7 (right frame, at the right edge)",
+   "confidence": "low",
+   "photo": "criticaletteraria_2022_7.png",
+   "photo_url": "https://www.criticaletteraria.org/2022/11/la-biblioteca-di-umberto-eco.html",
+   "_v7": "crop widened round the small frame at the right edge of the piano photograph (the earlier window fell on the wall beside it)"
+  },
+  {
+   "id": "skip:salotto:red-table-shot",
+   "room": "salotto",
+   "match": "red-clothed|piles of recent books on the table|nude on a rabbit|painted folk statuette",
+   "skip": true,
+   "note": "shot 06:45-06:56 (room_confidence low): a bearded visitor at a red-clothed table in front of white art shelves; no salotto wall has such shelves, so the shot is taken as another room and its objects are not placed here"
+  },
+  {
+   "id": "obj:salotto:dining-table",
+   "room": "salotto",
+   "match": "dining table|table with open folios",
+   "kind": "desk",
+   "label": "Dark wooden dining table in the pocket in front of the credenza, with six Thonet-style chairs with white seat covers",
+   "position": [
+    2.0,
+    1.7
+   ],
+   "rotation": 90,
+   "size": [
+    1.6,
+    0.75,
+    1.0
+   ],
+   "dims_m": [
+    1.6,
+    1.0,
+    0.75
+   ],
+   "thumb_frame": "s_001845_79.jpg",
+   "crop": [
+    0.0,
+    0.55,
+    1.0,
+    1.0
+   ],
+   "evidence": "film 65:52 archive interview (Eco at the table, chairs with white covers, credenza behind), 03:50 (behind Carlotta), 18:45 archive (open folios), photo criticaletteraria_2022_1 (right of case 3, chairs seen through case 2)",
+   "confidence": "high",
+   "_v6": "crop: the table top with the open folios (18:45) instead of a hand and a chair (105:49)"
+  },
+  {
+   "id": "obj:salotto:dining-chairs",
+   "room": "salotto",
+   "kind": "chair",
+   "match": "dining chairs",
+   "label": "Six Thonet-style dining chairs with white tie-on seat covers around the dining table",
+   "anchor": {
+    "object": "obj:salotto:dining-table",
+    "offset": [
+     0,
+     0
+    ]
+   },
+   "size": [
+    1.6,
+    0.9,
+    1.0
+   ],
+   "count": 6,
+   "thumb_frame": "s_010549_50.jpg",
+   "crop": [
+    0.68,
+    0.4,
+    1.0,
+    0.93
+   ],
+   "evidence": "film 65:52 (two chairs with white covers beside Eco), 03:50 (chairs behind Carlotta), photo criticaletteraria_2022_1 (chairs through case 2); six in the footage reading",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:dining-piles",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "^open antique books",
+   "label": "Open antique folios on the dining table (1990s archive shot)",
+   "anchor": {
+    "object": "obj:salotto:dining-table",
+    "on_top": true,
+    "offset": [
+     0,
+     0
+    ]
+   },
+   "crop": [
+    0.08,
+    0.55,
+    1.0,
+    1.0
+   ],
+   "evidence": "film 18:45 archive (s_001845_79)",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:torso",
+   "room": "salotto",
+   "kind": "curiosity",
+   "match": "plaster cast|classical male torso|plaster statue|male nude|plaster classical",
+   "label": "Plaster statue of a classical nude youth crowned with a small wreath, arms missing, on a dark plinth beside vitrine 1",
+   "position": [
+    0.45,
+    5.6
+   ],
+   "rotation": 90,
+   "size": [
+    0.6,
+    2.0,
+    0.5
+   ],
+   "dims_m": [
+    0.6,
+    0.5,
+    2.0
+   ],
+   "shape": "stand",
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.4,
+    0.11,
+    0.53,
+    0.55
+   ],
+   "evidence": "film 74:03/74:13 wide (immediately right of case 1 seen from the sofa side, head and torso above the white armchair), 64:00 (legs and plinth behind the armchair, vestibule door handle beside them), photo criticaletteraria_2022_1, 2015 walk 04:53 (statue at right, by the door)",
+   "confidence": "high",
+   "description": "Life-size white plaster cast of a classical male nude standing on a dark plinth beside the vestibule door and vitrine 1: the arms are missing, the head is turned a little towards the room, and in the 2022 film it wears a small orange-red wreath. Seen in the 74:03 wide shot, at 64:00 behind the club armchair, and at 04:53 of the 2015 walk.",
+   "_v7": "label and text made to agree with the model (one plaster body, a head with the wreath, no arms)"
+  },
+  {
+   "id": "obj:salotto:fine-canvas",
+   "room": "salotto",
+   "kind": "artwork",
+   "match": "'fine'|fine' canvas|canvas with script",
+   "label": "White canvas with orange and grey shapes and the handwritten word 'fine', on the W wall between the prints and the statue",
+   "anchor": {
+    "wall": "W",
+    "at": 6.3,
+    "dist": 0.03,
+    "base_y": 1.1
+   },
+   "size": [
+    1.2,
+    0.9,
+    0.04
+   ],
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.33,
+    0.27,
+    0.43,
+    0.45
+   ],
+   "evidence": "film 00:50 (Eco passes it leaving), 74:03/74:13 wide (door - prints - canvas - statue in that order)",
+   "confidence": "high",
+   "count": null,
+   "_v7": "count cleared: one canvas, not c. 4 items"
+  },
+  {
+   "id": "obj:salotto:small-prints",
+   "room": "salotto",
+   "kind": "artwork",
+   "match": "small framed prints|group of small framed",
+   "hint": "salotto door|beside the door|left wall of the salotto|wall beside",
+   "label": "Column of three small framed prints beside the vestibule door, above the side cabinet",
+   "anchor": {
+    "wall": "W",
+    "at": 7.15,
+    "dist": 0.03,
+    "base_y": 0.95
+   },
+   "size": [
+    0.35,
+    1.0,
+    0.04
+   ],
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.28,
+    0.25,
+    0.32,
+    0.55
+   ],
+   "evidence": "film 00:50, 74:13 wide",
+   "confidence": "high"
+  },
+  {
+   "id": "skip:salotto:passage-prints",
+   "room": "salotto",
+   "match": "framed prints in the passage",
+   "skip": true,
+   "note": "hangs in the coat passage beyond the salotto door (vestibule), not in the salotto"
+  },
+  {
+   "id": "obj:salotto:side-cabinet",
+   "room": "salotto",
+   "match": "side cabinet|small dark chest|side table by the salotto door",
+   "label": "Small dark side cabinet with the telephone, in the corner beside the vestibule door under the prints",
+   "position": [
+    0.2,
+    7.0
+   ],
+   "rotation": 90,
+   "size": [
+    0.7,
+    0.8,
+    0.4
+   ],
+   "dims_m": [
+    0.7,
+    0.4,
+    0.8
+   ],
+   "kind": "other",
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.34,
+    0.5,
+    0.41,
+    0.66
+   ],
+   "evidence": "film 00:50, 74:03 (under the prints)",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:parchment-lamp",
+   "room": "salotto",
+   "kind": "lamp",
+   "match": "parchment|cantilever|arc lamp|floor lamps \\(salotto\\)",
+   "label": "Arc floor lamp with a large parchment shade, its base beside the vestibule door and the shade reaching over the end of sofa A",
+   "position": [
+    2.25,
+    6.85
+   ],
+   "rotation": 135,
+   "size": [
+    0.45,
+    2.2,
+    0.45
+   ],
+   "thumb_frame": "s_003249_62.jpg",
+   "crop": [
+    0.78,
+    0.0,
+    0.94,
+    0.24
+   ],
+   "evidence": "film 74:13 wide (pole by the door, shade over the sofa), 32:49 (shade right of sofa A), 50:51 (shade top right)",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:chrome-lamp-window",
+   "room": "salotto",
+   "kind": "lamp",
+   "match": "chrome floor lamp",
+   "hint": "between the sofas|window",
+   "label": "Chrome floor lamp with a parchment shade at the E end of the window wall, beside the three paintings (03:50)",
+   "position": [
+    1.6,
+    0.7
+   ],
+   "size": [
+    0.3,
+    1.7,
+    0.3
+   ],
+   "crop": [
+    0.21,
+    0.0,
+    0.42,
+    0.12
+   ],
+   "evidence": "film 03:50 two-shot; possibly the door-2 lamp moved between shoots",
+   "confidence": "medium",
+   "_v6": "crop: the parchment shade at the top edge and the chrome pole beside the three paintings (03:48)",
+   "_v7": "crop: the parchment shade and the top of the chrome pole beside the three paintings (03:48), above the heads"
+  },
+  {
+   "id": "obj:salotto:chrome-lamp",
+   "room": "salotto",
+   "kind": "lamp",
+   "match": "chrome floor lamp",
+   "label": "Chrome floor lamp with a parchment shade beside door 2 on the E wall",
+   "position": [
+    7.1,
+    4.25
+   ],
+   "size": [
+    0.3,
+    1.7,
+    0.3
+   ],
+   "crop": [
+    0.54,
+    0.27,
+    0.63,
+    0.76
+   ],
+   "evidence": "film 50:51 (beside the open door leaf), photo criticaletteraria_2022_7",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:folding-stool",
+   "room": "salotto",
+   "match": "folding stool|luggage rack",
+   "label": "Wooden X-frame folding stool with a black leather seat, in front of window 1",
+   "position": [
+    2.5,
+    1.1
+   ],
+   "size": [
+    0.6,
+    0.5,
+    0.5
+   ],
+   "kind": "other",
+   "crop": [
+    0.36,
+    0.28,
+    0.53,
+    0.53
+   ],
+   "evidence": "film 03:48, 04:01 (between the seats in front of the window)",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:lectern",
+   "room": "salotto",
+   "kind": "other",
+   "create": true,
+   "label": "Wooden lectern holding a magazine, in front of window 1",
+   "position": [
+    2.85,
+    0.55
+   ],
+   "rotation": 0,
+   "size": [
+    0.5,
+    1.1,
+    0.4
+   ],
+   "crop": [
+    0.47,
+    0.2,
+    0.65,
+    0.6
+   ],
+   "description": "A wooden reading stand with a magazine open on its slope, standing against the window between the folding stool and the small table.",
+   "evidence": "film 03:50 two-shot (centre, in front of window 1)",
+   "confidence": "high",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 229.0,
+   "frame": "t_000348.jpg"
+  },
+  {
+   "id": "obj:salotto:small-table",
+   "room": "salotto",
+   "kind": "desk",
+   "create": true,
+   "label": "Small wooden table with books, in front of window 1",
+   "position": [
+    3.35,
+    0.75
+   ],
+   "rotation": 0,
+   "size": [
+    0.7,
+    0.5,
+    0.5
+   ],
+   "dims_m": [
+    0.7,
+    0.5,
+    0.5
+   ],
+   "crop": [
+    0.53,
+    0.47,
+    0.71,
+    0.64
+   ],
+   "evidence": "film 03:50 two-shot (right of the lectern, books on it)",
+   "confidence": "medium",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 229.0,
+   "frame": "t_000348.jpg"
+  },
+  {
+   "id": "obj:salotto:low-chest",
+   "room": "salotto",
+   "kind": "other",
+   "create": true,
+   "label": "Low dark wooden chest under the three paintings at the E end of the window wall",
+   "position": [
+    0.8,
+    0.3
+   ],
+   "rotation": 0,
+   "size": [
+    1.0,
+    0.6,
+    0.45
+   ],
+   "dims_m": [
+    1.0,
+    0.45,
+    0.6
+   ],
+   "crop": [
+    0.34,
+    0.26,
+    0.45,
+    0.4
+   ],
+   "evidence": "film 03:50 two-shot (far left, under the three paintings, partly behind Carlotta)",
+   "confidence": "medium",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 229.0,
+   "frame": "t_000348.jpg",
+   "_v6": "crop: the chest top with the bolster under the three paintings, right of the lamp pole (03:48)",
+   "_v7": "crop: the chest top with the bolster under the three paintings (03:48), above the arm and the stool"
+  },
+  {
+   "id": "obj:salotto:radiator",
+   "room": "salotto",
+   "kind": "other",
+   "create": true,
+   "label": "Radiator under window 1",
+   "anchor": {
+    "wall": "N",
+    "at": 3.1,
+    "dist": 0.05,
+    "base_y": 0.1
+   },
+   "size": [
+    0.9,
+    0.6,
+    0.12
+   ],
+   "evidence": "film 03:50 two-shot (French window with the radiator below it), 05:08",
+   "confidence": "high",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 229.0,
+   "frame": "t_000348.jpg",
+   "_v6": "no picture: the radiator is hidden by the lectern and the sofa in the only frames of the window wall",
+   "crop": [
+    0.55,
+    0.0,
+    0.7,
+    0.6
+   ],
+   "description": "The radiator under the French window of the window wall. In the only frames that show that wall (the 03:48 two-shot) the lectern stands in front of it, so the crop shows the window it sits under.",
+   "_v7": "crop: the French window the radiator sits under (03:48); the lectern hides the radiator itself"
+  },
+  {
+   "id": "obj:salotto:magazine-piles",
+   "room": "salotto",
+   "kind": "pile",
+   "match": "magazines|comics on the floor",
+   "label": "Piles of magazines and comics on the floor beside Carlotta's armchair",
+   "position": [
+    2.45,
+    2.15
+   ],
+   "crop": [
+    0.0,
+    0.74,
+    0.13,
+    1.0
+   ],
+   "evidence": "film 04:01 (floor at the left edge, beside the armchair)",
+   "confidence": "medium"
+  },
+  {
+   "id": "obj:salotto:dark-painting",
+   "room": "salotto",
+   "kind": "artwork",
+   "match": "large black-framed picture|dark-framed painting",
+   "label": "Dark-framed painting (warm abstract) on the door wall over the end of sofa A",
+   "anchor": {
+    "wall": "S",
+    "at": 2.9,
+    "dist": 0.03,
+    "base_y": 1.85
+   },
+   "size": [
+    0.9,
+    0.8,
+    0.04
+   ],
+   "thumb_frame": "t_011402.jpg",
+   "crop": [
+    0.03,
+    0.05,
+    0.17,
+    0.28
+   ],
+   "evidence": "film 74:13 wide (top left, beside the arc lamp pole), 32:49 (its lower edge above Renate and Carlotta on sofa A)",
+   "confidence": "high",
+   "description": "Wide black frame over the end of sofa A; the 74:13 wide shows a warm abstract canvas inside it. The film inventory took it for the beach photograph of Eco, which no frame of the living room shows."
+  },
+  {
+   "id": "obj:salotto:gilt-painting",
+   "room": "salotto",
+   "kind": "artwork",
+   "create": true,
+   "label": "Gilt-framed dark oil painting on the door wall beside the dark-framed painting",
+   "anchor": {
+    "wall": "S",
+    "at": 4.0,
+    "dist": 0.03,
+    "base_y": 1.8
+   },
+   "size": [
+    0.7,
+    0.9,
+    0.04
+   ],
+   "description": "Only its edge is in the 74:13 wide (at the very left of the frame, beyond the dark-framed painting), so it is drawn with a neutral canvas rather than a crop.",
+   "evidence": "film 74:13 wide (left edge, x 0-130 of the frame); no frame shows it fully",
+   "confidence": "medium",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 4443.0,
+   "frame": "t_011402.jpg",
+   "thumb_frame": "t_005050.jpg",
+   "crop": [
+    0.58,
+    0.43,
+    0.625,
+    0.55
+   ],
+   "_v6": "crop: the small framed dark painting beside door 2 in the 50:50 wide shot"
+  },
+  {
+   "id": "skip:salotto:sofa-picture",
+   "room": "salotto",
+   "match": "photograph of eco on a pebble|pebble beach",
+   "skip": true,
+   "note": "the 03:27 close-up of the beach photograph shows no wall or hook; no salotto frame shows it hanging, so it is not placed"
+  },
+  {
+   "id": "obj:salotto:ropes-painting",
+   "room": "salotto",
+   "kind": "artwork",
+   "match": "tangled ropes|ropes/roots",
+   "label": "Large assemblage painting of tangled straps and wood, on the window wall between the two windows behind the sofa",
+   "anchor": {
+    "wall": "N",
+    "at": 4.5,
+    "dist": 0.03,
+    "base_y": 1.0
+   },
+   "size": [
+    1.3,
+    1.1,
+    0.05
+   ],
+   "crop": [
+    0.81,
+    0.02,
+    1.0,
+    0.175
+   ],
+   "evidence": "film 03:50 two-shot (top right, behind Renate) Thumbnail: the upper right part of the painting only; at 03:50 Renate Ramge's head hides its lower left, so the crop shows the straps without her.",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:salotto:burnt-book",
+   "room": "salotto",
+   "kind": "artwork",
+   "match": "burnt-book|burnt book",
+   "label": "Burnt-book assemblage (charred pages pinned on a board) between door 2 and the curiosity cabinet",
+   "anchor": {
+    "wall": "E",
+    "at": 4.25,
+    "dist": 0.03,
+    "base_y": 1.2
+   },
+   "size": [
+    0.45,
+    0.6,
+    0.04
+   ],
+   "evidence": "film 50:53 (s_005053_67), 50:51 wide, photo criticaletteraria_2022_7",
+   "confidence": "high",
+   "thumb_frame": "s_005053_67.jpg",
+   "crop": [
+    0.03,
+    0.05,
+    0.4,
+    0.95
+   ],
+   "_v6": "crop: the small board with pinned charred pages between door 2 and the cabinet in the 50:50 wide shot",
+   "_v7": "crop: the board of charred pages beside the cabinet at 50:53, in place of the door leaf"
+  },
+  {
+   "id": "obj:salotto:gilt-small-painting",
+   "room": "salotto",
+   "kind": "artwork",
+   "create": true,
+   "label": "Small gilt-framed painting over the television, beside the curiosity cabinet",
+   "anchor": {
+    "wall": "E",
+    "at": 7.2,
+    "dist": 0.03,
+    "base_y": 1.55
+   },
+   "size": [
+    0.5,
+    0.6,
+    0.03
+   ],
+   "crop": [
+    0.38,
+    0.29,
+    0.45,
+    0.39
+   ],
+   "evidence": "photo criticaletteraria_2022_7 (left frame, between the cabinet and the TV)",
+   "confidence": "medium",
+   "photo": "criticaletteraria_2022_7.png",
+   "photo_url": "https://www.criticaletteraria.org/2022/11/la-biblioteca-di-umberto-eco.html"
+  },
+  {
+   "id": "obj:salotto:blue-panel",
+   "room": "salotto",
+   "kind": "artwork",
+   "create": true,
+   "label": "Framed blue-and-white patterned panel (tiles or textile), low on the door wall between the piano and the TV corner",
+   "anchor": {
+    "wall": "S",
+    "at": 6.62,
+    "dist": 0.03,
+    "base_y": 0.55
+   },
+   "size": [
+    0.5,
+    0.6,
+    0.03
+   ],
+   "crop": [
+    0.52,
+    0.53,
+    0.59,
+    0.76
+   ],
+   "evidence": "photo criticaletteraria_2022_7 (right frame, left of the piano); a blue strip at the left edge of the 43:04 pull-back",
+   "confidence": "low",
+   "photo": "criticaletteraria_2022_7.png",
+   "photo_url": "https://www.criticaletteraria.org/2022/11/la-biblioteca-di-umberto-eco.html"
+  },
+  {
+   "id": "obj:salotto:eco-print",
+   "room": "salotto",
+   "kind": "artwork",
+   "create": true,
+   "label": "Small framed print with the word 'eco', on the door wall beside the piano above the blue panel",
+   "anchor": {
+    "wall": "S",
+    "at": 6.62,
+    "dist": 0.03,
+    "base_y": 1.45
+   },
+   "size": [
+    0.4,
+    0.4,
+    0.03
+   ],
+   "crop": [
+    0.57,
+    0.32,
+    0.62,
+    0.45
+   ],
+   "evidence": "photo criticaletteraria_2022_7 (right frame, left of the piano)",
+   "confidence": "low",
+   "photo": "criticaletteraria_2022_7.png",
+   "photo_url": "https://www.criticaletteraria.org/2022/11/la-biblioteca-di-umberto-eco.html"
+  },
+  {
+   "id": "obj:salotto:wall-works",
+   "room": "salotto",
+   "kind": "artwork",
+   "match": "framed works on the salotto wall|framed drawings above the white sofa",
+   "label": "Two framed drawings (a white-matted drawing above, a map-like drawing in a dark frame below) and a small hanging object in the NE corner of the window wall",
+   "anchor": {
+    "wall": "N",
+    "at": 6.85,
+    "dist": 0.03,
+    "base_y": 0.9
+   },
+   "size": [
+    0.9,
+    1.6,
+    0.04
+   ],
+   "thumb_frame": "t_005050.jpg",
+   "crop": [
+    0.29,
+    0.26,
+    0.44,
+    0.69
+   ],
+   "evidence": "film 50:51 (between window 2 and the E wall corner)",
+   "confidence": "medium"
+  },
+  {
+   "room": "vestibolo",
+   "match": "toy figure|box files",
+   "attach": "vest-C"
+  },
+  {
+   "id": "obj:vestibolo:coat-rail",
+   "room": "vestibolo",
+   "match": "coat rail|coat hooks|coats",
+   "label": "Coats on hooks on both sides of the passage",
+   "position": [
+    0.35,
+    0.9
+   ],
+   "size": [
+    0.45,
+    1.7,
+    1.3
+   ],
+   "kind": "other",
+   "rotation": 90
+  },
+  {
+   "id": "obj:vestibolo:gosh",
+   "room": "vestibolo",
+   "kind": "artwork",
+   "match": "gosh",
+   "label": "'GOSH!' Italian-flag pasta picture",
+   "anchor": {
+    "wall": "S",
+    "at": 0.85,
+    "dist": 0.03
+   },
+   "size": [
+    0.7,
+    0.55,
+    0.04
+   ],
+   "base_y": 1.75
+  },
+  {
+   "id": "obj:vestibolo:prints",
+   "room": "vestibolo",
+   "kind": "artwork",
+   "match": "framed prints|framed pictures|wall of framed prints",
+   "label": "Wall of framed prints, cartoons and certificates",
+   "anchor": {
+    "wall": "W",
+    "at": 1.6,
+    "dist": 0.03
+   },
+   "size": [
+    1.6,
+    1.1,
+    0.04
+   ]
+  },
+  {
+   "room": "corridoio",
+   "match": "shelf labels|books lying flat on the a shelves|white shelves with leather-bound",
+   "attach": "corridor-03"
+  },
+  {
+   "room": "corridoio",
+   "match": "box files in the short leg",
+   "attach": "corridor2-G"
+  },
+  {
+   "id": "obj:corridoio:ladder",
+   "room": "corridoio",
+   "kind": "ladder",
+   "match": "ladder",
+   "label": "Sliding ladder on the rail of bookcase A",
+   "anchor": {
+    "bookcase": "corridor-08",
+    "dist": 0.3,
+    "along": 0
+   },
+   "size": [
+    0.45,
+    2.5,
+    0.35
+   ]
+  },
+  {
+   "id": "obj:corridoio:prints",
+   "room": "corridoio",
+   "kind": "artwork",
+   "match": "framed prints|prints along",
+   "label": "Row of framed prints along the corridor wall (c. 10)",
+   "anchor": {
+    "wall": "N",
+    "at": 12.0,
+    "dist": 0.03
+   },
+   "size": [
+    4.0,
+    0.5,
+    0.04
+   ]
+  },
+  {
+   "room": "corridoio",
+   "kind": "artwork",
+   "match": "caricature|portrait of eco|mickey mouse|comic strip|dedicated drawing|recorder",
+   "label": null,
+   "anchor": {
+    "wall": "N",
+    "auto": true,
+    "dist": 0.03
+   },
+   "size": [
+    0.45,
+    0.55,
+    0.04
+   ],
+   "each": true
+  },
+  {
+   "id": "obj:corridoio-arte:mosaic",
+   "room": "corridoio-arte",
+   "kind": "artwork",
+   "match": "pixel|mosaic",
+   "label": "Pixel-mosaic abstract picture by the glazed door",
+   "anchor": {
+    "wall": "N",
+    "at": 9.0,
+    "dist": 0.03
+   },
+   "size": [
+    0.7,
+    0.7,
+    0.04
+   ]
+  },
+  {
+   "id": "obj:corridoio-arte:door-prints",
+   "room": "corridoio-arte",
+   "kind": "artwork",
+   "match": "small framed prints",
+   "label": "Small framed prints flanking the glazed door",
+   "anchor": {
+    "wall": "N",
+    "at": 7.8,
+    "dist": 0.03
+   },
+   "size": [
+    0.9,
+    0.5,
+    0.04
+   ]
+  },
+  {
+   "room": "studio",
+   "match": "shelf labels l4|lying flat in the l4|leaning against the l4",
+   "attach": "study-L1-4"
+  },
+  {
+   "room": "studio",
+   "match": "shelf labels l11|peanuts",
+   "attach": "study-L8-12"
+  },
+  {
+   "room": "studio",
+   "match": "q4/q5|eco iberici|face-out display",
+   "attach": "study-Q"
+  },
+  {
+   "room": "studio",
+   "match": "black box files on the bottom",
+   "attach": "study-P"
+  },
+  {
+   "room": "studio",
+   "match": "white encyclopaedias",
+   "attach": "study-Oa"
+  },
+  {
+   "room": "studio",
+   "match": "box files and binders on the islands|comic strips on the bookcase end",
+   "attach": "study-M-A"
+  },
+  {
+   "room": "studio",
+   "match": "books lying flat above the sofa|books lying flat on (the )?shelves|lying flat on top of rows",
+   "attach": "study-S"
+  },
+  {
+   "id": "obj:studio:stepladder",
+   "room": "studio",
+   "kind": "ladder",
+   "match": "stepladder|step-ladder",
+   "label": "Aluminium stepladder by the study door",
+   "anchor": {
+    "bookcase": "study-I-r",
+    "dist": 0.5,
+    "along": 0.3
+   },
+   "size": [
+    0.5,
+    1.8,
+    0.6
+   ]
+  },
+  {
+   "id": "obj:studio:ironing-board",
+   "room": "studio",
+   "match": "ironing board",
+   "label": "Folded ironing board by the door",
+   "anchor": {
+    "bookcase": "study-I-r",
+    "dist": 0.3,
+    "along": 1.2
+   },
+   "size": [
+    0.35,
+    1.4,
+    0.12
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "obj:studio:tall-ladder",
+   "room": "studio",
+   "kind": "ladder",
+   "match": "tall ladder|aluminium ladder seen",
+   "label": "Tall ladder at the far end of the study",
+   "anchor": {
+    "bookcase": "study-I",
+    "dist": 0.4,
+    "along": -0.5
+   },
+   "size": [
+    0.5,
+    3.2,
+    0.3
+   ]
+  },
+  {
+   "id": "obj:studio:sliding-ladder",
+   "room": "studio",
+   "kind": "ladder",
+   "match": "sliding library ladder|sliding ladders on rails",
+   "label": "Sliding ladder at the Q bay",
+   "anchor": {
+    "bookcase": "study-Q",
+    "dist": 0.3,
+    "along": 0.8
+   },
+   "size": [
+    0.45,
+    2.8,
+    0.3
+   ]
+  },
+  {
+   "id": "obj:studio:desk-row",
+   "room": "studio",
+   "kind": "desk",
+   "match": "desk row|desk under the window|study desk with keyboard|desk with monitor and office chair|desk with open box files|l-shaped black desk",
+   "label": "L-shaped black desk with the computer, under the windows",
+   "position": [
+    2.8,
+    9.45
+   ],
+   "size": [
+    2.4,
+    0.75,
+    0.8
+   ],
+   "walls": [
+    "study-desk-1",
+    "desk-stack-1"
+   ]
+  },
+  {
+   "id": "obj:studio:desk-piles",
+   "room": "studio",
+   "kind": "pile",
+   "match": "piles of books on the desk|desk piles and papers",
+   "label": "Piles of books on the desk row",
+   "anchor": {
+    "object": "obj:studio:desk-row",
+    "on_top": true,
+    "offset": [
+     -0.3,
+     0
+    ]
+   },
+   "walls": [
+    "study-desk-1",
+    "desk-stack-1"
+   ],
+   "size": [
+    1.6,
+    0.3,
+    0.6
+   ]
+  },
+  {
+   "id": "obj:studio:office-chairs",
+   "room": "studio",
+   "kind": "chair",
+   "match": "office chair",
+   "label": "Black mesh office chairs at the desk row",
+   "anchor": {
+    "object": "obj:studio:desk-row",
+    "offset": [
+     0.1,
+     -0.8
+    ]
+   },
+   "rotation": 0,
+   "size": [
+    0.6,
+    0.9,
+    0.6
+   ]
+  },
+  {
+   "id": "obj:studio:floor-boxes",
+   "room": "studio",
+   "kind": "pile",
+   "match": "boxes on the floor|books and boxes on the study floor",
+   "label": "Books and cardboard boxes on the floor at the base of P and the islands",
+   "size": [
+    0.5,
+    0.35,
+    0.4
+   ],
+   "anchor": {
+    "bookcase": "study-P",
+    "dist": 0.35,
+    "along": -1.5
+   }
+  },
+  {
+   "id": "obj:studio:grey-cabinet",
+   "room": "studio",
+   "match": "grey metal cabinet",
+   "label": "Grey metal cabinet before the desk zone",
+   "position": [
+    1.0,
+    8.2
+   ],
+   "size": [
+    0.9,
+    1.9,
+    0.45
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "obj:studio:low-cupboard",
+   "room": "studio",
+   "match": "low white cupboard|white low cabinet",
+   "label": "White low cabinet with piles on top",
+   "position": [
+    0.6,
+    6.4
+   ],
+   "size": [
+    0.9,
+    0.8,
+    0.45
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "obj:studio:eco-desk",
+   "room": "studio",
+   "kind": "desk",
+   "match": "black desk with computer",
+   "label": "Black desk with computer monitor in the aisle before the tall shelving",
+   "anchor": {
+    "bookcase": "study-Q",
+    "dist": 1.4,
+    "along": 0.8
+   },
+   "rotation": 90,
+   "size": [
+    1.6,
+    0.75,
+    0.8
+   ]
+  },
+  {
+   "id": "obj:studio:round-table",
+   "room": "studio",
+   "kind": "desk",
+   "match": "round table|round pedestal table",
+   "label": "Black round table with stacks of books, near the corridor door",
+   "position": [
+    2.6,
+    1.5
+   ],
+   "size": [
+    1.1,
+    0.74,
+    1.1
+   ],
+   "shape": "cylinder",
+   "walls": [
+    "study-round-table",
+    "black-round-table"
+   ]
+  },
+  {
+   "id": "obj:studio:round-table-piles",
+   "room": "studio",
+   "kind": "pile",
+   "match": "round table",
+   "label": "Stacks of books on the black round table",
+   "anchor": {
+    "object": "obj:studio:round-table",
+    "on_top": true,
+    "offset": [
+     0.15,
+     0
+    ]
+   },
+   "walls": [
+    "study-round-table",
+    "black-round-table"
+   ]
+  },
+  {
+   "id": "obj:studio:armchair-round-table",
+   "room": "studio",
+   "kind": "chair",
+   "match": "black leather armchair",
+   "hint": "round table",
+   "label": "Black leather armchair by the round table",
+   "anchor": {
+    "object": "obj:studio:round-table",
+    "offset": [
+     -1.0,
+     0.2
+    ]
+   },
+   "rotation": 90,
+   "size": [
+    0.8,
+    0.8,
+    0.8
+   ]
+  },
+  {
+   "id": "obj:studio:eames",
+   "room": "studio",
+   "kind": "chair",
+   "match": "eames|lounge chair",
+   "label": "Black leather Eames-style lounge chair at the L wall",
+   "anchor": {
+    "bookcase": "study-L8-12",
+    "dist": 1.0,
+    "along": 0.4
+   },
+   "rotation": 180,
+   "size": [
+    0.85,
+    0.8,
+    0.85
+   ]
+  },
+  {
+   "id": "obj:studio:leather-chair",
+   "room": "studio",
+   "kind": "chair",
+   "match": "black leather chair",
+   "label": "Black leather chair in front of the L wall",
+   "anchor": {
+    "bookcase": "study-L5-7",
+    "dist": 0.9,
+    "along": 0
+   },
+   "rotation": 180,
+   "size": [
+    0.7,
+    0.85,
+    0.7
+   ]
+  },
+  {
+   "id": "obj:studio:sofa",
+   "room": "studio",
+   "kind": "sofa",
+   "match": "black leather sofa|leather sofa and armchair",
+   "label": "Black leather sofa under the shelves",
+   "anchor": {
+    "bookcase": "study-S",
+    "dist": 0.7,
+    "along": 0
+   },
+   "rotation": 90,
+   "size": [
+    2.0,
+    0.8,
+    0.9
+   ]
+  },
+  {
+   "id": "obj:studio:sofa-prints",
+   "room": "studio",
+   "kind": "artwork",
+   "match": "framed prints above the sofa",
+   "label": "Framed prints above the sofa",
+   "anchor": {
+    "bookcase": "study-S",
+    "dist": 0.05,
+    "along": 0
+   },
+   "base_y": 2.6,
+   "size": [
+    0.9,
+    0.5,
+    0.04
+   ]
+  },
+  {
+   "id": "obj:studio:armchair-window",
+   "room": "studio",
+   "kind": "chair",
+   "match": "dark leather armchair",
+   "label": "Dark leather armchair by a curtained window (2015 interview)",
+   "position": [
+    5.0,
+    8.4
+   ],
+   "rotation": 180,
+   "size": [
+    0.85,
+    0.8,
+    0.85
+   ]
+  },
+  {
+   "id": "obj:studio:island-piles",
+   "room": "studio",
+   "kind": "pile",
+   "match": "on top of the island bookcases|lying flat on island shelves|island shelves either side|horizontal stacks on top of the low island",
+   "label": "Piles of books on top of the island bookcases",
+   "anchor": {
+    "bookcase": "study-M-A",
+    "on_top": true,
+    "along": -0.9
+   },
+   "size": [
+    0.25,
+    0.3,
+    0.28
+   ]
+  },
+  {
+   "id": "obj:studio:island-piles-2",
+   "room": "studio",
+   "kind": "pile",
+   "match": "on top of the island unit",
+   "label": "Stacks of books on the low unit at the comb end",
+   "description": "Two stacks of five to seven books beside the framed calligraphy on top of the low unit at the end of the dictionaries comb. The white row to their right is Eco's own Bompiani paperbacks, not box files (film 0:05:23-0:05:31).",
+   "anchor": {
+    "object": "obj:studio:comb-end-unit",
+    "on_top": true,
+    "offset": [
+     -0.555,
+     0
+    ]
+   },
+   "size": [
+    0.25,
+    0.3,
+    0.31
+   ]
+  },
+  {
+   "id": "obj:studio:calligraphy",
+   "room": "studio",
+   "kind": "artwork",
+   "match": "calligraph",
+   "label": "Framed calligraphy and a framed photograph of Eco on the low unit at the comb end",
+   "description": "Framed sheet in gothic lettering: 'I know that you believe you understand what you think I said, but I am not sure you realize that what you heard is not what I meant', and a framed black-and-white photograph of a seated man, standing on top of the low unit at the end of the dictionaries comb, leaning against its end panel (film 0:05:23 and 1:14:27).",
+   "anchor": {
+    "object": "obj:studio:comb-end-unit",
+    "on_top": true,
+    "offset": [
+     -0.3,
+     -0.08
+    ]
+   },
+   "size": [
+    0.5,
+    0.4,
+    0.04
+   ]
+  },
+  {
+   "id": "obj:studio:eco-poster",
+   "room": "studio",
+   "kind": "artwork",
+   "match": "photo poster of eco",
+   "label": "Photo poster of Eco with a microphone (alfabeta), leaning against the L4 bay",
+   "anchor": {
+    "bookcase": "study-L1-4",
+    "dist": 0.2,
+    "along": -0.8,
+    "face": "away"
+   },
+   "base_y": 0.0,
+   "size": [
+    0.6,
+    0.85,
+    0.04
+   ]
+  },
+  {
+   "id": "obj:studio:post-2016-label",
+   "room": "studio",
+   "match": "ricevuti dopo il 2016",
+   "label": "Low unit labelled 'Libri e riviste ricevuti dopo il 2016'",
+   "anchor": {
+    "bookcase": "study-L1-4",
+    "dist": 0.9,
+    "along": 0.6
+   },
+   "size": [
+    0.9,
+    0.9,
+    0.4
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "obj:studio:comb-end-unit",
+   "create": true,
+   "room": "studio",
+   "kind": "other",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 323,
+   "frame": "t_000522.jpg",
+   "label": "Low white unit at the end of the dictionaries comb, with the calligraphy, the photograph and the row of ECO paperbacks on top",
+   "description": "A low white bookcase of two open shelves standing across the end of a comb unit, at the cross aisle. On its top, from the left: two stacks of books, the framed calligraphy and the framed photograph of Eco, then the row of white Bompiani 'ECO' paperbacks with the carved plaque at their right end (film 0:05:23-0:05:31 and 1:14:27).",
+   "position": [
+    6.5,
+    5.8
+   ],
+   "rotation": 180,
+   "size": [
+    1.4,
+    1.05,
+    0.35
+   ],
+   "shape": "box",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:studio:eco-paperbacks",
+   "create": true,
+   "room": "studio",
+   "kind": "pile",
+   "row": true,
+   "count": 25,
+   "video_id": "zZEy10fpq3I",
+   "film_s": 327,
+   "frame": "t_000526.jpg",
+   "label": "Row of Eco's own Bompiani paperbacks (the white 'ECO' series) on the low unit",
+   "description": "About twenty-five white Bompiani paperbacks of the uniform ECO series stand in a row on top of the low unit at the end of the dictionaries comb, the carved wooden plaque at their right end. The spines of 'Dall'albero al labirinto' and 'Baudolino' are readable at 0:05:27; the rest are too small to read, so the row counts as unknown books. An earlier reading of the frame took them for 'ECO' box files.",
+   "anchor": {
+    "object": "obj:studio:comb-end-unit",
+    "on_top": true,
+    "offset": [
+     0.18,
+     0
+    ]
+   },
+   "size": [
+    0.54,
+    0.19,
+    0.13
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "obj:studio:radiator-west",
+   "create": true,
+   "room": "studio",
+   "kind": "other",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 4513,
+   "frame": "t_011512.jpg",
+   "label": "Radiator under the window to the right of the door",
+   "description": "A panel radiator under the window with the stone sill, to the right of the door on entering (film 1:15:13).",
+   "anchor": {
+    "wall": "W",
+    "at": 1.55,
+    "dist": 0.02
+   },
+   "size": [
+    1.0,
+    0.6,
+    0.12
+   ],
+   "shape": "box",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:studio:radiator-desk",
+   "create": true,
+   "room": "studio",
+   "kind": "other",
+   "video_id": "zZEy10fpq3I",
+   "film_s": 143,
+   "frame": "t_000142.jpg",
+   "label": "Radiator under the window behind the desk row",
+   "description": "A panel radiator under the window with the slatted blind, behind the desk (film 0:01:43).",
+   "anchor": {
+    "wall": "S",
+    "at": 1.65,
+    "dist": 0.02
+   },
+   "size": [
+    1.0,
+    0.6,
+    0.12
+   ],
+   "shape": "box",
+   "confidence": "high"
+  },
+  {
+   "id": "obj:studio:eco-plaque",
+   "room": "studio",
+   "kind": "curiosity",
+   "match": "carved wooden plaque",
+   "label": "Carved wooden plaque 'Umberto Eco' at the right end of the row of his Bompiani paperbacks",
+   "description": "Small carved wood relief with a horse and dragon motif and the words UMBERTO ECO, standing at the right end of the row of white ECO paperbacks on the low unit (film 0:05:27-0:05:31).",
+   "anchor": {
+    "object": "obj:studio:comb-end-unit",
+    "on_top": true,
+    "offset": [
+     0.53,
+     0
+    ]
+   },
+   "size": [
+    0.3,
+    0.15,
+    0.05
+   ],
+   "shape": "flat"
+  },
+  {
+   "id": "obj:studio:portrait-cards",
+   "room": "studio",
+   "kind": "artwork",
+   "match": "portrait cover cards",
+   "attach": "study-Q"
+  },
+  {
+   "room": "studio",
+   "kind": "artwork",
+   "match": "framed",
+   "anchor": {
+    "wall": "auto",
+    "auto": true,
+    "dist": 0.03
+   },
+   "size": [
+    0.5,
+    0.6,
+    0.04
+   ],
+   "each": true
+  },
+  {
+   "room": "antichi",
+   "kind": "glass_case",
+   "match": "cabinets|hermetica|leather-bound sets",
+   "attach": "rare-01"
+  },
+  {
+   "room": "antichi",
+   "match": "framed antique maps and small prints",
+   "attach": "rare-02"
+  },
+  {
+   "id": "obj:antichi:table",
+   "room": "antichi",
+   "kind": "desk",
+   "match": "table",
+   "label": "Long oak table with the green leather inset and six cane-seated chairs",
+   "position": [
+    1.8,
+    3.1
+   ],
+   "size": [
+    1.0,
+    0.78,
+    2.4
+   ],
+   "walls": [
+    "rare-manuscript-table",
+    "rare-glass-cabinet-table",
+    "rare-table"
+   ]
+  },
+  {
+   "id": "obj:antichi:chairs",
+   "room": "antichi",
+   "kind": "chair",
+   "match": "chairs",
+   "label": "Wooden chairs with rattan seats around the table",
+   "anchor": {
+    "object": "obj:antichi:table",
+    "offset": [
+     -0.85,
+     -0.6
+    ]
+   },
+   "rotation": 90,
+   "size": [
+    0.45,
+    0.9,
+    0.45
+   ],
+   "count_as": 4
+  },
+  {
+   "id": "obj:antichi:table-piles",
+   "room": "antichi",
+   "kind": "pile",
+   "match": "books on the rare-room table|row of vellum|small piles on the table|vellum quartos",
+   "label": "Vellum volumes and small piles on the table",
+   "anchor": {
+    "object": "obj:antichi:table",
+    "on_top": true,
+    "offset": [
+     0,
+     -0.8
+    ]
+   },
+   "walls": [
+    "rare-manuscript-table",
+    "rare-glass-cabinet-table",
+    "rare-table"
+   ]
+  },
+  {
+   "id": "obj:antichi:kircher",
+   "room": "antichi",
+   "kind": "pile",
+   "match": "kircher",
+   "label": "Kircher's Ars Magna folio open on the table",
+   "anchor": {
+    "object": "obj:antichi:table",
+    "on_top": true,
+    "offset": [
+     0,
+     0.7
+    ]
+   }
+  },
+  {
+   "id": "obj:antichi:tools",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "book cradle|magnifying|gloves|reading tray|brass instrument",
+   "label": "Brass book cradle, white cotton gloves and magnifier on the table",
+   "anchor": {
+    "object": "obj:antichi:table",
+    "on_top": true,
+    "offset": [
+     0.25,
+     0
+    ]
+   },
+   "size": [
+    0.25,
+    0.12,
+    0.25
+   ],
+   "shape": "torus"
+  },
+  {
+   "id": "obj:antichi:thesaurus",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "thesaurus anatomicus",
+   "label": "Ruysch, Thesaurus anatomicus (large folio) on the table",
+   "anchor": {
+    "object": "obj:antichi:table",
+    "on_top": true,
+    "offset": [
+     -0.2,
+     0.15
+    ]
+   },
+   "size": [
+    0.3,
+    0.06,
+    0.42
+   ],
+   "shape": "flat"
+  },
+  {
+   "id": "obj:antichi:organiser",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "desk organiser|letter tray",
+   "label": "Wooden desk organiser at the far end of the table",
+   "anchor": {
+    "object": "obj:antichi:table",
+    "on_top": true,
+    "offset": [
+     0.2,
+     1.08
+    ]
+   },
+   "size": [
+    0.3,
+    0.15,
+    0.2
+   ]
+  },
+  {
+   "id": "obj:antichi:music-stand",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "music stand",
+   "label": "Carved wooden music stand with a recorder score and two recorders",
+   "position": [
+    2.1,
+    0.9
+   ],
+   "size": [
+    0.45,
+    1.3,
+    0.4
+   ],
+   "shape": "stand"
+  },
+  {
+   "id": "obj:antichi:lute",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "lute",
+   "label": "Lute",
+   "position": [
+    1.75,
+    0.55
+   ],
+   "size": [
+    0.3,
+    0.8,
+    0.15
+   ],
+   "shape": "lute"
+  },
+  {
+   "id": "obj:antichi:console",
+   "room": "antichi",
+   "match": "brass desk lamps|^console",
+   "label": "Console with two brass desk lamps, left of the door",
+   "position": [
+    2.95,
+    0.32
+   ],
+   "size": [
+    1.1,
+    0.9,
+    0.35
+   ],
+   "kind": "other"
+  },
+  {
+   "id": "obj:antichi:jar",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "dog testicles|jar",
+   "label": "Jar with preserved dog testicles",
+   "anchor": {
+    "object": "obj:antichi:console",
+    "on_top": true,
+    "offset": [
+     -0.35,
+     0
+    ]
+   },
+   "size": [
+    0.14,
+    0.24,
+    0.14
+   ],
+   "shape": "cylinder"
+  },
+  {
+   "id": "obj:antichi:figurines",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "metal figurines",
+   "label": "Two metal figurines in front of the leather-bound books",
+   "anchor": {
+    "object": "obj:antichi:console",
+    "on_top": true,
+    "offset": [
+     0.3,
+     0
+    ]
+   },
+   "size": [
+    0.12,
+    0.22,
+    0.12
+   ],
+   "shape": "stand"
+  },
+  {
+   "id": "obj:antichi:torchere",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "torch",
+   "label": "Turned wooden torchere / candle stand",
+   "position": [
+    0.35,
+    5.6
+   ],
+   "size": [
+    0.3,
+    1.6,
+    0.3
+   ],
+   "shape": "cylinder"
+  },
+  {
+   "id": "obj:antichi:mirror",
+   "room": "antichi",
+   "kind": "artwork",
+   "match": "convex mirror",
+   "label": "Gilt convex mirror",
+   "anchor": {
+    "wall": "S",
+    "at": 2.9,
+    "dist": 0.03
+   },
+   "size": [
+    0.45,
+    0.45,
+    0.06
+   ],
+   "base_y": 1.9,
+   "shape": "sphere"
+  },
+  {
+   "id": "obj:antichi:barometer",
+   "room": "antichi",
+   "kind": "curiosity",
+   "match": "barometer",
+   "label": "Barometer-thermometer panel and round barometer, right of the door",
+   "anchor": {
+    "wall": "S",
+    "at": 2.45,
+    "dist": 0.04
+   },
+   "base_y": 1.7,
+   "size": [
+    0.25,
+    0.7,
+    0.06
+   ],
+   "shape": "flat"
+  },
+  {
+   "id": "obj:antichi:carceri",
+   "room": "antichi",
+   "kind": "artwork",
+   "match": "carceri|piranesi",
+   "label": "Large framed Piranesi-type Carceri engraving on the end wall",
+   "anchor": {
+    "wall": "S",
+    "at": 3.15,
+    "dist": 0.03
+   },
+   "base_y": 1.55,
+   "size": [
+    0.6,
+    0.8,
+    0.04
+   ]
+  },
+  {
+   "id": "obj:antichi:allegory",
+   "room": "antichi",
+   "kind": "artwork",
+   "match": "allegorical",
+   "label": "Framed allegorical engraving below the Carceri",
+   "anchor": {
+    "wall": "S",
+    "at": 3.15,
+    "dist": 0.03
+   },
+   "base_y": 1.15,
+   "size": [
+    0.5,
+    0.35,
+    0.04
+   ]
+  },
+  {
+   "id": "obj:antichi:maps",
+   "room": "antichi",
+   "kind": "artwork",
+   "match": "map of south america|framed antique map$|framed antique map\\b",
+   "label": "Framed antique maps (South America) beside the barometer",
+   "anchor": {
+    "wall": "N",
+    "at": 3.1,
+    "dist": 0.03
+   },
+   "size": [
+    0.7,
+    0.55,
+    0.04
+   ]
+  },
+  {
+   "id": "obj:antichi:end-prints",
+   "room": "antichi",
+   "kind": "artwork",
+   "match": "framed prints on the end wall|framed print by the window|print by the window",
+   "label": "Framed prints by the window and on the end wall",
+   "anchor": {
+    "wall": "N",
+    "at": 2.0,
+    "dist": 0.03
+   },
+   "base_y": 2.5,
+   "size": [
+    0.6,
+    0.4,
+    0.04
+   ]
+  }
+ ],
+ "pile_fragments": {
+  "_comment": "Blank spines of the piano piles (u:pile:<pile>:<position from the top>) whose print the readers made out in part: promoted to low-confidence pile books (tier guess) with a display title, so that the pile panels list them among the identified books. The piles are stacked from eco-video/piano_piles.json, so an entry here may also refine the wording of a fragment the reference itself created at that position (the La nave di Teseo volume no. 32). Spines the reference already reads as a title, and spines it does not read at all, have no entry here.",
+  "u:pile:piano-pile-08:12": {
+   "title": "il verri",
+   "author": null,
+   "language": "it",
+   "display_title": "il verri (second issue, number not readable)",
+   "note": "Second of three thin white 'il verri' issues stacked together; the number is not legible."
+  },
+  "u:pile:piano-pile-08:13": {
+   "title": "il verri",
+   "author": null,
+   "language": "it",
+   "display_title": "il verri (third issue, number not readable)",
+   "note": "Third of three thin white 'il verri' issues stacked together; the number is not legible."
+  },
+  "u:pile:piano-pile-04:02": {
+   "title": null,
+   "author": null,
+   "publisher": "La nave di Teseo",
+   "language": "it",
+   "display_title": "La nave di Teseo volume no. 32 (title not readable)",
+   "note": "Mint spine numbered 32 with the publisher's name legible at the right; author and title not resolvable."
+  }
+ }
+}

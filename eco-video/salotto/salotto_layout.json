@@ -1,0 +1,246 @@
+{
+ "room_id": "salotto",
+ "label": "Salotto (living and dining room)",
+ "coordinate_frame": "room-local metres as in layout.json / objects_map_eco.json: x runs from the W wall (0) to the E wall, z from the S wall (0) to the N wall. Compass labels follow the build's convention that the vestibolo lies N of the salotto (the vestibolo door is at the NE corner). Windows are therefore on the S wall, opposite the door end. Absolute orientation of the flat is not verified.",
+ "approx_size_m": [
+  7.5,
+  7.6
+ ],
+ "size_confidence": "estimate; the E-wall sequence (door, prints, canvas, statue, pier, opening, credenza, dining pocket) needs about 7.5 m and the S-wall sequence (three paintings, lamp, stool, window, ropes painting, window, drawings) about 7.5 m",
+ "openings": [
+  {
+   "id": "door-vestibolo",
+   "wall": "N",
+   "offset_from_E_corner_m": 0.3,
+   "width_m": 0.9,
+   "height_m": 2.1,
+   "transom": true,
+   "leads_to": "vestibolo",
+   "confidence": "high",
+   "note": "Door with a glazed transom and a mirror on the leaf; Eco walks out through it at 00:50 past the 'fine' canvas into the coat passage. In the 74:13 wide it is the white door left of the small prints; the arc lamp stands beside it.",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000051.jpg",
+     "film_s": 51.0,
+     "film_ts": "00:51",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=51s",
+     "note": "Eco leaving through the door, 'fine' canvas at left",
+     "crop": null
+    },
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "door + transom at x 385-505",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003840.jpg",
+     "film_s": 3840.0,
+     "film_ts": "64:00",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+     "note": "door handle beside the statue's leg",
+     "crop": "crops/statue_case_64-00_f003840.jpg"
+    }
+   ]
+  },
+  {
+   "id": "door-2",
+   "wall": "W",
+   "offset_from_S_corner_m": 3.3,
+   "width_m": 0.9,
+   "height_m": 2.1,
+   "transom": false,
+   "leads_to": "unknown (not walked through in the film)",
+   "confidence": "high",
+   "note": "Open leaf standing into the room, chrome floor lamp beside it, burnt-book assemblage and the glazed cabinet to its N.",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "open leaf at x 1045-1120",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "door at the far left edge",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  },
+  {
+   "id": "opening-E",
+   "wall": "E",
+   "offset_from_S_corner_m": 3.6,
+   "width_m": 1.2,
+   "kind": "window or glazed door, unknown",
+   "confidence": "medium",
+   "note": "Bright vertical panel behind glass case 1/2 between the statue's pier and the credenza; daylight comes through it in every club-armchair shot.",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "bright panel x 1080-1180",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_002979.jpg",
+     "film_s": 2979.0,
+     "film_ts": "49:39",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2979s",
+     "note": "light behind the cases",
+     "crop": "crops/club_armchair_49-39_f002979.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/zanni_2010_umberto_eco_in_his_house_orig.jpg",
+     "note": "bright strip between case 1 and 2",
+     "crop": "crops/photo_zanni_2010.jpg"
+    }
+   ]
+  },
+  {
+   "id": "window-1",
+   "wall": "S",
+   "offset_from_E_corner_m": 2.5,
+   "width_m": 1.2,
+   "kind": "French window with radiator, view of the Castello Sforzesco tower",
+   "confidence": "high",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "window at x 1050-1400",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_000308.jpg",
+     "film_s": 308.0,
+     "film_ts": "05:08",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=308s",
+     "note": "Renate at the open window, Castello tower",
+     "crop": "crops/window_view_05-07_f000308.jpg"
+    }
+   ]
+  },
+  {
+   "id": "window-2",
+   "wall": "S",
+   "offset_from_E_corner_m": 5.1,
+   "width_m": 1.2,
+   "kind": "French window",
+   "confidence": "medium",
+   "note": "Seen at the far left of the 50:51 wide with the two drawings between it and the SW corner. Could be the same window as window-1 if the ropes painting was moved between shoots; two windows is the reading that needs no rearrangement.",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "window at x 365-545",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    }
+   ]
+  }
+ ],
+ "walls": {
+  "N": {
+   "label": "door wall (vestibolo door at the E end)",
+   "bookcases": [],
+   "art_from_E": [
+    "dark-framed painting over sofa A",
+    "gilt oil painting",
+    "white-framed print (position uncertain)",
+    "drawings above the piano",
+    "picture E of the piano"
+   ],
+   "note": "piano placed here on medium-low confidence, see notes.md"
+  },
+  "E": {
+   "label": "statue and glass-case wall",
+   "from_N": [
+    "small prints column with side cabinet below",
+    "'fine' canvas",
+    "plaster statue (against the wall)",
+    "pier",
+    "opening-E",
+    "credenza (dark wooden bookcase with CDs, hi-fi, family photographs, curios)",
+    "dining pocket with table and chairs"
+   ],
+   "bookcases": [
+    {
+     "id": "salotto-credenza",
+     "kind": "dark wooden bookcase/credenza, glazed top, open shelves, cupboards",
+     "width_m": 2.6,
+     "height_m": 2.3,
+     "depth_m": 0.5,
+     "position_along_wall_z": [
+      0.8,
+      3.4
+     ],
+     "note": "holds CDs, hi-fi, family photographs, shells, curios; no library books. Stands BEHIND the glass cases, 1.3 m back from them."
+    }
+   ],
+   "freestanding": [
+    "three steel-and-glass cases in a row 1.3 m in front of the wall, from z 2.6 to 5.0"
+   ]
+  },
+  "S": {
+   "label": "window wall",
+   "from_E": [
+    "three small framed paintings over a low wooden chest",
+    "chrome floor lamp",
+    "folding stool",
+    "lectern with a magazine",
+    "small table with books",
+    "window-1",
+    "ropes painting (assemblage of straps and wood)",
+    "window-2",
+    "two framed drawings (white-matted drawing above, map-like drawing in a dark frame below) and a small hanging object"
+   ],
+   "bookcases": []
+  },
+  "W": {
+   "label": "cabinet wall",
+   "from_S": [
+    "blank wall (1.5 m)",
+    "door-2 with chrome floor lamp",
+    "burnt-book assemblage",
+    "glazed dark wooden cabinet (salotto-wood), 2.4 m",
+    "small gilt-framed painting",
+    "flat-screen TV on a stand"
+   ],
+   "bookcases": [
+    {
+     "id": "salotto-wood",
+     "kind": "dark pine cabinet: glazed upper doors, open middle shelves, cupboards below",
+     "width_m": 2.4,
+     "height_m": 2.3,
+     "depth_m": 0.5,
+     "position_along_wall_z": [
+      4.6,
+      7.0
+     ],
+     "note": "curiosities, bottles, a small framed picture; no library books. Kept as in the build."
+    }
+   ]
+  }
+ }
+}

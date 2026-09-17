@@ -1,0 +1,30 @@
+{
+  "_comment": "Pieces of the big study placed from the footage. Positions are room metres from the NW corner (x east, z south); rotation 0 faces south, 90 east, -90 west, 180 north. film_s is the true second of video zZEy10fpq3I; frame is the file in eco-video/frames/zZEy10fpq3I/.",
+  "room": "studio",
+  "bookcases": [
+    {"id": "study-Nb", "position": [6.5, 7.2], "rotationY": 90, "size_m": [2.4, 2.1, 0.32], "confidence": "medium", "evidence": "comb tooth across the room; the low unit with the calligraphy stands at its N end", "film_s": 4467, "frame": "t_011426.jpg", "crop": "crops/comb_teeth_1-14-27.jpg"},
+    {"id": "study-Oa", "position": [8.42, 7.2], "rotationY": -90, "size_m": [1.6, 2.1, 0.32], "confidence": "medium", "evidence": "comb tooth across the room, back to back with Ob (pairing a guess)", "film_s": 4469, "frame": "t_011428.jpg", "crop": "crops/comb_teeth_1-14-29.jpg"},
+    {"id": "study-Ob", "position": [8.74, 7.2], "rotationY": 90, "size_m": [2.4, 2.1, 0.32], "confidence": "medium", "evidence": "as Oa", "film_s": 4469, "frame": "t_011428.jpg"},
+    {"id": "study-Na", "position": [10.44, 7.2], "rotationY": -90, "size_m": [2.4, 2.1, 0.32], "confidence": "medium", "evidence": "comb tooth across the room, back to back with Nc (pairing a guess)", "film_s": 4469, "frame": "t_011428.jpg", "photo": "criticaletteraria_2022_5"},
+    {"id": "study-Nc", "position": [10.76, 7.2], "rotationY": 90, "size_m": [2.4, 2.1, 0.32], "confidence": "medium", "evidence": "as Na", "film_s": 4469, "frame": "t_011428.jpg"},
+    {"id": "study-M-A", "position": [7.0, 2.34], "rotationY": 180, "size_m": [4.0, 2.1, 0.32], "confidence": "medium", "evidence": "unchanged: island parallel to the door wall", "film_s": 89, "frame": "t_000128.jpg", "crop": "crops/island_M_1-29.jpg"},
+    {"id": "study-M-B", "position": [7.0, 2.66], "rotationY": 0, "size_m": [4.0, 2.1, 0.32], "confidence": "medium", "evidence": "unchanged: face B towards the door", "film_s": 4511, "frame": "t_011510.jpg", "crop": "crops/door_view_1-15-11.jpg"}
+  ],
+  "objects": [
+    {"id": "obj:studio:comb-end-unit", "label": "Low white unit at the end of the dictionaries comb", "position": [6.5, 5.8], "rotation": 180, "size_m": [1.4, 1.05, 0.35], "confidence": "high (exists); medium (which tooth)", "film_s": 323, "frame": "t_000522.jpg", "crop": "crops/comb_end_unit_5-23.jpg", "new": true},
+    {"id": "obj:studio:eco-paperbacks", "label": "Row of Eco's own Bompiani paperbacks (the white ECO series)", "on": "obj:studio:comb-end-unit", "offset": [0.18, 0], "size_m": [0.54, 0.19, 0.13], "count": 25, "readable": ["Dall'albero al labirinto", "Baudolino"], "tier": "unknown", "confidence": "high", "film_s": 327, "frame": "t_000526.jpg", "crop": "crops/eco_paperbacks_5-27.jpg", "new": true},
+    {"id": "obj:studio:eco-plaque", "label": "Carved wooden plaque UMBERTO ECO", "on": "obj:studio:comb-end-unit", "offset": [0.6, 0], "confidence": "high", "film_s": 327, "frame": "t_000526.jpg", "moved_from": "on top of Oa"},
+    {"id": "obj:studio:calligraphy", "label": "Framed calligraphy and framed photograph", "on": "obj:studio:comb-end-unit", "offset": [-0.3, -0.08], "confidence": "high", "film_s": 323, "frame": "t_000522.jpg", "moved_from": "on top of Na"},
+    {"id": "obj:studio:island-piles-2", "label": "Stacks of books beside the calligraphy", "on": "obj:studio:comb-end-unit", "offset": [-0.62, 0.02], "confidence": "high", "film_s": 323, "frame": "t_000522.jpg", "moved_from": "on top of Oa"},
+    {"id": "obj:studio:eco-desk", "label": "Black desk with computer monitor before Q", "anchor": "1.4 m in front of Q, 0.8 m along it (was -1.2 m)", "confidence": "medium (exists), low (place along Q)", "reason": "clears the lounge chair; nothing in the footage fixes its place along Q"},
+    {"id": "obj:studio:floor-boxes", "label": "Books and boxes at the base of P", "anchor": "0.35 m in front of P, -1.5 m along it (was -2.5 m)", "confidence": "low (place along P)", "reason": "clears the sofa"},
+    {"id": "obj:studio:radiator-west", "label": "Radiator under the window right of the door", "anchor": "W wall, 1.55 m from the door corner", "size_m": [1.0, 0.6, 0.12], "confidence": "high", "film_s": 4513, "frame": "t_011512.jpg", "crop": "crops/west_window_1-15-13.jpg", "new": true},
+    {"id": "obj:studio:radiator-desk", "label": "Radiator under the window behind the desk row", "anchor": "S wall, 1.65 m from the W corner", "size_m": [1.0, 0.6, 0.12], "confidence": "high (exists), unsettled (wall)", "film_s": 143, "frame": "t_000142.jpg", "crop": "crops/desk_row_windows_1-43.jpg", "new": true}
+  ],
+  "windows": [
+    {"wall": "W", "offset_m": 0.9, "width_m": 1.3, "height_m": 2.2, "radiator": true, "confidence": "high", "film_s": 4513, "frame": "t_011512.jpg"},
+    {"wall": "S", "offset_m": 1.0, "width_m": 1.3, "height_m": 2.2, "radiator": true, "confidence": "high (exists), unsettled (wall)", "film_s": 143, "frame": "t_000142.jpg"},
+    {"wall": "S", "offset_m": 3.7, "width_m": 1.2, "height_m": 2.9, "radiator": false, "confidence": "high (exists), unsettled (wall)", "film_s": 143, "frame": "t_000142.jpg", "also": {"film_s": 799, "frame": "t_001318.jpg"}}
+  ],
+  "kept_unsettled": ["the W wall beyond the window", "the far end beyond P", "the sofa beside the French window (reading B) versus at bookcase S (the map)", "which comb tooth carries which Fondazione letter"]
+}

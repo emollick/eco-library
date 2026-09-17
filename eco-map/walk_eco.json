@@ -1,0 +1,23 @@
+{
+ "_comment": "Eco's own walk: the 2015 Steadicam take (Hq66X9f-zgc 288-372 s, colour, 480p) reused in 1080p black and white as the credits of the 2022 film (zZEy10fpq3I; film label = Hq66 second - 247; true film time = label + 0.96, videos.json timestamp_offset_s). Waypoints are camera positions in WORLD metres of the map (x east, y up, z south) with a look target; t is the second on the Hq66X9f-zgc clock. The page interpolates a smooth camera path through them at the film's own pace. quote = {video_id, timestamp_s} picks a quotation from the pool (quotes.json, quotes_eco.json, eco-video quotes files) within 3 s. Edit freely; unknown fields are ignored.",
+ "title": "Eco's walk, 2015",
+ "video_id": "Hq66X9f-zgc",
+ "film_video_id": "zZEy10fpq3I",
+ "film_label_offset_s": -247,
+ "source": "objects.README.md (experience folder): ten iconic moments with both clocks; route salotto > vestibolo > corridoio > study door > islands > desk > door I",
+ "waypoints": [
+  {"t": 293, "pos": [2.0, 1.5, 4.45], "look": [1.5, 1.3, 6.9], "room": "salotto", "caption": "Eco rises from the dark leather club armchair in front of the vitrines; the statue by the door ahead, the piano with its piles on the left.", "quote": {"video_id": "zZEy10fpq3I", "timestamp_s": 115}},
+  {"t": 299, "pos": [1.7, 1.5, 6.3], "look": [1.5, 1.5, 9.0], "room": "salotto", "caption": "Out through the salotto door, past the white canvas with the word 'fine' and the column of small prints."},
+  {"t": 301, "pos": [1.5, 1.5, 8.0], "look": [1.2, 1.7, 11.8], "room": "vestibolo", "caption": "The vestibule: coats on both sides, the wall of framed prints, the white shelves B, C and D, the GOSH! pasta-flag picture straight ahead with the black mobile in front of it."},
+  {"t": 305, "pos": [2.0, 1.5, 9.1], "look": [6.0, 1.4, 9.1], "room": "vestibolo", "caption": "The turn into the long corridor through the doorway framed by bookcase D (esotericism, encyclopaedism, alchemy)."},
+  {"t": 309, "pos": [4.6, 1.5, 9.1], "look": [14.0, 1.4, 9.05], "room": "corridoio", "caption": "Bookcase A begins: twenty-five bays of fiction, the feuilletons at the centre, French literature along the line, Italian below, comics on the top and bottom shelves. The door of the Stanza degli antichi is on the print wall to the left.", "quote": {"video_id": "zZEy10fpq3I", "timestamp_s": 2589}},
+  {"t": 321, "pos": [15.5, 1.5, 9.1], "look": [24.0, 1.4, 9.05], "room": "corridoio", "caption": "Halfway: the sliding ladder on its rail, the prints on the left wall. 'I have a hallway for literature that's 70 meters long. I walk through it several times a day, and I feel good when I do.'", "quote": {"video_id": "zZEy10fpq3I", "timestamp_s": 2649}},
+  {"t": 327, "pos": [22.8, 1.5, 9.1], "look": [25.0, 1.5, 9.1], "room": "corridoio", "caption": "The corridor end: the French window with iron bars, the radiator below it, the speckled grey canvas.", "quote": {"video_id": "zZEy10fpq3I", "timestamp_s": 3064}},
+  {"t": 330, "pos": [25.6, 1.5, 9.1], "look": [25.6, 1.4, 11.5], "room": "corridoio-arte", "caption": "Left turn past the folding step-ladder into the study, through the door framed by bookcase I (ancient and Christian philosophy)."},
+  {"t": 335, "pos": [25.6, 1.5, 11.4], "look": [28.5, 1.2, 15.5], "room": "studio", "caption": "The big study: the low island bookcases piled with books, the ceiling fans, the philosophy wall from the Presocratics to the moderns."},
+  {"t": 341, "pos": [27.4, 1.5, 14.2], "look": [29.5, 1.0, 19.2], "room": "studio", "caption": "The aisle between the islands towards the windows.", "quote": {"video_id": "zZEy10fpq3I", "timestamp_s": 323}},
+  {"t": 346, "pos": [26.6, 1.5, 18.2], "look": [26.3, 0.9, 19.9], "room": "studio", "caption": "The L-shaped black desk with the computer under the windows, piles and papers on it, the dictionaries on the island behind.", "quote": {"video_id": "zZEy10fpq3I", "timestamp_s": 515}},
+  {"t": 353, "pos": [25.9, 1.5, 12.4], "look": [25.6, 1.6, 10.4], "room": "studio", "caption": "The door with the pinned notes (bookcase I): Eco takes down a red-spined book and leafs through it. The book is unidentified."},
+  {"t": 366, "pos": [26.2, 1.4, 19.2], "look": [33.0, 1.2, 13.5], "room": "studio", "caption": "The final wide shot: Eco walks away down the study past the black round table and the sofa, the fans turning overhead.", "quote": {"video_id": "zZEy10fpq3I", "timestamp_s": 576}}
+ ]
+}

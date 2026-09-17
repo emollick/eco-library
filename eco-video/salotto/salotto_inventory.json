@@ -1,0 +1,1281 @@
+{
+ "room": "salotto",
+ "approx_size_m": [
+  6.5,
+  7.0
+ ],
+ "true_size_estimate_m": [
+  7.5,
+  7.6
+ ],
+ "coordinate_frame": "Map convention (schema_eco.md, gen_books_eco.py ROOM_PLAN): room-local metres, x from the W wall (0) to the E wall, z from the N wall (0) to the S wall, so the vestibule door is in the S wall at x 1.0-1.9 and the vestibule hangs below (z 7.4+). The salotto plan is fixed by ROOM_PLAN at 6.5 x 7.0 m (layout approx_size_m is overridden), so the true room (about 7.5 x 7.6 m) is drawn compressed by 0.87 in x and 0.92 in z; every wall sequence keeps its order. Wall positions: N/S walls measured from the W end, E/W walls from the N end (wall_point convention). Film frames: zZEy10fpq3I names are raw labels, true time = label + 0.96 s (timestamp_s below is the true second the link jumps to).",
+ "walls": {
+  "N": [
+   {
+    "kind": "artwork",
+    "label": "Three small gilt-framed paintings in a row over a low dark wooden chest (NW end of the window wall)",
+    "from_m": 0.2,
+    "to_m": 1.3,
+    "height_m": 0.5,
+    "base_y_m": 1.35,
+    "evidence": [
+     {
+      "frame": "s_000401_67.jpg",
+      "timestamp_s": 242,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=242s",
+      "timestamp_raw_s": 241,
+      "note": "window 1, stool, lectern, three paintings over the chest, credenza far left"
+     },
+     {
+      "frame": "t_000348.jpg",
+      "timestamp_s": 229,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+      "timestamp_raw_s": 228,
+      "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+     }
+    ]
+   },
+   {
+    "kind": "furniture",
+    "label": "Low dark wooden chest under the three paintings",
+    "from_m": 0.2,
+    "to_m": 1.2,
+    "height_m": 0.6,
+    "evidence": [
+     {
+      "frame": "s_000401_67.jpg",
+      "timestamp_s": 242,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=242s",
+      "timestamp_raw_s": 241,
+      "note": "window 1, stool, lectern, three paintings over the chest, credenza far left"
+     }
+    ]
+   },
+   {
+    "kind": "lamp",
+    "label": "Chrome floor lamp with a small parchment shade beside the chest (03:50; may be the door-2 lamp moved between shoots)",
+    "from_m": 1.85,
+    "to_m": 2.15,
+    "height_m": 1.7,
+    "evidence": [
+     {
+      "frame": "t_000348.jpg",
+      "timestamp_s": 229,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+      "timestamp_raw_s": 228,
+      "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Black-framed photograph of Eco on a pebble beach (opening close-up of 03:34; exact hook not seen, placed between the chest and window 1, low confidence)",
+    "from_m": 1.3,
+    "to_m": 2.2,
+    "height_m": 0.7,
+    "base_y_m": 1.3,
+    "confidence": "low",
+    "evidence": [
+     {
+      "frame": "s_000327_71.jpg",
+      "timestamp_s": 208,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=208s",
+      "timestamp_raw_s": 207,
+      "note": "close-up of the photograph, wall not visible"
+     }
+    ]
+   },
+   {
+    "kind": "window",
+    "label": "Window 1: French window with radiator, view of the Castello Sforzesco tower; folding X-stool, lectern with a magazine and a small book table in front",
+    "from_m": 2.2,
+    "to_m": 3.3,
+    "height_m": 2.6,
+    "evidence": [
+     {
+      "frame": "s_000401_67.jpg",
+      "timestamp_s": 242,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=242s",
+      "timestamp_raw_s": 241,
+      "note": "window 1, stool, lectern, three paintings over the chest, credenza far left"
+     },
+     {
+      "frame": "s_000507_96.jpg",
+      "timestamp_s": 308,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=308s",
+      "timestamp_raw_s": 307,
+      "note": "Renate at the open window, Castello tower (other thread crop window_view_05-07_f000308.jpg)"
+     },
+     {
+      "frame": "t_000348.jpg",
+      "timestamp_s": 229,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+      "timestamp_raw_s": 228,
+      "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Large assemblage painting of tangled straps/ropes and wood, between the two windows, behind Renate's sofa",
+    "from_m": 3.3,
+    "to_m": 4.4,
+    "height_m": 1.1,
+    "base_y_m": 1.0,
+    "evidence": [
+     {
+      "frame": "t_000348.jpg",
+      "timestamp_s": 229,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+      "timestamp_raw_s": 228,
+      "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+     }
+    ]
+   },
+   {
+    "kind": "window",
+    "label": "Window 2: French window at the NE end (seen at the far left of 50:51; medium: could be window 1 if the ropes painting was moved between shoots)",
+    "from_m": 4.4,
+    "to_m": 5.5,
+    "height_m": 2.6,
+    "confidence": "medium",
+    "evidence": [
+     {
+      "frame": "t_005050.jpg",
+      "timestamp_s": 3051,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+      "timestamp_raw_s": 3050,
+      "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Two framed drawings (white-matted drawing above, map-like drawing in a dark frame below) and a small hanging object in the NE corner",
+    "from_m": 5.5,
+    "to_m": 6.4,
+    "height_m": 1.6,
+    "base_y_m": 0.9,
+    "evidence": [
+     {
+      "frame": "t_005050.jpg",
+      "timestamp_s": 3051,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+      "timestamp_raw_s": 3050,
+      "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+     }
+    ]
+   }
+  ],
+  "E": [
+   {
+    "kind": "wall",
+    "label": "Blank wall from the NE corner to door 2 (50:51 shows it empty: the piano is not here)",
+    "from_m": 0.0,
+    "to_m": 2.55,
+    "height_m": 3.5,
+    "evidence": [
+     {
+      "frame": "t_005050.jpg",
+      "timestamp_s": 3051,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+      "timestamp_raw_s": 3050,
+      "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+     }
+    ]
+   },
+   {
+    "kind": "door",
+    "label": "Door 2: white leaf standing open into the room (2022 film) / closed (Curti Parini photo); destination not walked in any footage",
+    "from_m": 2.55,
+    "to_m": 3.45,
+    "height_m": 2.1,
+    "evidence": [
+     {
+      "frame": "t_005050.jpg",
+      "timestamp_s": 3051,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+      "timestamp_raw_s": 3050,
+      "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+     },
+     {
+      "frame": "criticaletteraria_2022_7.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+      "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+     }
+    ]
+   },
+   {
+    "kind": "lamp",
+    "label": "Chrome floor lamp (Tolomeo-type, white shade) beside door 2",
+    "from_m": 3.45,
+    "to_m": 3.75,
+    "height_m": 1.7,
+    "evidence": [
+     {
+      "frame": "t_005050.jpg",
+      "timestamp_s": 3051,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+      "timestamp_raw_s": 3050,
+      "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+     },
+     {
+      "frame": "criticaletteraria_2022_7.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+      "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Burnt-book assemblage (charred pages pinned on a board) between door 2 and the cabinet, with a small Castello painting",
+    "from_m": 3.45,
+    "to_m": 3.98,
+    "height_m": 0.7,
+    "base_y_m": 1.2,
+    "evidence": [
+     {
+      "frame": "s_005053_67.jpg",
+      "timestamp_s": 3054,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3054s",
+      "timestamp_raw_s": 3053,
+      "note": "burnt-book assemblage left of the cabinet"
+     },
+     {
+      "frame": "criticaletteraria_2022_7.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+      "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+     }
+    ]
+   },
+   {
+    "kind": "bookcase",
+    "label": "salotto-wood: glazed dark pine cabinet of curiosities (bat skeleton, saint bust, ostrich egg, clock, oval family photographs, bottles); 3 bays, glazed top; no library books",
+    "from_m": 3.98,
+    "to_m": 6.38,
+    "height_m": 2.3,
+    "evidence": [
+     {
+      "frame": "s_000507_96.jpg",
+      "timestamp_s": 308,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=308s",
+      "timestamp_raw_s": 307,
+      "note": "pan over the glazed curiosity cabinet (bat skeleton, saint bust, eggs, clock, oval photographs)"
+     },
+     {
+      "frame": "t_005050.jpg",
+      "timestamp_s": 3051,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+      "timestamp_raw_s": 3050,
+      "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+     },
+     {
+      "frame": "criticaletteraria_2022_7.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+      "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Small gilt religious panel with a picture light, S of the cabinet (Curti Parini photo)",
+    "from_m": 6.4,
+    "to_m": 6.9,
+    "height_m": 0.6,
+    "base_y_m": 1.5,
+    "confidence": "medium",
+    "evidence": [
+     {
+      "frame": "criticaletteraria_2022_7.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+      "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+     }
+    ]
+   },
+   {
+    "kind": "other",
+    "label": "Flat-screen TV on a low stand in the SE corner, S of the cabinet (photo; medium)",
+    "from_m": 6.4,
+    "to_m": 7.0,
+    "height_m": 0.6,
+    "confidence": "medium",
+    "evidence": [
+     {
+      "frame": "criticaletteraria_2022_7.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+      "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+     }
+    ]
+   }
+  ],
+  "S": [
+   {
+    "kind": "wall",
+    "label": "Short wall stub between the SW corner and the vestibule door (footage puts the door 0.3-0.7 m from the corner; the map keeps offset 1.0 so the vestibule door and the 2015 walk path stay aligned)",
+    "from_m": 0.0,
+    "to_m": 1.0,
+    "height_m": 3.5,
+    "evidence": [
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     }
+    ]
+   },
+   {
+    "kind": "door",
+    "label": "Vestibule door: white leaf with a mirror panel, glazed transom above, hinged on the E jamb, opening into the salotto; Eco leaves through it at 00:50 and in the 2015 walk",
+    "from_m": 1.0,
+    "to_m": 1.9,
+    "height_m": 2.1,
+    "evidence": [
+     {
+      "frame": "s_000049_62.jpg",
+      "timestamp_s": 50,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=50s",
+      "timestamp_raw_s": 49,
+      "note": "Eco leaves through the vestibule door past the 'fine' canvas, the small prints and the side cabinet with the telephone"
+     },
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     },
+     {
+      "frame": "f_003840.jpg",
+      "timestamp_s": 3840,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+      "timestamp_raw_s": 3839,
+      "note": "door handle beside the statue legs, white armchair in front, cases 1-2 behind Eco (crops/statue_case_64-00_f003840.jpg)"
+     },
+     {
+      "frame": "t_000455.jpg",
+      "timestamp_s": 295,
+      "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=295s",
+      "note": "2015 walk: through the vestibule door"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Gilt-framed dark oil painting E of the door, over the W end of sofa A",
+    "from_m": 2.4,
+    "to_m": 3.1,
+    "height_m": 0.9,
+    "base_y_m": 2.15,
+    "evidence": [
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     },
+     {
+      "frame": "f_004453.jpg",
+      "timestamp_s": 4453,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+      "timestamp_raw_s": 4452,
+      "note": "other thread: annotated crop salotto/crops/wide_74-13_f004453.jpg"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Dark-framed painting (warm abstract) over the E end of sofa A",
+    "from_m": 3.5,
+    "to_m": 4.4,
+    "height_m": 0.8,
+    "base_y_m": 2.15,
+    "evidence": [
+     {
+      "frame": "s_003249_62.jpg",
+      "timestamp_s": 1970,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1970s",
+      "timestamp_raw_s": 1969,
+      "note": "sofa A under the dark-framed painting, arc lamp right of it, coffee table with the orrery"
+     },
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Large white-framed, white-matted print with small coloured marks (50:51 far right: on this wall near the door or on the door pier; low confidence, one of the two paintings above may be the same hook)",
+    "from_m": 2.0,
+    "to_m": 2.8,
+    "height_m": 1.0,
+    "base_y_m": 1.3,
+    "confidence": "low",
+    "evidence": [
+     {
+      "frame": "t_005050.jpg",
+      "timestamp_s": 3051,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+      "timestamp_raw_s": 3050,
+      "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+     }
+    ]
+   },
+   {
+    "kind": "bookcase",
+    "label": "salotto-E (Fondazione case E, 4.0 m low white unit): NOT seen in any salotto frame or photograph; kept on this wall only so its 540 slots keep their books (the 06:45 shot with 'art books on white shelves' is a room guess, not the salotto); confidence low, probably belongs in the art corridor",
+    "from_m": 2.42,
+    "to_m": 6.42,
+    "height_m": 2.1,
+    "confidence": "low",
+    "evidence": [
+     {
+      "frame": "t_000650.jpg",
+      "timestamp_s": 411,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=411s",
+      "timestamp_raw_s": 410,
+      "note": "red-clothed table in front of white art shelves; a bearded man, not Eco; room_confidence low"
+     }
+    ]
+   },
+   {
+    "kind": "furniture",
+    "label": "Upright piano (1.45 m) with the twelve book piles and the child-Jesus figure, against the E part of this wall (piano wall not fixed by any shot: 50:51 rules out the E wall, the 2015 walk shows it left of the door with the statue at right; low-medium)",
+    "from_m": 4.12,
+    "to_m": 5.58,
+    "height_m": 1.22,
+    "confidence": "low-medium",
+    "evidence": [
+     {
+      "frame": "t_004302.jpg",
+      "timestamp_s": 2583,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2583s",
+      "timestamp_raw_s": 2582,
+      "note": "piano pull-back: twelve piles, child-Jesus, drawings above; the wall itself is not identified in the shot"
+     },
+     {
+      "frame": "t_000453.jpg",
+      "timestamp_s": 293,
+      "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=293s",
+      "note": "2015 walk: Eco rises from the club armchair; piano at left, vestibule door ahead, statue at right"
+     },
+     {
+      "frame": "criticaletteraria_2022_7.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+      "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Two large framed drawings above the piano; small frames (coast sketch, 'eco' print, blue tile/map panel) beside it",
+    "from_m": 4.0,
+    "to_m": 6.0,
+    "height_m": 1.0,
+    "base_y_m": 2.15,
+    "confidence": "low-medium",
+    "evidence": [
+     {
+      "frame": "t_004302.jpg",
+      "timestamp_s": 2583,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2583s",
+      "timestamp_raw_s": 2582,
+      "note": "piano pull-back: twelve piles, child-Jesus, drawings above; the wall itself is not identified in the shot"
+     },
+     {
+      "frame": "criticaletteraria_2022_7.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+      "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+     }
+    ]
+   }
+  ],
+  "W": [
+   {
+    "kind": "furniture",
+    "label": "Small dark wooden side cabinet with the telephone, under the prints, in the corner beside the vestibule door",
+    "from_m": 6.25,
+    "to_m": 6.95,
+    "height_m": 0.8,
+    "evidence": [
+     {
+      "frame": "s_000049_62.jpg",
+      "timestamp_s": 50,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=50s",
+      "timestamp_raw_s": 49,
+      "note": "Eco leaves through the vestibule door past the 'fine' canvas, the small prints and the side cabinet with the telephone"
+     },
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "Column of three small framed prints/drawings above the side cabinet",
+    "from_m": 6.4,
+    "to_m": 6.75,
+    "height_m": 1.0,
+    "base_y_m": 0.95,
+    "evidence": [
+     {
+      "frame": "s_000049_62.jpg",
+      "timestamp_s": 50,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=50s",
+      "timestamp_raw_s": 49,
+      "note": "Eco leaves through the vestibule door past the 'fine' canvas, the small prints and the side cabinet with the telephone"
+     },
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     }
+    ]
+   },
+   {
+    "kind": "artwork",
+    "label": "White canvas with orange and grey shapes and the handwritten word 'fine', between the prints and the statue (the statue overlaps its N edge from the sofa side)",
+    "from_m": 5.35,
+    "to_m": 6.45,
+    "height_m": 0.9,
+    "base_y_m": 1.1,
+    "evidence": [
+     {
+      "frame": "s_000049_62.jpg",
+      "timestamp_s": 50,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=50s",
+      "timestamp_raw_s": 49,
+      "note": "Eco leaves through the vestibule door past the 'fine' canvas, the small prints and the side cabinet with the telephone"
+     },
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     }
+    ]
+   },
+   {
+    "kind": "statue",
+    "label": "Life-size white plaster statue of a nude youth (arms missing) with a small straw hat/wreath, on a white plinth, back to the wall, immediately S of vitrine 1 (about 0.3 m gap); a white armchair in front of it",
+    "from_m": 4.85,
+    "to_m": 5.45,
+    "height_m": 2.0,
+    "evidence": [
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     },
+     {
+      "frame": "f_004453.jpg",
+      "timestamp_s": 4453,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+      "timestamp_raw_s": 4452,
+      "note": "other thread: annotated crop salotto/crops/wide_74-13_f004453.jpg"
+     },
+     {
+      "frame": "f_003840.jpg",
+      "timestamp_s": 3840,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+      "timestamp_raw_s": 3839,
+      "note": "door handle beside the statue legs, white armchair in front, cases 1-2 behind Eco (crops/statue_case_64-00_f003840.jpg)"
+     },
+     {
+      "frame": "criticaletteraria_2022_1.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+      "note": "Curti Parini 2022: statue immediately left of vitrine 1, the three vitrines, lamp, credenza with dining table and chairs to the right"
+     },
+     {
+      "frame": "t_000453.jpg",
+      "timestamp_s": 293,
+      "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=293s",
+      "note": "2015 walk: Eco rises from the club armchair; piano at left, vestibule door ahead, statue at right"
+     }
+    ]
+   },
+   {
+    "kind": "bookcase",
+    "label": "salotto-vetrine: three steel-and-glass cases (each c. 0.85 x 0.45 x 2.0 m, black frames, castors), S to N: case 1 open illuminated facsimiles with two shadow-box dioramas on top; case 2 open antique books, brass stand on top; case 3 shells, sea urchins, dried pomegranates, lotus pods, porcupine fish. In the flat they stand about 1.1-1.3 m in front of this wall; the generator can only place them against it (see layout patch note setback_m)",
+    "from_m": 2.05,
+    "to_m": 4.75,
+    "height_m": 2.0,
+    "setback_m_true": 1.1,
+    "evidence": [
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     },
+     {
+      "frame": "f_003840.jpg",
+      "timestamp_s": 3840,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+      "timestamp_raw_s": 3839,
+      "note": "door handle beside the statue legs, white armchair in front, cases 1-2 behind Eco (crops/statue_case_64-00_f003840.jpg)"
+     },
+     {
+      "frame": "t_000942.jpg",
+      "timestamp_s": 578,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=578s",
+      "timestamp_raw_s": 577,
+      "note": "club armchair in front of the vitrines, white armchair left of it"
+     },
+     {
+      "frame": "s_011341_71.jpg",
+      "timestamp_s": 4422,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4422s",
+      "timestamp_raw_s": 4421,
+      "note": "miniature-library diorama on top of vitrine 1"
+     },
+     {
+      "frame": "criticaletteraria_2022_1.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+      "note": "Curti Parini 2022: statue immediately left of vitrine 1, the three vitrines, lamp, credenza with dining table and chairs to the right"
+     },
+     {
+      "frame": "zanni_2010_umberto_eco_in_his_house_orig.jpg",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/zanni_2010_umberto_eco_in_his_house_orig.jpg",
+      "note": "Zanni 2010: vitrines 1-3 with the credenza (CDs, hi-fi) behind; bright strip between cases 1 and 2"
+     }
+    ]
+   },
+   {
+    "kind": "opening",
+    "label": "Bright vertical opening (window or glazed door, unknown) behind cases 1-2, between the statue's pier and the credenza; daylight in every club-armchair shot; hidden behind the cases in the compressed plan",
+    "from_m": 3.3,
+    "to_m": 4.4,
+    "height_m": 2.4,
+    "confidence": "medium",
+    "evidence": [
+     {
+      "frame": "t_011402.jpg",
+      "timestamp_s": 4443,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+      "timestamp_raw_s": 4442,
+      "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+     },
+     {
+      "frame": "t_000942.jpg",
+      "timestamp_s": 578,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=578s",
+      "timestamp_raw_s": 577,
+      "note": "club armchair in front of the vitrines, white armchair left of it"
+     },
+     {
+      "frame": "zanni_2010_umberto_eco_in_his_house_orig.jpg",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/zanni_2010_umberto_eco_in_his_house_orig.jpg",
+      "note": "Zanni 2010: vitrines 1-3 with the credenza (CDs, hi-fi) behind; bright strip between cases 1 and 2"
+     }
+    ]
+   },
+   {
+    "kind": "furniture",
+    "label": "Dark wooden credenza/bookcase with CD racks, hi-fi, oval family photographs and dials in its glazed top; behind cases 2-3 and the dining pocket; modelled as an object, not a book run",
+    "from_m": 0.1,
+    "to_m": 2.0,
+    "height_m": 2.3,
+    "evidence": [
+     {
+      "frame": "s_010549_50.jpg",
+      "timestamp_s": 3950,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3950s",
+      "timestamp_raw_s": 3949,
+      "note": "archive interview at the dining table: credenza behind Eco, vitrine with shells at left, chairs with white cushions"
+     },
+     {
+      "frame": "t_000348.jpg",
+      "timestamp_s": 229,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+      "timestamp_raw_s": 228,
+      "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+     },
+     {
+      "frame": "s_001845_79.jpg",
+      "timestamp_s": 1126,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1126s",
+      "timestamp_raw_s": 1125,
+      "note": "1990s archive: Eco at the table with open folios, the credenza with dials and oval photographs behind"
+     },
+     {
+      "frame": "criticaletteraria_2022_1.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+      "note": "Curti Parini 2022: statue immediately left of vitrine 1, the three vitrines, lamp, credenza with dining table and chairs to the right"
+     },
+     {
+      "frame": "zanni_2010_umberto_eco_in_his_house_orig.jpg",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/zanni_2010_umberto_eco_in_his_house_orig.jpg",
+      "note": "Zanni 2010: vitrines 1-3 with the credenza (CDs, hi-fi) behind; bright strip between cases 1 and 2"
+     }
+    ]
+   },
+   {
+    "kind": "furniture",
+    "label": "Dining pocket: dark wooden table with a white cloth and Thonet-style chairs with white tie-on cushions, NW corner in front of the credenza",
+    "from_m": 0.3,
+    "to_m": 1.8,
+    "height_m": 0.75,
+    "evidence": [
+     {
+      "frame": "s_010549_50.jpg",
+      "timestamp_s": 3950,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3950s",
+      "timestamp_raw_s": 3949,
+      "note": "archive interview at the dining table: credenza behind Eco, vitrine with shells at left, chairs with white cushions"
+     },
+     {
+      "frame": "t_000348.jpg",
+      "timestamp_s": 229,
+      "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+      "timestamp_raw_s": 228,
+      "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+     },
+     {
+      "frame": "criticaletteraria_2022_1.png",
+      "timestamp_s": null,
+      "url": null,
+      "source": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+      "note": "Curti Parini 2022: statue immediately left of vitrine 1, the three vitrines, lamp, credenza with dining table and chairs to the right"
+     }
+    ]
+   }
+  ]
+ },
+ "free_standing": [
+  {
+   "kind": "table",
+   "label": "Low black coffee table covered in book piles (about 55 volumes in 8-12 piles) with the brass orrery and a candlestick; centre of the sitting area",
+   "position_m": [
+    3.45,
+    4.0
+   ],
+   "rotation": 0,
+   "dims_m": [
+    1.5,
+    1.1,
+    0.4
+   ],
+   "evidence": [
+    {
+     "frame": "t_011402.jpg",
+     "timestamp_s": 4443,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+     "timestamp_raw_s": 4442,
+     "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+    },
+    {
+     "frame": "s_003249_62.jpg",
+     "timestamp_s": 1970,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1970s",
+     "timestamp_raw_s": 1969,
+     "note": "sofa A under the dark-framed painting, arc lamp right of it, coffee table with the orrery"
+    },
+    {
+     "frame": "t_005050.jpg",
+     "timestamp_s": 3051,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+     "timestamp_raw_s": 3050,
+     "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+    }
+   ]
+  },
+  {
+   "kind": "sofa",
+   "label": "White slip-covered sofa A, S side of the coffee table facing N, under the dark-framed painting, purple throw",
+   "position_m": [
+    3.4,
+    5.25
+   ],
+   "rotation": 180,
+   "dims_m": [
+    2.1,
+    0.95,
+    0.8
+   ],
+   "evidence": [
+    {
+     "frame": "s_003249_62.jpg",
+     "timestamp_s": 1970,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1970s",
+     "timestamp_raw_s": 1969,
+     "note": "sofa A under the dark-framed painting, arc lamp right of it, coffee table with the orrery"
+    },
+    {
+     "frame": "t_011402.jpg",
+     "timestamp_s": 4443,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+     "timestamp_raw_s": 4442,
+     "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+    },
+    {
+     "frame": "t_005050.jpg",
+     "timestamp_s": 3051,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+     "timestamp_raw_s": 3050,
+     "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+    }
+   ]
+  },
+  {
+   "kind": "sofa",
+   "label": "White slip-covered sofa/armchairs in front of the windows under the ropes painting (Renate's and Carlotta's seats at 03:50)",
+   "position_m": [
+    3.55,
+    0.75
+   ],
+   "rotation": 0,
+   "dims_m": [
+    2.0,
+    0.95,
+    0.8
+   ],
+   "confidence": "medium",
+   "evidence": [
+    {
+     "frame": "t_000348.jpg",
+     "timestamp_s": 229,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+     "timestamp_raw_s": 228,
+     "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+    },
+    {
+     "frame": "t_005050.jpg",
+     "timestamp_s": 3051,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+     "timestamp_raw_s": 3050,
+     "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+    }
+   ]
+  },
+  {
+   "kind": "armchair",
+   "label": "Tan leather club armchair (Eco's interview seat) directly in front of cases 1-2, facing E toward the coffee table, back to the cases",
+   "position_m": [
+    1.4,
+    3.85
+   ],
+   "rotation": 90,
+   "dims_m": [
+    0.95,
+    0.9,
+    0.85
+   ],
+   "evidence": [
+    {
+     "frame": "t_000942.jpg",
+     "timestamp_s": 578,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=578s",
+     "timestamp_raw_s": 577,
+     "note": "club armchair in front of the vitrines, white armchair left of it"
+    },
+    {
+     "frame": "f_003840.jpg",
+     "timestamp_s": 3840,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+     "timestamp_raw_s": 3839,
+     "note": "door handle beside the statue legs, white armchair in front, cases 1-2 behind Eco (crops/statue_case_64-00_f003840.jpg)"
+    },
+    {
+     "frame": "t_011402.jpg",
+     "timestamp_s": 4443,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+     "timestamp_raw_s": 4442,
+     "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+    },
+    {
+     "frame": "t_000453.jpg",
+     "timestamp_s": 293,
+     "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=293s",
+     "note": "2015 walk: Eco rises from the club armchair; piano at left, vestibule door ahead, statue at right"
+    }
+   ]
+  },
+  {
+   "kind": "armchair",
+   "label": "White slip-covered armchair in front of the statue's plinth (with papers at 09:42)",
+   "position_m": [
+    1.2,
+    5.15
+   ],
+   "rotation": 90,
+   "dims_m": [
+    0.9,
+    0.9,
+    0.8
+   ],
+   "evidence": [
+    {
+     "frame": "f_003840.jpg",
+     "timestamp_s": 3840,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+     "timestamp_raw_s": 3839,
+     "note": "door handle beside the statue legs, white armchair in front, cases 1-2 behind Eco (crops/statue_case_64-00_f003840.jpg)"
+    },
+    {
+     "frame": "t_011402.jpg",
+     "timestamp_s": 4443,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+     "timestamp_raw_s": 4442,
+     "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+    },
+    {
+     "frame": "t_000942.jpg",
+     "timestamp_s": 578,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=578s",
+     "timestamp_raw_s": 577,
+     "note": "club armchair in front of the vitrines, white armchair left of it"
+    }
+   ]
+  },
+  {
+   "kind": "armchair",
+   "label": "White slip-covered armchair NW of the coffee table (Carlotta's seat at 03:50; credenza and dining table behind her); no separate inventory object, so not placed by a rule",
+   "position_m": [
+    2.25,
+    2.4
+   ],
+   "rotation": 45,
+   "dims_m": [
+    1.0,
+    0.95,
+    0.8
+   ],
+   "confidence": "medium",
+   "evidence": [
+    {
+     "frame": "t_000348.jpg",
+     "timestamp_s": 229,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+     "timestamp_raw_s": 228,
+     "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+    },
+    {
+     "frame": "t_011402.jpg",
+     "timestamp_s": 4443,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+     "timestamp_raw_s": 4442,
+     "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+    }
+   ]
+  },
+  {
+   "kind": "lamp",
+   "label": "Arc floor lamp (Tolomeo Mega type) with a large parchment shade: base beside the vestibule door, shade over the W end of sofa A",
+   "position_m": [
+    2.05,
+    6.4
+   ],
+   "rotation": 0,
+   "dims_m": [
+    0.35,
+    0.35,
+    2.2
+   ],
+   "evidence": [
+    {
+     "frame": "t_011402.jpg",
+     "timestamp_s": 4443,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+     "timestamp_raw_s": 4442,
+     "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+    },
+    {
+     "frame": "s_003249_62.jpg",
+     "timestamp_s": 1970,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1970s",
+     "timestamp_raw_s": 1969,
+     "note": "sofa A under the dark-framed painting, arc lamp right of it, coffee table with the orrery"
+    },
+    {
+     "frame": "t_005050.jpg",
+     "timestamp_s": 3051,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+     "timestamp_raw_s": 3050,
+     "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+    }
+   ]
+  },
+  {
+   "kind": "lamp",
+   "label": "Chrome floor lamp beside door 2 (E wall)",
+   "position_m": [
+    6.2,
+    3.55
+   ],
+   "rotation": 0,
+   "dims_m": [
+    0.3,
+    0.3,
+    1.7
+   ],
+   "evidence": [
+    {
+     "frame": "t_005050.jpg",
+     "timestamp_s": 3051,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3051s",
+     "timestamp_raw_s": 3050,
+     "note": "wide from the door corner: window 2 and the NE-corner drawings at left, E wall with door 2, chrome lamp, burnt book, curiosity cabinet, white print at right"
+    },
+    {
+     "frame": "criticaletteraria_2022_7.png",
+     "timestamp_s": null,
+     "url": null,
+     "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+    }
+   ]
+  },
+  {
+   "kind": "stool",
+   "label": "Wooden X-frame folding stool with a black leather seat, in front of window 1",
+   "position_m": [
+    2.2,
+    0.9
+   ],
+   "rotation": 0,
+   "dims_m": [
+    0.6,
+    0.5,
+    0.5
+   ],
+   "evidence": [
+    {
+     "frame": "t_000348.jpg",
+     "timestamp_s": 229,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+     "timestamp_raw_s": 228,
+     "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+    },
+    {
+     "frame": "s_000401_67.jpg",
+     "timestamp_s": 242,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=242s",
+     "timestamp_raw_s": 241,
+     "note": "window 1, stool, lectern, three paintings over the chest, credenza far left"
+    }
+   ]
+  },
+  {
+   "kind": "stand",
+   "label": "Wooden lectern holding a magazine and a small book table, in front of window 1 (no inventory objects; not placed)",
+   "position_m": [
+    2.9,
+    0.6
+   ],
+   "rotation": 0,
+   "dims_m": [
+    0.5,
+    0.4,
+    1.1
+   ],
+   "evidence": [
+    {
+     "frame": "s_000401_67.jpg",
+     "timestamp_s": 242,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=242s",
+     "timestamp_raw_s": 241,
+     "note": "window 1, stool, lectern, three paintings over the chest, credenza far left"
+    }
+   ]
+  },
+  {
+   "kind": "pile",
+   "label": "Piles of magazines and comics on the floor beside Carlotta's armchair",
+   "position_m": [
+    2.0,
+    1.9
+   ],
+   "rotation": 0,
+   "dims_m": [
+    0.25,
+    0.32,
+    0.3
+   ],
+   "evidence": [
+    {
+     "frame": "s_000401_67.jpg",
+     "timestamp_s": 242,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=242s",
+     "timestamp_raw_s": 241,
+     "note": "window 1, stool, lectern, three paintings over the chest, credenza far left"
+    }
+   ]
+  },
+  {
+   "kind": "table",
+   "label": "Dining table (white cloth) with chairs, NW pocket in front of the credenza",
+   "position_m": [
+    1.35,
+    1.05
+   ],
+   "rotation": 90,
+   "dims_m": [
+    1.5,
+    0.9,
+    0.75
+   ],
+   "evidence": [
+    {
+     "frame": "s_010549_50.jpg",
+     "timestamp_s": 3950,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3950s",
+     "timestamp_raw_s": 3949,
+     "note": "archive interview at the dining table: credenza behind Eco, vitrine with shells at left, chairs with white cushions"
+    },
+    {
+     "frame": "t_000348.jpg",
+     "timestamp_s": 229,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=229s",
+     "timestamp_raw_s": 228,
+     "note": "two-shot toward the window wall: Renate under the ropes painting, Carlotta with the credenza and dining table behind"
+    },
+    {
+     "frame": "criticaletteraria_2022_1.png",
+     "timestamp_s": null,
+     "url": null,
+     "source": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+     "note": "Curti Parini 2022: statue immediately left of vitrine 1, the three vitrines, lamp, credenza with dining table and chairs to the right"
+    }
+   ]
+  },
+  {
+   "kind": "other",
+   "label": "Flat-screen TV on a low stand, SE corner",
+   "position_m": [
+    6.05,
+    6.53
+   ],
+   "rotation": 180,
+   "dims_m": [
+    0.8,
+    0.3,
+    0.6
+   ],
+   "confidence": "medium",
+   "evidence": [
+    {
+     "frame": "criticaletteraria_2022_7.png",
+     "timestamp_s": null,
+     "url": null,
+     "source": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "Curti Parini 2022: left frame the curiosity cabinet with door 2, Tolomeo lamp, burnt-book, gilt panel, TV, white armchair; right frame the piano"
+    }
+   ]
+  },
+  {
+   "kind": "rug",
+   "label": "Light speckled rug under the seating (no inventory object; the film's rug objects are dropped by KIND_ALIAS)",
+   "position_m": [
+    3.4,
+    4.0
+   ],
+   "rotation": 0,
+   "dims_m": [
+    3.5,
+    3.0,
+    0.01
+   ],
+   "confidence": "medium",
+   "evidence": [
+    {
+     "frame": "t_011402.jpg",
+     "timestamp_s": 4443,
+     "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+     "timestamp_raw_s": 4442,
+     "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+    }
+   ]
+  }
+ ],
+ "glass_case_beside_statue": {
+  "answer": "Vitrine 1 (the S end of salotto-vetrine, W wall, z 3.85-4.75) stands immediately N of the plaster statue (W wall, z 4.85-5.45): about 0.3 m between the plinth and the case in the frontal view; in the flat the case row is about 1.1 m further into the room than the statue.",
+  "evidence": [
+   {
+    "frame": "t_011402.jpg",
+    "timestamp_s": 4443,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4443s",
+    "timestamp_raw_s": 4442,
+    "note": "wide from the sofa side: door, prints, canvas, statue, cases 1-3, credenza"
+   },
+   {
+    "frame": "f_004453.jpg",
+    "timestamp_s": 4453,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+    "timestamp_raw_s": 4452,
+    "note": "other thread: annotated crop salotto/crops/wide_74-13_f004453.jpg"
+   },
+   {
+    "frame": "f_003840.jpg",
+    "timestamp_s": 3840,
+    "url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+    "timestamp_raw_s": 3839,
+    "note": "door handle beside the statue legs, white armchair in front, cases 1-2 behind Eco (crops/statue_case_64-00_f003840.jpg)"
+   },
+   {
+    "frame": "criticaletteraria_2022_1.png",
+    "timestamp_s": null,
+    "url": null,
+    "source": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+    "note": "Curti Parini 2022: statue immediately left of vitrine 1, the three vitrines, lamp, credenza with dining table and chairs to the right"
+   },
+   {
+    "frame": "t_000033.jpg",
+    "timestamp_s": 33,
+    "url": "https://www.youtube.com/watch?v=Hq66X9f-zgc&t=33s",
+    "note": "2015 experience frame p1_t_000033"
+   }
+  ]
+ },
+ "notes": [
+  "Chirality check: entering from the vestibule and facing the windows, the statue and the vitrines are on the LEFT (W wall), the curiosity cabinet and door 2 on the RIGHT (E wall), the piano behind on the door wall (left of the door as one faces it). The current map is mirrored: it has the vitrines on the E wall and the piano on the W wall.",
+  "The other thread's files (salotto_layout.json, salotto_objects.json, notes.md, crops/) use a frame with z from the window wall up to the door wall and x from the W to the E with the door at the E end: x_map = (7.5 - x_other) * 6.5/7.5, z_map = z_other * 7.0/7.6. Their 'door moves to the NE corner' and 'windows swap to the wall opposite the door' are the same geometry as this file: in the map the door stays in the S wall and the windows on the N wall.",
+  "Disagreements resolved by frames: (1) the 'fine' canvas, the prints column and the side cabinet are on the W wall between the door corner and the statue (74:13 shows door - prints - canvas - statue in that order from the sofa side), not on the door wall E of the door as first read from 00:49; (2) the white door with the handle beside the statue's leg at 64:00 and the closed white door with two switches seen at 74:03 and in the 2015 walk are the vestibule door itself, not a second door on the S wall; (3) the credenza with the CDs/hi-fi is a different piece from the glazed curiosity cabinet salotto-wood (05:07 pan, Curti Parini photo): credenza W wall behind the cases, cabinet E wall.",
+  "Not settled: the piano's wall (S wall E part chosen, low-medium); whether the bright opening behind cases 1-2 is a window or a glazed door; where door 2 leads; whether the window-wall chrome lamp is the door-2 lamp moved; the hook of the beach photograph and of the white-framed print.",
+  "Free-standing objects here are in the compressed 6.5 x 7.0 plan; true-size positions are those of salotto_objects.json (other thread) with the conversion above."
+ ]
+}

@@ -1,0 +1,2049 @@
+{
+ "_readme": "Film zZEy10fpq3I cut into 418 shots by HSV-histogram change; each shot classified from a representative frame; this lists, per class, how many shots were sampled for spine reading and how many yielded at least one title or author. Times are film minutes:seconds (true film time).",
+ "classes": {
+  "flat-shelf-near": {
+   "shots": 11,
+   "seconds": 87,
+   "shots_read": 11,
+   "shots_with_titles": 9,
+   "shots_read_without_titles": [
+    {
+     "shot": 93,
+     "at": "13:50",
+     "seconds": 5,
+     "what": "white shelving close young man couch 2"
+    },
+    {
+     "shot": 96,
+     "at": "14:04",
+     "seconds": 3,
+     "what": "young man interview couch shelf bg"
+    }
+   ],
+   "shots_not_read": []
+  },
+  "flat-shelf-far": {
+   "shots": 39,
+   "seconds": 512,
+   "shots_read": 39,
+   "shots_with_titles": 10,
+   "shots_read_without_titles": [
+    {
+     "shot": 25,
+     "at": "04:11",
+     "seconds": 1,
+     "what": "two-shot quick cut same set"
+    },
+    {
+     "shot": 30,
+     "at": "04:25",
+     "seconds": 12,
+     "what": "two-shot dark cabinet bg"
+    },
+    {
+     "shot": 31,
+     "at": "04:37",
+     "seconds": 1,
+     "what": "quick continuation two-shot"
+    },
+    {
+     "shot": 44,
+     "at": "05:39",
+     "seconds": 7,
+     "what": "interview man white shelf blurred bg"
+    },
+    {
+     "shot": 45,
+     "at": "05:46",
+     "seconds": 5,
+     "what": "interview man closeup shelf blurred bg"
+    },
+    {
+     "shot": 49,
+     "at": "06:58",
+     "seconds": 4,
+     "what": "corridor doorway white shelf glimpse prints"
+    },
+    {
+     "shot": 67,
+     "at": "09:18",
+     "seconds": 2,
+     "what": "eco interview red armchair cabinet blurred bg"
+    },
+    {
+     "shot": 69,
+     "at": "09:33",
+     "seconds": 3,
+     "what": "blurred bookshelf behind speaker eco profile"
+    },
+    {
+     "shot": 72,
+     "at": "09:43",
+     "seconds": 17,
+     "what": "eco red armchair gesturing cabinet bg blurred"
+    },
+    {
+     "shot": 74,
+     "at": "10:06",
+     "seconds": 22,
+     "what": "eco red armchair gesturing cabinet bg blurred 2"
+    },
+    {
+     "shot": 76,
+     "at": "11:13",
+     "seconds": 4,
+     "what": "eco red armchair closeup cabinet blurred bg"
+    },
+    {
+     "shot": 130,
+     "at": "18:11",
+     "seconds": 2,
+     "what": "interview white shelf blurred bg"
+    },
+    {
+     "shot": 187,
+     "at": "32:09",
+     "seconds": 14,
+     "what": "convex mirror reflecting shelf room distant"
+    },
+    {
+     "shot": 196,
+     "at": "33:12",
+     "seconds": 30,
+     "what": "eco red armchair closeup blurred bg"
+    },
+    {
+     "shot": 206,
+     "at": "34:52",
+     "seconds": 16,
+     "what": "figurines blurred antique spines bg study shelf"
+    },
+    {
+     "shot": 256,
+     "at": "44:17",
+     "seconds": 11,
+     "what": "Eco portrait, blurred shelf bg"
+    },
+    {
+     "shot": 274,
+     "at": "47:52",
+     "seconds": 21,
+     "what": "Eco interview, red chair, blurred shelf"
+    },
+    {
+     "shot": 276,
+     "at": "48:31",
+     "seconds": 10,
+     "what": "Eco portrait, bookshelf bg"
+    },
+    {
+     "shot": 278,
+     "at": "48:47",
+     "seconds": 13,
+     "what": "Eco portrait, red chair, blurred shelf"
+    },
+    {
+     "shot": 279,
+     "at": "49:00",
+     "seconds": 26,
+     "what": "Eco gesturing, red chair, blurred shelf"
+    },
+    {
+     "shot": 281,
+     "at": "49:38",
+     "seconds": 19,
+     "what": "Eco interview, blurred warm/red bg"
+    },
+    {
+     "shot": 283,
+     "at": "50:16",
+     "seconds": 7,
+     "what": "Eco interview, red chair, blurred shelf"
+    },
+    {
+     "shot": 300,
+     "at": "53:59",
+     "seconds": 5,
+     "what": "Eco playing recorder, shelf/tapestry bg"
+    },
+    {
+     "shot": 348,
+     "at": "62:22",
+     "seconds": 29,
+     "what": "Eco interview, red/maroon armchair, shelf bg"
+    },
+    {
+     "shot": 350,
+     "at": "63:01",
+     "seconds": 24,
+     "what": "Eco interview, red/maroon armchair, shelf bg"
+    },
+    {
+     "shot": 352,
+     "at": "63:44",
+     "seconds": 26,
+     "what": "Eco interview, red/maroon armchair"
+    },
+    {
+     "shot": 355,
+     "at": "64:23",
+     "seconds": 7,
+     "what": "Eco full body, armchair, side-table books"
+    },
+    {
+     "shot": 366,
+     "at": "65:50",
+     "seconds": 7,
+     "what": "Eco portrait, armchair, faint shelf"
+    },
+    {
+     "shot": 369,
+     "at": "66:10",
+     "seconds": 22,
+     "what": "Eco gesturing, armchair"
+    }
+   ],
+   "shots_not_read": []
+  },
+  "flat-pile": {
+   "shots": 6,
+   "seconds": 58,
+   "shots_read": 6,
+   "shots_with_titles": 6,
+   "shots_read_without_titles": [],
+   "shots_not_read": []
+  },
+  "flat-book": {
+   "shots": 76,
+   "seconds": 613,
+   "shots_read": 76,
+   "shots_with_titles": 38,
+   "shots_read_without_titles": [
+    {
+     "shot": 47,
+     "at": "06:42",
+     "seconds": 9,
+     "what": "open old manuscript page close"
+    },
+    {
+     "shot": 70,
+     "at": "09:36",
+     "seconds": 2,
+     "what": "hand pulling single book from shelf close"
+    },
+    {
+     "shot": 97,
+     "at": "14:07",
+     "seconds": 9,
+     "what": "il giornalino comic cover close 2"
+    },
+    {
+     "shot": 100,
+     "at": "14:35",
+     "seconds": 7,
+     "what": "hands with old print pages close"
+    },
+    {
+     "shot": 105,
+     "at": "14:53",
+     "seconds": 5,
+     "what": "anatomical skeleton heart engraving close"
+    },
+    {
+     "shot": 110,
+     "at": "15:13",
+     "seconds": 10,
+     "what": "skeleton engraving close"
+    },
+    {
+     "shot": 112,
+     "at": "15:26",
+     "seconds": 13,
+     "what": "skeleton heart engraving close 2"
+    },
+    {
+     "shot": 114,
+     "at": "15:56",
+     "seconds": 29,
+     "what": "skull face engraving close"
+    },
+    {
+     "shot": 115,
+     "at": "16:25",
+     "seconds": 2,
+     "what": "cabala print close"
+    },
+    {
+     "shot": 117,
+     "at": "16:30",
+     "seconds": 8,
+     "what": "alchemy diagram print close"
+    },
+    {
+     "shot": 118,
+     "at": "16:38",
+     "seconds": 17,
+     "what": "alchemy steps illustration close"
+    },
+    {
+     "shot": 134,
+     "at": "18:23",
+     "seconds": 18,
+     "what": "bat engraving close"
+    },
+    {
+     "shot": 135,
+     "at": "18:41",
+     "seconds": 5,
+     "what": "bird music score engraving close"
+    },
+    {
+     "shot": 139,
+     "at": "20:03",
+     "seconds": 4,
+     "what": "zodiac sun alchemy print close"
+    },
+    {
+     "shot": 173,
+     "at": "29:20",
+     "seconds": 1,
+     "what": "portrait medallion engraving close"
+    },
+    {
+     "shot": 174,
+     "at": "29:21",
+     "seconds": 4,
+     "what": "french text page close"
+    },
+    {
+     "shot": 191,
+     "at": "32:46",
+     "seconds": 4,
+     "what": "illustrated childrens book page held close"
+    },
+    {
+     "shot": 193,
+     "at": "32:58",
+     "seconds": 6,
+     "what": "picture book illustration held close"
+    },
+    {
+     "shot": 199,
+     "at": "33:58",
+     "seconds": 1,
+     "what": "colorful illustration print close"
+    },
+    {
+     "shot": 229,
+     "at": "39:58",
+     "seconds": 7,
+     "what": "Superman comic panel, Eco essay illustration"
+    },
+    {
+     "shot": 277,
+     "at": "48:41",
+     "seconds": 6,
+     "what": "manuscript page \"Anacardus\" close"
+    },
+    {
+     "shot": 286,
+     "at": "50:54",
+     "seconds": 2,
+     "what": "burnt book page, close"
+    },
+    {
+     "shot": 291,
+     "at": "51:34",
+     "seconds": 9,
+     "what": "burnt page in wood frame, close"
+    },
+    {
+     "shot": 311,
+     "at": "55:15",
+     "seconds": 9,
+     "what": "antique map illustration close"
+    },
+    {
+     "shot": 314,
+     "at": "55:29",
+     "seconds": 14,
+     "what": "antique map illustration \"Brasil\""
+    },
+    {
+     "shot": 316,
+     "at": "55:52",
+     "seconds": 14,
+     "what": "antique illustrated map, mythical figure"
+    },
+    {
+     "shot": 326,
+     "at": "58:20",
+     "seconds": 7,
+     "what": "cipher table page, close"
+    },
+    {
+     "shot": 331,
+     "at": "59:27",
+     "seconds": 11,
+     "what": "annotated old text page, close"
+    },
+    {
+     "shot": 351,
+     "at": "63:25",
+     "seconds": 19,
+     "what": "old title page engraving, close"
+    },
+    {
+     "shot": 359,
+     "at": "65:05",
+     "seconds": 8,
+     "what": "old woodcut, two-page spread"
+    },
+    {
+     "shot": 360,
+     "at": "65:13",
+     "seconds": 4,
+     "what": "old woodcut illustration, crowd scene"
+    },
+    {
+     "shot": 361,
+     "at": "65:17",
+     "seconds": 3,
+     "what": "old woodcut page \"Tercia etas mundi\""
+    },
+    {
+     "shot": 362,
+     "at": "65:20",
+     "seconds": 6,
+     "what": "old woodcut, dance of death"
+    },
+    {
+     "shot": 368,
+     "at": "66:02",
+     "seconds": 8,
+     "what": "title card \"Il Pendolo\" (book style)"
+    },
+    {
+     "shot": 372,
+     "at": "66:46",
+     "seconds": 6,
+     "what": "old woodcut illustration, medieval scene"
+    },
+    {
+     "shot": 374,
+     "at": "67:05",
+     "seconds": 12,
+     "what": "old woodcut, masonic scene"
+    },
+    {
+     "shot": 405,
+     "at": "73:16",
+     "seconds": 3,
+     "what": "text page close, Milo Temesvar/Borges"
+    },
+    {
+     "shot": 416,
+     "at": "75:30",
+     "seconds": 6,
+     "what": "close-up book on stand, flat"
+    }
+   ],
+   "shots_not_read": []
+  },
+  "rare-cabinet": {
+   "shots": 29,
+   "seconds": 212,
+   "shots_read": 29,
+   "shots_with_titles": 12,
+   "shots_read_without_titles": [
+    {
+     "shot": 51,
+     "at": "07:10",
+     "seconds": 2,
+     "what": "woman pointing at cabinet blurred"
+    },
+    {
+     "shot": 52,
+     "at": "07:12",
+     "seconds": 6,
+     "what": "man pointing framed print cabinet edge"
+    },
+    {
+     "shot": 57,
+     "at": "07:34",
+     "seconds": 1,
+     "what": "motion blur transition same scene"
+    },
+    {
+     "shot": 58,
+     "at": "07:35",
+     "seconds": 10,
+     "what": "row of old books table edge gloved hands"
+    },
+    {
+     "shot": 59,
+     "at": "07:45",
+     "seconds": 2,
+     "what": "man talking at table book edge doorway shelf bg"
+    },
+    {
+     "shot": 60,
+     "at": "07:47",
+     "seconds": 2,
+     "what": "man and woman smiling close framed pictures bg"
+    },
+    {
+     "shot": 94,
+     "at": "13:55",
+     "seconds": 6,
+     "what": "man examining open book desk glass cabinet bg"
+    },
+    {
+     "shot": 101,
+     "at": "14:42",
+     "seconds": 4,
+     "what": "table scene older and younger man cabinets bg"
+    },
+    {
+     "shot": 102,
+     "at": "14:46",
+     "seconds": 2,
+     "what": "table scene continued cabinets bg"
+    },
+    {
+     "shot": 103,
+     "at": "14:48",
+     "seconds": 1,
+     "what": "man showing print to young man shelf bg"
+    },
+    {
+     "shot": 104,
+     "at": "14:49",
+     "seconds": 4,
+     "what": "table scene continued"
+    },
+    {
+     "shot": 106,
+     "at": "14:58",
+     "seconds": 6,
+     "what": "table scene continued 2"
+    },
+    {
+     "shot": 107,
+     "at": "15:04",
+     "seconds": 3,
+     "what": "table scene continued 3"
+    },
+    {
+     "shot": 108,
+     "at": "15:07",
+     "seconds": 2,
+     "what": "young man listening shelf bg"
+    },
+    {
+     "shot": 109,
+     "at": "15:09",
+     "seconds": 4,
+     "what": "older man close cabinet bg with drawers"
+    },
+    {
+     "shot": 111,
+     "at": "15:23",
+     "seconds": 3,
+     "what": "young man listening shelf blurred bg 2"
+    },
+    {
+     "shot": 123,
+     "at": "17:34",
+     "seconds": 2,
+     "what": "blurred wood glass cabinet bg interview"
+    }
+   ],
+   "shots_not_read": []
+  },
+  "other-library": {
+   "shots": 69,
+   "seconds": 1131,
+   "shots_read": 12,
+   "shots_with_titles": 10,
+   "shots_read_without_titles": [
+    {
+     "shot": 138,
+     "at": "18:58",
+     "seconds": 65,
+     "what": "grand baroque library wide chandeliers"
+    },
+    {
+     "shot": 246,
+     "at": "41:53",
+     "seconds": 4,
+     "what": "plain white shelf, location unclear"
+    }
+   ],
+   "shots_not_read": [
+    {
+     "shot": 75,
+     "at": "10:28",
+     "seconds": 45,
+     "what": "grand baroque rotunda library wide"
+    },
+    {
+     "shot": 77,
+     "at": "11:17",
+     "seconds": 23,
+     "what": "grand baroque library wide 2"
+    },
+    {
+     "shot": 140,
+     "at": "20:07",
+     "seconds": 17,
+     "what": "grand library reading room man at desk"
+    },
+    {
+     "shot": 152,
+     "at": "23:46",
+     "seconds": 54,
+     "what": "grand ornate library arches balconies"
+    },
+    {
+     "shot": 159,
+     "at": "25:49",
+     "seconds": 15,
+     "what": "institutional stacks multi-tier dim"
+    },
+    {
+     "shot": 164,
+     "at": "27:11",
+     "seconds": 10,
+     "what": "grand library man holding book"
+    },
+    {
+     "shot": 166,
+     "at": "27:30",
+     "seconds": 12,
+     "what": "grand library man holding book talking"
+    },
+    {
+     "shot": 168,
+     "at": "27:48",
+     "seconds": 6,
+     "what": "grand library man aisle 2"
+    },
+    {
+     "shot": 169,
+     "at": "27:54",
+     "seconds": 28,
+     "what": "grand library man at desk chandelier"
+    },
+    {
+     "shot": 171,
+     "at": "28:36",
+     "seconds": 26,
+     "what": "domed hall marble bust man gesturing"
+    },
+    {
+     "shot": 175,
+     "at": "29:25",
+     "seconds": 47,
+     "what": "grand library hall wide green chairs globe"
+    },
+    {
+     "shot": 176,
+     "at": "30:12",
+     "seconds": 8,
+     "what": "blurred antique bindings grand library"
+    },
+    {
+     "shot": 185,
+     "at": "31:43",
+     "seconds": 15,
+     "what": "grand reading room lamps man reading"
+    },
+    {
+     "shot": 217,
+     "at": "36:06",
+     "seconds": 8,
+     "what": "grand library shelf close tilted angle worn spines"
+    },
+    {
+     "shot": 227,
+     "at": "38:56",
+     "seconds": 36,
+     "what": "modern open library/office, desks and shelves"
+    },
+    {
+     "shot": 230,
+     "at": "40:05",
+     "seconds": 3,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 231,
+     "at": "40:08",
+     "seconds": 1,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 232,
+     "at": "40:09",
+     "seconds": 3,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 233,
+     "at": "40:12",
+     "seconds": 4,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 234,
+     "at": "40:16",
+     "seconds": 1,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 235,
+     "at": "40:17",
+     "seconds": 1,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 236,
+     "at": "40:18",
+     "seconds": 2,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 237,
+     "at": "40:20",
+     "seconds": 1,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 238,
+     "at": "40:21",
+     "seconds": 2,
+     "what": "blurred library shelves, reflection pan"
+    },
+    {
+     "shot": 239,
+     "at": "40:23",
+     "seconds": 7,
+     "what": "woman at desk, modern library stacks"
+    },
+    {
+     "shot": 241,
+     "at": "40:38",
+     "seconds": 5,
+     "what": "grand hallway, columns, dark shelves"
+    },
+    {
+     "shot": 243,
+     "at": "41:11",
+     "seconds": 25,
+     "what": "grand Baroque library, painted ceiling"
+    },
+    {
+     "shot": 245,
+     "at": "41:40",
+     "seconds": 13,
+     "what": "Stuttgart-style spiral atrium library"
+    },
+    {
+     "shot": 248,
+     "at": "42:06",
+     "seconds": 11,
+     "what": "long stacks corridor, dark"
+    },
+    {
+     "shot": 250,
+     "at": "42:24",
+     "seconds": 18,
+     "what": "dark wood library corridor"
+    },
+    {
+     "shot": 255,
+     "at": "44:08",
+     "seconds": 9,
+     "what": "dark wood shelving corridor"
+    },
+    {
+     "shot": 257,
+     "at": "44:28",
+     "seconds": 6,
+     "what": "bearded man portrait, blurred shelf bg"
+    },
+    {
+     "shot": 258,
+     "at": "44:34",
+     "seconds": 9,
+     "what": "blurred shelf, close gesture, unclear"
+    },
+    {
+     "shot": 261,
+     "at": "45:17",
+     "seconds": 32,
+     "what": "interviewee, dark bookshelf bg"
+    },
+    {
+     "shot": 285,
+     "at": "50:32",
+     "seconds": 22,
+     "what": "ornate rococo library (St Gallen)"
+    },
+    {
+     "shot": 290,
+     "at": "51:15",
+     "seconds": 19,
+     "what": "grand ornate library interior"
+    },
+    {
+     "shot": 293,
+     "at": "51:52",
+     "seconds": 31,
+     "what": "blurred bookshelf, abstract red tones"
+    },
+    {
+     "shot": 294,
+     "at": "52:23",
+     "seconds": 5,
+     "what": "woman interview, blurred bookshelf"
+    },
+    {
+     "shot": 317,
+     "at": "56:06",
+     "seconds": 5,
+     "what": "dark wood library shelves with globe"
+    },
+    {
+     "shot": 321,
+     "at": "57:16",
+     "seconds": 35,
+     "what": "actress walking library stacks"
+    },
+    {
+     "shot": 324,
+     "at": "58:08",
+     "seconds": 10,
+     "what": "actress walking modern library aisle"
+    },
+    {
+     "shot": 327,
+     "at": "58:27",
+     "seconds": 5,
+     "what": "framed Shakespeare/Bacon portraits, shelf bg"
+    },
+    {
+     "shot": 328,
+     "at": "58:32",
+     "seconds": 39,
+     "what": "actress in library aisle, book in hand"
+    },
+    {
+     "shot": 330,
+     "at": "59:19",
+     "seconds": 8,
+     "what": "actress browsing library stacks"
+    },
+    {
+     "shot": 332,
+     "at": "59:38",
+     "seconds": 11,
+     "what": "actress at table with open book, library"
+    },
+    {
+     "shot": 333,
+     "at": "59:49",
+     "seconds": 11,
+     "what": "modern library interior, wide"
+    },
+    {
+     "shot": 335,
+     "at": "60:06",
+     "seconds": 1,
+     "what": "actress close-up, library bg blurred"
+    },
+    {
+     "shot": 337,
+     "at": "60:16",
+     "seconds": 26,
+     "what": "actress reading at desk, modern library"
+    },
+    {
+     "shot": 338,
+     "at": "60:42",
+     "seconds": 19,
+     "what": "dark modern library stacks, wide"
+    },
+    {
+     "shot": 399,
+     "at": "71:36",
+     "seconds": 48,
+     "what": "portrait interview, blurred curio/shelf bg"
+    },
+    {
+     "shot": 400,
+     "at": "72:24",
+     "seconds": 5,
+     "what": "Tianjin library, wide dome/atrium"
+    },
+    {
+     "shot": 401,
+     "at": "72:29",
+     "seconds": 26,
+     "what": "Tianjin library, shelves close"
+    },
+    {
+     "shot": 402,
+     "at": "72:55",
+     "seconds": 7,
+     "what": "Tianjin library, dome area"
+    },
+    {
+     "shot": 403,
+     "at": "73:02",
+     "seconds": 7,
+     "what": "Tianjin library, dome close"
+    },
+    {
+     "shot": 404,
+     "at": "73:09",
+     "seconds": 7,
+     "what": "Tianjin library, archway view"
+    },
+    {
+     "shot": 409,
+     "at": "73:29",
+     "seconds": 7,
+     "what": "Tianjin library, dome wide"
+    },
+    {
+     "shot": 410,
+     "at": "73:36",
+     "seconds": 6,
+     "what": "Tianjin library, shelves wide"
+    }
+   ]
+  },
+  "none": {
+   "shots": 188,
+   "seconds": 2208,
+   "shots_read": 8,
+   "shots_with_titles": 3,
+   "shots_read_without_titles": [
+    {
+     "shot": 4,
+     "at": "00:20",
+     "seconds": 156,
+     "what": "title card festival roma special screening"
+    },
+    {
+     "shot": 71,
+     "at": "09:38",
+     "seconds": 5,
+     "what": "title card capitolo primo ricordare"
+    },
+    {
+     "shot": 183,
+     "at": "31:09",
+     "seconds": 19,
+     "what": "archival bw ruins photo"
+    },
+    {
+     "shot": 186,
+     "at": "31:58",
+     "seconds": 11,
+     "what": "tv graphic hora clave 9"
+    },
+    {
+     "shot": 295,
+     "at": "52:28",
+     "seconds": 45,
+     "what": "panel discussion on stage, festival"
+    }
+   ],
+   "shots_not_read": [
+    {
+     "shot": 0,
+     "at": "00:00",
+     "seconds": 3,
+     "what": "title card filmin"
+    },
+    {
+     "shot": 1,
+     "at": "00:03",
+     "seconds": 1,
+     "what": "title card filmin glow"
+    },
+    {
+     "shot": 2,
+     "at": "00:04",
+     "seconds": 6,
+     "what": "title card filmin green"
+    },
+    {
+     "shot": 3,
+     "at": "00:10",
+     "seconds": 10,
+     "what": "title card fandango"
+    },
+    {
+     "shot": 5,
+     "at": "02:56",
+     "seconds": 2,
+     "what": "tv newsdesk panel 2016"
+    },
+    {
+     "shot": 6,
+     "at": "02:58",
+     "seconds": 3,
+     "what": "tv two men desk"
+    },
+    {
+     "shot": 7,
+     "at": "03:01",
+     "seconds": 4,
+     "what": "tv anchor intro"
+    },
+    {
+     "shot": 8,
+     "at": "03:05",
+     "seconds": 4,
+     "what": "eco waving red bg studio"
+    },
+    {
+     "shot": 9,
+     "at": "03:09",
+     "seconds": 2,
+     "what": "tv archive photo inset"
+    },
+    {
+     "shot": 10,
+     "at": "03:11",
+     "seconds": 4,
+     "what": "euronews crowd bookfair"
+    },
+    {
+     "shot": 11,
+     "at": "03:15",
+     "seconds": 4,
+     "what": "euronews men corridor bookfair"
+    },
+    {
+     "shot": 12,
+     "at": "03:19",
+     "seconds": 5,
+     "what": "euronews eco portrait graphic"
+    },
+    {
+     "shot": 13,
+     "at": "03:24",
+     "seconds": 4,
+     "what": "tv anchor blonde studio"
+    },
+    {
+     "shot": 14,
+     "at": "03:28",
+     "seconds": 4,
+     "what": "framed beach photo on wall"
+    },
+    {
+     "shot": 15,
+     "at": "03:32",
+     "seconds": 4,
+     "what": "funeral program card photo"
+    },
+    {
+     "shot": 16,
+     "at": "03:36",
+     "seconds": 7,
+     "what": "renate couch interview start"
+    },
+    {
+     "shot": 17,
+     "at": "03:43",
+     "seconds": 2,
+     "what": "carlotta couch smiling"
+    },
+    {
+     "shot": 18,
+     "at": "03:45",
+     "seconds": 6,
+     "what": "memorial flyer held close"
+    },
+    {
+     "shot": 20,
+     "at": "03:53",
+     "seconds": 1,
+     "what": "carlotta closeup plain bg"
+    },
+    {
+     "shot": 22,
+     "at": "03:58",
+     "seconds": 2,
+     "what": "renate closeup paintings bg"
+    },
+    {
+     "shot": 23,
+     "at": "04:00",
+     "seconds": 2,
+     "what": "carlotta closeup smiling"
+    },
+    {
+     "shot": 26,
+     "at": "04:12",
+     "seconds": 4,
+     "what": "exterior castle establishing"
+    },
+    {
+     "shot": 27,
+     "at": "04:16",
+     "seconds": 2,
+     "what": "funeral crowd queue"
+    },
+    {
+     "shot": 28,
+     "at": "04:18",
+     "seconds": 5,
+     "what": "brick wall queue blur"
+    },
+    {
+     "shot": 29,
+     "at": "04:23",
+     "seconds": 2,
+     "what": "carlotta closeup 2"
+    },
+    {
+     "shot": 32,
+     "at": "04:38",
+     "seconds": 5,
+     "what": "renate closeup 2"
+    },
+    {
+     "shot": 33,
+     "at": "04:43",
+     "seconds": 2,
+     "what": "carlotta closeup 3"
+    },
+    {
+     "shot": 34,
+     "at": "04:45",
+     "seconds": 1,
+     "what": "renate closeup shocked expression"
+    },
+    {
+     "shot": 35,
+     "at": "04:46",
+     "seconds": 4,
+     "what": "cloister crowd funeral wide"
+    },
+    {
+     "shot": 36,
+     "at": "04:50",
+     "seconds": 1,
+     "what": "grazie prof sign closeup"
+    },
+    {
+     "shot": 37,
+     "at": "04:51",
+     "seconds": 2,
+     "what": "crowd with signs"
+    },
+    {
+     "shot": 38,
+     "at": "04:53",
+     "seconds": 4,
+     "what": "milan skyline castle aerial"
+    },
+    {
+     "shot": 39,
+     "at": "04:57",
+     "seconds": 6,
+     "what": "building facade exterior crowd"
+    },
+    {
+     "shot": 40,
+     "at": "05:03",
+     "seconds": 5,
+     "what": "renate window castle view"
+    },
+    {
+     "shot": 41,
+     "at": "05:08",
+     "seconds": 11,
+     "what": "curio shelf family photos mementos"
+    },
+    {
+     "shot": 78,
+     "at": "11:40",
+     "seconds": 6,
+     "what": "green leaf wallpaper closeup 2"
+    },
+    {
+     "shot": 79,
+     "at": "11:46",
+     "seconds": 26,
+     "what": "eco with child modern apartment no shelf"
+    },
+    {
+     "shot": 80,
+     "at": "12:12",
+     "seconds": 3,
+     "what": "title card non sperate di liberarvi dei libri"
+    },
+    {
+     "shot": 81,
+     "at": "12:15",
+     "seconds": 1,
+     "what": "title card carriere eco names"
+    },
+    {
+     "shot": 82,
+     "at": "12:16",
+     "seconds": 2,
+     "what": "title card carriere eco names 2"
+    },
+    {
+     "shot": 83,
+     "at": "12:18",
+     "seconds": 22,
+     "what": "tv studio carriere eco panel"
+    },
+    {
+     "shot": 85,
+     "at": "12:58",
+     "seconds": 4,
+     "what": "eco outdoor portrait window"
+    },
+    {
+     "shot": 90,
+     "at": "13:31",
+     "seconds": 5,
+     "what": "fresco painting closeup"
+    },
+    {
+     "shot": 95,
+     "at": "14:01",
+     "seconds": 3,
+     "what": "fresco painting closeup 2"
+    },
+    {
+     "shot": 119,
+     "at": "16:55",
+     "seconds": 12,
+     "what": "academic ceremony robes microphone"
+    },
+    {
+     "shot": 137,
+     "at": "18:50",
+     "seconds": 8,
+     "what": "title card perche kircher"
+    },
+    {
+     "shot": 144,
+     "at": "21:19",
+     "seconds": 12,
+     "what": "outdoor podium event no shelf"
+    },
+    {
+     "shot": 145,
+     "at": "21:31",
+     "seconds": 6,
+     "what": "title card text black slide"
+    },
+    {
+     "shot": 146,
+     "at": "21:37",
+     "seconds": 7,
+     "what": "tv interview liveon4g tim"
+    },
+    {
+     "shot": 147,
+     "at": "21:44",
+     "seconds": 4,
+     "what": "title card estetica teoria informazione"
+    },
+    {
+     "shot": 148,
+     "at": "21:48",
+     "seconds": 53,
+     "what": "panel discussion event wood slats"
+    },
+    {
+     "shot": 149,
+     "at": "22:41",
+     "seconds": 5,
+     "what": "title card apocalypse postponed"
+    },
+    {
+     "shot": 150,
+     "at": "22:46",
+     "seconds": 4,
+     "what": "tv interview liveon4g tim 2"
+    },
+    {
+     "shot": 151,
+     "at": "22:50",
+     "seconds": 56,
+     "what": "podium panel event mic"
+    },
+    {
+     "shot": 153,
+     "at": "24:40",
+     "seconds": 14,
+     "what": "outdoor bench interview"
+    },
+    {
+     "shot": 154,
+     "at": "24:54",
+     "seconds": 5,
+     "what": "title card semiotica filosofia linguaggio"
+    },
+    {
+     "shot": 155,
+     "at": "24:59",
+     "seconds": 34,
+     "what": "tv interview liveon4g tim 3"
+    },
+    {
+     "shot": 156,
+     "at": "25:33",
+     "seconds": 3,
+     "what": "flat earth graphic earth space"
+    },
+    {
+     "shot": 157,
+     "at": "25:36",
+     "seconds": 4,
+     "what": "flat earth map diagram graphic"
+    },
+    {
+     "shot": 158,
+     "at": "25:40",
+     "seconds": 9,
+     "what": "hand drawn don graphic"
+    },
+    {
+     "shot": 160,
+     "at": "26:04",
+     "seconds": 17,
+     "what": "tv interview hora clave 9"
+    },
+    {
+     "shot": 161,
+     "at": "26:21",
+     "seconds": 20,
+     "what": "tv interview hora clave 9 two-shot"
+    },
+    {
+     "shot": 162,
+     "at": "26:41",
+     "seconds": 8,
+     "what": "title card para peri epi"
+    },
+    {
+     "shot": 178,
+     "at": "30:26",
+     "seconds": 4,
+     "what": "exterior clock plaque building"
+    },
+    {
+     "shot": 179,
+     "at": "30:30",
+     "seconds": 17,
+     "what": "archival bw ruins debris"
+    },
+    {
+     "shot": 180,
+     "at": "30:47",
+     "seconds": 11,
+     "what": "exterior archival color parade"
+    },
+    {
+     "shot": 181,
+     "at": "30:58",
+     "seconds": 4,
+     "what": "podium eco reading wallpaper bg"
+    },
+    {
+     "shot": 182,
+     "at": "31:02",
+     "seconds": 7,
+     "what": "train station memorial plaque"
+    },
+    {
+     "shot": 184,
+     "at": "31:28",
+     "seconds": 15,
+     "what": "tv interview eco blue bg"
+    },
+    {
+     "shot": 188,
+     "at": "32:23",
+     "seconds": 8,
+     "what": "silhouette window dim room"
+    },
+    {
+     "shot": 195,
+     "at": "33:09",
+     "seconds": 3,
+     "what": "title card capitolo secondo raccontare"
+    },
+    {
+     "shot": 197,
+     "at": "33:42",
+     "seconds": 7,
+     "what": "archival bw audience panel mics"
+    },
+    {
+     "shot": 198,
+     "at": "33:49",
+     "seconds": 9,
+     "what": "archival sepia riverboat"
+    },
+    {
+     "shot": 201,
+     "at": "34:02",
+     "seconds": 8,
+     "what": "panel discussion audience event"
+    },
+    {
+     "shot": 203,
+     "at": "34:22",
+     "seconds": 7,
+     "what": "panel discussion eco speaking"
+    },
+    {
+     "shot": 205,
+     "at": "34:41",
+     "seconds": 11,
+     "what": "escher artwork hand sphere"
+    },
+    {
+     "shot": 210,
+     "at": "35:24",
+     "seconds": 2,
+     "what": "escher artwork closeup 2"
+    },
+    {
+     "shot": 211,
+     "at": "35:26",
+     "seconds": 4,
+     "what": "magritte style caricature painting globe pipe"
+    },
+    {
+     "shot": 212,
+     "at": "35:30",
+     "seconds": 11,
+     "what": "hand drawn comic panels umberto eco caricature"
+    },
+    {
+     "shot": 213,
+     "at": "35:41",
+     "seconds": 1,
+     "what": "comic panels continued"
+    },
+    {
+     "shot": 214,
+     "at": "35:42",
+     "seconds": 5,
+     "what": "comic panels continued 2"
+    },
+    {
+     "shot": 215,
+     "at": "35:47",
+     "seconds": 12,
+     "what": "pen sketch dedication drawing"
+    },
+    {
+     "shot": 216,
+     "at": "35:59",
+     "seconds": 7,
+     "what": "painted caricature eco smoking globe"
+    },
+    {
+     "shot": 218,
+     "at": "36:14",
+     "seconds": 8,
+     "what": "eco outdoor interview blue shirt"
+    },
+    {
+     "shot": 219,
+     "at": "36:22",
+     "seconds": 8,
+     "what": "title card come inizia come finisce"
+    },
+    {
+     "shot": 220,
+     "at": "36:30",
+     "seconds": 31,
+     "what": "exterior building \"Collegio\""
+    },
+    {
+     "shot": 221,
+     "at": "37:01",
+     "seconds": 6,
+     "what": "man on balcony, exterior"
+    },
+    {
+     "shot": 222,
+     "at": "37:07",
+     "seconds": 16,
+     "what": "empty stage, two lecterns"
+    },
+    {
+     "shot": 223,
+     "at": "37:23",
+     "seconds": 6,
+     "what": "man talking, plain indoor bg"
+    },
+    {
+     "shot": 224,
+     "at": "37:29",
+     "seconds": 13,
+     "what": "man sitting alone in theater seats"
+    },
+    {
+     "shot": 225,
+     "at": "37:42",
+     "seconds": 26,
+     "what": "two men on scaffold with picture frame"
+    },
+    {
+     "shot": 226,
+     "at": "38:08",
+     "seconds": 48,
+     "what": "wooden book-shaped lamp sculpture"
+    },
+    {
+     "shot": 228,
+     "at": "39:32",
+     "seconds": 26,
+     "what": "Eco portrait, plain bg, no books"
+    },
+    {
+     "shot": 242,
+     "at": "40:43",
+     "seconds": 28,
+     "what": "Eco portrait, green background"
+    },
+    {
+     "shot": 244,
+     "at": "41:36",
+     "seconds": 4,
+     "what": "Eco seated, red curtain bg, reading paper"
+    },
+    {
+     "shot": 247,
+     "at": "41:57",
+     "seconds": 9,
+     "what": "Eco seated, red curtain bg, reading paper"
+    },
+    {
+     "shot": 249,
+     "at": "42:17",
+     "seconds": 7,
+     "what": "Eco seated, red curtain bg, reading paper"
+    },
+    {
+     "shot": 253,
+     "at": "43:05",
+     "seconds": 5,
+     "what": "sky/tree, exterior"
+    },
+    {
+     "shot": 259,
+     "at": "44:43",
+     "seconds": 7,
+     "what": "title card \"Autori di quarta dimensione 4/6\""
+    },
+    {
+     "shot": 263,
+     "at": "46:33",
+     "seconds": 7,
+     "what": "Einstein archival photo"
+    },
+    {
+     "shot": 265,
+     "at": "46:43",
+     "seconds": 8,
+     "what": "b/w archival group photo"
+    },
+    {
+     "shot": 266,
+     "at": "46:51",
+     "seconds": 4,
+     "what": "archival football match footage"
+    },
+    {
+     "shot": 267,
+     "at": "46:55",
+     "seconds": 2,
+     "what": "archival football match footage"
+    },
+    {
+     "shot": 268,
+     "at": "46:57",
+     "seconds": 4,
+     "what": "archival crowd, b/w"
+    },
+    {
+     "shot": 269,
+     "at": "47:01",
+     "seconds": 3,
+     "what": "archival crowd, close"
+    },
+    {
+     "shot": 271,
+     "at": "47:09",
+     "seconds": 14,
+     "what": "archival b/w photo, panel table"
+    },
+    {
+     "shot": 272,
+     "at": "47:23",
+     "seconds": 12,
+     "what": "archival TV set, Thatcher clip"
+    },
+    {
+     "shot": 280,
+     "at": "49:26",
+     "seconds": 12,
+     "what": "archival RAI TV clip"
+    },
+    {
+     "shot": 282,
+     "at": "49:57",
+     "seconds": 19,
+     "what": "hand-drawn caricature sketch"
+    },
+    {
+     "shot": 284,
+     "at": "50:23",
+     "seconds": 9,
+     "what": "St Gallen church exterior"
+    },
+    {
+     "shot": 289,
+     "at": "51:04",
+     "seconds": 11,
+     "what": "red wall, silhouette figure"
+    },
+    {
+     "shot": 292,
+     "at": "51:43",
+     "seconds": 9,
+     "what": "graphic insert, flag/pasta art"
+    },
+    {
+     "shot": 296,
+     "at": "53:13",
+     "seconds": 11,
+     "what": "Eco on festival panel, red chairs"
+    },
+    {
+     "shot": 297,
+     "at": "53:24",
+     "seconds": 9,
+     "what": "title card \"Robert Fludd\" segment"
+    },
+    {
+     "shot": 298,
+     "at": "53:33",
+     "seconds": 8,
+     "what": "woodcut-style animation, smoke/cloud"
+    },
+    {
+     "shot": 299,
+     "at": "53:41",
+     "seconds": 18,
+     "what": "recorder and sheet music stand"
+    },
+    {
+     "shot": 301,
+     "at": "54:04",
+     "seconds": 18,
+     "what": "Eco portrait, dark bg"
+    },
+    {
+     "shot": 302,
+     "at": "54:22",
+     "seconds": 11,
+     "what": "two men, brick wall, table interview"
+    },
+    {
+     "shot": 303,
+     "at": "54:33",
+     "seconds": 8,
+     "what": "Eco portrait, tweed jacket"
+    },
+    {
+     "shot": 304,
+     "at": "54:41",
+     "seconds": 7,
+     "what": "two men, festival stage, red chairs"
+    },
+    {
+     "shot": 305,
+     "at": "54:48",
+     "seconds": 3,
+     "what": "Eco portrait, tweed, close"
+    },
+    {
+     "shot": 307,
+     "at": "54:57",
+     "seconds": 1,
+     "what": "Eco portrait, tweed"
+    },
+    {
+     "shot": 308,
+     "at": "54:58",
+     "seconds": 4,
+     "what": "interviewer speaking, festival mic"
+    },
+    {
+     "shot": 309,
+     "at": "55:02",
+     "seconds": 7,
+     "what": "Eco portrait, tweed, close"
+    },
+    {
+     "shot": 310,
+     "at": "55:09",
+     "seconds": 6,
+     "what": "Eco portrait, tweed, close"
+    },
+    {
+     "shot": 312,
+     "at": "55:24",
+     "seconds": 2,
+     "what": "panel discussion, festival red chairs"
+    },
+    {
+     "shot": 313,
+     "at": "55:26",
+     "seconds": 3,
+     "what": "Eco portrait, glasses, close"
+    },
+    {
+     "shot": 315,
+     "at": "55:43",
+     "seconds": 9,
+     "what": "antique globe close-up"
+    },
+    {
+     "shot": 318,
+     "at": "56:11",
+     "seconds": 48,
+     "what": "two men, festival panel, headsets"
+    },
+    {
+     "shot": 320,
+     "at": "57:09",
+     "seconds": 7,
+     "what": "title card \"Shakespeare era per caso... 5/6\""
+    },
+    {
+     "shot": 329,
+     "at": "59:11",
+     "seconds": 8,
+     "what": "animated cartoon figures with book piles"
+    },
+    {
+     "shot": 334,
+     "at": "60:00",
+     "seconds": 6,
+     "what": "animated cartoon figures with book piles"
+    },
+    {
+     "shot": 339,
+     "at": "61:01",
+     "seconds": 10,
+     "what": "Victorian engraving, duel/top hats"
+    },
+    {
+     "shot": 340,
+     "at": "61:11",
+     "seconds": 28,
+     "what": "modern glass ceiling architecture"
+    },
+    {
+     "shot": 341,
+     "at": "61:39",
+     "seconds": 5,
+     "what": "engraving, duel scene"
+    },
+    {
+     "shot": 342,
+     "at": "61:44",
+     "seconds": 5,
+     "what": "title card \"capitolo terzo: Mentire\""
+    },
+    {
+     "shot": 343,
+     "at": "61:49",
+     "seconds": 2,
+     "what": "two men, brick wall table interview"
+    },
+    {
+     "shot": 344,
+     "at": "61:51",
+     "seconds": 14,
+     "what": "Eco portrait, tweed jacket"
+    },
+    {
+     "shot": 345,
+     "at": "62:05",
+     "seconds": 2,
+     "what": "two men, brick wall table interview"
+    },
+    {
+     "shot": 346,
+     "at": "62:07",
+     "seconds": 10,
+     "what": "Eco portrait, tweed jacket"
+    },
+    {
+     "shot": 349,
+     "at": "62:51",
+     "seconds": 10,
+     "what": "two men, brick wall table interview"
+    },
+    {
+     "shot": 354,
+     "at": "64:16",
+     "seconds": 7,
+     "what": "two men, brick wall table interview"
+    },
+    {
+     "shot": 356,
+     "at": "64:30",
+     "seconds": 22,
+     "what": "Eco portrait, laughing, dark bg"
+    },
+    {
+     "shot": 357,
+     "at": "64:52",
+     "seconds": 11,
+     "what": "Eco TV interview, chyron graphic"
+    },
+    {
+     "shot": 358,
+     "at": "65:03",
+     "seconds": 2,
+     "what": "TV talk show, studio, red chairs"
+    },
+    {
+     "shot": 364,
+     "at": "65:31",
+     "seconds": 12,
+     "what": "title card \"Protocols of the Elders of Zion\""
+    },
+    {
+     "shot": 365,
+     "at": "65:43",
+     "seconds": 7,
+     "what": "TV news broadcast graphic"
+    },
+    {
+     "shot": 370,
+     "at": "66:32",
+     "seconds": 3,
+     "what": "website screenshot, hoax article"
+    },
+    {
+     "shot": 373,
+     "at": "66:52",
+     "seconds": 13,
+     "what": "Eco reading at lectern, rose, event"
+    },
+    {
+     "shot": 375,
+     "at": "67:17",
+     "seconds": 23,
+     "what": "Eco reading at lectern, rose, event"
+    },
+    {
+     "shot": 376,
+     "at": "67:40",
+     "seconds": 8,
+     "what": "Eco portrait, casual, indoor"
+    },
+    {
+     "shot": 377,
+     "at": "67:48",
+     "seconds": 25,
+     "what": "title card \"Il Codice Temesvar 6/6\""
+    },
+    {
+     "shot": 378,
+     "at": "68:13",
+     "seconds": 23,
+     "what": "woman in trench coat, city street"
+    },
+    {
+     "shot": 379,
+     "at": "68:36",
+     "seconds": 30,
+     "what": "modern honeycomb ceiling architecture"
+    },
+    {
+     "shot": 380,
+     "at": "69:06",
+     "seconds": 11,
+     "what": "Last Supper fresco, wide, figure standing"
+    },
+    {
+     "shot": 381,
+     "at": "69:17",
+     "seconds": 3,
+     "what": "woman portrait, gallery interior"
+    },
+    {
+     "shot": 382,
+     "at": "69:20",
+     "seconds": 10,
+     "what": "Last Supper detail, figures"
+    },
+    {
+     "shot": 383,
+     "at": "69:30",
+     "seconds": 2,
+     "what": "woman portrait, gallery"
+    },
+    {
+     "shot": 384,
+     "at": "69:32",
+     "seconds": 6,
+     "what": "Last Supper detail, figures"
+    },
+    {
+     "shot": 385,
+     "at": "69:38",
+     "seconds": 4,
+     "what": "woman portrait, gallery"
+    },
+    {
+     "shot": 386,
+     "at": "69:42",
+     "seconds": 7,
+     "what": "Last Supper detail, figures"
+    },
+    {
+     "shot": 387,
+     "at": "69:49",
+     "seconds": 2,
+     "what": "woman portrait, gallery"
+    },
+    {
+     "shot": 388,
+     "at": "69:51",
+     "seconds": 7,
+     "what": "Last Supper detail, Christ face"
+    },
+    {
+     "shot": 389,
+     "at": "69:58",
+     "seconds": 9,
+     "what": "woman portrait, gallery"
+    },
+    {
+     "shot": 390,
+     "at": "70:07",
+     "seconds": 9,
+     "what": "Last Supper detail, hands/bread"
+    },
+    {
+     "shot": 391,
+     "at": "70:16",
+     "seconds": 7,
+     "what": "woman portrait, gallery"
+    },
+    {
+     "shot": 392,
+     "at": "70:23",
+     "seconds": 5,
+     "what": "Last Supper detail, heads"
+    },
+    {
+     "shot": 393,
+     "at": "70:28",
+     "seconds": 5,
+     "what": "woman portrait, gallery"
+    },
+    {
+     "shot": 394,
+     "at": "70:33",
+     "seconds": 14,
+     "what": "Last Supper detail, hand reaching"
+    },
+    {
+     "shot": 395,
+     "at": "70:47",
+     "seconds": 5,
+     "what": "woman portrait, gallery"
+    },
+    {
+     "shot": 396,
+     "at": "70:52",
+     "seconds": 7,
+     "what": "Last Supper detail, heads profile"
+    },
+    {
+     "shot": 397,
+     "at": "70:59",
+     "seconds": 4,
+     "what": "woman portrait, gallery"
+    },
+    {
+     "shot": 398,
+     "at": "71:03",
+     "seconds": 33,
+     "what": "Last Supper detail, group figures"
+    },
+    {
+     "shot": 406,
+     "at": "73:19",
+     "seconds": 7,
+     "what": "man portrait, plain shirt"
+    },
+    {
+     "shot": 407,
+     "at": "73:26",
+     "seconds": 1,
+     "what": "website screenshot, article"
+    },
+    {
+     "shot": 408,
+     "at": "73:27",
+     "seconds": 2,
+     "what": "magazine/interview page screenshot"
+    },
+    {
+     "shot": 411,
+     "at": "73:42",
+     "seconds": 21,
+     "what": "title card \"Epilogo\""
+    },
+    {
+     "shot": 412,
+     "at": "74:03",
+     "seconds": 10,
+     "what": "vetrina display case, flat living room"
+    },
+    {
+     "shot": 415,
+     "at": "75:27",
+     "seconds": 3,
+     "what": "flat hallway, dim, no books visible"
+    },
+    {
+     "shot": 417,
+     "at": "75:36",
+     "seconds": 285,
+     "what": "end credits text"
+    }
+   ]
+  }
+ }
+}

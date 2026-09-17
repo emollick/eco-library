@@ -1,0 +1,1412 @@
+{
+ "video_id": "zZEy10fpq3I",
+ "time_note": "film_s is true film time (1 fps frame k -> (k-1)+0.96 s); links jump to that second",
+ "produced_by": "the object inventory of the salotto, read from the footage",
+ "objects": [
+  {
+   "id": "salotto-statue",
+   "room": "salotto",
+   "kind": "statue",
+   "label": "Plaster classical male figure (headless-armed torso with head and a small wreath), on a plinth",
+   "position": [
+    7.05,
+    5.6
+   ],
+   "rotation": -90,
+   "size": [
+    0.6,
+    0.5,
+    2.0
+   ],
+   "confidence": "high",
+   "wall": "E",
+   "note": "Stands against the E wall with its back to the wall, immediately N of glass case 1 (about 0.3 m gap in the frontal view; the cases stand 1.3 m further into the room). A white armchair sits in front of it. This is the statue the user means.",
+   "build_now": "torso at [2.5,6.25] mid-room near the N wall, far from the cases",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "statue x 740-920",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_004444.jpg",
+     "film_s": 4444.0,
+     "film_ts": "74:04",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4444s",
+     "note": "statue x 825-1000",
+     "crop": "crops/wide_74-04_f004444.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003840.jpg",
+     "film_s": 3840.0,
+     "film_ts": "64:00",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+     "note": "statue legs behind the white armchair, door handle at left",
+     "crop": "crops/statue_case_64-00_f003840.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+     "note": "statue at the left edge of the case row",
+     "crop": "crops/photo_curti_parini_cases.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-vitrine-1",
+   "room": "salotto",
+   "kind": "display-case",
+   "label": "Steel-and-glass case 1: open illuminated facsimiles on tilted glass shelves; two shadow-box dioramas (garden, miniature library) on top",
+   "position": [
+    5.98,
+    4.6
+   ],
+   "rotation": -90,
+   "size": [
+    0.8,
+    0.45,
+    1.9
+   ],
+   "confidence": "high",
+   "note": "Free-standing, 1.3 m in front of the E wall, first of three in a row running S. The miniature-library diorama filmed at 73:41-74:03 stands on this case.",
+   "build_now": "salotto-vetrine on the E wall, three cases 2.7 m, against the wall",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "case 1 x 955-1195",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+     "note": "case 1",
+     "crop": "crops/photo_curti_parini_cases.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_004431.jpg",
+     "film_s": 4431.0,
+     "film_ts": "73:51",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4431s",
+     "note": "diorama on top of the case",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-vitrine-2",
+   "room": "salotto",
+   "kind": "display-case",
+   "label": "Steel-and-glass case 2: open antique books, rows of small volumes; brass instrument stand on top",
+   "position": [
+    5.98,
+    3.8
+   ],
+   "rotation": -90,
+   "size": [
+    0.8,
+    0.45,
+    1.9
+   ],
+   "confidence": "high",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "case 2 x 1190-1415",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+     "note": "case 2, dining chairs visible through it",
+     "crop": "crops/photo_curti_parini_cases.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-vitrine-3",
+   "room": "salotto",
+   "kind": "display-case",
+   "label": "Steel-and-glass case 3: shells, sea urchins, dried pomegranates, lotus pods, seed pods, porcupine fish",
+   "position": [
+    5.98,
+    3.0
+   ],
+   "rotation": -90,
+   "size": [
+    0.8,
+    0.45,
+    1.9
+   ],
+   "confidence": "high",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "case 3 x 1415-1720",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_004455.jpg",
+     "film_s": 4455.0,
+     "film_ts": "74:15",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4455s",
+     "note": "macro inside the shell case",
+     "crop": null
+    },
+    {
+     "source": "film",
+     "frame": "f_003952.jpg",
+     "film_s": 3952.0,
+     "film_ts": "65:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3952s",
+     "note": "shell case beside the dining table (archive)",
+     "crop": "crops/archive_dining_65-52_f003952.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-club-armchair",
+   "room": "salotto",
+   "kind": "armchair",
+   "label": "Tan leather club armchair (Eco's interview seat)",
+   "position": [
+    5.1,
+    4.1
+   ],
+   "rotation": 90,
+   "size": [
+    0.95,
+    0.9,
+    0.85
+   ],
+   "confidence": "high",
+   "note": "Directly in front of cases 1-2, facing W toward the coffee table.",
+   "build_now": "anchored to vetrine at dist 1.1 (keep, but cases move forward)",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "club armchair x 880-1420",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003753.jpg",
+     "film_s": 3753.0,
+     "film_ts": "62:33",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3753s",
+     "note": "Eco in the club armchair, cases behind",
+     "crop": null
+    }
+   ]
+  },
+  {
+   "id": "salotto-white-armchair-statue",
+   "room": "salotto",
+   "kind": "armchair",
+   "label": "White slip-covered armchair in front of the statue",
+   "position": [
+    6.3,
+    5.5
+   ],
+   "rotation": 90,
+   "size": [
+    0.9,
+    0.9,
+    0.8
+   ],
+   "confidence": "high",
+   "build_now": "white-armchair at [1.7,4.0]",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "white armchair x 720-1010",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003840.jpg",
+     "film_s": 3840.0,
+     "film_ts": "64:00",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3840s",
+     "note": "armchair with the statue behind",
+     "crop": null
+    }
+   ]
+  },
+  {
+   "id": "salotto-white-armchair-se",
+   "room": "salotto",
+   "kind": "armchair",
+   "label": "White slip-covered armchair (Carlotta's seat in the 03:50 two-shot)",
+   "position": [
+    4.9,
+    2.6
+   ],
+   "rotation": 135,
+   "size": [
+    1.0,
+    0.95,
+    0.8
+   ],
+   "confidence": "medium",
+   "note": "SE of the coffee table, between the case row and the S seating; the credenza and dining table are behind it in the two-shot.",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "white piece at right x 1290-1920",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "Carlotta at left, credenza behind",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-sofa-a",
+   "room": "salotto",
+   "kind": "sofa",
+   "label": "White slip-covered sofa A, N side of the coffee table, under the dark-framed painting; purple throw",
+   "position": [
+    3.6,
+    5.7
+   ],
+   "rotation": 180,
+   "size": [
+    2.1,
+    0.95,
+    0.8
+   ],
+   "confidence": "high",
+   "build_now": "sofas at [3.2,1.7]",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "sofa A at left",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_001972.jpg",
+     "film_s": 1972.0,
+     "film_ts": "32:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1972s",
+     "note": "Renate reading on sofa A, painting above, arc lamp shade",
+     "crop": "crops/sofaA_32-51_f001972.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "sofa A at bottom right",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-sofa-s",
+   "room": "salotto",
+   "kind": "sofa",
+   "label": "White slip-covered sofa against the S wall between the windows (Renate's seat, ropes painting behind)",
+   "position": [
+    3.4,
+    0.8
+   ],
+   "rotation": 0,
+   "size": [
+    2.0,
+    0.95,
+    0.8
+   ],
+   "confidence": "medium",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "Renate at right, ropes painting behind",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "sofa with pillow at the SW",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-coffee-table",
+   "room": "salotto",
+   "kind": "table",
+   "label": "Low dark coffee table covered in book piles, with a brass orrery and a candlestick",
+   "position": [
+    3.5,
+    4.3
+   ],
+   "rotation": 0,
+   "size": [
+    1.6,
+    1.2,
+    0.4
+   ],
+   "confidence": "high",
+   "note": "Centre of the sitting area: sofa A to its N, club and white armchairs to its E, S sofa and SE armchair to its S, cabinet wall 2.5 m to its W.",
+   "build_now": "coffee-table at [3.2,3.1]",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "foreground",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "foreground",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "foreground",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-arc-lamp",
+   "room": "salotto",
+   "kind": "lamp",
+   "label": "Arc floor lamp (Tolomeo Mega type) with a large parchment shade, base beside the vestibolo door, shade over the E end of sofa A",
+   "position": [
+    5.9,
+    6.9
+   ],
+   "rotation": 0,
+   "size": [
+    0.35,
+    0.35,
+    2.2
+   ],
+   "confidence": "high",
+   "build_now": "parchment-lamp at [4.5,1.1]",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "pole at x 490 beside the door, shade x 180-350",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "shade at top right, camera under it",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-chrome-lamp-w",
+   "room": "salotto",
+   "kind": "lamp",
+   "label": "Chrome floor lamp with parchment shade beside door 2",
+   "position": [
+    0.45,
+    4.3
+   ],
+   "rotation": 0,
+   "size": [
+    0.3,
+    0.3,
+    1.7
+   ],
+   "confidence": "high",
+   "build_now": "chrome-lamp at [2.0,1.1]",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "lamp x 1080-1190",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "lamp left of the cabinet",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-chrome-lamp-s",
+   "room": "salotto",
+   "kind": "lamp",
+   "label": "Chrome floor lamp with parchment shade at the E end of the window wall, beside the three paintings",
+   "position": [
+    5.9,
+    0.7
+   ],
+   "rotation": 0,
+   "size": [
+    0.3,
+    0.3,
+    1.7
+   ],
+   "confidence": "medium",
+   "note": "May be the same lamp as the one beside door 2, moved between shoots.",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "lamp x 430-590",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-side-cabinet",
+   "room": "salotto",
+   "kind": "cabinet",
+   "label": "Small dark wooden side cabinet with a telephone on top, under the small prints",
+   "position": [
+    7.3,
+    7.0
+   ],
+   "rotation": -90,
+   "size": [
+    0.7,
+    0.4,
+    0.8
+   ],
+   "confidence": "high",
+   "wall": "E",
+   "build_now": "side-cabinet at [2.55,6.6]",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "x 580-730",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_004444.jpg",
+     "film_s": 4444.0,
+     "film_ts": "74:04",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4444s",
+     "note": "x 590-760",
+     "crop": "crops/wide_74-04_f004444.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-small-prints",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Column of three small framed prints/drawings",
+   "position": [
+    7.5,
+    7.2
+   ],
+   "rotation": 0,
+   "size": [
+    0.35,
+    0.03,
+    1.0
+   ],
+   "confidence": "high",
+   "wall": "E",
+   "note": "On the E wall between the vestibolo door and the 'fine' canvas, above the side cabinet.",
+   "build_now": "small-prints on wall S at 3.35",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "x 535-600",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-fine-canvas",
+   "room": "salotto",
+   "kind": "art",
+   "label": "White canvas with orange and grey shapes and the handwritten word 'fine'",
+   "position": [
+    7.5,
+    6.3
+   ],
+   "rotation": 0,
+   "size": [
+    1.2,
+    0.03,
+    0.9
+   ],
+   "confidence": "high",
+   "wall": "E",
+   "note": "Hangs on the E wall immediately N of the statue (the statue overlaps its S edge from the sofa side).",
+   "build_now": "fine-canvas on wall S at 2.6",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "x 625-800",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_000051.jpg",
+     "film_s": 51.0,
+     "film_ts": "00:51",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=51s",
+     "note": "canvas left of the door as Eco walks out",
+     "crop": null
+    }
+   ]
+  },
+  {
+   "id": "salotto-credenza",
+   "room": "salotto",
+   "kind": "bookcase",
+   "label": "Dark wooden credenza/bookcase: glazed top with shells and oval family photographs, open shelves with CD racks and hi-fi, cupboards below",
+   "position": [
+    7.25,
+    3.1
+   ],
+   "rotation": -90,
+   "size": [
+    2.6,
+    0.5,
+    2.3
+   ],
+   "confidence": "high",
+   "wall": "E",
+   "note": "Against the E wall behind cases 2-3 and the dining pocket. Not a library bookcase.",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "credenza x 1370-1920",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+     "note": "credenza behind, CDs at right",
+     "crop": "crops/photo_curti_parini_cases.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003952.jpg",
+     "film_s": 3952.0,
+     "film_ts": "65:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3952s",
+     "note": "credenza behind Eco at the dining table",
+     "crop": "crops/archive_dining_65-52_f003952.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/zanni_2010_umberto_eco_in_his_house_orig.jpg",
+     "note": "credenza with hi-fi at right",
+     "crop": "crops/photo_zanni_2010.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-dining-table",
+   "room": "salotto",
+   "kind": "table",
+   "label": "Dark wooden dining table with six Thonet-style chairs, white seat covers",
+   "position": [
+    6.0,
+    2.0
+   ],
+   "rotation": 90,
+   "size": [
+    1.6,
+    1.0,
+    0.75
+   ],
+   "confidence": "high",
+   "note": "In the pocket S of case 3, in front of the credenza; chairs also seen through case 2.",
+   "build_now": "dining-table at [1.7,5.6] (W side)",
+   "evidence": [
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+     "note": "dining table right of case 3",
+     "crop": "crops/photo_curti_parini_cases.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003952.jpg",
+     "film_s": 3952.0,
+     "film_ts": "65:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3952s",
+     "note": "archive: Eco at the dining table",
+     "crop": null
+    },
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "dining chairs at far left",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-wood-cabinet",
+   "room": "salotto",
+   "kind": "cabinet",
+   "label": "Glazed dark pine cabinet with curiosities, bottles and a small framed picture (the build's salotto-wood)",
+   "position": [
+    0.25,
+    5.8
+   ],
+   "rotation": 90,
+   "size": [
+    2.4,
+    0.5,
+    2.3
+   ],
+   "confidence": "high",
+   "wall": "W",
+   "build_now": "salotto-wood 2.4 m on the W wall (keep)",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "cabinet x 1180-1500",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "cabinet centred",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_000314.jpg",
+     "film_s": 314.0,
+     "film_ts": "05:14",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=314s",
+     "note": "pan over the curios",
+     "crop": "crops/cabinet_pan_05-13_f000314.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-burnt-book",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Framed burnt book assemblage (charred pages pinned on board)",
+   "position": [
+    0,
+    4.45
+   ],
+   "rotation": 0,
+   "size": [
+    0.5,
+    0.03,
+    0.7
+   ],
+   "confidence": "high",
+   "wall": "W",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_003056.jpg",
+     "film_s": 3056.0,
+     "film_ts": "50:56",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3056s",
+     "note": "close-up beside the cabinet",
+     "crop": "crops/burnt_book_50-55_f003056.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "x 1125-1195",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-gilt-small-painting",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Small gilt-framed painting N of the cabinet",
+   "position": [
+    0,
+    7.2
+   ],
+   "rotation": 0,
+   "size": [
+    0.5,
+    0.03,
+    0.6
+   ],
+   "confidence": "medium",
+   "wall": "W",
+   "evidence": [
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "x 380-440",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-tv",
+   "room": "salotto",
+   "kind": "tv",
+   "label": "Flat-screen television on a low stand N of the cabinet",
+   "position": [
+    0.5,
+    7.3
+   ],
+   "rotation": 90,
+   "size": [
+    0.9,
+    0.4,
+    0.6
+   ],
+   "confidence": "medium",
+   "build_now": "tv at [0.55,3.9]",
+   "evidence": [
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "TV right of the cabinet",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-piano",
+   "room": "salotto",
+   "kind": "piano",
+   "label": "Dark upright piano with 12 book piles, child-Jesus figure on top, framed drawings above",
+   "position": [
+    1.9,
+    7.3
+   ],
+   "rotation": 180,
+   "size": [
+    1.45,
+    0.62,
+    1.22
+   ],
+   "confidence": "low-medium",
+   "wall": "N",
+   "note": "Wall not fixed by any shot: the pull-back at 42:51-43:04 shows only the piano; the 50:51 wide shows the W wall S of door 2 empty, so the build's W-wall position is ruled out. The photograph pairing it with the cabinet wall and the blue tile panel plus 'eco' print at its left put it on the N wall W part, near the corner with the TV.",
+   "build_now": "piano at [0.42,2.7] rot 90 on the W wall",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_002585.jpg",
+     "film_s": 2585.0,
+     "film_ts": "43:05",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2585s",
+     "note": "piano pull-back",
+     "crop": "crops/piano_43-04_f002585.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "piano with drawings above",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-blue-panel",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Framed blue-and-white patterned panel (tiles or textile), low on the wall W of the piano",
+   "position": [
+    1.0,
+    7.6
+   ],
+   "rotation": 0,
+   "size": [
+    0.5,
+    0.03,
+    0.6
+   ],
+   "confidence": "low-medium",
+   "wall": "N",
+   "evidence": [
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "x 525-575",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_002585.jpg",
+     "film_s": 2585.0,
+     "film_ts": "43:05",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2585s",
+     "note": "strip at the left edge",
+     "crop": null
+    }
+   ]
+  },
+  {
+   "id": "salotto-eco-print",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Small framed print with the word 'eco', W of the piano",
+   "position": [
+    1.0,
+    7.6
+   ],
+   "rotation": 0,
+   "size": [
+    0.4,
+    0.03,
+    0.4
+   ],
+   "confidence": "low-medium",
+   "wall": "N",
+   "evidence": [
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "x 565-605",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-drawings-over-piano",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Two large framed drawings above the piano, a picture E of it",
+   "position": [
+    1.9,
+    7.6
+   ],
+   "rotation": 0,
+   "size": [
+    2.2,
+    0.03,
+    1.0
+   ],
+   "confidence": "low-medium",
+   "wall": "N",
+   "evidence": [
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "x 530-940",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-dark-painting",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Dark-framed painting (warm abstract) on the N wall over the E end of sofa A",
+   "position": [
+    4.6,
+    7.6
+   ],
+   "rotation": 0,
+   "size": [
+    0.9,
+    0.03,
+    0.8
+   ],
+   "confidence": "high",
+   "wall": "N",
+   "build_now": "sofa-picture on wall N at 3.2 (keep on N, move E)",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "x 165-340",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    },
+    {
+     "source": "film",
+     "frame": "f_001972.jpg",
+     "film_s": 1972.0,
+     "film_ts": "32:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1972s",
+     "note": "frame edge above sofa A",
+     "crop": null
+    }
+   ]
+  },
+  {
+   "id": "salotto-gilt-painting",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Gilt-framed dark oil painting on the N wall W of the dark-framed painting",
+   "position": [
+    3.5,
+    7.6
+   ],
+   "rotation": 0,
+   "size": [
+    0.7,
+    0.03,
+    0.9
+   ],
+   "confidence": "high",
+   "wall": "N",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "x 0-130",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-white-print",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Large white-framed, white-matted print with small coloured marks",
+   "position": [
+    5.6,
+    7.6
+   ],
+   "rotation": 0,
+   "size": [
+    0.8,
+    0.03,
+    1.0
+   ],
+   "confidence": "low",
+   "wall": "N",
+   "note": "Seen close at the right of the 50:51 wide, which puts it on the N wall near the vestibolo door; the 74:13 wide shows the dark-framed painting there instead. Possibly hung on the door-side pier. Keep one of the two if the wall runs out of room.",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "x 1560-1860",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-three-paintings",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Three small framed paintings in a row at the E end of the window wall, above a low wooden chest",
+   "position": [
+    6.7,
+    0
+   ],
+   "rotation": 0,
+   "size": [
+    1.2,
+    0.03,
+    0.5
+   ],
+   "confidence": "high",
+   "wall": "S",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "x 620-835",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/zanni_2010_umberto_eco_in_his_house_orig.jpg",
+     "note": "gilt painting near the window",
+     "crop": "crops/photo_zanni_2010.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-low-chest",
+   "room": "salotto",
+   "kind": "cabinet",
+   "label": "Low dark wooden chest under the three paintings",
+   "position": [
+    6.7,
+    0.25
+   ],
+   "rotation": 0,
+   "size": [
+    1.0,
+    0.45,
+    0.6
+   ],
+   "confidence": "medium",
+   "wall": "S",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "x 620-835 y 290-400",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-folding-stool",
+   "room": "salotto",
+   "kind": "stool",
+   "label": "Wooden X-frame folding stool with black leather seat",
+   "position": [
+    5.0,
+    1.0
+   ],
+   "rotation": 0,
+   "size": [
+    0.6,
+    0.5,
+    0.5
+   ],
+   "confidence": "high",
+   "build_now": "folding-stool at [4.4,2.3]",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "x 700-1100",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-lectern",
+   "room": "salotto",
+   "kind": "stand",
+   "label": "Wooden lectern/stand holding a magazine",
+   "position": [
+    4.6,
+    0.5
+   ],
+   "rotation": 0,
+   "size": [
+    0.5,
+    0.4,
+    1.1
+   ],
+   "confidence": "high",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "x 950-1210",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-small-table",
+   "room": "salotto",
+   "kind": "table",
+   "label": "Small wooden table with books, in front of window 1",
+   "position": [
+    4.2,
+    0.7
+   ],
+   "rotation": 0,
+   "size": [
+    0.7,
+    0.5,
+    0.5
+   ],
+   "confidence": "medium",
+   "build_now": "magazine-piles at [1.2,3.4]?",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "x 1030-1350 y 540-660",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-ropes-painting",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Large assemblage painting of tangled straps and wood",
+   "position": [
+    3.3,
+    0
+   ],
+   "rotation": 0,
+   "size": [
+    1.3,
+    0.05,
+    1.1
+   ],
+   "confidence": "high",
+   "wall": "S",
+   "note": "On the window wall W of window 1, behind Renate's sofa.",
+   "build_now": "ropes-painting on wall N at 5.2",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_000230.jpg",
+     "film_s": 230.0,
+     "film_ts": "03:50",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=230s",
+     "note": "x 1380-1920",
+     "crop": "crops/window_wall_03-50_f000230.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-drawings-sw",
+   "room": "salotto",
+   "kind": "art",
+   "label": "Two framed drawings (white-matted drawing above, map-like drawing in a dark frame below) and a small hanging object, at the W end of the window wall",
+   "position": [
+    0.8,
+    0
+   ],
+   "rotation": 0,
+   "size": [
+    1.0,
+    0.03,
+    1.6
+   ],
+   "confidence": "medium",
+   "wall": "S",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_003052.jpg",
+     "film_s": 3052.0,
+     "film_ts": "50:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=3052s",
+     "note": "x 565-830",
+     "crop": "crops/cabinet_wall_50-51_f003052.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-orrery",
+   "room": "salotto",
+   "kind": "object",
+   "label": "Brass orrery on the coffee table",
+   "position": [
+    3.9,
+    4.6
+   ],
+   "rotation": 0,
+   "size": [
+    0.35,
+    0.35,
+    0.5
+   ],
+   "confidence": "high",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_001972.jpg",
+     "film_s": 1972.0,
+     "film_ts": "32:52",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1972s",
+     "note": "orrery in the foreground",
+     "crop": null
+    },
+    {
+     "source": "film",
+     "frame": "f_004453.jpg",
+     "film_s": 4453.0,
+     "film_ts": "74:13",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4453s",
+     "note": "orrery x 280-720",
+     "crop": "crops/wide_74-13_f004453.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-dioramas",
+   "room": "salotto",
+   "kind": "object",
+   "label": "Two shadow-box dioramas (garden, miniature library) on top of case 1; brass stand and lens on case 2; folded fan-book and dried pomegranates beside them",
+   "position": [
+    5.98,
+    4.6
+   ],
+   "rotation": 0,
+   "size": [
+    0.8,
+    0.4,
+    0.3
+   ],
+   "confidence": "high",
+   "anchor": {
+    "object": "salotto-vitrine-1",
+    "on_top": true
+   },
+   "build_now": "diorama on the left vitrine (keep)",
+   "evidence": [
+    {
+     "source": "film",
+     "frame": "f_004431.jpg",
+     "film_s": 4431.0,
+     "film_ts": "73:51",
+     "link": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4431s",
+     "note": "miniature library on the case",
+     "crop": null
+    },
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_1.png",
+     "note": "dioramas on top",
+     "crop": "crops/photo_curti_parini_cases.jpg"
+    }
+   ]
+  },
+  {
+   "id": "salotto-child-jesus",
+   "room": "salotto",
+   "kind": "object",
+   "label": "Gilt wooden child-Jesus figure with crown on top of the piano",
+   "position": [
+    1.9,
+    7.3
+   ],
+   "rotation": 0,
+   "size": [
+    0.2,
+    0.2,
+    0.4
+   ],
+   "confidence": "high",
+   "anchor": {
+    "object": "salotto-piano",
+    "on_top": true
+   },
+   "build_now": "child-jesus on piano (keep)",
+   "evidence": [
+    {
+     "source": "photo",
+     "file": "eco-sources/eco-photos/criticaletteraria_2022_7.png",
+     "note": "x 660-720",
+     "crop": "crops/photo_curti_parini_cabinet_piano.jpg"
+    }
+   ]
+  }
+ ]
+}

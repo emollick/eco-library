@@ -1,0 +1,38 @@
+# Video files and the frames cut from them are never committed (about a gigabyte per film).
+*.mp4
+*.mkv
+*.webm
+*.m4v
+*.part
+*.part[0-9]
+eco-video/frames/
+eco-video/dl/
+# The films' subtitles and download metadata, the crops made while reading the frames,
+# and the room photographs (other than Andrea Zanni's) stay out of the repository
+eco-video/captions/
+eco-video/meta/
+eco-video/studio/crops/
+eco-video/salotto/crops/*
+!eco-video/salotto/crops/photo_zanni_2010.jpg
+eco-sources/experience/frames/
+eco-sources/eco-photos/*
+!eco-sources/eco-photos/sources.json
+!eco-sources/eco-photos/zanni_2010_umberto_eco_in_his_house_orig.jpg
+!eco-sources/eco-photos/zanni_banner_orig.jpg
+!eco-sources/eco-photos/milanotoday_zanni.jpg
+# Records of individual builds, audits, backups, screenshots and reviews are kept outside the repository
+eco-map/audit-*/
+eco-map/backup-*/
+eco-map/screenshots/
+netlify/screenshots/
+reviews/
+ideas/
+# Wikipedia lookup cache and Python bytecode
+eco-map/cache/
+__pycache__/
+*.pyc
+# Staging and scratch output
+/staging/
+/scratch/
+*.log.tmp
+.DS_Store

@@ -1,0 +1,4535 @@
+{
+ "video_id": "zZEy10fpq3I",
+ "title": "Umberto Eco: La biblioteca del mondo (2022, Davide Ferrario)",
+ "frames_dir": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/",
+ "shots": [
+  {
+   "start_s": 49.6,
+   "end_s": 51,
+   "room_id": "salotto",
+   "room_confidence": "medium",
+   "camera": "Handheld, black-and-white, at shoulder height directly behind Eco, moving forward; he walks away from the camera out of the salotto through its door (the door with the mirror), towards the coat passage.",
+   "caption_context": "No dialogue (opening credits, music). Same door and canvas seen in colour at 01:14:02 (t_011402), which fixes this as the salotto door.",
+   "objects": [
+    {
+     "kind": "artwork",
+     "label": "White canvas with script 'fine'",
+     "description": "Large white canvas with a few orange/grey shapes and the handwritten word 'fine' (also visible at 01:14:02 to the right of the salotto door).",
+     "position_hint": "On the wall immediately left of the salotto door, at head height",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000049_62.jpg",
+     "timestamp_s": 49
+    },
+    {
+     "kind": "artwork",
+     "label": "Group of small framed prints",
+     "description": "Three or four small framed prints/drawings hung in a column left of the canvas.",
+     "position_hint": "Left wall of the salotto beside the door",
+     "count": 4,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000049_62.jpg",
+     "timestamp_s": 49
+    },
+    {
+     "kind": "other",
+     "label": "Small dark wooden side cabinet with telephone",
+     "description": "Low antique wooden cabinet (comodino) with a telephone/answering machine on top; wastepaper basket on the floor beside it.",
+     "position_hint": "Against the wall left of the salotto door, under the framed prints",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000049_62.jpg",
+     "timestamp_s": 49
+    },
+    {
+     "kind": "door",
+     "label": "Salotto door with mirror panel",
+     "description": "Open white door; a full-height mirror on the passage wall beyond reflects the shelves.",
+     "position_hint": "Salotto exit towards the vestibule/coat passage",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000049_62.jpg",
+     "timestamp_s": 49
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed prints in the passage",
+     "description": "Several small framed pictures (cartoons/certificates) on the wall of the passage seen through the door.",
+     "position_hint": "Passage wall beyond the salotto door, right of the mirror",
+     "count": 4,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000050.jpg",
+     "timestamp_s": 50
+    }
+   ]
+  },
+  {
+   "start_s": 52,
+   "end_s": 57,
+   "room_id": "vestibolo",
+   "room_confidence": "medium",
+   "camera": "Handheld behind Eco moving forward through a narrow passage with coats hanging on an open rail on the left and shelves/prints on the right; a doorway ahead opens into the long corridor.",
+   "caption_context": "No dialogue. Matches the CriticaLetteraria walk order salotto -> vestibolo -> corridoio; the GOSH! pasta flag is filmed again in colour at 50:58 next to white shelving.",
+   "objects": [
+    {
+     "kind": "other",
+     "label": "Open coat rail with hanging coats",
+     "description": "A rail of dark coats and jackets hanging in an open wardrobe niche.",
+     "position_hint": "Left side of the passage, just after the salotto door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000054.jpg",
+     "timestamp_s": 54
+    },
+    {
+     "kind": "artwork",
+     "label": "'GOSH!' Italian-flag pasta picture",
+     "description": "Framed work: green panel, a field of dried pasta tubes, red panel, a black twisted ribbon, and the printed word 'GOSH!' below (colour view t_005058).",
+     "position_hint": "High on the right/facing wall of the passage, above other frames",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000056.jpg",
+     "timestamp_s": 56
+    },
+    {
+     "kind": "artwork",
+     "label": "Wall of framed prints",
+     "description": "A dense hang of framed prints and posters (circle/geometric print, small drawings) covering the passage wall around the GOSH! picture.",
+     "position_hint": "Right-hand wall of the vestibule passage",
+     "count": 8,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000056.jpg",
+     "timestamp_s": 56
+    },
+    {
+     "kind": "curiosity",
+     "label": "Toy figure on shelf",
+     "description": "A small standing figure/toy (monster or robot silhouette) on a shelf at eye level.",
+     "position_hint": "Right-hand shelf unit at the passage exit",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000054.jpg",
+     "timestamp_s": 54
+    },
+    {
+     "kind": "other",
+     "label": "Box files and papers",
+     "description": "Horizontal box files/document boxes on a shelf at the passage exit.",
+     "position_hint": "Right-hand shelf unit, lower shelf",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000054.jpg",
+     "timestamp_s": 54
+    }
+   ]
+  },
+  {
+   "start_s": 58,
+   "end_s": 79,
+   "room_id": "corridoio",
+   "room_confidence": "high",
+   "camera": "Handheld behind Eco walking the full length of the long corridor: floor-to-ceiling white shelving (bookcase A) on the right, framed prints on the left wall, a glazed door with vertical bars at the far end.",
+   "caption_context": "No dialogue. Bookcase A (fiction, feuilleton, comics) per layout.json; the 'A' shelf labels are legible in colour at 44:04-44:34.",
+   "objects": [
+    {
+     "kind": "artwork",
+     "label": "Row of framed prints on the corridor wall",
+     "description": "A continuous line of framed prints (geometric circle print, small drawings, an abstract dark square) along the wall opposite bookcase A.",
+     "position_hint": "Left wall of the corridor, at eye height",
+     "count": 10,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000058.jpg",
+     "timestamp_s": 58
+    },
+    {
+     "kind": "ladder",
+     "label": "Ladder rail on bookcase A",
+     "description": "Metal rail at c. 2.3 m for a sliding ladder along the corridor shelving (ladder itself seen leaning at 01:24 and through the window at 05:19).",
+     "position_hint": "Along bookcase A",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000100.jpg",
+     "timestamp_s": 60
+    },
+    {
+     "kind": "door",
+     "label": "Glazed door at the corridor end",
+     "description": "Double door with glass panels and vertical iron bars, daylight behind (the balcony door of the corridor end).",
+     "position_hint": "Far end of the corridor",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000116.jpg",
+     "timestamp_s": 76
+    },
+    {
+     "kind": "window",
+     "label": "Window/door light at corridor end",
+     "description": "Daylight from the glazed door silhouettes the corridor.",
+     "position_hint": "Corridor end",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000112.jpg",
+     "timestamp_s": 72
+    }
+   ]
+  },
+  {
+   "start_s": 80,
+   "end_s": 83,
+   "room_id": "corridoio-arte",
+   "room_confidence": "low",
+   "camera": "Handheld behind Eco; he turns at the corridor end past a glazed door with a radiator below and enters a short leg before the study door.",
+   "caption_context": "No dialogue. This junction (glazed balcony door + radiator + pixel-like abstract picture) is filmed again in colour at 01:15:02-01:15:06 when the granddaughter skates the same route.",
+   "objects": [
+    {
+     "kind": "door",
+     "label": "Glazed balcony door with iron bars",
+     "description": "Double glazed door with vertical bars; radiator beneath; a small wastebasket on the floor.",
+     "position_hint": "End of corridor A, at the turn towards the study",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000122.jpg",
+     "timestamp_s": 82
+    },
+    {
+     "kind": "artwork",
+     "label": "Pixel-mosaic abstract picture",
+     "description": "A square canvas of small multicoloured squares (mosaic/pixel pattern), unframed.",
+     "position_hint": "On the wall right of the glazed door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000120.jpg",
+     "timestamp_s": 80
+    },
+    {
+     "kind": "artwork",
+     "label": "Small framed prints by the door",
+     "description": "Two or three small framed works either side of the glazed door.",
+     "position_hint": "Walls flanking the glazed door",
+     "count": 3,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000122.jpg",
+     "timestamp_s": 82
+    },
+    {
+     "kind": "other",
+     "label": "Radiator",
+     "description": "White panel radiator under the glazed door/window.",
+     "position_hint": "Below the glazed door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000122.jpg",
+     "timestamp_s": 82
+    }
+   ]
+  },
+  {
+   "start_s": 84,
+   "end_s": 95,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Handheld behind Eco entering the big study from the corridor side; a stepladder and a folded ironing board stand by the door; then a wide view over the low island bookcases piled with books, ceiling fan overhead, tall wall shelving beyond.",
+   "caption_context": "No dialogue.",
+   "objects": [
+    {
+     "kind": "ladder",
+     "label": "Aluminium stepladder",
+     "description": "Folding household stepladder leaning against the shelving just inside the study door.",
+     "position_hint": "Right of the study entrance, against the low unit",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000124.jpg",
+     "timestamp_s": 84
+    },
+    {
+     "kind": "other",
+     "label": "Folded ironing board",
+     "description": "Folded ironing board propped beside the stepladder.",
+     "position_hint": "Right of the study entrance",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000124.jpg",
+     "timestamp_s": 84
+    },
+    {
+     "kind": "pile",
+     "label": "Piles of books on top of the island bookcases",
+     "description": "Dozens of stacked books covering the tops of the low island units (M/N/O comb), 3-10 books per stack, several stacks per unit.",
+     "position_hint": "On top of the low islands in the middle of the study",
+     "count": 60,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000126.jpg",
+     "timestamp_s": 86
+    },
+    {
+     "kind": "other",
+     "label": "Ceiling fan",
+     "description": "White ceiling fan with lamp.",
+     "position_hint": "Study ceiling, centre",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000126.jpg",
+     "timestamp_s": 86
+    },
+    {
+     "kind": "lamp",
+     "label": "Recessed spotlights",
+     "description": "Row of recessed ceiling spots along the study.",
+     "position_hint": "Study ceiling",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000156.jpg",
+     "timestamp_s": 116
+    }
+   ]
+  },
+  {
+   "start_s": 96,
+   "end_s": 103,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Handheld behind Eco walking between the island bookcases and the tall wall of black-spined sets (the L/P wall) towards the windows.",
+   "caption_context": "No dialogue.",
+   "objects": [
+    {
+     "kind": "pile",
+     "label": "Books lying flat on shelves",
+     "description": "Horizontal stacks on top of vertical rows on many shelves.",
+     "position_hint": "Island shelves either side of the aisle",
+     "count": 20,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000128.jpg",
+     "timestamp_s": 88
+    },
+    {
+     "kind": "window",
+     "label": "Study window with shutters",
+     "description": "Window with slatted shutters at the end of the aisle.",
+     "position_hint": "End wall of the study",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000134.jpg",
+     "timestamp_s": 94
+    }
+   ]
+  },
+  {
+   "start_s": 104,
+   "end_s": 110,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Handheld behind Eco past a tall grey metal cabinet, then along the desk row under the windows: radiator, desk with printer/computer, a white water-cooler style appliance, a wastebasket.",
+   "caption_context": "No dialogue.",
+   "objects": [
+    {
+     "kind": "other",
+     "label": "Grey metal cabinet",
+     "description": "Tall two-door metal office cabinet.",
+     "position_hint": "Left of the aisle before the desk zone",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000136.jpg",
+     "timestamp_s": 96
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed print beside the cabinet",
+     "description": "A framed print hanging on the shelf end next to the cabinet.",
+     "position_hint": "Right of the aisle at the cabinet",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000136.jpg",
+     "timestamp_s": 96
+    },
+    {
+     "kind": "desk",
+     "label": "Desk under the window with computer",
+     "description": "Dark desk with a computer, keyboard, papers and a printer; radiator under the window behind it.",
+     "position_hint": "Along the window wall of the study",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000142.jpg",
+     "timestamp_s": 102
+    },
+    {
+     "kind": "other",
+     "label": "Water cooler / white appliance",
+     "description": "Tall white appliance (water dispenser or printer) beside the desk.",
+     "position_hint": "Right of the desk under the window",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000142.jpg",
+     "timestamp_s": 102
+    },
+    {
+     "kind": "window",
+     "label": "Two study windows",
+     "description": "Tall windows with shutters/curtains over the desk row.",
+     "position_hint": "Window wall of the study",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000140.jpg",
+     "timestamp_s": 100
+    },
+    {
+     "kind": "other",
+     "label": "Radiator",
+     "description": "Panel radiator under the window behind the desk.",
+     "position_hint": "Window wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000142.jpg",
+     "timestamp_s": 102
+    }
+   ]
+  },
+  {
+   "start_s": 111,
+   "end_s": 119,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Camera stops; Eco takes a book from a shelf beside a white door with light switches and a pinned note, leafs through it (close-ups of his face and hands).",
+   "caption_context": "No dialogue. The door with three switches and the note is probably the door to the Stanza degli antichi (opens off the study), low confidence.",
+   "objects": [
+    {
+     "kind": "door",
+     "label": "White door with switch panel and pinned note",
+     "description": "Closed white door; a panel of three light switches and a typed note pinned on the door frame; framed prints to its right.",
+     "position_hint": "Study wall between the desk zone and the windows",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000144.jpg",
+     "timestamp_s": 104
+    },
+    {
+     "kind": "artwork",
+     "label": "Two framed prints beside the door",
+     "description": "A framed drawing and a framed print/collage hung one above the other next to the door.",
+     "position_hint": "Right of the white door",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000144.jpg",
+     "timestamp_s": 104
+    },
+    {
+     "kind": "desk",
+     "label": "Desk with open box files",
+     "description": "Desk surface with open folders/box files and papers.",
+     "position_hint": "In front of the door, right side",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000144.jpg",
+     "timestamp_s": 104
+    },
+    {
+     "kind": "other",
+     "label": "Radiator",
+     "description": "Radiator under the window right of the door.",
+     "position_hint": "Right of the door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000144.jpg",
+     "timestamp_s": 104
+    }
+   ]
+  },
+  {
+   "start_s": 120,
+   "end_s": 130,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Handheld behind Eco walking back down the aisle between the island units and the desk row: two black office chairs, laptops/monitors on a long desk, cardboard boxes of books on the floor, piles on the desk.",
+   "caption_context": "No dialogue (end of the 2015 long take). The same desk zone is seen in colour at 13:01-13:14 and 01:14:26.",
+   "objects": [
+    {
+     "kind": "desk",
+     "label": "Long desk row with two workstations",
+     "description": "Dark desks in a row with two laptops/monitors, phones and papers; two black mesh office chairs.",
+     "position_hint": "Right side of the study aisle, under the windows",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000158.jpg",
+     "timestamp_s": 118
+    },
+    {
+     "kind": "chair",
+     "label": "Black mesh office chairs",
+     "description": "Two swivel office chairs at the desk row.",
+     "position_hint": "At the desk row",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000158.jpg",
+     "timestamp_s": 118
+    },
+    {
+     "kind": "pile",
+     "label": "Piles of books on the desk",
+     "description": "Several stacks of 5-10 books and folders on the desk surface.",
+     "position_hint": "On the desk row nearest the camera",
+     "count": 25,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000158.jpg",
+     "timestamp_s": 118
+    },
+    {
+     "kind": "pile",
+     "label": "Books and open boxes on the floor",
+     "description": "Cardboard boxes with books and loose stacks on the floor beside the island units.",
+     "position_hint": "On the floor at the foot of the island unit, left of the aisle",
+     "count": 15,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000158.jpg",
+     "timestamp_s": 118
+    },
+    {
+     "kind": "other",
+     "label": "Low white cupboard",
+     "description": "Low white two-door cupboard at the end of the island.",
+     "position_hint": "Left foreground",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000158.jpg",
+     "timestamp_s": 118
+    }
+   ]
+  },
+  {
+   "start_s": 127,
+   "end_s": 154,
+   "room_id": "studio",
+   "room_confidence": "low",
+   "camera": "Black-and-white close shot of Eco seated in a dark leather armchair, window with curtains behind him, talking to camera.",
+   "caption_context": "01:55-02:33 Eco: 'la biblioteca è effettivamente simbolo ... di una memoria collettiva. Dante Alighieri quando arriva nell'ultimo canto del Paradiso ... dice vidi raccolto in un volume ciò che nell'universo si squaderna. Quindi vede Dio come la biblioteca delle biblioteche' (The library is the symbol of a collective memory; Dante sees God as the library of libraries).",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Dark leather armchair",
+     "description": "Deep leather armchair in which Eco sits (probably the black leather sofa/chair of the study).",
+     "position_hint": "Near a curtained window",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000210.jpg",
+     "timestamp_s": 130
+    },
+    {
+     "kind": "window",
+     "label": "Curtained window",
+     "description": "Window with light curtains behind Eco.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000210.jpg",
+     "timestamp_s": 130
+    }
+   ],
+   "note": "Frame t_000210 chosen from the 02:07-02:34 range; room assignment is a guess (study or salotto)."
+  },
+  {
+   "start_s": 207,
+   "end_s": 284,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Static two-shot: Renate Ramge (right) and Carlotta Eco (left) on white sofas/armchairs, windows behind, a large colourful painting behind Renate, the dark wooden cabinet with CDs and hi-fi behind Carlotta; opening close-up of a framed photograph of Eco on a beach.",
+   "caption_context": "03:34-04:43 Renate/Carlotta remember the funeral and the Linus issue: 'ti ricordi questo numero di Linus che hanno fatto una controcopertina, cioè lui vestito da Superman, da Charlie Brown, da Puffo' (the Linus back cover with Eco dressed as Superman, Charlie Brown, a Smurf); 'c'è un'enorme folla che occupava anche l'entrata del castello ... ho detto ma io sono la vedova' (a huge crowd filled the Castello entrance; 'I said, but I am the widow').",
+   "objects": [
+    {
+     "kind": "artwork",
+     "label": "Framed photograph of Eco on a pebble beach",
+     "description": "Large black-framed colour photograph: Eco from behind in a blue jacket and straw hat with a cane, standing on a pebble beach by the sea.",
+     "position_hint": "Salotto wall above the sofa",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000327_71.jpg",
+     "timestamp_s": 207
+    },
+    {
+     "kind": "sofa",
+     "label": "White slip-covered sofas and armchairs",
+     "description": "Two white armchairs/sofas facing each other.",
+     "position_hint": "Salotto centre, in front of the windows",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000348.jpg",
+     "timestamp_s": 228
+    },
+    {
+     "kind": "artwork",
+     "label": "Large painting of tangled ropes/roots",
+     "description": "Large colourful painting (ochre/brown knotted forms, like ropes or driftwood) behind Renate.",
+     "position_hint": "Salotto wall behind the right armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000348.jpg",
+     "timestamp_s": 228
+    },
+    {
+     "kind": "artwork",
+     "label": "Small gilt-framed paintings",
+     "description": "Two or three small gilt-framed pictures above the wooden cabinet.",
+     "position_hint": "On the wall above the wooden cabinet",
+     "count": 3,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000401_67.jpg",
+     "timestamp_s": 241
+    },
+    {
+     "kind": "other",
+     "label": "Dark wooden cabinet with CDs and hi-fi",
+     "description": "Open-shelved dark wooden cabinet holding rows of CDs, a hi-fi/amplifier and objects (layout 'salotto-wood').",
+     "position_hint": "Salotto wall behind Carlotta (left)",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000401_67.jpg",
+     "timestamp_s": 241
+    },
+    {
+     "kind": "other",
+     "label": "Wooden folding stool / luggage rack",
+     "description": "Light-wood X-frame folding stool with a black seat.",
+     "position_hint": "Between the sofas, in front of the window",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000348.jpg",
+     "timestamp_s": 228
+    },
+    {
+     "kind": "lamp",
+     "label": "Chrome floor lamp",
+     "description": "Tall chrome floor lamp with a white shade (Tolomeo-type) behind the sofa.",
+     "position_hint": "Between the sofas",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000348.jpg",
+     "timestamp_s": 228
+    },
+    {
+     "kind": "window",
+     "label": "Salotto windows",
+     "description": "Two tall windows with light curtains.",
+     "position_hint": "Salotto window wall (Castello side)",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000401_67.jpg",
+     "timestamp_s": 241
+    },
+    {
+     "kind": "other",
+     "label": "Piles of magazines/comics on the floor",
+     "description": "Stack of magazines and comic albums (the Linus issue is being handled).",
+     "position_hint": "Floor beside the left armchair",
+     "count": 6,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000401_67.jpg",
+     "timestamp_s": 241
+    }
+   ]
+  },
+  {
+   "start_s": 292,
+   "end_s": 306,
+   "room_id": "antichi",
+   "room_confidence": "medium",
+   "camera": "Exterior of the building on Piazza Castello, then a profile shot of Renate at a balcony railing looking towards the Castello Sforzesco tower.",
+   "caption_context": "No dialogue over the balcony; 05:25 Carlotta begins: 'dentro la casa che lui e mia madre hanno scelto 30 anni fa per poter tenere tutta la collezione di libri di mio padre cioè i 1200 libri antichi e i 30.000 libri moderni' (the house they chose 30 years ago to hold the 1,200 rare and 30,000 modern books).",
+   "objects": [
+    {
+     "kind": "window",
+     "label": "Balcony with iron railing facing the Castello",
+     "description": "Wrought-iron balcony railing; the Castello Sforzesco tower and trees directly opposite (the Stanza degli antichi balcony per the Fondazione).",
+     "position_hint": "Balcony of the rare-book room",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000506.jpg",
+     "timestamp_s": 306
+    },
+    {
+     "kind": "door",
+     "label": "Balcony door",
+     "description": "Open glazed door onto the balcony.",
+     "position_hint": "Rare-book room, Castello side",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000506.jpg",
+     "timestamp_s": 306
+    }
+   ]
+  },
+  {
+   "start_s": 307,
+   "end_s": 316,
+   "room_id": "salotto",
+   "room_confidence": "medium",
+   "camera": "Slow pans and rack-focus close-ups across the shelves of the dark wooden cabinet full of curiosities; family photographs on the lower shelf.",
+   "caption_context": "05:25-05:53 Carlotta (voice-over): 'qui lui lavorava al computer, telefonava, c'era anche il posto di lavoro delle persone che collaboravano in casa; la stanza degli antichi invece era un po' il rifugio dove si chiudeva a suonare il flauto ... non portava computer né telefoni' (here he worked at the computer; the Room of the Ancients was his refuge for playing the recorder, no computer or phone).",
+   "objects": [
+    {
+     "kind": "curiosity",
+     "label": "Bat skeleton in a glass case",
+     "description": "Mounted skeleton of a bat with spread wings in a small glass box.",
+     "position_hint": "Wooden cabinet, upper shelf, centre",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000507_96.jpg",
+     "timestamp_s": 307
+    },
+    {
+     "kind": "curiosity",
+     "label": "Polychrome wooden bust of a female saint",
+     "description": "Old carved and painted bust of a veiled woman (nun/Madonna) inside the glazed section.",
+     "position_hint": "Wooden cabinet, glazed compartment right",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000507_96.jpg",
+     "timestamp_s": 307
+    },
+    {
+     "kind": "artwork",
+     "label": "Small religious panel painting",
+     "description": "Gold-ground devotional painting (Madonna with figures) inside the glazed compartment.",
+     "position_hint": "Wooden cabinet, glazed compartment, top right",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000507_96.jpg",
+     "timestamp_s": 307
+    },
+    {
+     "kind": "curiosity",
+     "label": "Pocket watch and hedgehog figure",
+     "description": "A pocket watch hanging on the shelf edge; a terracotta hedgehog/porcupine figure; a wooden lidded box; a carved gourd.",
+     "position_hint": "Wooden cabinet, middle shelves",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000507_96.jpg",
+     "timestamp_s": 307
+    },
+    {
+     "kind": "curiosity",
+     "label": "Ostrich egg on a stand and a terracotta classical head",
+     "description": "An egg on a black stand; a small terracotta head of a youth; glass jars of layered coloured sand; old books.",
+     "position_hint": "Wooden cabinet, middle shelves",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000512.jpg",
+     "timestamp_s": 312
+    },
+    {
+     "kind": "curiosity",
+     "label": "Gilded bowl with pins and a small painted figure",
+     "description": "A gold dish/bowl full of pins or needles; a small painted figurine.",
+     "position_hint": "Wooden cabinet, lower left",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000514.jpg",
+     "timestamp_s": 314
+    },
+    {
+     "kind": "curiosity",
+     "label": "Gilt bronze foot, glass sphere, egg, antique clock",
+     "description": "A gilded model of a foot, a crystal sphere on a stand, a wooden sphere, an ostrich egg, a dark egg on a stand, an old bracket clock, a wooden inkwell/letter rack.",
+     "position_hint": "Wooden cabinet, top shelf",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000515_67.jpg",
+     "timestamp_s": 315
+    },
+    {
+     "kind": "curiosity",
+     "label": "Family photographs in oval frames, a hand bell, a papier-mache puppet",
+     "description": "Sepia photographs in oval and rectangular frames, a small brass hand bell, a silver frame, a hand-painted puppet of a bearded man in glasses (Eco caricature), a small framed print.",
+     "position_hint": "Wooden cabinet, lower shelf",
+     "count": 10,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000515_67.jpg",
+     "timestamp_s": 315
+    }
+   ]
+  },
+  {
+   "start_s": 319,
+   "end_s": 320,
+   "room_id": "studio",
+   "room_confidence": "medium",
+   "camera": "Exterior view from the courtyard balcony into the flat: through two windows the study shelving is visible with an aluminium ladder leaning against it; terracotta planters with violets and ivy on the balcony ledge.",
+   "caption_context": "Carlotta's voice-over continues (see previous shot).",
+   "objects": [
+    {
+     "kind": "ladder",
+     "label": "Aluminium ladder seen through the window",
+     "description": "Tall ladder leaning against the study shelves, seen from outside.",
+     "position_hint": "Study, window on the courtyard side",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000519_29.jpg",
+     "timestamp_s": 319
+    },
+    {
+     "kind": "window",
+     "label": "Courtyard windows of the study",
+     "description": "Two tall windows/doors onto the plant-filled balcony.",
+     "position_hint": "Study, courtyard side",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000519_29.jpg",
+     "timestamp_s": 319
+    },
+    {
+     "kind": "other",
+     "label": "Balcony planters",
+     "description": "Row of terracotta pots with violets, ivy climbing the wall.",
+     "position_hint": "Courtyard balcony outside the study",
+     "count": 8,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000519_29.jpg",
+     "timestamp_s": 319
+    }
+   ]
+  },
+  {
+   "start_s": 321,
+   "end_s": 330,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Static wide along the aisle between the tall P wall (black box files on the bottom shelf) and the low island units; then close-up of the 'ECO' box files and a carved wooden plaque.",
+   "caption_context": "Carlotta voice-over ends at 05:53; 06:22 Andreose: 'semiologica curiosa lunatica magica ed ...' (the rare library's name).",
+   "objects": [
+    {
+     "kind": "artwork",
+     "label": "Framed calligraphic text 'I know that you believe you understand...'",
+     "description": "Framed sheet in gothic lettering: 'I know that you believe you understand what you think I said, but I am not sure you realize that what you heard is not what I meant'.",
+     "position_hint": "Standing on top of the low island unit at the end of the aisle",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000522.jpg",
+     "timestamp_s": 322
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed photograph of Eco",
+     "description": "Black-and-white framed portrait photo of Eco leaning against the shelf end.",
+     "position_hint": "On top of the island unit, right of the calligraphy",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000522.jpg",
+     "timestamp_s": 322
+    },
+    {
+     "kind": "pile",
+     "label": "Books on top of the island unit",
+     "description": "Two stacks of 5-7 books beside the calligraphy, plus a row of white 'ECO' box files.",
+     "position_hint": "Top of the low island (Na/Oa) in front of the P wall",
+     "count": 12,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000522.jpg",
+     "timestamp_s": 322
+    },
+    {
+     "kind": "other",
+     "label": "Black box files on the bottom shelf",
+     "description": "Row of black box files along the bottom of the tall wall unit (identifies bookcase P).",
+     "position_hint": "Bottom shelf of the P wall",
+     "count": 10,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000522.jpg",
+     "timestamp_s": 322
+    },
+    {
+     "kind": "curiosity",
+     "label": "Carved wooden plaque 'Umberto Eco'",
+     "description": "Small carved wood relief with a horse/dragon motif and the words UMBERTO ECO.",
+     "position_hint": "On the island shelf beside the ECO box files",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000526.jpg",
+     "timestamp_s": 326
+    },
+    {
+     "kind": "other",
+     "label": "Label 'Libri e riviste ricevuti dopo il 2016'",
+     "description": "Printed label on a low unit: books and periodicals received after 2016.",
+     "position_hint": "Front of the low unit behind the Eco poster (13:07)",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001307_00.jpg",
+     "timestamp_s": 787
+    }
+   ]
+  },
+  {
+   "start_s": 331,
+   "end_s": 350,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Interview: bearded man in a blue-striped shirt and round glasses (the film's content consultant) seated on a black leather chair in front of white shelving; interviewer's shoulder in the foreground.",
+   "caption_context": "06:45 speaker: 'la cosa più bella che ho avuto nella vita è stata 35 anni fa incontrare Umberto Eco il quale mi ha regalato due cose fondamentali: la sua amicizia, il suo sapere, e l'altro accesso alla biblioteca' (meeting Eco 35 years ago gave me his friendship, his knowledge and access to the library).",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Black leather chair",
+     "description": "Black leather armchair/office chair where the interviewee sits.",
+     "position_hint": "Study, in front of a white bay of shelving",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000531_04.jpg",
+     "timestamp_s": 331
+    },
+    {
+     "kind": "pile",
+     "label": "Books lying flat on the shelves",
+     "description": "Loose horizontal stacks on the shelf tops behind the interviewee.",
+     "position_hint": "Shelves behind the chair",
+     "count": 10,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000542.jpg",
+     "timestamp_s": 342
+    }
+   ]
+  },
+  {
+   "start_s": 351,
+   "end_s": 360,
+   "room_id": "antichi",
+   "room_confidence": "high",
+   "camera": "Close profile of Renate playing a recorder from a wooden music stand (a lute hangs behind), then a wide shot from the balcony end of the rare-book room: cherry glazed cabinets on both long walls, the long table, chairs, framed prints and a door at the far end.",
+   "caption_context": "No dialogue (recorder music).",
+   "objects": [
+    {
+     "kind": "curiosity",
+     "label": "Carved wooden music stand with recorder score",
+     "description": "Antique carved wooden music stand holding an open recorder part; Renate plays a wooden alto recorder.",
+     "position_hint": "Rare-book room, near the balcony window",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000551_25.jpg",
+     "timestamp_s": 351
+    },
+    {
+     "kind": "curiosity",
+     "label": "Lute",
+     "description": "Body and neck of a lute hanging on the wall/cabinet behind the music stand.",
+     "position_hint": "Behind the music stand",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000551_25.jpg",
+     "timestamp_s": 351
+    },
+    {
+     "kind": "glass_case",
+     "label": "Cherry-wood glazed cabinets with drawers",
+     "description": "Two runs of glazed bookcases (upper glass doors, drawers and cupboards below) on both long walls, filled with vellum and leather bindings.",
+     "position_hint": "Both long walls of the rare-book room",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000558.jpg",
+     "timestamp_s": 358
+    },
+    {
+     "kind": "desk",
+     "label": "Long wooden table with leather inset",
+     "description": "Long dark oak table with brown leather inset; piles of small antiquarian books and open modern catalogues on it.",
+     "position_hint": "Centre of the rare-book room",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000600.jpg",
+     "timestamp_s": 360
+    },
+    {
+     "kind": "pile",
+     "label": "Books on the rare-room table",
+     "description": "Two stacks of 6-8 small old volumes and two open large-format books.",
+     "position_hint": "On the table, balcony end",
+     "count": 16,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000600.jpg",
+     "timestamp_s": 360
+    },
+    {
+     "kind": "chair",
+     "label": "Wooden chairs with rattan seats",
+     "description": "Antique chairs with rounded backs at the table.",
+     "position_hint": "Around the table",
+     "count": 4,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000600.jpg",
+     "timestamp_s": 360
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed prints on the end wall",
+     "description": "Two large framed engravings (one a landscape/battle, one an allegory) either side of the far door.",
+     "position_hint": "End wall of the rare-book room by the door",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000558.jpg",
+     "timestamp_s": 358
+    },
+    {
+     "kind": "curiosity",
+     "label": "Turned wooden torchère / candle stand",
+     "description": "Tall turned wooden column stand beside the door.",
+     "position_hint": "Far end, left of the door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000558.jpg",
+     "timestamp_s": 358
+    },
+    {
+     "kind": "door",
+     "label": "Door at the end of the rare-book room",
+     "description": "White door standing open onto white shelving (study or corridor beyond).",
+     "position_hint": "End wall opposite the balcony",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000600.jpg",
+     "timestamp_s": 360
+    },
+    {
+     "kind": "lamp",
+     "label": "Ceiling spotlight rail",
+     "description": "Track lighting along the ceiling.",
+     "position_hint": "Ceiling of the rare-book room",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000556.jpg",
+     "timestamp_s": 356
+    }
+   ]
+  },
+  {
+   "start_s": 361,
+   "end_s": 378,
+   "room_id": "antichi",
+   "room_confidence": "high",
+   "camera": "Slow close-up pans along the hermetica shelves (Wagenseil, Fludd, Kircher etc.).",
+   "caption_context": "06:45-06:56 (see previous). Spines already read in spines_zZEy10fpq3I_part0.",
+   "objects": [
+    {
+     "kind": "glass_case",
+     "label": "Open shelf of leather-bound hermetica",
+     "description": "Row of 17th-18th c. leather and vellum bindings behind glass.",
+     "position_hint": "Rare-book room cabinets",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000602.jpg",
+     "timestamp_s": 362
+    }
+   ]
+  },
+  {
+   "start_s": 410,
+   "end_s": 416,
+   "room_id": "salotto",
+   "room_confidence": "low",
+   "camera": "Medium shot: bearded man in a pink-striped shirt leafing through a large open book on a red-clothed table piled with books; behind him shelves of art books and a framed print.",
+   "caption_context": "06:45-06:56 (see above) then 07:04 shelf labels read aloud.",
+   "objects": [
+    {
+     "kind": "pile",
+     "label": "Piles of recent books on the table",
+     "description": "Two stacks of 12-15 paperbacks/hardbacks on a table with a red cloth, a large open folio on top.",
+     "position_hint": "On the red-clothed table in front of the art-book shelves",
+     "count": 28,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000650.jpg",
+     "timestamp_s": 410
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed print of a nude on a rabbit",
+     "description": "Framed lithograph: a nude woman riding a hare/rabbit with green shapes (surreal print), black frame.",
+     "position_hint": "Wall left of the art-book shelves",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000650.jpg",
+     "timestamp_s": 410
+    },
+    {
+     "kind": "curiosity",
+     "label": "Painted folk statuette of a woman in a blue hat",
+     "description": "Carved and painted wooden figure of a woman in a blue hat and white dress (Latin-American folk saint).",
+     "position_hint": "On the shelf/table left, in front of the print",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000650.jpg",
+     "timestamp_s": 410
+    },
+    {
+     "kind": "other",
+     "label": "Art books on white shelves",
+     "description": "Large art volumes: 'Palazzo Altieri', 'Illuminating the Renaissance', 'Splendeurs d'Espagne', 'La Gioconda', 'Leonard de Vinci', 'Il Revival' (E or F/G/H art shelves).",
+     "position_hint": "Shelves behind the table",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000650.jpg",
+     "timestamp_s": 410
+    }
+   ],
+   "note": "Room is a guess: art books and 'libri da esposizione' are placed in the salotto by CriticaLetteraria, but this could be the art corridor (corridoio-arte)."
+  },
+  {
+   "start_s": 417,
+   "end_s": 466,
+   "room_id": "antichi",
+   "room_confidence": "high",
+   "camera": "Series of shots in the rare-book room: Carlotta appears in the doorway of a walk-in closet (coats on hangers, white shelves of books beyond); the bearded man points out a large framed print and reads a sheet; barometer/thermometer panel and round barometer beside the door; close-up of the table with a brass book cradle, white gloves and a magnifying glass.",
+   "caption_context": "07:04-07:27 reading the section labels of the rare shelves: 'scienze, teatri chimici, occultismo, ermetismo, magia, semiologia ed emblemi, geroglifici, scienze astronomiche, demonologia e alchimia, esoterismo, teologia e Kircher, Kircher, Rosa Croce, lingue universali, semiologia e linguistica, anima ...'; 07:44 'i libri vanno toccati' (books must be touched).",
+   "objects": [
+    {
+     "kind": "door",
+     "label": "Closet door with hanging coats",
+     "description": "Open door onto a small wardrobe room: coats on hangers, white shelves of books behind.",
+     "position_hint": "Rare-book room end wall, left of the prints",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000657_75.jpg",
+     "timestamp_s": 417
+    },
+    {
+     "kind": "artwork",
+     "label": "Large framed Piranesi-type Carceri engraving",
+     "description": "Big engraving of a vaulted prison interior with staircases (Piranesi Carceri) in a wooden frame.",
+     "position_hint": "End wall above the smaller print, right of the closet door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000709_00.jpg",
+     "timestamp_s": 429
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed allegorical engraving",
+     "description": "Smaller black-framed baroque engraving with figures (a triumph/allegory).",
+     "position_hint": "Below the Carceri print",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000657_75.jpg",
+     "timestamp_s": 417
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed antique map of South America",
+     "description": "Old hand-coloured map in a wooden frame; a second small framed map/print below it.",
+     "position_hint": "Right of the door, beside the barometer",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000657_75.jpg",
+     "timestamp_s": 417
+    },
+    {
+     "kind": "curiosity",
+     "label": "Barometer-thermometer panel and round barometer",
+     "description": "A wooden panel with three dials (thermometer/barometer/hygrometer) and a round brass-rimmed barometer/clock.",
+     "position_hint": "On the wall right of the door, high",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000710.jpg",
+     "timestamp_s": 430
+    },
+    {
+     "kind": "chair",
+     "label": "Wooden chairs with rattan seats",
+     "description": "Two chairs with round backs at the table.",
+     "position_hint": "At the long table",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000703_38.jpg",
+     "timestamp_s": 423
+    },
+    {
+     "kind": "desk",
+     "label": "Long table with leather inset",
+     "description": "The oak table; a row of vellum-bound small volumes standing on it.",
+     "position_hint": "Centre of the room",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000739_92.jpg",
+     "timestamp_s": 459
+    },
+    {
+     "kind": "curiosity",
+     "label": "Brass book cradle, white cotton gloves, magnifying glass",
+     "description": "Brass folding book-rest, white gloves, and a large round hand magnifier on the table.",
+     "position_hint": "On the table",
+     "count": 3,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000739_92.jpg",
+     "timestamp_s": 459
+    },
+    {
+     "kind": "pile",
+     "label": "Row of vellum volumes on the table",
+     "description": "About 20 small vellum-bound books standing in a row on the table.",
+     "position_hint": "On the table",
+     "count": 20,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000709_00.jpg",
+     "timestamp_s": 429
+    }
+   ]
+  },
+  {
+   "start_s": 467,
+   "end_s": 514,
+   "room_id": "antichi",
+   "room_confidence": "high",
+   "camera": "Close-ups of books on the table and shelves (Aristotelis Opera, Richardus a Sancto Victore, Kircher Ars Magna Lucis et Umbrae).",
+   "caption_context": "07:44 'i libri vanno toccati'; 08:35-08:55 Eco (archive): 'una grande casa può dare l'impressione dell'umanista letterato che vive appartato dal mondo. La casa è grande appunto perché i libri altrimenti non ci stanno; in quella precedente sono stato sfrattato ... perché pareva che le librerie facessero crollare i muri' (the house is big because the books would not fit; evicted from the previous one because the shelves seemed to bring the walls down).",
+   "objects": [
+    {
+     "kind": "desk",
+     "label": "Table with vellum folios",
+     "description": "Vellum folios laid on the table (spines read in the spine pass).",
+     "position_hint": "Rare-book table",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000750.jpg",
+     "timestamp_s": 470
+    }
+   ]
+  },
+  {
+   "start_s": 537,
+   "end_s": 552,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Slow lateral pans along white study shelving (colour).",
+   "caption_context": "09:13-09:17 Eco (English, archive): 'When I arrived 25 years ago ... I have no more time to ...'.",
+   "objects": [
+    {
+     "kind": "pile",
+     "label": "Books lying flat on top of rows",
+     "description": "Horizontal stacks and papers on many shelves.",
+     "position_hint": "Study shelving",
+     "count": 10,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000910.jpg",
+     "timestamp_s": 550
+    }
+   ]
+  },
+  {
+   "start_s": 557,
+   "end_s": 576,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Archive colour footage: Eco close in the salotto armchair (09:17), then the Q bay of his translations and Eco standing at the shelves beside a sliding ladder, pulling out a black volume (09:33-09:36).",
+   "caption_context": "09:36-10:24 Eco: 'la memoria vegetale, visto che i libri si fanno purtroppo ormai col legno ... la memoria organica è quella del nostro cervello e poi c'è una memoria minerale ... la memoria è l'anima' (vegetable memory of books, organic memory of the brain, mineral memory of silicon; memory is the soul).",
+   "objects": [
+    {
+     "kind": "ladder",
+     "label": "Sliding library ladder",
+     "description": "Aluminium/steel ladder on the rail in front of the white shelves.",
+     "position_hint": "Study, at the Q/translations bay",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_000933_12.jpg",
+     "timestamp_s": 573
+    },
+    {
+     "kind": "other",
+     "label": "Labelled bays Q4/Q5 'ECO IBERICI'",
+     "description": "Shelf labels on the translations bay.",
+     "position_hint": "Q bay",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000926.jpg",
+     "timestamp_s": 566
+    }
+   ]
+  },
+  {
+   "start_s": 577,
+   "end_s": 624,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Static interview: Eco in a red waistcoat and blue shirt seated in a tan leather club armchair; behind him the steel-and-glass vitrines with open illustrated antique books and shells; a white armchair to the left with a paperback and papers on it.",
+   "caption_context": "09:36-10:24 memoria vegetale (as above); 11:08-11:14 'Noi siamo esseri temporali, viviamo nel tempo; senza memoria non si costruisce, non si progetta un futuro'.",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "Rounded cognac leather armchair (Eco's interview chair, also at 47:51, 49:37, 62:21).",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000942.jpg",
+     "timestamp_s": 582
+    },
+    {
+     "kind": "glass_case",
+     "label": "Steel-and-glass vitrines with open antique books",
+     "description": "Two or three glass display cases with glass shelves holding open illuminated/illustrated books, shells and small objects.",
+     "position_hint": "Behind the armchair, salotto display wall",
+     "count": 3,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000942.jpg",
+     "timestamp_s": 582
+    },
+    {
+     "kind": "sofa",
+     "label": "White armchair with papers",
+     "description": "White slip-covered armchair with a paperback and typed pages lying on the seat.",
+     "position_hint": "Left of the leather armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_000942.jpg",
+     "timestamp_s": 582
+    }
+   ]
+  },
+  {
+   "start_s": 672,
+   "end_s": 676,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 699,
+   "end_s": 704,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 781,
+   "end_s": 830,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Eco's grandson walks down the study aisle past the desk (black desk with a monitor, box, bundles of tied books), stops at a poster; then sits on the black leather sofa by the open balcony door (green shutters) holding a large photograph.",
+   "caption_context": "13:03-13:59 grandson: 'a tratti mi sono quasi convinto del fatto che mio nonno non si chiamasse nonno Umberto ma si chiamasse professor ...'; 'il primo libro che mi ha regalato è stato Sylvie di Nerval ... non l'ho ancora letto ... il primo libro che abbiamo letto insieme ... è stato Giamburrasca' (his grandfather gave him Nerval's Sylvie; they read Gian Burrasca together).",
+   "objects": [
+    {
+     "kind": "desk",
+     "label": "Black desk with computer monitor",
+     "description": "Dark desk on castors with a flat monitor, a grey box, bundles of books tied with string, cables.",
+     "position_hint": "Middle of the study aisle, in front of the tall shelving",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001301_71.jpg",
+     "timestamp_s": 781
+    },
+    {
+     "kind": "other",
+     "label": "Sets of white encyclopaedias",
+     "description": "Two bays of uniform white/cream multi-volume sets (encyclopaedia-type) on the island unit at left.",
+     "position_hint": "Island unit, left of the aisle",
+     "count": 40,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001301_71.jpg",
+     "timestamp_s": 781
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed comic strips on the bookcase end",
+     "description": "Two framed pages of comic strips hung on the end panel of the island.",
+     "position_hint": "End panel of the island unit, left",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001306.jpg",
+     "timestamp_s": 786
+    },
+    {
+     "kind": "artwork",
+     "label": "Photo poster of Eco with microphone (alfabeta)",
+     "description": "Large mounted b/w photograph of a young bearded Eco speaking at a microphone with 'alfabeta' posters behind; leaning on the floor against the low shelf (label L4.10/L4.11).",
+     "position_hint": "On the floor, leaning against the L4 bay of the island",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001307_00.jpg",
+     "timestamp_s": 787
+    },
+    {
+     "kind": "pile",
+     "label": "Books lying flat in the L4 bay",
+     "description": "Stacks of 6-10 old paperbacks lying flat on the shelf beside the poster; more stacks on the floor left.",
+     "position_hint": "L4.10-L4.11 shelves and floor",
+     "count": 25,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001307_00.jpg",
+     "timestamp_s": 787
+    },
+    {
+     "kind": "other",
+     "label": "Shelf labels L4.10 / L4.11",
+     "description": "Handwritten shelf codes on the shelf edges (bookcase L, bay 4, shelves 10-11).",
+     "position_hint": "L bay",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001307_00.jpg",
+     "timestamp_s": 787
+    },
+    {
+     "kind": "sofa",
+     "label": "Black leather sofa",
+     "description": "Two-seat black leather sofa with a low table; framed prints above; shelves behind.",
+     "position_hint": "Study, beside the balcony door on the courtyard side",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001318.jpg",
+     "timestamp_s": 798
+    },
+    {
+     "kind": "door",
+     "label": "Balcony door with green shutters",
+     "description": "Open glazed door with dark green louvred shutters; balcony planters outside.",
+     "position_hint": "Beside the sofa",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001318.jpg",
+     "timestamp_s": 798
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed prints above the sofa",
+     "description": "Two framed engravings/documents above the sofa.",
+     "position_hint": "Above the black sofa",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001324.jpg",
+     "timestamp_s": 804
+    },
+    {
+     "kind": "rug",
+     "label": "Small rug by the balcony door",
+     "description": "Brown/rust rug on the parquet in front of the door.",
+     "position_hint": "At the balcony door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001318.jpg",
+     "timestamp_s": 798
+    }
+   ]
+  },
+  {
+   "start_s": 834,
+   "end_s": 954,
+   "room_id": "antichi",
+   "room_confidence": "high",
+   "camera": "The bearded man (light-blue striped shirt) shows the grandson the cabinets: window with trees behind the glazed cases; a jar with preserved specimen; opening a glass door; then both at the long table looking at the Thesaurus anatomicus and a fold-out plate under a desk lamp; a wooden letter tray and a magnifier on the table.",
+   "caption_context": "14:10-15:53: 'ti ricordi questo? sì sono i testicoli del cane. Eh sì ma c'è anche un libro ... il tesaurus anatomicus ... una delle tavole che preferisco è quella del Giardino degli scheletri' (the dog's testicles jar and Ruysch's Thesaurus anatomicus, the 'garden of skeletons' plate, used instead of cartoons); 15:35 'tutti i libri anche nonno erano libri eccentrici, partivano dalla periferia delle cose'.",
+   "objects": [
+    {
+     "kind": "glass_case",
+     "label": "Glazed cherry cabinets by the window",
+     "description": "Upper glass doors with folios inside; cupboards below; window with tree foliage outside between the cabinet runs.",
+     "position_hint": "Long wall, window end",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001400.jpg",
+     "timestamp_s": 840
+    },
+    {
+     "kind": "window",
+     "label": "Window of the rare-book room",
+     "description": "Tall window with trees outside between two cabinet sections.",
+     "position_hint": "Long wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001404.jpg",
+     "timestamp_s": 844
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed antique maps and small prints",
+     "description": "Framed maps/prints hung on the wall above the cabinets and beside the window.",
+     "position_hint": "Above the cabinets",
+     "count": 4,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001400.jpg",
+     "timestamp_s": 840
+    },
+    {
+     "kind": "curiosity",
+     "label": "Jar with preserved dog testicles",
+     "description": "Glass specimen jar with anatomical preparation standing among vellum books.",
+     "position_hint": "On a cabinet shelf",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001412.jpg",
+     "timestamp_s": 852
+    },
+    {
+     "kind": "curiosity",
+     "label": "Ruysch Thesaurus anatomicus (large folio)",
+     "description": "Dark leather folio, opened on the table; fold-out plate of the 'garden of skeletons'.",
+     "position_hint": "Table",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001457_54.jpg",
+     "timestamp_s": 897
+    },
+    {
+     "kind": "lamp",
+     "label": "Brass desk lamps",
+     "description": "Two small brass lamps with white shades on a side console.",
+     "position_hint": "Console against the long wall, behind the table",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001423_42.jpg",
+     "timestamp_s": 863
+    },
+    {
+     "kind": "curiosity",
+     "label": "Wooden desk organiser / letter tray",
+     "description": "Multi-compartment wooden desk tidy on the table.",
+     "position_hint": "Table, far end",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001458.jpg",
+     "timestamp_s": 898
+    },
+    {
+     "kind": "curiosity",
+     "label": "Magnifying glass",
+     "description": "Large round hand magnifier lying on the table.",
+     "position_hint": "Table, near end",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001429_38.jpg",
+     "timestamp_s": 869
+    },
+    {
+     "kind": "curiosity",
+     "label": "Turned wooden torchère",
+     "description": "Tall turned wooden stand with a small bust/figure.",
+     "position_hint": "Behind the table by the console",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001458.jpg",
+     "timestamp_s": 898
+    },
+    {
+     "kind": "pile",
+     "label": "Small piles on the table",
+     "description": "Stacks of 3-5 old books and catalogues on the table.",
+     "position_hint": "Table",
+     "count": 10,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001458.jpg",
+     "timestamp_s": 898
+    }
+   ]
+  },
+  {
+   "start_s": 970,
+   "end_s": 1012,
+   "room_id": "antichi",
+   "room_confidence": "medium",
+   "camera": "Close-ups of engraved plates (Kircher, Nuremberg Chronicle-type woodcuts).",
+   "caption_context": "16:52-17:14 on bibliophiles: 'un bibliofilo invece vorrebbe che tutti vedessero questa meraviglia'.",
+   "objects": []
+  },
+  {
+   "start_s": 1037,
+   "end_s": 1103,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Interview: the bearded man in a dark jacket seated at a black table covered with piles, in front of white shelving of the philosophy (L) wall with Bompiani 'Il pensiero occidentale' portrait covers; inserts of Kircher spines (17:20-17:32).",
+   "caption_context": "17:15-18:23: 'Eco e Atanasio Kircher, gesuita del Seicento ... autore di un'innumerevole serie di libri che coprono praticamente tutto lo scibile umano ... geroglifici egiziani sbagliando completamente interpretazione' (Kircher, the omnivorous Jesuit who got everything wrong yet built coherent worlds).",
+   "objects": [
+    {
+     "kind": "pile",
+     "label": "Piles of books on the black table",
+     "description": "Six or seven stacks (4-8 books each) including two Umberto Eco volumes and a dark blue folio.",
+     "position_hint": "On the black round table in the study",
+     "count": 35,
+     "titles": [
+      {
+       "title": "Numero zero",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001746.jpg",
+       "timestamp_s": 1066,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1066s"
+      },
+      {
+       "title": "L'isola del giorno prima",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001746.jpg",
+       "timestamp_s": 1066,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1066s"
+      },
+      {
+       "title": "Athanasius Kircher (title illegible)",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001746.jpg",
+       "timestamp_s": 1066,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=1066s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001746.jpg",
+     "timestamp_s": 1066
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed portrait cover cards",
+     "description": "Two framed portrait covers/prints on the shelf face behind.",
+     "position_hint": "Top shelf behind the interviewee",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_001746.jpg",
+     "timestamp_s": 1066
+    }
+   ]
+  },
+  {
+   "start_s": 1125,
+   "end_s": 1128,
+   "room_id": "salotto",
+   "room_confidence": "medium",
+   "camera": "Archive (1990s) colour shot: Eco in a red cardigan at a table strewn with open antique folios; behind him a dark wooden cabinet with round dials and oval family photographs.",
+   "caption_context": "18:45 no speech on the shot (Kircher voice-over).",
+   "objects": [
+    {
+     "kind": "desk",
+     "label": "Table with open folios",
+     "description": "Table covered with open large folios and loose engravings.",
+     "position_hint": "In front of the wooden cabinet",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001845_79.jpg",
+     "timestamp_s": 1125
+    },
+    {
+     "kind": "pile",
+     "label": "Open antique books",
+     "description": "Four or five large open volumes and loose plates.",
+     "position_hint": "On the table",
+     "count": 5,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001845_79.jpg",
+     "timestamp_s": 1125
+    },
+    {
+     "kind": "curiosity",
+     "label": "Dials and family photographs on the cabinet",
+     "description": "Round dials (barometer/clock) and oval framed photographs on the cabinet back.",
+     "position_hint": "Wooden cabinet",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_001845_79.jpg",
+     "timestamp_s": 1125
+    }
+   ]
+  },
+  {
+   "start_s": 1812,
+   "end_s": 1824,
+   "room_id": "antichi",
+   "room_confidence": "low",
+   "camera": "Close pans of leather-bound multi-volume sets on dark wooden shelves; a vellum spine 'Amphitheatrum Sapientiae Socraticae'.",
+   "caption_context": "30:12-30:24 voice-over on the Bologna station bombing anecdote.",
+   "objects": [
+    {
+     "kind": "glass_case",
+     "label": "Leather-bound sets on wooden shelves",
+     "description": "Rows of gilt-tooled leather bindings.",
+     "position_hint": "Rare-book cabinets",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003012.jpg",
+     "timestamp_s": 1812
+    }
+   ]
+  },
+  {
+   "start_s": 1929,
+   "end_s": 1932,
+   "room_id": "antichi",
+   "room_confidence": "medium",
+   "camera": "Close-up of a gilt convex mirror reflecting the glazed cabinets, a window and Carlotta reaching for a book.",
+   "caption_context": "32:09 no speech.",
+   "objects": [
+    {
+     "kind": "curiosity",
+     "label": "Gilt convex mirror",
+     "description": "Round gilt-framed convex mirror with ball ornaments reflecting the whole room.",
+     "position_hint": "Wall of the rare-book room",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003212.jpg",
+     "timestamp_s": 1932
+    }
+   ]
+  },
+  {
+   "start_s": 1965,
+   "end_s": 1983,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Static: Renate reading a picture book to her granddaughter on the white sofa; in the foreground a coffee table stacked with books and a brass orrery; a floor lamp and a framed picture above.",
+   "caption_context": "32:45-32:56 Renate reads 'La piccola talpa che voleva sapere chi le aveva fatta in testa': 'piccola talpa mise la testa fuori della tana ... Ma che schifo, esclamò la piccola talpa, chi è che me l'ha fatta in testa'.",
+   "objects": [
+    {
+     "kind": "sofa",
+     "label": "White sofa",
+     "description": "Three-seat white slip-covered sofa.",
+     "position_hint": "Salotto, under the framed picture",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003254.jpg",
+     "timestamp_s": 1974
+    },
+    {
+     "kind": "curiosity",
+     "label": "Brass orrery / planetarium model",
+     "description": "Tabletop orrery with a brass sun and planets on arms.",
+     "position_hint": "On the coffee table",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003249_62.jpg",
+     "timestamp_s": 1969
+    },
+    {
+     "kind": "pile",
+     "label": "Piles of books on the coffee table",
+     "description": "Five or six stacks of 4-10 books (mostly recent hardbacks and catalogues).",
+     "position_hint": "Coffee table in front of the sofa",
+     "count": 40,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003249_62.jpg",
+     "timestamp_s": 1969
+    },
+    {
+     "kind": "lamp",
+     "label": "Floor lamp with parchment shade",
+     "description": "Tall lamp with a conical parchment shade beside the sofa.",
+     "position_hint": "Right of the sofa",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003249_62.jpg",
+     "timestamp_s": 1969
+    },
+    {
+     "kind": "artwork",
+     "label": "Large black-framed picture",
+     "description": "Wide black frame above the sofa (the beach photograph of Eco).",
+     "position_hint": "Above the sofa",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003249_62.jpg",
+     "timestamp_s": 1969
+    }
+   ]
+  },
+  {
+   "start_s": 1992,
+   "end_s": 2020,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 2069,
+   "end_s": 2076,
+   "room_id": "salotto",
+   "room_confidence": "medium",
+   "camera": "Rack-focus close-up of open comic albums on glass shelves.",
+   "caption_context": "34:29 voice-over on Eco's childhood reading ('non fatevi ricattare da chi vi dice che bisogna leggere solo i libri importanti').",
+   "objects": [
+    {
+     "kind": "glass_case",
+     "label": "Open comic albums in the vitrine",
+     "description": "Two open comic books displayed on a glass shelf.",
+     "position_hint": "Salotto vitrine",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003429_00.jpg",
+     "timestamp_s": 2069
+    }
+   ]
+  },
+  {
+   "start_s": 2091,
+   "end_s": 2106,
+   "room_id": "antichi",
+   "room_confidence": "low",
+   "camera": "Close-up of two pewter/lead figurines (armoured knights or robots) standing in front of leather bindings.",
+   "caption_context": "34:51-35:06 voice-over on Apocalittici e integrati and mass culture.",
+   "objects": [
+    {
+     "kind": "curiosity",
+     "label": "Two metal figurines",
+     "description": "Small cast-metal figures of armoured warriors.",
+     "position_hint": "On a shelf in front of leather-bound books",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003451_67.jpg",
+     "timestamp_s": 2091
+    }
+   ]
+  },
+  {
+   "start_s": 2117,
+   "end_s": 2122,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Close-ups of the philosophy shelves: Bompiani 'Il pensiero occidentale' volumes with portrait covers (Berkeley, Locke, Hume, Kant, Montesquieu, Voltaire, Vico, Santayana, Schelling) and Peanuts figurines between them; shelf labels L11.5, L11.6 'Encyclopedie', L11.7, L12.5, L12.6, L12.7, L12.8.",
+   "caption_context": "35:14-35:26 Eco: 'non si poteva più dire se qualche cosa fosse cultura popolare o cultura d'elite: cos'era Charlie Brown?' (was Charlie Brown popular or elite culture?).",
+   "objects": [
+    {
+     "kind": "curiosity",
+     "label": "Peanuts figurines (Charlie Brown, Snoopy, Linus, Lucy)",
+     "description": "Four vinyl Peanuts figures standing among the philosophy volumes.",
+     "position_hint": "L11.5-L12.7 shelves of the L wall",
+     "count": 4,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003519_33.jpg",
+     "timestamp_s": 2119
+    },
+    {
+     "kind": "other",
+     "label": "Shelf labels L11.x / L12.x",
+     "description": "Handwritten shelf codes on the shelf edges of bookcase L (bay 11 and 12, shelves 5-8); L11.6 also carries a typed 'Encyclopedie' label.",
+     "position_hint": "L wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003519_33.jpg",
+     "timestamp_s": 2119
+    }
+   ]
+  },
+  {
+   "start_s": 2123,
+   "end_s": 2164,
+   "room_id": "corridoio",
+   "room_confidence": "low",
+   "camera": "Close-ups of framed drawings and paintings: an ink caricature of Eco with a striped tie; a painted portrait of Eco in a pink tie holding a globe-bomb with a smoking pipe and a spring; Mickey Mouse evolution sketches 'Micky to uso / Micky to use / Micky Mouse'; a comic strip featuring Eco ('il professore arriva in questo momento ... Club Turati'); a drawing dedicated 'a Renate, Umberto e la loro coraggiosa serenità con ammirazione'; caricature of Eco's bald head; Eco dancing with a recorder.",
+   "caption_context": "35:26-36:15 Eco on mass culture; 36:10 'pensare e comunicare l'assenza ... costituisce l'umanità'.",
+   "objects": [
+    {
+     "kind": "artwork",
+     "label": "Ink caricature of Eco",
+     "description": "Pen-and-ink caricature of a bearded Eco with round glasses and a striped tie, light wood frame.",
+     "position_hint": "Wall (probably the corridor/vestibule print wall)",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_003523_58.jpg",
+     "timestamp_s": 2123
+    },
+    {
+     "kind": "artwork",
+     "label": "Painted portrait of Eco with globe-bomb",
+     "description": "Naive-style painting: Eco with pipe, pink tie, holding a globe with a lit fuse; landscape and a spring; labels 'semiologia'.",
+     "position_hint": "Wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003528.jpg",
+     "timestamp_s": 2128
+    },
+    {
+     "kind": "artwork",
+     "label": "Mickey Mouse evolution sketches",
+     "description": "Framed pencil strip of Mickey Mouse heads numbered VII-IX, captioned 'Micky to uso / Micky to use / Micky Mouse'.",
+     "position_hint": "Wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003530.jpg",
+     "timestamp_s": 2130
+    },
+    {
+     "kind": "artwork",
+     "label": "Comic strip featuring Eco",
+     "description": "Framed comic page in which a bearded professor (Eco) arrives ('il professore arriva in questo momento').",
+     "position_hint": "Wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003542.jpg",
+     "timestamp_s": 2142
+    },
+    {
+     "kind": "artwork",
+     "label": "Dedicated drawing 'a Renate, Umberto e la loro coraggiosa serenità'",
+     "description": "Ink drawing of two old people, dedicated in blue ink to Renate and Umberto.",
+     "position_hint": "Wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003552.jpg",
+     "timestamp_s": 2152
+    },
+    {
+     "kind": "artwork",
+     "label": "Caricature of Eco's head from above",
+     "description": "Watercolour caricature of a bald head with glasses and beard.",
+     "position_hint": "Wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003558.jpg",
+     "timestamp_s": 2158
+    },
+    {
+     "kind": "artwork",
+     "label": "Eco playing the recorder, caricature",
+     "description": "Watercolour of two dancing men, one bearded playing a recorder.",
+     "position_hint": "Wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_003602.jpg",
+     "timestamp_s": 2162
+    }
+   ]
+  },
+  {
+   "start_s": 2570,
+   "end_s": 2585,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Static frontal, slow tilt-up: the dark upright piano with six stacks of books on its lid (top) and six stacks on the fallboard/music shelf below; camera moves from the lower stacks to reveal the top row.",
+   "caption_context": "42:50-43:05 no speech (music); at 43:12 Carlotta begins the corridor tour.",
+   "objects": [
+    {
+     "kind": "piano",
+     "label": "Dark upright piano used as a book table",
+     "description": "Mahogany upright piano with panelled front; every horizontal surface stacked with recent books.",
+     "position_hint": "Salotto, piano wall (layout salotto-W)",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582
+    },
+    {
+     "kind": "pile",
+     "label": "Six stacks on the piano lid",
+     "description": "Stacks of 6, 8, 8, 9, 6 and 7 books (left to right) on the top of the piano.",
+     "position_hint": "On the piano lid",
+     "count": 44,
+     "titles": [
+      {
+       "title": "Sulle spalle di Umberto",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Il Novecento (two volumes, Tempo di Libri series)",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Immagini dell'Italia, I",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Lo scaffale infinito",
+       "author": "Andrea Kerbaker",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Umberto Eco e il PCI",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "VERSUS (issue)",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Il paradiso delle aragoste",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Questo è Kafka?",
+       "author": "Reiner Stach",
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Scritti a mano",
+       "author": "Matteo Motolese",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "(title illegible, black spine)",
+       "author": "Giuseppe Tornatore",
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "L'eredità di Umberto Eco (subtitle; main title illegible)",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "A passo di gambero",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Eco (large black volume, spine reads ECO)",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582
+    },
+    {
+     "kind": "pile",
+     "label": "Six stacks on the piano fallboard shelf",
+     "description": "Stacks of about 14, 18, 14, 6, 10 and 9 books (left to right) on the closed keyboard lid/music shelf.",
+     "position_hint": "On the keyboard lid of the piano",
+     "count": 71,
+     "titles": [
+      {
+       "title": "Imię róży",
+       "author": "Umberto Eco",
+       "language": "pl",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Il nome della rosa (La nave di Teseo, red)",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Il nome della rosa (second copy, Bompiani)",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "A proposito di niente",
+       "author": "Woody Allen",
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Interviste e colloqui",
+       "author": "Luciano Berio",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "VERSUS 2/2021 n. 132 (il Mulino)",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Gianni Vattimo (title on cover; author/series volume)",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "I misteri dell'altare di Isenheim di Grünewald",
+       "author": "Giovanni Reale",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Romanino e la 'Sistina dei poveri' a Pisogne",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Voglia di libri",
+       "author": "Mario Andreose",
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Il bene e il male",
+       "author": "Giulio Giorello, Vittorio Sgarbi (?)",
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "il verri (three issues)",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Vivere con gli dèi",
+       "author": "Neil MacGregor",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Note",
+       "author": "Giancarlo Iliprandi",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Gillo Dorfles (Skira)",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Il volto del '900. Da Matisse a Bacon, capolavori dal Centre Pompidou",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Giorgio Morandi. Une rétrospective",
+       "author": null,
+       "language": "fr",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Il bambino nascosto",
+       "author": "Roberto Andò",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "L'innominabile attuale",
+       "author": "Roberto Calasso",
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Das Irrenhaus",
+       "author": null,
+       "language": "de",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Der ewige Faschismus (three copies, Hanser)",
+       "author": "Umberto Eco",
+       "language": "de",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Viaggio in Italia",
+       "author": "Guido Piovene",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Ricordi di un entomologo I",
+       "author": "Jean-Henri Fabre",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Il Cacciatore Celeste",
+       "author": "Roberto Calasso",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "I mutanti",
+       "author": "Sofia Bignamini",
+       "language": "it",
+       "confidence": "high",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Il crollo",
+       "author": "Lorenzo Pregliasco",
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "(title illegible) ... della comunicazione",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Una passione a Manhattan (?)",
+       "author": "Anna Ottani Cavina",
+       "language": "it",
+       "confidence": "low",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+       "timestamp_s": 2576,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2576s"
+      },
+      {
+       "title": "Cerchi di capire, prof",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004256.jpg",
+     "timestamp_s": 2576
+    },
+    {
+     "kind": "pile",
+     "label": "Piano lid pile 1 of 6 (leftmost)",
+     "description": "One of the six stacks on the piano lid (top) of the upright piano, leftmost, about 0.07 of the piano length from the left end: 6 books high (thin booklets counted), 4 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-01). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano lid at 0.07 of its length from the left end",
+     "count": 6,
+     "titles": [
+      {
+       "title": "Sulle spalle di Umberto",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "(spine upside down) Sulle spalle di Umberto + publisher device (cream cover, large volume)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Terre senz'ombra",
+       "author": "Anna Ottani Cavina",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Anna Ottani Cavina  Terre senz'ombra (grey-blue Adelphi-style spine, black series box at right)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Immagini dell'Italia. 1",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Bompiani  ...  Immagini dell'Italia, I (pale blue spine, black title box)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582,
+     "crop": [
+      0.03,
+      0.05,
+      0.18,
+      0.27
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano lid pile 2 of 6 (second from the left)",
+     "description": "One of the six stacks on the piano lid (top) of the upright piano, second from the left, about 0.24 of the piano length from the left end: 10 books high (thin booklets counted), 4 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-02). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano lid at 0.24 of its length from the left end",
+     "count": 10,
+     "titles": [
+      {
+       "title": "Il bel tacere",
+       "author": "Pietro Salabe",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Pietro Salabè  Il bel tacere (grey-teal spine, moon device)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Tempo di Libri. Programma 2017",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "TEMPO DI LIBRI  Programma 2017 (thin teal-blue programme booklet)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Il Novecento",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Il Novecento (orange spine, series volume; subtitle in small type not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Il Novecento",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Il Novecento (green spine, companion volume; subtitle not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582,
+     "crop": [
+      0.18,
+      0.05,
+      0.345,
+      0.27
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano lid pile 3 of 6 (third from the left)",
+     "description": "One of the six stacks on the piano lid (top) of the upright piano, third from the left, about 0.42 of the piano length from the left end: 13 books high (thin booklets counted), 2 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-03). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano lid at 0.42 of its length from the left end",
+     "count": 13,
+     "titles": [
+      {
+       "title": "Lo scaffale infinito",
+       "author": "Andrea Kerbaker",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Andrea Kerbaker  Lo scaffale infinito",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "L'innominabile attuale",
+       "author": "Roberto Calasso",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Calasso  L'innominabile attuale (white Adelphi-style spine, black title box; first name inferred from the surname)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582,
+     "crop": [
+      0.34,
+      0.01,
+      0.53,
+      0.27
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano lid pile 4 of 6 (fourth from the left)",
+     "description": "One of the six stacks on the piano lid (top) of the upright piano, fourth from the left, about 0.60 of the piano length from the left end: 13 books high (thin booklets counted), 5 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-04). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano lid at 0.60 of its length from the left end",
+     "count": 13,
+     "titles": [
+      {
+       "title": "Umberto Eco e il PCI",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Claudio e Giambattista(?) ...  UMBERTO ECO E IL PCI (red spine; the authors' names are not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Il paradiso delle aragoste",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Edward(?) Brooks  Il paradiso delle aragoste (pink spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Questo e Kafka",
+       "author": "Reiner Stach",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Reiner Stach  QUESTO È KAFKA? (dark grey Adelphi spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582,
+     "crop": [
+      0.52,
+      0.01,
+      0.69,
+      0.27
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano lid pile 5 of 6 (fifth from the left)",
+     "description": "One of the six stacks on the piano lid (top) of the upright piano, fifth from the left, about 0.77 of the piano length from the left end: 7 books high (thin booklets counted), 5 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-05). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano lid at 0.77 of its length from the left end",
+     "count": 7,
+     "titles": [
+      {
+       "title": "Scritti a mano",
+       "author": "Matteo Motolese",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "SCRITTI A MANO • MATTEO MOTOLESE (cream spine with a yellow band)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Breve autobiografia",
+       "author": "Giuseppe Tornatore",
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "GIUSEPPE TORNATORE  (title in red script, not legible at this resolution; the title follows the earlier reading of this spine at t_004258)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "L'eredità di Umberto Eco",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "Giorgio M...  O... M...: L'Eredità di Umberto Eco (white spine, black title band; main title and author not legible, the subtitle read)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "A passo di gambero",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "UMBERTO ECO  A PASSO DI GAMBERO (pale blue spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582,
+     "crop": [
+      0.68,
+      0.05,
+      0.845,
+      0.27
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano lid pile 6 of 6 (rightmost)",
+     "description": "One of the six stacks on the piano lid (top) of the upright piano, rightmost, about 0.92 of the piano length from the left end: 9 books high (thin booklets counted), 2 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-06). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano lid at 0.92 of its length from the left end",
+     "count": 9,
+     "titles": [
+      {
+       "title": "La luce oltre il vetro",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "LA LUCE OLTRE IL VETRO  LORENZ... P... (thin black spine; the second name, author or publisher, not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Eco",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "ECO (large black volume at the bottom; 'ECO' in white capitals, three lines of small red-and-white lettering, gilt device at the right end; the book itself unidentified)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582,
+     "crop": [
+      0.83,
+      0.08,
+      0.99,
+      0.27
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano keyboard-shelf pile 1 of 6 (leftmost)",
+     "description": "One of the six stacks on the keyboard shelf (closed fallboard / music shelf) of the upright piano, leftmost, about 0.10 of the piano length from the left end: 14 books high (thin booklets counted), 8 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-07). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano keyboard shelf at 0.10 of its length from the left end",
+     "count": 14,
+     "titles": [
+      {
+       "title": "Il nome della rosa",
+       "author": "Umberto Eco",
+       "language": "pl",
+       "confidence": "high",
+       "spine_text": "umberto eco  imię róży (Polish edition, white cover, lying on its side across the top of the pile)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Marie Curie",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "...ARIE CURIE (red capitals on a pale spine, partly hidden)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "A proposito di niente",
+       "author": "Woody Allen",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Woody Allen  A proposito di niente (yellow spine, moon device)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Il nome della rosa",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Umberto Eco  Il nome della rosa (red spine, moon device)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Il nome della rosa",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Umberto Eco  Il nome della rosa (darker maroon copy beneath, Bompiani device)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582,
+     "crop": [
+      0.04,
+      0.48,
+      0.215,
+      0.93
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano keyboard-shelf pile 2 of 6 (second from the left)",
+     "description": "One of the six stacks on the keyboard shelf (closed fallboard / music shelf) of the upright piano, second from the left, about 0.29 of the piano length from the left end: 19 books high (thin booklets counted), 15 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-08). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano keyboard shelf at 0.29 of its length from the left end",
+     "count": 19,
+     "titles": [
+      {
+       "title": "Interviste e colloqui",
+       "author": "Luciano Berio",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Berio  Interviste e colloqui (white Einaudi-style spine, ostrich device)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Versus",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "VERSUS  2/2021 | N.132  il Mulino",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Artificio di memoria",
+       "author": "Fabio Mauri",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "FABIO MAURI  Artificio di memoria (black spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "I misteri dell'altare di Isenheim di Grunewald",
+       "author": "Giovanni Reale",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "GIOVANNI REALE  I MISTERI DELL'ALTARE DI ISENHEIM DI GRÜNEWALD  BOMPIANI",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Romanino e la 'Sistina dei poveri' a Pisogne",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "ROMANINO E LA 'SISTINA DEI POVERI' A PISOGNE  BOMPIANI (brown spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Una scrittura sconcertante",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Una scrittura sconcertante  ... (thin green spine; subtitle and author in small print not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Voglia di libri",
+       "author": "Mario Andreose",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Mario Andreose  Voglia di libri (dark red spine, moon device)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "il verri",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "il verri | n. ... (thin white spine, small red print; issue number not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "il verri",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "il verri | n. ... (second issue, thin white spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "il verri",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "il verri | n. ... (third issue, thin white spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Il bene e il male",
+       "author": "Giulio Giorello, Vittorio Sgarbi",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Giulio Giorello, Vittorio Sgarbi  Il bene e il male  La nave di Teseo (white spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "il verri",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "il verri | n. ... (fourth issue, thin white spine, above the MacGregor)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Vivere con gli dei",
+       "author": "Neil MacGregor",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Neil MacGregor  Vivere con gli dèi (olive-brown Adelphi spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+     "timestamp_s": 2570,
+     "crop": [
+      0.12,
+      0.22,
+      0.4,
+      0.93
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano keyboard-shelf pile 3 of 6 (third from the left)",
+     "description": "One of the six stacks on the keyboard shelf (closed fallboard / music shelf) of the upright piano, third from the left, about 0.45 of the piano length from the left end: 18 books high (thin booklets counted), 10 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-09). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano keyboard shelf at 0.45 of its length from the left end",
+     "count": 18,
+     "titles": [
+      {
+       "title": "Note",
+       "author": "Giancarlo Iliprandi",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "HOEPLI  * Note  Giancarlo Iliprandi",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Il volto del '900: da Matisse a Bacon, capolavori dal Centre Pompidou",
+       "author": null,
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "IL VOLTO DEL '900  da Matisse a Bacon  Capolavori dal Centre Pompidou  Skira (black spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Giorgio Morandi: une retrospective",
+       "author": null,
+       "language": "fr",
+       "confidence": "high",
+       "spine_text": "GIORGIO MORANDI  Une rétrospective (pale yellow spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "L'era della comunicazione",
+       "author": "Umberto Eco",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "UMBERTO ECO  L'ERA DELLA COMUNICAZIONE (thin white spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Il ceffo di Sir Thomas Browne",
+       "author": "Roberto Calasso",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Roberto Calasso  Il ceffo di Sir Thomas Browne (spine upside down, Adelphi device, '24')",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Il bambino nascosto",
+       "author": "Roberto Ando",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Roberto Andò  Il bambino nascosto (black spine, 'B2', moon device)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Das Irrenhaus",
+       "author": null,
+       "language": "de",
+       "confidence": "medium",
+       "spine_text": "Das Irrenhaus (pale green spine, upside down; author in small print not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Der ewige Faschismus",
+       "author": "Umberto Eco",
+       "language": "de",
+       "confidence": "high",
+       "spine_text": "UMBERTO ECO  DER EWIGE FASCHISMUS  HANSER",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Der ewige Faschismus",
+       "author": "Umberto Eco",
+       "language": "de",
+       "confidence": "high",
+       "spine_text": "UMBERTO ECO  DER EWIGE FASCHISMUS  HANSER (second copy directly beneath)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+     "timestamp_s": 2570,
+     "crop": [
+      0.33,
+      0.39,
+      0.68,
+      0.93
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano keyboard-shelf pile 4 of 6 (fourth from the left)",
+     "description": "One of the six stacks on the keyboard shelf (closed fallboard / music shelf) of the upright piano, fourth from the left, about 0.62 of the piano length from the left end: 6 books high (thin booklets counted), 4 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-10). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano keyboard shelf at 0.62 of its length from the left end",
+     "count": 6,
+     "titles": [
+      {
+       "title": "Viaggio in Italia",
+       "author": "Guido Piovene",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Guido Piovene  VIAGGIO IN ITALIA  BOMPIANI (brown spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Ricordi di un entomologo I",
+       "author": "Jean-Henri Fabre",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Fabre  Ricordi di un entomologo I  713 (pale blue Adelphi spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Il cacciatore celeste",
+       "author": "Roberto Calasso",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Calasso  Il Cacciatore Celeste  650 (grey-green Adelphi spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+     "timestamp_s": 2570,
+     "crop": [
+      0.54,
+      0.64,
+      0.74,
+      0.93
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano keyboard-shelf pile 5 of 6 (fifth from the left)",
+     "description": "One of the six stacks on the keyboard shelf (closed fallboard / music shelf) of the upright piano, fifth from the left, about 0.75 of the piano length from the left end: 12 books high (thin booklets counted), 5 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-11). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano keyboard shelf at 0.75 of its length from the left end",
+     "count": 12,
+     "titles": [
+      {
+       "title": "I mutanti",
+       "author": "Sofia Bignamini",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "SOFIA BIGNAMINI  I MUTANTI",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "I bambini di Marte",
+       "author": "Lazzarato",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "Lazzarato  I bambini di Marte (white spine with a black Einaudi-style medallion)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      },
+      {
+       "title": "Il crollo",
+       "author": "Lorenzo Pregliasco",
+       "language": "it",
+       "confidence": "high",
+       "spine_text": "Lorenzo Pregliasco  IL CROLLO (red band; long subtitle not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+       "timestamp_s": 2570,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2570s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004250.jpg",
+     "timestamp_s": 2570,
+     "crop": [
+      0.72,
+      0.52,
+      1.0,
+      0.93
+     ]
+    },
+    {
+     "kind": "pile",
+     "label": "Piano keyboard-shelf pile 6 of 6 (rightmost)",
+     "description": "One of the six stacks on the keyboard shelf (closed fallboard / music shelf) of the upright piano, rightmost, about 0.93 of the piano length from the left end: 10 books high (thin booklets counted), 4 with a legible title or author, read top to bottom in spines_zZEy10fpq3I_piano.jsonl (wall_id salotto-piano-pile-12). Supersedes the aggregate \"Six stacks ...\" objects above, which objects_map_eco.json now skips.",
+     "position_hint": "On the piano keyboard shelf at 0.93 of its length from the left end",
+     "count": 10,
+     "titles": [
+      {
+       "title": "La colpa dell'agnello",
+       "author": null,
+       "language": "it",
+       "confidence": "low",
+       "spine_text": "(spine upside down) La colpa dell'a... (yellow Sellerio-style spine, '7..'; the title follows the earlier reading of this spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Compagni di scuola",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "(spine upside down) Compagni di scuola (red-brown Sellerio-style spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "I segreti dei fiori",
+       "author": null,
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "...  I SEGRETI DEI FIORI (green spine, '4'; author in small print not legible)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      },
+      {
+       "title": "Cerchi di capire, prof",
+       "author": "Giovanna Cosenza",
+       "language": "it",
+       "confidence": "medium",
+       "spine_text": "GIOVANNA COSENZA  Cerchi di capire, prof (blue spine)",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+       "timestamp_s": 2582,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=2582s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004302.jpg",
+     "timestamp_s": 2582,
+     "crop": [
+      0.83,
+      0.64,
+      0.995,
+      0.93
+     ]
+    }
+   ]
+  },
+  {
+   "start_s": 2590,
+   "end_s": 2676,
+   "room_id": "corridoio",
+   "room_confidence": "high",
+   "camera": "Carlotta walks and points along bookcase A in the long corridor: handheld medium shots from the corridor axis, the glazed door at the far end behind her, framed prints on the left wall; close-ups of shelf labels 'A' and a typed label 'Baudelaire / Huysmans'.",
+   "caption_context": "43:12-44:34 Carlotta: 'Inizierei da qua: sono i feuilleton, i romanzi d'appendice dell'Ottocento che lui ha letto da ragazzo ... qui si trovano le immagini bellissime degli incisori del periodo che lui poi ha utilizzato tantissimo nei romanzi, Cimitero di Praga ... qui si estende un po' tutta la letteratura francese lungo questa linea, mentre qui sotto c'è la letteratura italiana e se andiamo verso l'alto rimaniamo nella letteratura popolare e arriviamo fino ai fumetti ... questa biblioteca di lavoro è organizzata per settori ma non alfabeticamente ... lo sapeva quasi solo lui dove trovare i libri perché era una cosa viva' (feuilletons he read as a boy, French literature along this line, Italian below, popular literature and comics above; a living library only he could navigate).",
+   "objects": [
+    {
+     "kind": "other",
+     "label": "Shelf labels on bookcase A ('A', 'A 48', 'Baudelaire / Huysmans')",
+     "description": "Printed 'A' letters and author labels on the shelf edges of the corridor bookcase.",
+     "position_hint": "Bookcase A shelf edges",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004434.jpg",
+     "timestamp_s": 2674
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed prints on the corridor wall",
+     "description": "Line of framed prints facing bookcase A.",
+     "position_hint": "Left wall of the corridor",
+     "count": 6,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004310.jpg",
+     "timestamp_s": 2590
+    },
+    {
+     "kind": "door",
+     "label": "Glazed door at the corridor end",
+     "description": "Barred glazed door with daylight at the far end.",
+     "position_hint": "Corridor end",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004404.jpg",
+     "timestamp_s": 2644
+    },
+    {
+     "kind": "pile",
+     "label": "Books lying flat on the A shelves",
+     "description": "Horizontal stacks on top of rows (Pinocchio, Salgari, 'Il corsaro delle tenebre').",
+     "position_hint": "Bookcase A, eye-level shelves",
+     "count": 8,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004316.jpg",
+     "timestamp_s": 2596
+    }
+   ]
+  },
+  {
+   "start_s": 2648,
+   "end_s": 2670,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Interview with the bearded content consultant (blue-striped shirt) in the black leather chair in front of white study shelves.",
+   "caption_context": "44:08-44:40 Carlotta continues (see above).",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Black leather chair",
+     "description": "As at 05:31.",
+     "position_hint": "Study",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_004427_54.jpg",
+     "timestamp_s": 2667
+    }
+   ]
+  },
+  {
+   "start_s": 2690,
+   "end_s": 2780,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Interview with a grey-haired man in a black sweater seated on the black leather sofa in front of the L wall (shelf labels L11.8/L12.8, 'ECO' boxed sets above); an insert of the empty black Eames-style lounge chair against the L wall.",
+   "caption_context": "44:49-46:20 Eco (voice): 'nel Pendolo di Foucault mi sono occupato diffusamente degli autori APS, a proprie spese ... Carlo Cetti, difetti e pregi dei Promessi Sposi' (self-published authors).",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Black leather Eames-style lounge chair",
+     "description": "Black leather lounge chair with bent-ply shell, in front of the philosophy shelves.",
+     "position_hint": "Study, at the L wall (labels L11.8/L12.8 visible)",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004514.jpg",
+     "timestamp_s": 2714
+    },
+    {
+     "kind": "sofa",
+     "label": "Black leather sofa",
+     "description": "Two-seat black leather sofa in front of shelves holding 'ECO' boxed sets.",
+     "position_hint": "Study, L wall / Eco's works",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004618.jpg",
+     "timestamp_s": 2778
+    },
+    {
+     "kind": "pile",
+     "label": "Books lying flat above the sofa",
+     "description": "Stacks of 5-8 books lying on the shelves above the sofa.",
+     "position_hint": "Shelves above the sofa",
+     "count": 15,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004618.jpg",
+     "timestamp_s": 2778
+    }
+   ]
+  },
+  {
+   "start_s": 2856,
+   "end_s": 2868,
+   "room_id": "studio",
+   "room_confidence": "medium",
+   "camera": "Two static frontal shots of a display of Il nome della rosa editions arranged face-out in a grid (Bulgarian, Romanian, English, French Prix Medicis, Armenian, Azeri, Hungarian, Arabic, Persian, Polish, Korean, Hebrew, Thai, Japanese, Italian).",
+   "caption_context": "47:23-47:50 archive: 'il vincitore del premio Strega ... è Umberto Eco con il suo romanzo Il nome della rosa'.",
+   "objects": [
+    {
+     "kind": "other",
+     "label": "Face-out display of Il nome della rosa translations",
+     "description": "About 20 covers of translations of The Name of the Rose shown face-out (probably the Q bay of Eco's own works).",
+     "position_hint": "Study, Q bay (guess)",
+     "count": 20,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_004746.jpg",
+     "timestamp_s": 2866
+    }
+   ]
+  },
+  {
+   "start_s": 2871,
+   "end_s": 2892,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 2911,
+   "end_s": 2938,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 2977,
+   "end_s": 2994,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 3015,
+   "end_s": 3022,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 3050,
+   "end_s": 3052,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Wide from the salotto door: white sofas around the coffee table stacked with books and the orrery, a chrome floor lamp, the dark wooden cabinet with glazed top, framed works on the walls, a window at left.",
+   "caption_context": "50:50-51:00 Renate (voice): 'quando ti muovi in quei corridoi pieni di libri tutto è più attutito, io mi sento molto protetta lì in mezzo' (in those book-filled corridors everything is muffled; I feel protected).",
+   "objects": [
+    {
+     "kind": "pile",
+     "label": "Piles on the coffee table",
+     "description": "Roughly 8 stacks of 5-10 books covering the glass coffee table.",
+     "position_hint": "Coffee table between the sofas",
+     "count": 60,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005050.jpg",
+     "timestamp_s": 3050
+    },
+    {
+     "kind": "sofa",
+     "label": "White sofas",
+     "description": "Two white sofas facing the table.",
+     "position_hint": "Salotto centre",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005050.jpg",
+     "timestamp_s": 3050
+    },
+    {
+     "kind": "lamp",
+     "label": "Chrome floor lamp",
+     "description": "Tall lamp with white shade.",
+     "position_hint": "Behind the sofa",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005050.jpg",
+     "timestamp_s": 3050
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed works on the salotto wall",
+     "description": "A framed abstract drawing (white), a framed figurative watercolour, a framed white relief/collage; a small ceramic hanging.",
+     "position_hint": "Salotto wall between the window and the cabinet",
+     "count": 4,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005050.jpg",
+     "timestamp_s": 3050
+    },
+    {
+     "kind": "window",
+     "label": "Window at the left",
+     "description": "Tall window with daylight.",
+     "position_hint": "Salotto, left of the door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005050.jpg",
+     "timestamp_s": 3050
+    },
+    {
+     "kind": "door",
+     "label": "Salotto door",
+     "description": "White door standing open.",
+     "position_hint": "Left of the wooden cabinet",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005050.jpg",
+     "timestamp_s": 3050
+    }
+   ]
+  },
+  {
+   "start_s": 3053,
+   "end_s": 3057,
+   "room_id": "salotto",
+   "room_confidence": "medium",
+   "camera": "Close-up of a framed burnt book (charred pages of a Spanish psychoanalysis text pinned on board) hanging beside the dark wooden cabinet.",
+   "caption_context": "51:07-51:17 Renate (see above).",
+   "objects": [
+    {
+     "kind": "artwork",
+     "label": "Burnt-book assemblage",
+     "description": "Framed charred paperback pages mounted on white board.",
+     "position_hint": "Wall left of the wooden cabinet",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_005053_67.jpg",
+     "timestamp_s": 3053
+    }
+   ]
+  },
+  {
+   "start_s": 3058,
+   "end_s": 3062,
+   "room_id": "vestibolo",
+   "room_confidence": "medium",
+   "camera": "Static close-up of the 'GOSH!' pasta flag picture beside a bay of white shelving.",
+   "caption_context": "51:17 no speech.",
+   "objects": [
+    {
+     "kind": "artwork",
+     "label": "'GOSH!' pasta flag",
+     "description": "See 00:56.",
+     "position_hint": "Vestibule wall beside white shelving",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005058.jpg",
+     "timestamp_s": 3058
+    }
+   ]
+  },
+  {
+   "start_s": 3075,
+   "end_s": 3076,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Carlotta interviewed seated in the black office chair at the study desk (keyboard visible), tall shelves behind.",
+   "caption_context": "51:35-51:50 Eco: 'colleziono solo libri falsi e non veri perché sono più belli' (I only collect false books, they are more beautiful).",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Black office chair at the desk",
+     "description": "Black leather/mesh swivel chair.",
+     "position_hint": "Study desk",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_005115_04.jpg",
+     "timestamp_s": 3075
+    },
+    {
+     "kind": "desk",
+     "label": "Study desk with keyboard",
+     "description": "Desk with a computer keyboard at the right edge of frame.",
+     "position_hint": "Study, window side",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_005115_04.jpg",
+     "timestamp_s": 3075
+    }
+   ]
+  },
+  {
+   "start_s": 3077,
+   "end_s": 3082,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 3192,
+   "end_s": 3212,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "The bearded man stands with one hand on top of a low island unit (spines of the Ernst Bloch Werkausgabe visible), talking to the interviewer whose back is in frame; black leather sofa behind.",
+   "caption_context": "53:13-53:43: '... legare in maniera coerente il microcosmo con il macrocosmo ... uno degli strumenti di cui Dio si serve è il flauto: l'aria che Dio insuffla per dare vita al mondo passa attraverso questo strumento scuro e nero ed esce dalle tenebre alla luce grazie alle note' (Fludd: God's instrument is the flute).",
+   "objects": [
+    {
+     "kind": "sofa",
+     "label": "Black leather sofa",
+     "description": "Black leather sofa behind the speaker.",
+     "position_hint": "Study",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005312.jpg",
+     "timestamp_s": 3192
+    }
+   ]
+  },
+  {
+   "start_s": 3220,
+   "end_s": 3237,
+   "room_id": "antichi",
+   "room_confidence": "high",
+   "camera": "Close-up of a wooden music stand holding an open score with two recorders lying on its ledge; a framed antique map behind.",
+   "caption_context": "53:43-54:30 on music: 'People play perfectly reduced scores for amateurs, I play B... challenge yourself'.",
+   "objects": [
+    {
+     "kind": "curiosity",
+     "label": "Music stand with score and two recorders",
+     "description": "Wooden music stand, open sheet music, two wooden recorders on the ledge.",
+     "position_hint": "Rare-book room",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005340.jpg",
+     "timestamp_s": 3220
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed antique map",
+     "description": "Old map in a wooden frame behind the stand.",
+     "position_hint": "Wall behind the music stand",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005340.jpg",
+     "timestamp_s": 3220
+    }
+   ]
+  },
+  {
+   "start_s": 3418,
+   "end_s": 3424,
+   "room_id": "corridoio",
+   "room_confidence": "low",
+   "camera": "Archive: Eco in a grey tweed jacket in front of white shelving holding 19th-century leather-bound sets and yellow paperbacks ('Le Roy Soleil').",
+   "caption_context": "56:57-57:05 French archive audio.",
+   "objects": [
+    {
+     "kind": "other",
+     "label": "White shelves with leather-bound 19th-c. sets",
+     "description": "Red and green gilt leather sets on white shelving.",
+     "position_hint": "Unknown (corridor feuilleton run or vestibule)",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_005658.jpg",
+     "timestamp_s": 3418
+    }
+   ],
+   "note": "Room uncertain."
+  },
+  {
+   "start_s": 3741,
+   "end_s": 3804,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 3834,
+   "end_s": 3845,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 3925,
+   "end_s": 3928,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 3942,
+   "end_s": 3948,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Same set-up as 09:37: Eco in the tan leather armchair in front of the vitrines (red waistcoat sessions, or blue shirt and black jacket sessions at 49:37/51:17/65:42).",
+   "caption_context": "Eco monologues at these times (e.g. 47:50-49:37 on the origin of Il nome della rosa: 'sono tornato a casa e ho cominciato a buttar giù una lista di nomi di monaci ... ho scritto a un amico chimico come si può avvelenare una persona mentre legge un libro'; 62:19-62:40 'nel mio trattato di semiotica generale si dice che il segno è tutto ciò che può essere usato per mentire'; 65:26-66:15 'la paranoia del complotto').",
+   "objects": [
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "See 09:37.",
+     "position_hint": "Salotto, in front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrines with open books and shells",
+     "description": "See 09:37.",
+     "position_hint": "Behind the armchair",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010221_96.jpg",
+     "timestamp_s": 3741
+    }
+   ]
+  },
+  {
+   "start_s": 3949,
+   "end_s": 3968,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Archive interview: Eco in a black sweater seated at a dining table with a white cloth; behind him the dark wooden cabinet (CDs, hi-fi, family photos), a vitrine with shells at left, wooden chairs with white seat cushions.",
+   "caption_context": "65:52-66:15 Eco: 'sulla sindrome del complotto non posso che citare Karl Popper ... quando gli uomini non credono più in Dio non è che non credono a nulla, credono a tutto' (conspiracy syndrome, Popper, Chesterton).",
+   "objects": [
+    {
+     "kind": "other",
+     "label": "Dining table with white cloth",
+     "description": "Table with a white tablecloth at which Eco sits.",
+     "position_hint": "Salotto, in front of the wooden cabinet",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010549_50.jpg",
+     "timestamp_s": 3949
+    },
+    {
+     "kind": "chair",
+     "label": "Wooden dining chairs with white cushions",
+     "description": "Dark wooden chairs with white tie-on cushions.",
+     "position_hint": "At the dining table",
+     "count": 3,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010549_50.jpg",
+     "timestamp_s": 3949
+    },
+    {
+     "kind": "glass_case",
+     "label": "Vitrine with shells",
+     "description": "Glass case with shells and small objects.",
+     "position_hint": "Left of the cabinet",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010549_50.jpg",
+     "timestamp_s": 3949
+    },
+    {
+     "kind": "other",
+     "label": "Wooden cabinet with CDs and hi-fi",
+     "description": "Rows of CDs and audio equipment in the dark cabinet.",
+     "position_hint": "Behind Eco",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_010549_50.jpg",
+     "timestamp_s": 3949
+    }
+   ]
+  },
+  {
+   "start_s": 4421,
+   "end_s": 4441,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Epilogue: close-ups of a framed miniature library (dollhouse room with two bookcases, a fireplace, a cat, a portrait and a photo of Eco) standing on top of the glass vitrine, with pomegranates and a folded fan-book beside it.",
+   "caption_context": "73:41-74:00 no speech ('Epilogo' title).",
+   "objects": [
+    {
+     "kind": "curiosity",
+     "label": "Miniature library diorama in a gilt frame",
+     "description": "Box diorama: two miniature wooden bookcases full of tiny books, a white fireplace with logs, a sleeping cat, a small photo of Eco and a Renaissance scholar portrait.",
+     "position_hint": "On top of the vitrine",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_011341_71.jpg",
+     "timestamp_s": 4421
+    },
+    {
+     "kind": "curiosity",
+     "label": "Dried pomegranates and a folded fan-book",
+     "description": "Two dried pomegranates and a pleated paper object.",
+     "position_hint": "On top of the vitrine beside the diorama",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011400.jpg",
+     "timestamp_s": 4440
+    }
+   ]
+  },
+  {
+   "start_s": 4442,
+   "end_s": 4446,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Static wide of the salotto from the sofa side: coffee table piles and orrery in the foreground, tan leather armchair, white armchairs, the plaster classical statue, the 'fine' canvas, vitrines with open books and shells, the small wooden cabinet, framed works, chrome lamp.",
+   "caption_context": "No speech.",
+   "objects": [
+    {
+     "kind": "curiosity",
+     "label": "Plaster cast of a classical male torso",
+     "description": "Life-size white plaster statue of a nude youth (arms missing) wearing a small straw hat/wreath, standing on a white plinth.",
+     "position_hint": "Salotto, between the door and the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "glass_case",
+     "label": "Three steel-and-glass vitrines",
+     "description": "Glass display cases with open illustrated antique books, shells, seed pods, small objects; the diorama on top.",
+     "position_hint": "Salotto display wall",
+     "count": 3,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "chair",
+     "label": "Tan leather club armchair",
+     "description": "Cognac leather armchair (Eco's interview chair).",
+     "position_hint": "In front of the vitrines",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "sofa",
+     "label": "White armchairs and sofa",
+     "description": "White slip-covered seating around the coffee table.",
+     "position_hint": "Salotto centre",
+     "count": 3,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "pile",
+     "label": "Piles on the coffee table",
+     "description": "About 8 stacks of 4-10 recent books and catalogues.",
+     "position_hint": "Coffee table",
+     "count": 55,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "curiosity",
+     "label": "Brass orrery",
+     "description": "Tabletop orrery.",
+     "position_hint": "Coffee table",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "lamp",
+     "label": "Chrome floor lamp with parchment shade",
+     "description": "Tall arm lamp.",
+     "position_hint": "Left, behind the sofa",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "artwork",
+     "label": "'fine' canvas and small framed prints",
+     "description": "The white 'fine' canvas and a column of small framed drawings beside the door; a gilt-framed painting top left.",
+     "position_hint": "Wall beside the salotto door",
+     "count": 4,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "other",
+     "label": "Small wooden side cabinet",
+     "description": "Low dark wooden cabinet with a telephone on it.",
+     "position_hint": "Below the small prints, beside the door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    },
+    {
+     "kind": "door",
+     "label": "Salotto door",
+     "description": "White door, left.",
+     "position_hint": "Salotto, left of the statue",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011402.jpg",
+     "timestamp_s": 4442
+    }
+   ]
+  },
+  {
+   "start_s": 4452,
+   "end_s": 4464,
+   "room_id": "salotto",
+   "room_confidence": "high",
+   "camera": "Macro shots inside the vitrine: a dried porcupine fish, long seed pods, lotus seed heads, dried pomegranates, cowrie and cone shells in rows, an open illuminated manuscript facsimile.",
+   "caption_context": "No speech.",
+   "objects": [
+    {
+     "kind": "glass_case",
+     "label": "Vitrine contents: natural curiosities",
+     "description": "Porcupine fish, seed pods, lotus pods, pomegranates, cowries, cone shells, an open illustrated book.",
+     "position_hint": "Salotto vitrine shelves",
+     "count": 30,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011412.jpg",
+     "timestamp_s": 4452
+    }
+   ]
+  },
+  {
+   "start_s": 4466,
+   "end_s": 4470,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "High wide shot from the corridor end of the study: the granddaughter skates down the aisle between the tall wall unit (left) and the comb of low island units (box files, yellow/blue/red binders, the calligraphy frame, a framed photograph), the desk with monitor at right, ceiling fans, far wall of shelving.",
+   "caption_context": "No speech.",
+   "objects": [
+    {
+     "kind": "other",
+     "label": "Box files and binders on the islands",
+     "description": "Rows of black, yellow, red and blue box files/binders on top of the island units.",
+     "position_hint": "Tops of the island units",
+     "count": 25,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011426.jpg",
+     "timestamp_s": 4466
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed calligraphy and framed portrait photo",
+     "description": "The 'I know that you believe...' text and a framed b/w photograph of a seated man.",
+     "position_hint": "End of the island facing the corridor door",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011426.jpg",
+     "timestamp_s": 4466
+    },
+    {
+     "kind": "desk",
+     "label": "Desk with monitor and office chair",
+     "description": "Black desk with a monitor and a black office chair.",
+     "position_hint": "Right side under the windows",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011426.jpg",
+     "timestamp_s": 4466
+    },
+    {
+     "kind": "other",
+     "label": "Two ceiling fans",
+     "description": "White ceiling fans with lamps.",
+     "position_hint": "Study ceiling",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011426.jpg",
+     "timestamp_s": 4466
+    },
+    {
+     "kind": "ladder",
+     "label": "Tall ladder",
+     "description": "Ladder leaning at the far end by the corridor door.",
+     "position_hint": "Far end of the study near the door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011426.jpg",
+     "timestamp_s": 4466
+    },
+    {
+     "kind": "door",
+     "label": "Study door from the corridor",
+     "description": "Doorway at the end of the aisle with framed prints beside it.",
+     "position_hint": "Study, corridor end",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011426.jpg",
+     "timestamp_s": 4466
+    },
+    {
+     "kind": "pile",
+     "label": "Books lying flat on island shelves",
+     "description": "Several stacks lying flat.",
+     "position_hint": "Island units",
+     "count": 15,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011426.jpg",
+     "timestamp_s": 4466
+    }
+   ]
+  },
+  {
+   "start_s": 4471,
+   "end_s": 4481,
+   "room_id": "other",
+   "room_confidence": "high",
+   "camera": "Exterior from the inner courtyard: the flat's windows show tall white bookcases inside; terracotta planters with violets on the balcony ledge; the granddaughter appears at a window; green shutters.",
+   "caption_context": "No speech.",
+   "objects": [
+    {
+     "kind": "window",
+     "label": "Courtyard windows with shelves behind",
+     "description": "Three tall windows revealing bookcases inside (study side).",
+     "position_hint": "Courtyard facade",
+     "count": 3,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_011431_96.jpg",
+     "timestamp_s": 4471
+    },
+    {
+     "kind": "other",
+     "label": "Balcony planters",
+     "description": "Terracotta pots with violets and a fig plant; ivy on the wall.",
+     "position_hint": "Courtyard balcony",
+     "count": 8,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011440.jpg",
+     "timestamp_s": 4480
+    }
+   ]
+  },
+  {
+   "start_s": 4492,
+   "end_s": 4506,
+   "room_id": "corridoio",
+   "room_confidence": "high",
+   "camera": "Tracking behind the granddaughter on roller skates down the long corridor towards the barred glazed door, then right into the short leg (shelves with box files) to the glazed balcony door and the study door.",
+   "caption_context": "No speech.",
+   "objects": [
+    {
+     "kind": "artwork",
+     "label": "Framed prints along the corridor wall",
+     "description": "Continuous line of framed prints (photographs of shelves, drawings, a 'KGM' print).",
+     "position_hint": "Left wall of the corridor",
+     "count": 10,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011458.jpg",
+     "timestamp_s": 4498
+    },
+    {
+     "kind": "door",
+     "label": "Barred glazed door at the corridor end",
+     "description": "Double glazed door with vertical bars.",
+     "position_hint": "Corridor end",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011502.jpg",
+     "timestamp_s": 4502
+    },
+    {
+     "kind": "door",
+     "label": "Glazed balcony door with radiator",
+     "description": "Glazed door, radiator below, framed prints either side.",
+     "position_hint": "Junction before the study",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011506.jpg",
+     "timestamp_s": 4506
+    },
+    {
+     "kind": "other",
+     "label": "Box files in the short leg",
+     "description": "Grey and white box files on the shelves of the second leg.",
+     "position_hint": "Right-hand shelves after the turn (corridoio-arte)",
+     "count": 10,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011504.jpg",
+     "timestamp_s": 4504
+    }
+   ]
+  },
+  {
+   "start_s": 4508,
+   "end_s": 4512,
+   "room_id": "studio",
+   "room_confidence": "high",
+   "camera": "Static from the study door: the black round table with book stacks, the tall wall of shelving, the granddaughter at the shelves, radiator under the window at right, framed prints beside the door and window, a black leather armchair at the left edge.",
+   "caption_context": "No speech.",
+   "objects": [
+    {
+     "kind": "desk",
+     "label": "Black round table",
+     "description": "Large black circular table on a cruciform base.",
+     "position_hint": "Study, near the corridor door",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011510.jpg",
+     "timestamp_s": 4510
+    },
+    {
+     "kind": "pile",
+     "label": "Stacks on the round table",
+     "description": "About 9 stacks of 3-8 recent books (red/white covers) and loose sheets.",
+     "position_hint": "On the round table",
+     "count": 45,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011510.jpg",
+     "timestamp_s": 4510
+    },
+    {
+     "kind": "chair",
+     "label": "Black leather armchair",
+     "description": "Black leather chair at the left edge.",
+     "position_hint": "Left of the round table",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011510.jpg",
+     "timestamp_s": 4510
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed engraved portraits beside the window",
+     "description": "Two light-wood framed antique portrait engravings.",
+     "position_hint": "Wall by the window, right of the door",
+     "count": 2,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011510.jpg",
+     "timestamp_s": 4510
+    },
+    {
+     "kind": "window",
+     "label": "Study window with radiator",
+     "description": "Tall window with stone sill and radiator.",
+     "position_hint": "Right wall",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/t_011510.jpg",
+     "timestamp_s": 4510
+    }
+   ]
+  },
+  {
+   "start_s": 4513,
+   "end_s": 4530,
+   "room_id": "antichi",
+   "room_confidence": "high",
+   "camera": "Static on the rare-room table: Kircher's Ars Magna folio open beside a vellum-bound book on the leather inset; the window with wrought-iron balcony railing and trees behind; a framed print and the glazed cabinet at right; then pans across vellum spines.",
+   "caption_context": "No speech (end of film).",
+   "objects": [
+    {
+     "kind": "desk",
+     "label": "Long table with leather inset",
+     "description": "Oak table with brown leather inset and gilt border.",
+     "position_hint": "Rare-book room",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_011513_00.jpg",
+     "timestamp_s": 4513
+    },
+    {
+     "kind": "pile",
+     "label": "Open Kircher folio and a vellum volume",
+     "description": "Kircher, Ars Magna (open at the title) and one closed vellum book.",
+     "position_hint": "On the table",
+     "count": 2,
+     "titles": [
+      {
+       "title": "Ars Magna (Sciendi?) - Kircher, title page",
+       "author": "Athanasius Kircher",
+       "language": "la",
+       "confidence": "medium",
+       "frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_011513_00.jpg",
+       "timestamp_s": 4513,
+       "source_url": "https://www.youtube.com/watch?v=zZEy10fpq3I&t=4513s"
+      }
+     ],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_011513_00.jpg",
+     "timestamp_s": 4513
+    },
+    {
+     "kind": "window",
+     "label": "Balcony door with wrought-iron railing",
+     "description": "Glazed door with ironwork balcony and trees beyond.",
+     "position_hint": "Balcony end of the rare-book room",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_011513_00.jpg",
+     "timestamp_s": 4513
+    },
+    {
+     "kind": "artwork",
+     "label": "Framed print by the window",
+     "description": "Small framed engraving.",
+     "position_hint": "Wall between the window and the cabinet",
+     "count": null,
+     "titles": [],
+     "best_frame": "/mnt/project-files/eco-video/frames/zZEy10fpq3I/s_011513_00.jpg",
+     "timestamp_s": 4513
+    }
+   ]
+  }
+ ],
+ "rooms_seen": [
+  {
+   "room_id": "salotto",
+   "ranges": [
+    [
+     49.6,
+     51
+    ],
+    [
+     207,
+     284
+    ],
+    [
+     307,
+     316
+    ],
+    [
+     410,
+     416
+    ],
+    [
+     577,
+     624
+    ],
+    [
+     672,
+     676
+    ],
+    [
+     699,
+     704
+    ],
+    [
+     1125,
+     1128
+    ],
+    [
+     1965,
+     1983
+    ],
+    [
+     1992,
+     2020
+    ],
+    [
+     2069,
+     2076
+    ],
+    [
+     2570,
+     2585
+    ],
+    [
+     2871,
+     2892
+    ],
+    [
+     2911,
+     2938
+    ],
+    [
+     2977,
+     2994
+    ],
+    [
+     3015,
+     3022
+    ],
+    [
+     3050,
+     3052
+    ],
+    [
+     3053,
+     3057
+    ],
+    [
+     3077,
+     3082
+    ],
+    [
+     3741,
+     3804
+    ],
+    [
+     3834,
+     3845
+    ],
+    [
+     3925,
+     3928
+    ],
+    [
+     3942,
+     3948
+    ],
+    [
+     3949,
+     3968
+    ],
+    [
+     4421,
+     4441
+    ],
+    [
+     4442,
+     4446
+    ],
+    [
+     4452,
+     4464
+    ]
+   ]
+  },
+  {
+   "room_id": "vestibolo",
+   "ranges": [
+    [
+     52,
+     57
+    ],
+    [
+     3058,
+     3062
+    ]
+   ]
+  },
+  {
+   "room_id": "corridoio",
+   "ranges": [
+    [
+     58,
+     79
+    ],
+    [
+     2123,
+     2164
+    ],
+    [
+     2590,
+     2676
+    ],
+    [
+     3418,
+     3424
+    ],
+    [
+     4492,
+     4506
+    ]
+   ]
+  },
+  {
+   "room_id": "corridoio-arte",
+   "ranges": [
+    [
+     80,
+     83
+    ]
+   ]
+  },
+  {
+   "room_id": "studio",
+   "ranges": [
+    [
+     84,
+     95
+    ],
+    [
+     96,
+     103
+    ],
+    [
+     104,
+     110
+    ],
+    [
+     111,
+     119
+    ],
+    [
+     120,
+     130
+    ],
+    [
+     127,
+     154
+    ],
+    [
+     319,
+     320
+    ],
+    [
+     321,
+     330
+    ],
+    [
+     331,
+     350
+    ],
+    [
+     537,
+     552
+    ],
+    [
+     557,
+     576
+    ],
+    [
+     781,
+     830
+    ],
+    [
+     1037,
+     1103
+    ],
+    [
+     2117,
+     2122
+    ],
+    [
+     2648,
+     2670
+    ],
+    [
+     2690,
+     2780
+    ],
+    [
+     2856,
+     2868
+    ],
+    [
+     3075,
+     3076
+    ],
+    [
+     3192,
+     3212
+    ],
+    [
+     4466,
+     4470
+    ],
+    [
+     4508,
+     4512
+    ]
+   ]
+  },
+  {
+   "room_id": "antichi",
+   "ranges": [
+    [
+     292,
+     306
+    ],
+    [
+     351,
+     360
+    ],
+    [
+     361,
+     378
+    ],
+    [
+     417,
+     466
+    ],
+    [
+     467,
+     514
+    ],
+    [
+     834,
+     954
+    ],
+    [
+     970,
+     1012
+    ],
+    [
+     1812,
+     1824
+    ],
+    [
+     1929,
+     1932
+    ],
+    [
+     2091,
+     2106
+    ],
+    [
+     3220,
+     3237
+    ],
+    [
+     4513,
+     4530
+    ]
+   ]
+  },
+  {
+   "room_id": "other",
+   "ranges": [
+    [
+     4471,
+     4481
+    ]
+   ]
+  }
+ ],
+ "notes": "Frames at /mnt/project-files/eco-video/frames/zZEy10fpq3I/ (KEEP.csv); interval frames are at odd seconds. Room ids follow layout.json (salotto, vestibolo, corridoio, corridoio-arte, studio, antichi); 'other' = exterior. Excluded as not the Milan flat: 06:20-06:48 (Eco with Jean-Claude Carriere at a table before dark wooden shelves - different room/venue), 11:45-12:06 (Eco with a small grandson on a sofa in a house with floating shelves and spotlights), 48:12-48:30 and 53:58-54:02 (Eco before plain pine shelving with a rustic door, probably the Monte Cerignone house), all TV/stage interviews, the Braidense/other library sequences (10:27-11:38, 18:57-21:18, 26:49-29:56, 55:44-56:08) and archival footage. Key findings for the map: (1) the 2015 Ferrario long take (00:49-01:58) starts at the salotto door, passes the coat passage/vestibule with the GOSH! pasta picture, runs the whole corridor A (prints on the left wall), turns at a barred glazed balcony door with a radiator, enters the study by the stepladder, walks between the islands to the desk row under the windows, stops at a white door with three light switches and a pinned note to take a book, and walks back along the desk row; the granddaughter skates the same route in reverse at 01:14:52-01:15:12. (2) Shelf edges carry the Fondazione lettering physically: 'A' labels in the corridor (44:04, 44:34), L4.10/L4.11 (13:07), L11.5-L12.8 (35:19, 45:14), Q4/Q5 (09:26); a low unit is labelled 'Libri e riviste ricevuti dopo il 2016'. (3) The salotto has: white sofas, coffee table under c. 55 books with a brass orrery, tan leather club armchair, three steel-glass vitrines (open illuminated books, shells, porcupine fish, seed pods, comics) with a miniature-library diorama on top, a plaster classical torso, the 'fine' canvas, the beach photograph of Eco, the dark wooden curiosity cabinet (bat skeleton, saint bust, ostrich eggs, gilt foot, clock, family photos, CDs, hi-fi), a dining table with white cloth, and the upright piano carrying c. 115 books in 12 stacks (42:50-43:05). (4) The Stanza degli antichi: cherry glazed cabinets on both long walls, the long leather-inset table with magnifier, brass book cradle and gloves, two brass lamps, a wooden letter tray, a torchère, rattan-seat chairs, a music stand with recorders and a lute, a Piranesi Carceri print, maps, a barometer panel, a convex mirror, a closet with coats, the balcony on the Castello with wrought-iron railing. (5) The study: long desk row with two office chairs, monitors and a printer under the windows, a black desk with monitor on castors mid-aisle, the black round table under c. 45 books, a black leather sofa by the balcony door with green shutters, a black Eames-style lounge chair at the L wall, two ceiling fans, a grey metal cabinet, box files on the island tops, Peanuts figurines among the Bompiani philosophy series, the calligraphic 'I know that you believe...' frame and an alfabeta-era photo poster of Eco on the floor. Pile counts are visual estimates; titles are transcribed from the frames with the stated confidence and should be checked against the catalogues before linking."
+}

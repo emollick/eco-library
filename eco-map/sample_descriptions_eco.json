@@ -1,0 +1,72 @@
+{
+ "s001": {
+  "description": "Il nome della rosa è il romanzo d'esordio di Umberto Eco, pubblicato nel 1980. È un giallo storico ambientato in un imprecisato monastero benedettino del Nord Italia nel novembre dell'anno 1327, un mistery intellettuale che intreccia semiotica, analisi biblica, studi medievali e teoria letteraria.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Il_nome_della_rosa",
+  "wikipedia_lang": "it",
+  "wikipedia_title": "Il nome della rosa"
+ },
+ "s002": {
+  "description": "Les Mots et les Choses est un essai de Michel Foucault, publié aux éditions Gallimard en 1966. Avec L'Archéologie du savoir, c'est dans cet ouvrage que Foucault développe la notion d'« épistémè ».",
+  "description_kind": "article",
+  "description_source": "https://fr.wikipedia.org/wiki/Les_Mots_et_les_Choses",
+  "wikipedia_lang": "fr",
+  "wikipedia_title": "Les Mots et les Choses"
+ },
+ "s003": {
+  "description": "Sein und Zeit ist das Hauptwerk der frühen Philosophie von Martin Heidegger (1889–1976). 1927 erschienen, gehört es seitdem zu den Jahrhundertwerken der Philosophie im 20. Jahrhundert.",
+  "description_kind": "article",
+  "description_source": "https://de.wikipedia.org/wiki/Sein_und_Zeit",
+  "wikipedia_lang": "de",
+  "wikipedia_title": "Sein und Zeit"
+ },
+ "s004": {
+  "description": "De docta ignorantia is a book on philosophy and theology by Nicholas of Cusa, who finished writing it on 12 February 1440 in his hometown of Kues, Germany.",
+  "description_kind": "search",
+  "description_source": "https://en.wikipedia.org/wiki/De_Docta_Ignorantia",
+  "wikipedia_lang": "en",
+  "wikipedia_title": "De Docta Ignorantia"
+ },
+ "s005": {
+  "description": "The Name of the Rose is the 1980 debut novel by Italian author Umberto Eco. It is a historical murder mystery set in an Italian monastery in 1327, and an intellectual mystery combining semiotics in fiction, biblical analysis, medieval studies, and literary theory.",
+  "description_kind": "article",
+  "description_source": "https://en.wikipedia.org/wiki/The_Name_of_the_Rose",
+  "wikipedia_lang": "en",
+  "wikipedia_title": "The Name of the Rose"
+ },
+ "s006": {
+  "description": null,
+  "description_kind": "none",
+  "description_source": null,
+  "wikipedia_lang": null,
+  "wikipedia_title": null
+ },
+ "s007": {
+  "description": "By Umberto Eco (b. 1932): Umberto Eco è stato un semiologo, filosofo, scrittore, traduttore, bibliofilo e medievalista italiano.",
+  "description_kind": "author",
+  "description_source": "https://it.wikipedia.org/wiki/Umberto_Eco",
+  "wikipedia_lang": "it",
+  "wikipedia_title": "Umberto Eco"
+ },
+ "s008": {
+  "description": "By Michel Foucault (b. 1926): Paul-Michel Foucault, dit Michel Foucault, né le 15 octobre 1926 à Poitiers (Vienne) et mort le 25 juin 1984 dans le 13e arrondissement de Paris, est un philosophe français.",
+  "description_kind": "author",
+  "description_source": "https://fr.wikipedia.org/wiki/Michel_Foucault",
+  "wikipedia_lang": "fr",
+  "wikipedia_title": "Michel Foucault"
+ },
+ "s009": {
+  "description": "Opera aperta. Forma e indeterminazione nelle poetiche contemporanee è un saggio di Umberto Eco, pubblicato per la prima volta da Bompiani nel 1962.",
+  "description_kind": "article",
+  "description_source": "https://it.wikipedia.org/wiki/Opera_aperta",
+  "wikipedia_lang": "it",
+  "wikipedia_title": "Opera aperta"
+ },
+ "s010": {
+  "description": "Der Zauberberg ist ein 1924 erschienener Roman des deutschen Schriftstellers Thomas Mann. Das Werk ist seitdem in vielen hohen Auflagen und zahlreichen Übersetzungen erschienen.",
+  "description_kind": "article",
+  "description_source": "https://de.wikipedia.org/wiki/Der_Zauberberg",
+  "wikipedia_lang": "de",
+  "wikipedia_title": "Der Zauberberg"
+ }
+}

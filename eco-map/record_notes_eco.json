@@ -1,0 +1,19 @@
+{
+ "_comment": "Curated corrections to single catalogue records, read by gen_books_eco.py. Keys are book ids. `year` replaces the export's coded year on the book (the export's own transcribed date stays in `date`); `date_note` is shown after the year in the panel; `posthumous: true` marks an edition dated 2016 whose month of publication is documented after Eco's death on 19 February 2016; `note` and `source` record the evidence and are not shown.",
+ "braidense:MIL1038308": {
+  "year": 1886,
+  "date_note": "undated; the catalogue's [1886?] is inferred from the preface, dated December 1885",
+  "note": "Edouard Drumont, La France juive, edition illustree de scenes (Paris, Bleriot / Henri Gautier successeur), 954 p., 28 cm, one volume, undated: the BnF leaves the same edition 's. d.', recording only the preface date, 8 December 1885. The record's coded year (100) is 1885 and its transcribed date (210 $d) is '[1886?]', with the note 'Data desunta dalla prefazione' (300). Both raw dates are kept as the export gives them (year column 1885, date column [1886?]); 1886 is shown as the cataloguer's inference, with the date note saying so. The work's first edition (Marpon & Flammarion, May 1886) was in two volumes; this copy is the one-volume illustrated edition, so nothing on the map calls it the two-volume first edition.",
+  "source": "Braidense record MIL1038308 (fields 100, 205 'Edition illustree de scenes', 210, 215 '954 p.', 300 'Data desunta dalla prefazione', 317 'Possessore: Eco, Umberto'; 950: ECO.02.0130, inventoried 28 July 2022, 'Ex libris sul contropiatto ant.'); Stephen Wilson, Ideology and Experience: Antisemitism in France at the Time of the Dreyfus Affair (1982), on La France juive (two volumes, 1886, more than 100,000 copies in its first year); fr.wikipedia 'La France juive' (May 1886, two volumes); BnF catalogue général notice cb34036026p (édition illustrée, s. d., préface datée du 8 décembre 1885)"
+ },
+ "braidense:PAR1235093": {
+  "posthumous": true,
+  "note": "Pape Satan aleppe: cronache di una societa liquida (La nave di Teseo) was published on 27 February 2016, eight days after Eco's death on 19 February 2016; its release, planned for May 2016, was brought forward. The Braidense inventoried its ECO.04 copy on 11 May 2016.",
+  "source": "it.wikipedia 'Pape Satan Aleppe' (published 27 February 2016, posthumously, the first title of La nave di Teseo); fanpage.it, 'Pape Satan Aleppe, in uscita per La Nave di Teseo l'ultimo lavoro di Umberto Eco' (February 2016); Braidense record PAR1235093, holding ECO.04.0084 inventoried 20160511"
+ },
+ "braidense:LUAE006490": {
+  "date_note": "undated; about 1492 in the older repertories, about 1495 in BSB-Ink and GW",
+  "note": "Malleus maleficarum, the third Drach edition (Speyer, Peter Drach, ISTC ii00167300 / GW M12480, 190 leaves), undated. Goff, BMC, Polain and IGI give 'c. 1492?'; BSB-Ink and GW date it about 1495 from watermarks and Drach's account book, as do Nuovo & Coletto (no. 32). The record's year stays 1492 (the Braidense's '[1492?]'); the date note records the range.",
+  "source": "https://inkunabeln.digitale-sammlungen.de/Ausgabe_I-228.html (BSB-Ink I-228); Braidense record LUAE006490; Nuovo & Coletto 2022, no. 32 (p. 23)"
+ }
+}

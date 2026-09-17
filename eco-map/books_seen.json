@@ -1,0 +1,5172 @@
+[
+ {
+  "id": "video:Hq66X9f-zgc:33:имя-розы",
+  "title": "Имя розы",
+  "author": "Умберто Эко (Umberto Eco)",
+  "language": "ru",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:Hq66X9f-zgc:33:image-peut-en-cacher-une-autre",
+  "title": "Une image peut en cacher une autre",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zj1kwT87ne0:26:inventing-the-enemy",
+  "title": "Inventing the Enemy",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": "HMH",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zj1kwT87ne0:33:by-umberto-eco",
+  "title": null,
+  "author": "Umberto Eco",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:22:by-raymundi-lullii",
+  "title": null,
+  "author": "Raymundi Lullii",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:iRXEQVTI95k:53:by-j-j-chenau-uncertain-reading",
+  "title": null,
+  "author": "J.J. Chenau (uncertain reading)",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:iRXEQVTI95k:53:by-j-a-g-uer",
+  "title": null,
+  "author": "J.A. G[uer?]",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:28:by-tommaso-d-aquino",
+  "title": null,
+  "author": "Tommaso [d'Aquino]",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:101:by-ezra-pound",
+  "title": null,
+  "author": "Ezra Pound",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:130:by-luciano",
+  "title": null,
+  "author": "Luciano",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:bcK8rOkcb3k:38:by-berkeley",
+  "title": null,
+  "author": "Berkeley",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:bcK8rOkcb3k:40:by-athanasii-kircheri-running-head",
+  "title": null,
+  "author": "Athanasii Kircheri (running head)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:2:by-possibly-augustinus-uncertain",
+  "title": null,
+  "author": "possibly Augustinus (uncertain)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:18:by-richar-d-a-s-ulric-i",
+  "title": null,
+  "author": "Richar[d] a S. Ulric[i]",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:26:by-athanasius-kircher-running-head",
+  "title": null,
+  "author": "Athanasius Kircher [running head]",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:37:by-bongo-pietro-bongo-bungus",
+  "title": null,
+  "author": "Bongo (Pietro Bongo / Bungus)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:38:by-petrus-galatinus-pietro-colonna-gala",
+  "title": null,
+  "author": "Petrus Galatinus (Pietro Colonna Galatino)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:40:by-r-fludd",
+  "title": null,
+  "author": "R. Fludd",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:42:by-caramuel",
+  "title": null,
+  "author": "Caramuel",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:66:by-mastriani",
+  "title": null,
+  "author": "Mastriani",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:70:by-george-steiner",
+  "title": null,
+  "author": "George Steiner",
+  "language": null,
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1404:by-mario-andreose",
+  "title": null,
+  "author": "Mario Andreose",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1409:by-orhan-pamuk",
+  "title": null,
+  "author": "Orhan Pamuk",
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1410:by-maria-bellonci",
+  "title": null,
+  "author": "Maria Bellonci",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:by-ercole-patti",
+  "title": null,
+  "author": "Ercole Patti",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:by-aldo-buzzi",
+  "title": null,
+  "author": "Aldo Buzzi",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:by-jurij-m-lotman",
+  "title": null,
+  "author": "Jurij M. Lotman",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:326:by-enzo-golino",
+  "title": null,
+  "author": "Enzo Golino",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:326:by-mario-baudino",
+  "title": null,
+  "author": "Mario Baudino",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:326:by-auro-rosa",
+  "title": null,
+  "author": "Auro Rosa (?)",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:362:by-gaffarel",
+  "title": null,
+  "author": "Gaffarel",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:366:by-michael-maier-uncertain",
+  "title": null,
+  "author": "Michael Maier (uncertain)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:411:by-stella-rizzo",
+  "title": null,
+  "author": "Stella Rizzo",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:427:by-ser-r-agli-o-di-g",
+  "title": null,
+  "author": "Ser[r]agli[o] di G[...]",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:427:by-g-d-chio-tti",
+  "title": null,
+  "author": "G.[D.] Chio[tti]",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:427:by-m-gatti",
+  "title": null,
+  "author": "M. Gatti (?)",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:440:by-philostrate-philostratus",
+  "title": null,
+  "author": "Philostrate (Philostratus)",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:488:by-ric",
+  "title": null,
+  "author": "Ric[?]",
+  "language": null,
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:488:by-richardus-a-sancto-victore",
+  "title": null,
+  "author": "Richardus a Sancto Victore",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:572:by-ουμπερτο-εκο",
+  "title": null,
+  "author": "Ουμπέρτο Έκο",
+  "language": "el",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:767:by-gerard-de-nerval",
+  "title": null,
+  "author": "Gérard de Nerval",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:787:by-bursill-hall",
+  "title": null,
+  "author": "Bursill-Hall",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:800:by-basil-gray",
+  "title": null,
+  "author": "Basil Gray",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:955:by-c-huijberts",
+  "title": null,
+  "author": "C. Huijberts",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1102:by-stevenson",
+  "title": null,
+  "author": "[Stevenson?]",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1667:by-chrysostomus-mathanasius-fictional-d",
+  "title": null,
+  "author": "Chrysostomus Mathanasius (fictional 'Doctor')",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2119:by-john-locke",
+  "title": null,
+  "author": "John Locke",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2119:by-jean-francois-champollion-about",
+  "title": null,
+  "author": "Jean-François Champollion (about)",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2122:by-giambattista-vico",
+  "title": null,
+  "author": "Giambattista Vico",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2122:by-george-santayana",
+  "title": null,
+  "author": "George Santayana",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2430:by-cletto-arrighi",
+  "title": null,
+  "author": "Cletto Arrighi",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:by-gianni-vattimo",
+  "title": null,
+  "author": "Gianni Vattimo",
+  "language": "it",
+  "year": null,
+  "publisher": "il Mulino",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:by-i-pezzini-b-finocchi-a-cura-di",
+  "title": null,
+  "author": "I. Pezzini; B. Finocchi (a cura di)",
+  "language": "it",
+  "year": null,
+  "publisher": "Mimesis",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:by-gillo-dorfles",
+  "title": null,
+  "author": "Gillo Dorfles",
+  "language": "it",
+  "year": null,
+  "publisher": "Skira",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:by-anna-ottani-cavina",
+  "title": null,
+  "author": "Anna Ottani Cavina",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:by-luigi-spagnol",
+  "title": null,
+  "author": "Luigi Spagnol",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:by-samuel-beckett",
+  "title": null,
+  "author": "Samuel Beckett",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:by-diego-fusaro",
+  "title": null,
+  "author": "Diego Fusaro",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:by-roberto-calasso",
+  "title": null,
+  "author": "Roberto Calasso",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:by-beniamino-placido",
+  "title": null,
+  "author": "Beniamino Placido",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:by-lia-levi",
+  "title": null,
+  "author": "Lia Levi",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:by-roberto-campari",
+  "title": null,
+  "author": "Roberto Campari",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:by-giovanna-cosenza",
+  "title": null,
+  "author": "Giovanna Cosenza",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:by-ivano-dionigi",
+  "title": null,
+  "author": "Ivano Dionigi",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:by-giuseppe-tornatore",
+  "title": null,
+  "author": "Giuseppe Tornatore",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2597:by-jean-de-la-hire",
+  "title": null,
+  "author": "Jean de la Hire",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2601:by-a-dumas",
+  "title": null,
+  "author": "A. Dumas",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2606:by-carducci",
+  "title": null,
+  "author": "Carducci",
+  "language": "it",
+  "year": null,
+  "publisher": "UTET (Classici, partly legible on spine foot)",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2626:by-emilio-salgari-per-shelf-tag",
+  "title": null,
+  "author": "Emilio Salgari (per shelf tag)",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3613:by-bacon",
+  "title": null,
+  "author": "Bacon",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "photo:fondazione_25_R:by-stendhal",
+  "title": null,
+  "author": "Stendhal",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_08_A-da_1_a_6:by-holderlin",
+  "title": null,
+  "author": "Hölderlin",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_17_I:by-alessandro-di-afrodisia",
+  "title": null,
+  "author": "Alessandro di Afrodisia",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_17_I:by-epitteto",
+  "title": null,
+  "author": "Epitteto",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_18_M-A:by-jan-patocka",
+  "title": null,
+  "author": "Jan Patočka",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_18_M-A:by-john-henry-newman",
+  "title": null,
+  "author": "John Henry Newman",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_25_R:by-edmond-jabes",
+  "title": null,
+  "author": "Edmond Jabès",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_25_R:by-lev-sestov",
+  "title": null,
+  "author": "Lev Šestov",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_25_R:by-eunapio-eunapius",
+  "title": null,
+  "author": "Eunapio (Eunapius)",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_04_Libreria_Antichi_DX:by-william-shakespeare",
+  "title": null,
+  "author": "William Shakespeare",
+  "language": null,
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_13_772-19:by-filippo-bonanni",
+  "title": null,
+  "author": "Filippo Bonanni",
+  "language": null,
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "low"
+ },
+ {
+  "id": "video:B-M8V0PcCrw:24:inventing-an-enemy",
+  "title": "Inventing an Enemy",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:B-M8V0PcCrw:286:italia-vostra",
+  "title": "Italia Vostra",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:22:opera-omnia",
+  "title": "Opera omnia",
+  "author": "Raymundus Lullus (Ramon Llull)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:22:ars-magna-lucis-et-umbrae",
+  "title": "Ars Magna Lucis et Umbrae",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:24:ars-magna",
+  "title": "Ars magna",
+  "author": "Raymundus Lullus (Ramon Llull)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:51:misteri-di-torino",
+  "title": "I misteri di Torino",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:51:service-de-la-beaute",
+  "title": "Le Service de la Beauté",
+  "author": "[?.] Magé",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:iRXEQVTI95k:55:mandrake",
+  "title": "Mandrake",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:67:vetera-analecta",
+  "title": "Vetera Analecta",
+  "author": "Jean Mabillon",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:67:vetera-analecta-sive-collectio-veterum-a",
+  "title": "Vetera Analecta, sive Collectio veterum aliquot operum & opusculorum omnis generis, carminum, epistolarum, diplomatum, epitaphiorum, &c. Cum itinere Germanico ... Nova editio",
+  "author": "Joannes Mabillon (Jean Mabillon)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:iRXEQVTI95k:69:de-mysteriis-aegyptiorum",
+  "title": "De mysteriis Aegyptiorum",
+  "author": "Iamblichus",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:69:argumentum-in-librum-mercurii-trismegist",
+  "title": "Argumentum in librum Mercurii Trismegisti (preface)",
+  "author": "Marsilio Ficino",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:iRXEQVTI95k:69:iamblichus-de-mysteriis-aegyptiorum-chal",
+  "title": "Iamblichus De mysteriis Aegyptiorum, Chaldaeorum, Assyriorum",
+  "author": "Iamblichus",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:iRXEQVTI95k:71:atalanta-fugiens",
+  "title": "Atalanta fugiens",
+  "author": "Michael Maier",
+  "language": "la",
+  "year": null,
+  "publisher": "Johann Theodor de Bry, Oppenheim",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:71:atalanta-fugiens-hoc-est-emblemata-nova",
+  "title": "Atalanta fugiens, hoc est Emblemata nova de secretis naturae chymica",
+  "author": "Michael Maier",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:iRXEQVTI95k:77:essay-towards-a-real-character-and-a-phi",
+  "title": "An Essay Towards a Real Character and a Philosophical Language",
+  "author": "John Wilkins",
+  "language": "en",
+  "year": null,
+  "publisher": "Sa. Gillibrand / John Martyn, for the Royal Society, London",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:88:topolino-giornalista",
+  "title": "Topolino giornalista",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:88:corriere-dei-piccoli",
+  "title": "Corriere dei Piccoli",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:iRXEQVTI95k:88:ultimo-ras",
+  "title": "L'ultimo Ras",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:iRXEQVTI95k:92:conte-di-montecristo",
+  "title": "Il Conte di Montecristo",
+  "author": "Alexandre Dumas",
+  "language": "it",
+  "year": null,
+  "publisher": "Casa Editrice Sonzogno, Milano",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:47:ockham-s-theory-of-terms",
+  "title": "Ockham's Theory of Terms",
+  "author": "William of Ockham",
+  "language": "en",
+  "year": null,
+  "publisher": "University of Notre Dame Press",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:47:ockham-s-theory-of-propositions",
+  "title": "Ockham's Theory of Propositions",
+  "author": "William of Ockham",
+  "language": "en",
+  "year": null,
+  "publisher": "University of Notre Dame Press",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:47:querelles-doctrinales-a-paris",
+  "title": "Les Querelles doctrinales à Paris",
+  "author": "Zenon Kałuża",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:NtPk4irDiM8:47:scritti-sul-pensiero-medievale",
+  "title": "Scritti sul pensiero medievale",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:47:ente-e-l-essenza",
+  "title": "L'ente e l'essenza",
+  "author": "Tommaso d'Aquino",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:47:oni-sulla-prospettiva-medievale",
+  "title": "…oni sulla prospettiva medievale",
+  "author": "G. Federici Vescovini",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:NtPk4irDiM8:50:dialogo-sul-papa-eretico",
+  "title": "Dialogo sul papa eretico",
+  "author": "Guglielmo di Ockham",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:54:cronica-dels-temps-de-jaume-i",
+  "title": "Cronica dels temps de Jaume I",
+  "author": null,
+  "language": "ca",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:NtPk4irDiM8:65:bernini",
+  "title": "Bernini",
+  "author": "Christian Tümpel",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:326:da-hitler-a-casablanca-via-hollywood",
+  "title": "Da Hitler a Casablanca via Hollywood",
+  "author": "Francesco Carbone",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:NtPk4irDiM8:141:nom-de-la-rose",
+  "title": "Le Nom de la Rose",
+  "author": "Umberto Eco",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:141:de-naam-van-de-roos",
+  "title": "De Naam van de Roos",
+  "author": "Umberto Eco",
+  "language": "nl",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:141:name-der-rose",
+  "title": "Der Name der Rose",
+  "author": "Umberto Eco",
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:NtPk4irDiM8:144:foucaultsche-pendel",
+  "title": "Das Foucaultsche Pendel",
+  "author": "Umberto Eco",
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:NtPk4irDiM8:144:nome-della-rosa",
+  "title": "Il nome della rosa",
+  "author": "Umberto Eco",
+  "language": "pl",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:26:studi-sulla-prospettiva-medievale",
+  "title": "Studi sulla prospettiva medievale",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:32:bibbia",
+  "title": "La Bibbia",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:32:antico-testamento",
+  "title": "L'Antico Testamento",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:34:progetto-umano",
+  "title": "Progetto umano",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:56:stati-uniti-d-europa",
+  "title": "Stati Uniti d'Europa",
+  "author": "Enrico Letta",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:raffaello-i-disegni",
+  "title": "Raffaello - I disegni",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:europa-1492",
+  "title": "Europa 1492",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:roma-antica",
+  "title": "Roma antica",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "UTET",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:medieval-beasts",
+  "title": "Medieval Beasts",
+  "author": "Ann Payne",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:treasures-of-islam",
+  "title": "Treasures of Islam",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:castel-del-monte",
+  "title": "Castel del Monte",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:bellini",
+  "title": "Bellini",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:leonardo-da-vinci",
+  "title": "Leonardo da Vinci",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:giulio-romano",
+  "title": "Giulio Romano",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:rinascimento",
+  "title": "Rinascimento",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:bodegon-espanol",
+  "title": "El Bodegón español",
+  "author": null,
+  "language": "es",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:genio-di-roma-1592-1623",
+  "title": "Il genio di Roma 1592-1623",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:grande-borromeo-tra-storia-e-fede",
+  "title": "Il grande Borromeo tra storia e fede",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:palazzo-altieri",
+  "title": "Palazzo Altieri",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:gioconda-che",
+  "title": "La Gioconda che...",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:rivedendo-correggio-l-assunzione-del-duo",
+  "title": "Rivedendo Correggio: l'Assunzione del Duomo di Parma",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:scottish-art",
+  "title": "Scottish Art",
+  "author": "Duncan Macmillan",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:giorgione",
+  "title": "Giorgione",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:rolo-banca-1473-la-civilta",
+  "title": "Rolo Banca 1473: la civiltà...",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:museo-de-bellas-artes-de-bilbao",
+  "title": "Museo de Bellas Artes de Bilbao",
+  "author": null,
+  "language": "es",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:splendeurs-d-espagne-i",
+  "title": "Splendeurs d'Espagne I",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:splendeurs-d-espagne-ii",
+  "title": "Splendeurs d'Espagne II",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:historia-del-arte-colonial-hispanoameric",
+  "title": "Historia del arte colonial Hispanoamericano",
+  "author": null,
+  "language": "es",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:rocca-pisana-di-vicenza",
+  "title": "La Rocca Pisana di Vicenza [di Scamozzi]",
+  "author": "Barduz[zi]",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:plinio",
+  "title": "Plinio",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:leonardo",
+  "title": "Leonardo & [Vinci]",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:leonardo-di-vinci",
+  "title": "Leonardo di Vinci",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:tre-asures-of-islam",
+  "title": "[Tre]asures of Islam",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:70:illuminating-the-renaissance",
+  "title": "Illuminating the Renaissance",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:guido-cagnacci",
+  "title": "Guido Cagnacci",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:cosmos",
+  "title": "Cosmos",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:collezione-di-franco-maria-ricci",
+  "title": "La collezione di Franco Maria Ricci",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:epoques-de-la-fleur",
+  "title": "Époques de la fleur",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:grande-borromeo-una-storia-e-una-fede",
+  "title": "Il grande Borromeo: una storia e una fede",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:nostra-terra",
+  "title": "La nostra terra",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Rolo Banca 1473 (sponsor)",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:giovanni",
+  "title": "Giovanni [Fede Cervicato?]",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:caravaggio-and-his-italian-followers",
+  "title": "Caravaggio and His Italian Followers",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:cerano",
+  "title": "Il Cerano",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:disegni-del-codice-rosso-di-palermo",
+  "title": "I disegni del Codice Rosso di Palermo",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:72:decodeunicode",
+  "title": "decodeunicode",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:disegni-del-codice-resta-di-palermo",
+  "title": "I disegni del Codice Resta di Palermo",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:georges-de-la-tour",
+  "title": "Georges de La Tour",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:committenti-d-eta-barocca",
+  "title": "Committenti d'età barocca",
+  "author": "Maria Beatrice Failla, Clara Goria",
+  "language": "it",
+  "year": null,
+  "publisher": "Umberto Allemandi & C.",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:alessandro-magnasco-1667-1749",
+  "title": "Alessandro Magnasco 1667-1749",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Palazzo Reale",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:venezia-dei-grandi-viaggiatori",
+  "title": "Venezia dei grandi viaggiatori",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:france-baroque",
+  "title": "France Baroque",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": "Hazan",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:goya",
+  "title": "Goya",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:antonie-van-dyck-1599-1641",
+  "title": "Antonie van Dyck 1599-1641",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:rembrandt",
+  "title": "Rembrandt",
+  "author": "Christian Tumpel",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:barocco",
+  "title": "Barocco",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Galleria Colonna",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:van-dyck",
+  "title": "Van Dyck",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:felice-giani",
+  "title": "Felice Giani",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:colori-del-tempo-2",
+  "title": "I colori del tempo 2",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:arte-indiana",
+  "title": "Arte Indiana",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:museo-di-pechino",
+  "title": "Il museo di Pechino",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:giacomo-ceruti",
+  "title": "Giacomo Ceruti",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:idea-of-art-as-propaganda-in-france-1750",
+  "title": "The Idea of Art as Propaganda in France, 1750-1799",
+  "author": "James Leith",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:alte-dresden",
+  "title": "Das alte Dresden",
+  "author": "Fritz Laffer[?]",
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:beniamino-simoni",
+  "title": "Beniamino Simoni",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:aufstieg-und-niedergang-der-romischen-we",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.12.2",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:toulouse-lautrec",
+  "title": "Toulouse-Lautrec",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:74:aufstieg-und-niedergang-der-romischen-we-2",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.12.1",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:78:paradiso-perduto",
+  "title": "Paradiso perduto",
+  "author": "Milton",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:101:here-comes-everybody",
+  "title": "Here Comes Everybody",
+  "author": "Anthony Burgess",
+  "language": "en",
+  "year": null,
+  "publisher": "Faber & Faber",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:101:vico-joyce",
+  "title": "Vico & Joyce",
+  "author": "Donald Phillip Verene",
+  "language": "en",
+  "year": null,
+  "publisher": "SUNY Press",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:101:irish-comic-tradition",
+  "title": "The Irish Comic Tradition",
+  "author": "Vivian Mercier",
+  "language": "en",
+  "year": null,
+  "publisher": "Oxford",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:101:widening-gyre",
+  "title": "The Widening Gyre",
+  "author": "Frank Kermode",
+  "language": "en",
+  "year": null,
+  "publisher": "Rutgers",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:101:james-joyce",
+  "title": "James Joyce",
+  "author": "Richard Ellmann",
+  "language": "it",
+  "year": null,
+  "publisher": "Castelvecchi",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:102:joyce",
+  "title": "Joyce",
+  "author": "Ezra Pound",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:110:dante-alighieri-s-inferno-metaphor",
+  "title": "Dante Alighieri's Inferno Metaphor...",
+  "author": "Dante Alighieri",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:KZfOaug0mM4:110:fiore-detto-d-amore",
+  "title": "Fiore / Detto d'Amore",
+  "author": "Dante Alighieri (attrib.)",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:KZfOaug0mM4:114:brigante",
+  "title": "Il brigante",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:KZfOaug0mM4:114:poesie",
+  "title": "Poesie",
+  "author": "Friedrich Hölderlin",
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:38:saggio-sull-intelletto-umano",
+  "title": "Saggio sull'intelletto umano",
+  "author": "John Locke",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:38:trattato-della-natura-umana",
+  "title": "Trattato della natura umana",
+  "author": "David Hume",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:alcifrone-ossia-il-filosofo-minuzioso",
+  "title": "Alcifrone ossia il filosofo minuzioso",
+  "author": "George Berkeley",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani (Il pensiero occidentale)",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:critica-della-ragion-pratica",
+  "title": "Critica della ragion pratica",
+  "author": "Immanuel Kant",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani (Il pensiero occidentale)",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:tutte-le-opere",
+  "title": "Tutte le opere (1721-1754)",
+  "author": "Montesquieu",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani (Il pensiero occidentale)",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:dizionario-filosofico-tutte-le-voci-del",
+  "title": "Dizionario filosofico: tutte le voci del Dizionario filosofico e delle Domande sull'Enciclopedia",
+  "author": "Voltaire",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani (Il pensiero occidentale)",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:scienza-nuova-le-tre-edizioni-del-1725-1",
+  "title": "La Scienza Nuova - Le tre edizioni del 1725, 1730 e 1744",
+  "author": "Giambattista Vico",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:tradizione-signorile-nella-filosofia-ame",
+  "title": "La tradizione signorile nella filosofia americana e altri saggi",
+  "author": "George Santayana",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:alciphron-ovvero-il-filosofo-minuto",
+  "title": "Alciphron, ovvero il filosofo minuto",
+  "author": "George Berkeley",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:critica-della-ragion-pura",
+  "title": "Critica della ragion pura",
+  "author": "Immanuel Kant",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:39:dizionario-filosofico",
+  "title": "Dizionario filosofico",
+  "author": "Voltaire",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:40:ars-magna-lucis-et-umbrae-in-decem-libro",
+  "title": "Ars Magna Lucis et Umbrae, in decem libros digesta",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:50:mundus-subterraneus",
+  "title": "Mundus Subterraneus",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:50:obeliscus-pamphilius",
+  "title": "Obeliscus Pamphilius",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:50:turris-babel",
+  "title": "Turris Babel",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:50:ars-magna-sciendi",
+  "title": "Ars Magna Sciendi",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:50:china-illustrata",
+  "title": "China Illustrata",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:50:obeliscus",
+  "title": "Obeliscus [Pamphilius?]",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.11.1",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we-2",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.12.3",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we-3",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.13",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we-4",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.14",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we-5",
+  "title": "Aufstieg und Niedergang der römischen Welt, II. Principat, Bd. 15",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we-6",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.7.1",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we-7",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.7.2",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we-8",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.9.1",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:FeIUY9EhZgI:56:aufstieg-und-niedergang-der-romischen-we-9",
+  "title": "Aufstieg und Niedergang der römischen Welt, II.9.2",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "de Gruyter",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:13:dictionarium-scripturae-sacrae",
+  "title": "Dictionarium Scripturae Sacrae",
+  "author": "Augustin Calmet",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:16:de-arcanis-catholicae-veritatis",
+  "title": "De Arcanis Catholicae Veritatis (or another work)",
+  "author": "Richard of Saint Victor (Richardus a Sancto Victore)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:de-arcanis-catholicae-veritatis",
+  "title": "De Arcanis Catholicae Veritatis",
+  "author": "Petrus Galatinus (Pietro Colonna Galatino)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:philosophia-moysaica",
+  "title": "Philosophia Moysaica",
+  "author": "Robert Fludd",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:opus-mago-cabbalisticum-et-theosophicum",
+  "title": "Opus Mago-Cabbalisticum et Theosophicum",
+  "author": "Georg von Welling (pseud. Sallwigt)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:anatomia-amphitheatrum",
+  "title": "Anatomia Amphitheatrum",
+  "author": "David [surname not legible]",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:de-macrocosmi-historia",
+  "title": "De Macrocosmi Historia (Utriusque Cosmi Historia)",
+  "author": "Robert Fludd",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:366:de-macrocosmi-historia",
+  "title": "De Macrocosmi Historia",
+  "author": "Roberto Fludd",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:numerorum-mysteria",
+  "title": "Numerorum Mysteria",
+  "author": "Pietro Bongo (Petrus Bungus)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:lexicon-alchemiae",
+  "title": "Lexicon Alchemiae",
+  "author": "Martin Ruland",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:tractatus",
+  "title": "Tractatus",
+  "author": "Robert Fludd",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:artis-cabalisticae",
+  "title": "Artis Cabalisticae (scriptores)",
+  "author": "ed. Johann Pistorius",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:coelum-sephiroticum",
+  "title": "Coelum Sephiroticum (Kabbala-related treatise)",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:36:arithmeticum",
+  "title": "Arithmeticum (or similar)",
+  "author": "Juan Caramuel y Lobkowitz",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:37:opus-mago-caballisticum",
+  "title": "Opus mago-caballisticum",
+  "author": "Sallwigt",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:37:anatomiae-amphitheatrum",
+  "title": "Anatomiae Amphitheatrum",
+  "author": "Robert Fludd",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:37:artis-cabalistic",
+  "title": "Artis Cabalistic[ae]",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:566:празькии-цвинтар",
+  "title": "Празький цвинтар",
+  "author": "У. Еко (Umberto Eco)",
+  "language": "uk",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:566:история-уродства",
+  "title": "История уродства",
+  "author": "Умберто Эко (ed.)",
+  "language": "ru",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:de-begraafplaats-van-praag",
+  "title": "De begraafplaats van Praag",
+  "author": "Umberto Eco",
+  "language": "nl",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:fukoovo-klatno",
+  "title": "Fukoovo klatno",
+  "author": "Umberto Eko",
+  "language": "sr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:on-literature",
+  "title": "On Literature",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": "Seeker & Warburg",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:kant-and-the-platypus",
+  "title": "Kant and the Platypus",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": "Harcourt Brace",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:prahos-kapines",
+  "title": "Prahos kapinės",
+  "author": "Umberto Eco",
+  "language": "lt",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:bucher-und-das-paradies",
+  "title": "Die Bücher und das Paradies",
+  "author": "Umberto Eco",
+  "language": "de",
+  "year": null,
+  "publisher": "Hanser",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:foucault-s-pendulum",
+  "title": "Foucault's Pendulum",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": "Harcourt Brace Jovanovich",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:89:mysterious-flame-of-queen-loana",
+  "title": "The Mysterious Flame of Queen Loana",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": "Secker & Warburg",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:cmentarz-w-pradze",
+  "title": "Cmentarz w Pradze",
+  "author": "Umberto Eco",
+  "language": "pl",
+  "year": null,
+  "publisher": "Folio",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:89:ortacag",
+  "title": "Ortaçağ",
+  "author": "Umberto Eco",
+  "language": "tr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:566:пражское-кладбище",
+  "title": "Пражское кладбище",
+  "author": "Умберто Еко",
+  "language": "ru",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:566:friedhof-in-prag",
+  "title": "Der Friedhof in Prag",
+  "author": "Eco",
+  "language": "de",
+  "year": null,
+  "publisher": "dtv",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:566:geschichte-der-schonheit",
+  "title": "Die Geschichte der Schönheit",
+  "author": "Eco",
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:566:passo-de-caranguejo",
+  "title": "A Passo de Caranguejo",
+  "author": "Umberto Eco",
+  "language": "pt",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:89:баудолино",
+  "title": "Баудолино",
+  "author": "Umberto Eco",
+  "language": "bg",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:89:o-cemiterio-de-praga",
+  "title": "O Cemitério de Praga",
+  "author": "Umberto Eco",
+  "language": "pt",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:89:istoriya-urodstva",
+  "title": "Istoriya urodstva (История уродства)",
+  "author": "Умберто Эко (ред.)",
+  "language": "ru",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:89:theory-of-semiotics",
+  "title": "A Theory of Semiotics",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:89:pendolo-di-foucault",
+  "title": "Il Pendolo di Foucault",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:таинственное-пламя-царицы-лоаны",
+  "title": "Тайнственное пламя царицы Лоаны",
+  "author": "Umberto Eco",
+  "language": "ru",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:90:istoriya-yevropeiskoyi-tsyvilizatsiyi-ry",
+  "title": "Istoriya yevropeiskoyi tsyvilizatsiyi: Rym (Історія європейської цивілізації: Рим)",
+  "author": "Umberto Eko (editor)",
+  "language": "uk",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:94:самеliche-werke",
+  "title": "Самеliche Werke",
+  "author": "Umberto Eco",
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:94:prazkyi-tsvyntar",
+  "title": "Prazkyi tsvyntar (Празький цвинтар)",
+  "author": "Умберто Еко",
+  "language": "uk",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:ygvl-_gtAP8:94:dronning-loanas-mystiske-flamme",
+  "title": "Dronning Loanas mystiske flamme",
+  "author": "Umberto Eco",
+  "language": "da",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2692:memoria-vegetale-e-altri-scritti-di-bibl",
+  "title": "La memoria vegetale e altri scritti di bibliofilia",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:70:nero-wolfe",
+  "title": "Nero Wolfe (edition/collection title not fully legible)",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1402:paso-de-cangrejo",
+  "title": "A paso de cangrejo",
+  "author": "Umberto Eco",
+  "language": "es",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1409:ritorno-di-himmelfarb",
+  "title": "Il ritorno di Himmelfarb",
+  "author": "Michael Kruger",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1409:spettri-dell-amore",
+  "title": "Spettri [...] dell'amore",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1409:razza-e-destino",
+  "title": "Razza e destino",
+  "author": "Walter Benjamin",
+  "language": "it",
+  "year": null,
+  "publisher": "Editori Laterza",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1409:dando-buca-a-godot",
+  "title": "Dando buca a Godot",
+  "author": "Bartezzaghi",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1409:cose-che-ho-imparato",
+  "title": "Le cose che ho imparato",
+  "author": "Gianni Riotta",
+  "language": "it",
+  "year": null,
+  "publisher": "Mondadori",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1409:tra-dizione-e-rivoluzione",
+  "title": "[Tra]dizione e rivoluzione",
+  "author": "Franc[o Fortini]",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1410:lavorando-anche-per-il-futuro",
+  "title": "Lavorando anche per il futuro",
+  "author": "Mario Andreose",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1414:quattro-modi-dell-amore",
+  "title": "Quattro modi dell'amore",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Editori Laterza",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1414:aprendo-le-casse-della-mia-biblioteca",
+  "title": "Aprendo le casse della mia biblioteca",
+  "author": "Walter Benjamin",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1443:to-koimitirio-tis-pragas",
+  "title": "To Koimitirio tis Pragas (The Prague Cemetery, Greek edition)",
+  "author": "Oumperto Eko [Umberto Eco]",
+  "language": "el",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1443:apocalypse-postponed",
+  "title": "Apocalypse Postponed",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1444:island-of-the-day-before",
+  "title": "The Island of the Day Before",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1444:baudolino",
+  "title": "Baudolino",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1444:to-koimeterio-tes-pragas",
+  "title": "To Koimeterio tes Pragas",
+  "author": "Umberto Eco",
+  "language": "el",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1444:prague-cemetery",
+  "title": "The Prague Cemetery",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:566:prague-cemetery",
+  "title": "Prague Cemetery (Russian/Ukrainian ed.)",
+  "author": "Умберто Еко",
+  "language": "ru",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1446:segno",
+  "title": "Un Segno",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:M8IWTOFNlOc:1454:ernst-blochs-wirkung",
+  "title": "Ernst Blochs Wirkung",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:231:linus",
+  "title": "Linus",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:235:ecolinus",
+  "title": "Ecolinus",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:250:chi-muore-si-rivede",
+  "title": "Chi muore si rivede",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:robert",
+  "title": "Le Robert",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": "Le Robert",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:sindrome-del-pallone",
+  "title": "La sindrome del pallone",
+  "author": "Marcello Carra",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:miei-scrittori-e-altri-animali",
+  "title": "I miei scrittori e altri animali",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:lanzarote",
+  "title": "Lanzarote",
+  "author": "Michel Houellebecq",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:imie-rozy",
+  "title": "Imię róży",
+  "author": "Umberto Eco",
+  "language": "pl",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:321:cum-se-face-o-teza-de-licenta",
+  "title": "Cum se face o teză de licență",
+  "author": "Umberto Eco",
+  "language": "ro",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:322:isole",
+  "title": "Le isole (Opera Omnia)",
+  "author": "Giorgio de Chirico",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:326:ca-dei-miei-ragazzi",
+  "title": "[...]ca dei Miei Ragazzi",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:326:passione",
+  "title": "Una passione [costante?]",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3741:trattato-di-semiotica-generale",
+  "title": "Trattato di Semiotica Generale",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:361:tela-ignea-satanae-tom-i",
+  "title": "Tela Ignea Satanae, Tom. I",
+  "author": "Johann Christoph Wagenseil",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:361:behmen-s-works",
+  "title": "Behmen's Works",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:361:de-sepulchro-hebraeorum",
+  "title": "De Sepulchro[?] Hebraeorum[?]",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:361:de-coelo-et-de-inferno",
+  "title": "De Coelo et de Inferno",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:361:histoire-des-langues",
+  "title": "Histoire des langues",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:362:de-sepulchris-hebraeorum",
+  "title": "De Sepulchris Hebraeorum",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:364:utriusque-cosmi-historia",
+  "title": "Utriusque Cosmi Historia (De Macrocosmi Historia)",
+  "author": "Robert Fludd (Roberto Fludd)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:364:lexicon-hermeticum",
+  "title": "Lexicon Hermeticum[?]",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:366:opus-mago-cabbalisticum",
+  "title": "Opus Mago-Cabbalisticum",
+  "author": "Sallwigt",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:368:philosophia-nova",
+  "title": "Philosophia Nova",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:371:oedipus-aegyptiacus",
+  "title": "Oedipus Aegyptiacus[?]",
+  "author": "Athanasius Kircher (Kircheri)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:371:polygraphia-nova",
+  "title": "Polygraphia nova",
+  "author": "Athanasius Kircher (Kircherii)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:411:monumenti-italiani-del-900",
+  "title": "Monumenti Italiani del '900",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:411:revival",
+  "title": "Il Revival",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:411:modern-art-nouveau",
+  "title": "Modern Art Nouveau",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:422:vescovi-e-chiesa-d-alessandria-ii",
+  "title": "Vescovi e Chiesa d'Alessandria, Tomo II",
+  "author": "G.A. Chiozzi",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:422:libro-rosso",
+  "title": "Il libro rosso",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:422:giardino-delle-camelie",
+  "title": "Il Giardino delle Camelie",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:427:dizionario-geografico-italiano-i",
+  "title": "Dizionario Geografico Italiano, Vol. I",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:439:philostrati-opera",
+  "title": "[Philostrati Opera]",
+  "author": "Flavius Philostratus (?)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:439:philostrate",
+  "title": "[Philostrate?]",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:441:storia-di-alessandria",
+  "title": "Storia di Alessandria",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:441:physica-curiosa",
+  "title": "Physica Curiosa",
+  "author": "Gaspar Schott (C. Schotti)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:450:joco-seriorum-naturae-et-artis-diatribe",
+  "title": "Joco-Seriorum Naturae et Artis Diatribe",
+  "author": "Athanasius Kircherus",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:464:aristotelis-opera",
+  "title": "Aristotelis Opera",
+  "author": "Aristoteles",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:552:come-si-agisce",
+  "title": "Come si agisce",
+  "author": "Balestrini",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:559:begravningsplatsen-i-prag",
+  "title": "Begravningsplatsen i Prag",
+  "author": "Umberto Eco",
+  "language": "sv",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:559:search-for-the-perfect-language",
+  "title": "The Search for the Perfect Language",
+  "author": "Umberto Eco",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:559:templars",
+  "title": "The Templars",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:559:future-of-the-book",
+  "title": "The Future of the Book",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:559:in-signs-tnsigns",
+  "title": "In Signs / TnSigns",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:559:bond",
+  "title": "Bond",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:566:рим",
+  "title": "Рим",
+  "author": "под редакцией Умберто Еко",
+  "language": "ru",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:572:프라하의-묘지",
+  "title": "프라하의 묘지 (The Prague Cemetery)",
+  "author": null,
+  "language": "ko",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:572:kant-und-das-schnabeltier",
+  "title": "Kant und das Schnabeltier",
+  "author": "Umberto Eco",
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:572:prazsky-hrbitov",
+  "title": "Pražský hřbitov",
+  "author": "Umberto Eco",
+  "language": "cs",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:782:medioevo",
+  "title": "Medioevo",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Garzanti",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:784:hitler",
+  "title": "Hitler",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:800:avicenne",
+  "title": "Avicenne",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:800:maometto",
+  "title": "Maometto",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:800:san-juan-de-la-cruz-y-el-islam",
+  "title": "San Juan de la Cruz y el Islam",
+  "author": null,
+  "language": "es",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:825:giornale-di-gian-burrasca",
+  "title": "Il giornale di Gian Burrasca",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:827:giornalino",
+  "title": "Il Giornalino",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:856:thesaurus-anatomicus",
+  "title": "Thesaurus Anatomicus",
+  "author": "Frederik Ruysch",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:989:cabala",
+  "title": "Cabala",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1030:ars-magna-sciendi-sive-combinatoria",
+  "title": "Ars Magna Sciendi, sive Combinatoria",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1039:china-monumentis-illustrata",
+  "title": "China [Monumentis ...] Illustrata",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1102:numero-zero",
+  "title": "Numero Zero",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1093:turris-babel-sive-archontologia",
+  "title": "Turris Babel sive Archontologia",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": "Janssonio-Waesbergiana",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1224:systema-sephyroticum-x-divinorum-nominum",
+  "title": "Systema Sephyroticum X Divinorum Nominum",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1258:tafeln",
+  "title": "Tafeln",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "Walter de Gruyter",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1260:aufstieg-und-niedergang-der-romischen-we",
+  "title": "Aufstieg und Niedergang der römischen Welt, II. Principat, Bd. 16.1",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1260:aufstieg-und-niedergang-der-romischen-we-2",
+  "title": "Aufstieg und Niedergang der römischen Welt — Tafeln/Register volume",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1615:annales-de-chimie-et-de-physique",
+  "title": "Annales de chimie et de physique",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1645:poeme-heureusement-decouvert-mis-au-jour",
+  "title": "Poëme heureusement découvert & mis au jour, avec des Remarques savantes & recherchées",
+  "author": "Chrisostome Matanasius (Docteur)",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1712:autre-jour-colin-malade-dedans-son-lict",
+  "title": "L'autre jour Colin malade dedans son lict",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1742:carmen",
+  "title": "Carmen (In honorem et gloriam ... Chrisostomi Mathanasii)",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1742:traduction-francoise-poeme-a-la-louange",
+  "title": "Traduction Françoise: Poëme à la louange du très excellent et très subtil docteur Chrisostome Matha[nasius]",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1745:puikaantekeningen-van-t-pronkjuweel-der",
+  "title": "Puikaantekeningen van 't Pronkjuweel der Aarts-Letter-Helden, Doctor Mathanasius",
+  "author": null,
+  "language": "nl",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1820:amphitheatrum-sapientiae-socraticae-joco",
+  "title": "Amphitheatrum Sapientiae Socraticae Joco-Seriae",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:1973:chi-mi-ha-fatta-in-testa",
+  "title": "Chi mi ha fatta in testa?",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2041:uomo-mascherato",
+  "title": "L'Uomo Mascherato",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2052:sandokan-alla-riscossa",
+  "title": "Sandokan alla Riscossa",
+  "author": "E. Salgari",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2052:misteri-della-jungla-nera",
+  "title": "I Misteri della Jungla Nera",
+  "author": "Salgari",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2052:tigri-di-mompracem",
+  "title": "Le Tigri di Mompracem",
+  "author": "E. Salgari",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2052:corsaro-nero",
+  "title": "Il Corsaro Nero",
+  "author": "Salgari",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2056:fantomas",
+  "title": "Fantomas",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2080:thesaurus-armamentarii-medico",
+  "title": "Thesaurus Armamentarii Medico[...]",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2119:scienza-nuova",
+  "title": "La scienza nuova",
+  "author": "Giambattista Vico",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2119:tradizione-signorile-nella-spagna-americ",
+  "title": "La tradizione signorile nella Spagna americana",
+  "author": "George Santayana",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2120:champollion",
+  "title": "Champollion",
+  "author": "Jean Lacouture",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2122:origin-of-langu",
+  "title": "Origin of Langu[age]",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2122:filosofia-della-rivelazione",
+  "title": "Filosofia della rivelazione",
+  "author": "Schelling",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2430:vie-d-anne-de-bretagne",
+  "title": "[Vie d']Anne de Bretagne",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2430:livre-d-heures-d-anne-de-bretagne",
+  "title": "Livre d'Heures d'Anne de Bretagne",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2430:ordini-equestri",
+  "title": "Ordini Equestri",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2434:old-testament",
+  "title": "Old Testament",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:marie-curie",
+  "title": "Marie Curie",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:vivere-con-gli-dei",
+  "title": "Vivere con gli dei",
+  "author": "Neil MacGregor",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:interviste-e-colloqui",
+  "title": "Interviste e colloqui",
+  "author": "Luciano Berio",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:versus",
+  "title": "Versus",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "il Mulino",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:artificio-di-memoria",
+  "title": "Artificio di memoria",
+  "author": "Fabio Mauri",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:misteri-dell-altare-di-isenheim-di-grune",
+  "title": "I misteri dell'altare di Isenheim di Grunewald",
+  "author": "Giovanni Reale",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:romanino-e-la-sistina-dei-poveri-a-pisog",
+  "title": "Romanino e la 'Sistina dei poveri' a Pisogne",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:voglia-di-libri",
+  "title": "Voglia di libri",
+  "author": "Mario Andreose",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:era-della-comunicazione",
+  "title": "L'era della comunicazione",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:ceffo-di-sir-thomas-browne",
+  "title": "Il ceffo di Sir Thomas Browne",
+  "author": "Roberto Calasso",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:bambino-nascosto",
+  "title": "Il bambino nascosto",
+  "author": "Roberto Ando",
+  "language": "it",
+  "year": null,
+  "publisher": "La nave di Teseo",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:irrenhaus",
+  "title": "Das Irrenhaus",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": "Hanser",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:ewige-faschismus",
+  "title": "Der ewige Faschismus",
+  "author": "Umberto Eco",
+  "language": "de",
+  "year": null,
+  "publisher": "Hanser",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:note",
+  "title": "Note",
+  "author": "Giancarlo Iliprandi",
+  "language": "it",
+  "year": null,
+  "publisher": "Hoepli",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:volto-del-900-da-matisse-a-bacon-capolav",
+  "title": "Il volto del '900: da Matisse a Bacon, capolavori dal Centre Pompidou",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Skira",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:giorgio-morandi-une-retrospective",
+  "title": "Giorgio Morandi: une retrospective",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": "Skira / BOZAR Books",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:viaggio-in-italia",
+  "title": "Viaggio in Italia",
+  "author": "Guido Piovene",
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:ricordi-di-un-entomologo-i",
+  "title": "Ricordi di un entomologo I",
+  "author": "Jean-Henri Fabre",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:cacciatore-celeste",
+  "title": "Il cacciatore celeste",
+  "author": "Roberto Calasso",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:mutanti",
+  "title": "I mutanti",
+  "author": "Sofia Bignamini",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:bambini-di-marte",
+  "title": "I bambini di Marte",
+  "author": "Lazzarato",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:crollo",
+  "title": "Il crollo",
+  "author": "Lorenzo Pregliasco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:proposito-di-niente",
+  "title": "A proposito di niente",
+  "author": "Woody Allen",
+  "language": "it",
+  "year": null,
+  "publisher": "La nave di Teseo (?)",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:scrittura-sconcertante",
+  "title": "Una scrittura sconcertante",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:verri",
+  "title": "il verri",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:bene-e-il-male",
+  "title": "Il bene e il male",
+  "author": "Giulio Giorello, Vittorio Sgarbi",
+  "language": "it",
+  "year": null,
+  "publisher": "La nave di Teseo",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:della-memoria",
+  "title": "[...]della memoria",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:due-sigari-in-riva-al-mare",
+  "title": "Due sigari in riva al mare",
+  "author": "Michael Köhlmeier",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:critique",
+  "title": "Critique",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:sogno-per-tutti",
+  "title": "Un sogno per tutti",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Skira",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:passione-a-manhattan",
+  "title": "Una passione a Manhattan",
+  "author": "Anna Ottani Cavina",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2570:primo-del-mondo",
+  "title": "Il primo [...] del mondo",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "La nave di Teseo (?)",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:immagini-dell-italia-1",
+  "title": "Immagini dell'Italia. 1",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Bompiani",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:novecento",
+  "title": "Il Novecento",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:scaffale-infinito",
+  "title": "Lo scaffale infinito",
+  "author": "Andrea Kerbaker",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:inconsolabile-pensiero",
+  "title": "L'inconsolabile pensiero",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:paradiso-delle-aragoste",
+  "title": "Il paradiso delle aragoste",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:scritti-a-mano",
+  "title": "Scritti a mano",
+  "author": "Matteo Motolese",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:breve-autobiografia",
+  "title": "Breve autobiografia",
+  "author": "Giuseppe Tornatore",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:omicidio-di-umberto-eco",
+  "title": "L'omicidio di Umberto Eco",
+  "author": "Oscar Rimini",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:passo-di-gambero",
+  "title": "A passo di gambero",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2578:questo-e-kafka",
+  "title": "Questo e Kafka",
+  "author": "Reiner Stach",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:sulle-spalle-dei-giganti",
+  "title": "Sulle spalle dei giganti",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:bel-tacere",
+  "title": "Il bel tacere",
+  "author": "Pietro Salabe",
+  "language": "it",
+  "year": null,
+  "publisher": "possibly La nave di Teseo (small crescent-moon colophon)",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:umberto-eco-e-il-pci",
+  "title": "Umberto Eco e il PCI",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:luce-oltre-il-vetro",
+  "title": "La luce oltre il vetro",
+  "author": "Lorenzo Puglisi",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:colpa-dell-agnello",
+  "title": "La colpa dell'agnello",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:compagni-di-scuola",
+  "title": "Compagni di scuola",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:segreti-dei-fiori",
+  "title": "I segreti dei fiori",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:sulle-spalle-di-umberto",
+  "title": "Sulle spalle di Umberto",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:terre-senz-ombra",
+  "title": "Terre senz'ombra",
+  "author": "Anna Ottani Cavina",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:tempo-di-libri-programma-2017",
+  "title": "Tempo di Libri. Programma 2017",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:innominabile-attuale",
+  "title": "L'innominabile attuale",
+  "author": "Roberto Calasso",
+  "language": "it",
+  "year": null,
+  "publisher": "Adelphi",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:eredita-di-umberto-eco",
+  "title": "L'eredità di Umberto Eco",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:eco",
+  "title": "Eco",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:cerchi-di-capire-prof",
+  "title": "Cerchi di capire, prof",
+  "author": "Giovanna Cosenza",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:anima-ciliegia",
+  "title": "L'anima ciliegia",
+  "author": "Lia Levi",
+  "language": "it",
+  "year": null,
+  "publisher": "e/o (Edizioni E/O)",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:mistero-de",
+  "title": "Il mistero de...",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:fenice",
+  "title": "Fenice",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:primavera",
+  "title": "[...] la primavera",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:ciarlatani",
+  "title": "Ciarlatani",
+  "author": "Fausto Colombo",
+  "language": "it",
+  "year": null,
+  "publisher": "possibly La nave di Teseo (crescent-moon colophon)",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:storie-di-percorso",
+  "title": "Storie di percorso",
+  "author": "Roberto Campari",
+  "language": "it",
+  "year": null,
+  "publisher": "La nave di Teseo",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2582:auf-den-schultern-von-riesen",
+  "title": "Auf den Schultern von Riesen",
+  "author": "Umberto Eco",
+  "language": "de",
+  "year": null,
+  "publisher": "Carl Hanser Verlag",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2592:pinocchio",
+  "title": "Pinocchio",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2596:corsaro-delle-tenebre",
+  "title": "Il Corsaro delle Tenebre",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Casa Editrice Sonzogno, Milano",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2598:storia-del-racconto-popolare-prima-del-f",
+  "title": "Storia del racconto popolare: prima del fumetto",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Edizioni Edison",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2643:eroi-del-racconto-popolare",
+  "title": "Eroi del racconto popolare",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Edizioni Dedalo",
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2643:carducci",
+  "title": "Carducci",
+  "author": "Giosuè Carducci",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2716:saggio-sulla-disuguaglianza-delle-razze",
+  "title": "Saggio sulla disuguaglianza delle razze umane",
+  "author": "Arthur de Gobineau",
+  "language": "it",
+  "year": null,
+  "publisher": "Rizzoli",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2716:mersenne-ou-la-naissance-du-mecanisme",
+  "title": "Mersenne ou la naissance du mécanisme",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": "Vrin",
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2716:birth-of-the-gods-and-giants",
+  "title": "The [Birth] of the Gods and Giants",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2716:age-of-lamarck",
+  "title": "The Age of Lamarck",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2778:semiotik-des-films",
+  "title": "Semiotik des Films",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2799:kant-en-het-vogelbekdier",
+  "title": "Kant en het vogelbekdier",
+  "author": "Umberto Eco",
+  "language": "nl",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2828:superuomo-di-massa-retorica-e-ideologia",
+  "title": "Il superuomo di massa. Retorica e ideologia nel romanzo popolare",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4465:името-на-розата",
+  "title": "Името на розата",
+  "author": null,
+  "language": "bg",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2892:voce",
+  "title": "Una voce",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:2894:divina-commedia",
+  "title": "La Divina Commedia",
+  "author": "[Dante Alighieri]",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3058:cahiers-feministes",
+  "title": "Les Cahiers Feministes",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3058:everyman-s-talmud",
+  "title": "Everyman's Talmud",
+  "author": "Abraham Cohen",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3192:annuario-filosofico-1993",
+  "title": "Annuario Filosofico 1993",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Mursia",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3192:annuario-filosofico-1994",
+  "title": "Annuario Filosofico 1994",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": "Mursia",
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3192:attico-reclamato",
+  "title": "L'attico reclamato",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3293:storia-delle-terre-e-dei-luoghi-leggenda",
+  "title": "Storia delle terre e dei luoghi leggendari",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3424:roy-soleil",
+  "title": "Le Roy Soleil",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3610:francis-bacon-concealed-and-revealed",
+  "title": "Francis Bacon: Concealed and Revealed",
+  "author": "[Bertram G.] Theobald",
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3610:bacon-shak-e-spea",
+  "title": "The Bacon-Shak[e]spea[re Question / Mystery]",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3855:cimitero-di-praga",
+  "title": "Il Cimitero di Praga",
+  "author": "Umberto Eco",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:3929:plot-the-secret-story-of-the-protocols-o",
+  "title": "The Plot: The Secret Story of the Protocols of the Elders of Zion",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4465:intertexto",
+  "title": "Intertexto",
+  "author": "Mario Chamie",
+  "language": "pt",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4465:metamorfosi-di-narciso",
+  "title": "Le metamorfosi di Narciso",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4466:intertesto",
+  "title": "Intertesto",
+  "author": "Mario Ciampi",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4471:clave",
+  "title": "Clave",
+  "author": null,
+  "language": "es",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4513:kircheri-de-arte-magnetica",
+  "title": "Kircheri de Arte Magnetica",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4513:joco-seriorum-naturae-et-artis-sive-magi",
+  "title": "Joco-seriorum Naturae et Artis, sive Magiae Naturalis",
+  "author": "Athanasius Kircherus",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4513:iter-exstaticum",
+  "title": "Iter Exstaticum",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4513:tabula-kircheriana",
+  "title": "Tabula Kircheriana",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "medium"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4513:obeliscus-aegyptiacus",
+  "title": "Obeliscus Aegyptiacus",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "high"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4516:iter-ex-s-tati-cum-cum-kircheria",
+  "title": "Iter Ex[s]tati[cum] cum Kircheria[num]",
+  "author": "Athanasius Kircher (ed. Gaspar Schott?)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "video:zZEy10fpq3I:4516:prodromus-coptus",
+  "title": "Prodromus Coptus",
+  "author": "Athanasius Kircherus",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "video",
+  "confidence": "low"
+ },
+ {
+  "id": "photo:fondazione_01_E:puglia",
+  "title": "Puglia",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_01_E:elogio-della-pazzia",
+  "title": "Elogio della pazzia",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "low"
+ },
+ {
+  "id": "photo:fondazione_02_H:bertozzi",
+  "title": "Bertozzi",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_02_H:bueno",
+  "title": "A. Bueno",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_02_H:matisse",
+  "title": "Matisse",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_04_F:bilder",
+  "title": "Die Bilder",
+  "author": null,
+  "language": "de",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "low"
+ },
+ {
+  "id": "photo:fondazione_05_C:book-of-kells",
+  "title": "The Book of Kells",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_05_C:propheties",
+  "title": "Prophéties",
+  "author": "Nostradamus",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_07_D:alchimie",
+  "title": "Alchimie",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_07_D:mercator",
+  "title": "Mercator",
+  "author": null,
+  "language": "en",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_08_A-da_1_a_6:regina-delle-fate",
+  "title": "La regina delle fate",
+  "author": "Edmund Spenser",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_09_A-da_7_a_12:z",
+  "title": "Z",
+  "author": null,
+  "language": null,
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "low"
+ },
+ {
+  "id": "photo:fondazione_14_L1-4:filosofia-della-musica",
+  "title": "Filosofia della musica",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_14_L1-4:guglielmo-di-ockham",
+  "title": "Guglielmo di Ockham",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_16_L8-12:agostino",
+  "title": "Agostino",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_16_L8-12:berkeley",
+  "title": "Berkeley",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_16_L8-12:locke",
+  "title": "Locke",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_16_L8-12:david-hume",
+  "title": "David Hume",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_16_L8-12:michel-de-montaigne",
+  "title": "Michel de Montaigne",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_16_L8-12:montesquieu",
+  "title": "Montesquieu",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_16_L8-12:voltaire",
+  "title": "Voltaire",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_16_L8-12:schelling",
+  "title": "Schelling",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_17_I:eleati",
+  "title": "Gli Eleati",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_17_I:poetica",
+  "title": "Poetica",
+  "author": "Aristotele",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_17_I:retorica",
+  "title": "Retorica",
+  "author": "Aristotele",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_17_I:fisica",
+  "title": "Fisica",
+  "author": "Aristotele",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_17_I:opere-logiche",
+  "title": "Le opere logiche",
+  "author": "Aristotele",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_17_I:antichi-commentatori",
+  "title": "Gli antichi commentatori",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_19_M-B:eccellenza-di-dio",
+  "title": "L'eccellenza di Dio",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_21_Nb:clave-diccionario-de-uso-del-espanol",
+  "title": "Clave: diccionario de uso del español",
+  "author": null,
+  "language": "es",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_26_S:origine-delle-razze",
+  "title": "L'origine delle razze",
+  "author": null,
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_03_ANTICHI-24:elephanti-descriptio",
+  "title": "Elephanti descriptio",
+  "author": "Georg Christoph Petri von Hartenfels",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_03_ANTICHI-24:de-la-maladie-d-amour",
+  "title": "De la maladie d'amour",
+  "author": null,
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_03_ANTICHI-24:schola-salernitana",
+  "title": "Schola Salernitana",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_06_157-08-2:emblemata",
+  "title": "Emblemata",
+  "author": "Florentius Schoonhovius (Florent Schoonhoven)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_07_357-03:de-supernaturali-historia",
+  "title": "De supernaturali historia (Utriusque cosmi historia)",
+  "author": "Robert Fludd",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_08_399-11:china-monumentis",
+  "title": "China monumentis",
+  "author": "Athanasius Kircher",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_11_452-05:geheime-figuren-der-rosenkreuzer",
+  "title": "Geheime Figuren der Rosenkreuzer",
+  "author": null,
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_12_770-11:relationi-universali",
+  "title": "Le relationi universali",
+  "author": "Giovanni Botero",
+  "language": "it",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:fondazione_14_778-03:museum-wormianum",
+  "title": "Museum Wormianum",
+  "author": "Ole Worm (Olaus Wormius)",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ },
+ {
+  "id": "photo:fondazione_15_926-12:thesaurus-animalium-thesaurus-anatomicus",
+  "title": "Thesaurus animalium / Thesaurus anatomicus",
+  "author": "Frederik Ruysch",
+  "language": "la",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "medium"
+ },
+ {
+  "id": "photo:flickr_5772422901_b:port-royal",
+  "title": "Port-Royal",
+  "author": "Charles Augustin Sainte-Beuve",
+  "language": "fr",
+  "year": null,
+  "publisher": null,
+  "source_kind": "photo",
+  "confidence": "high"
+ }
+]

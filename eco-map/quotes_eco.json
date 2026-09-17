@@ -1,0 +1,88 @@
+{
+ "_comment": "Quotations transcribed from the auto-captions of the listed videos (eco-video/captions/*.vtt); text_it is the caption wording lightly repunctuated, text an English rendering. timestamp_s is the RAW second in the video; gen_books_eco.py adds the video's timestamp_offset_s for the link. target = room id, bookcase id or object id. Edit freely; entries with the same video_id and second as one in eco-sources/experience/quotes.json or eco-video/quotes_<id>.json are merged (this file wins on text, speaker and source, so a quotation has one speaker). `source` names the film by its title; without it the page would show the upload's title.",
+ "quotes": [
+  {
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 115,
+   "source": "Umberto Eco. La biblioteca del mondo (Davide Ferrario, 2022)",
+   "speaker": "Umberto Eco",
+   "target": "salotto",
+   "text_it": "La biblioteca è effettivamente simbolo e realtà di una memoria collettiva.",
+   "text": "The library really is the symbol and the reality of a collective memory.",
+   "context": "Interview in the study, 2015 (black and white), used over the opening long take"
+  },
+  {
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 323,
+   "source": "Umberto Eco. La biblioteca del mondo (Davide Ferrario, 2022)",
+   "speaker": "Stefano Eco",
+   "target": "studio",
+   "text_it": "Qui siamo nello studio di mio padre, dentro la casa che lui e mia madre hanno scelto trent'anni fa per poter tenere tutta la collezione di libri di mio padre, cioè i 1.200 libri antichi e i 30.000 libri moderni.",
+   "text": "This is my father's study, in the house he and my mother chose thirty years ago so that his whole book collection could be kept: the 1,200 old books and the 30,000 modern ones."
+  },
+  {
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 515,
+   "source": "Umberto Eco. La biblioteca del mondo (Davide Ferrario, 2022)",
+   "speaker": "Umberto Eco",
+   "target": "studio",
+   "text_it": "La casa è grande appunto perché i libri altrimenti non ci stanno: da quella precedente sono stato sfrattato, con un concorso del Genio civile, perché pareva che le librerie facessero crollare i muri.",
+   "text": "The flat is big precisely because otherwise the books would not fit: I was evicted from the previous one, with the civil engineers involved, because the bookcases seemed to be bringing the walls down."
+  },
+  {
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 576,
+   "source": "Umberto Eco. La biblioteca del mondo (Davide Ferrario, 2022)",
+   "speaker": "Umberto Eco",
+   "target": "salotto",
+   "text_it": "La memoria vegetale, visto che i libri si fanno ormai col legno, ma una volta anche col papiro: la memoria vegetale è quella dei libri.",
+   "text": "Vegetal memory, since books are unfortunately made of wood nowadays, and once of papyrus and so on: vegetal memory is the memory of books."
+  },
+  {
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 2589,
+   "source": "Umberto Eco. La biblioteca del mondo (Davide Ferrario, 2022)",
+   "speaker": "Carlotta Eco",
+   "target": "corridoio",
+   "text_it": "Se dovessi raccontare la biblioteca di mio padre inizierei da qua: sono i feuilleton, i romanzi d'appendice dell'Ottocento che lui ha letto da ragazzo e che in parte ha letto anche a noi; e qui si trovano le immagini bellissime degli incisori del periodo, che lui poi ha utilizzato tantissimo, soprattutto nei romanzi, nel Cimitero di Praga. … Qui c'è un segnale: si estende un po' tutta la letteratura francese lungo questa linea, e anche qua; mentre qui sotto, ad esempio, c'è la letteratura italiana, e se andiamo invece verso l'alto rimaniamo sempre nell'ambito della letteratura popolare e arriviamo fino ai fumetti.",
+   "text": "If I had to tell the story of my father's library I would start here: these are the feuilletons, the nineteenth-century serial novels he read as a boy and partly read to us too; and here are the beautiful engravings of the period, which he then used so much, above all in the novels, in The Prague Cemetery. … Here there is a marker: all of French literature stretches along this line, and here too; while below, for example, there is Italian literature, and if we go upwards instead we still stay within popular literature and arrive at the comics."
+  },
+  {
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 2649,
+   "source": "Umberto Eco. La biblioteca del mondo (Davide Ferrario, 2022)",
+   "speaker": "Stefano Eco",
+   "target": "corridoio",
+   "text_it": "Questa biblioteca di lavoro è sì organizzata per settori, ma non alfabeticamente, piuttosto per sottosettori, dove poi alcune cose venivano spostate: lo sapeva quasi solo lui dove trovare i libri, perché era una cosa viva, non era un archivio, non era una biblioteca codificata nel senso classico.",
+   "text": "This working library is organised by sector, yes, but not alphabetically, rather by sub-sectors, where things then got moved around: almost only he knew where to find the books, because it was a living thing, not an archive, not a library codified in the classical sense."
+  },
+  {
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3064,
+   "source": "Umberto Eco. La biblioteca del mondo (Davide Ferrario, 2022)",
+   "speaker": "Carlotta Eco",
+   "target": "corridoio",
+   "context": "Spoken over the corridor shots from 51:04; the speaker is on camera in the study from 51:15 as the sentence ends (the Italian 'protetta' is feminine).",
+   "text_it": "Questa biblioteca ha anche un suo profumo, un odore, e anche un suono, direi, perché quando ti muovi in quei corridoi pieni di libri tutto è più attutito: io mi sento molto protetta lì in mezzo.",
+   "text": "This library also has its own scent, a smell, and a sound too, I would say, because when you move through those corridors full of books everything is muffled: I feel very protected in there."
+  },
+  {
+   "video_id": "zZEy10fpq3I",
+   "timestamp_s": 3093,
+   "source": "Umberto Eco. La biblioteca del mondo (Davide Ferrario, 2022)",
+   "speaker": "Umberto Eco",
+   "target": "antichi",
+   "text_it": "Recentemente qualcuno mi chiedeva perché colleziono solo libri falsi e non veri: perché sono più belli. Se devi dimostrare il teorema di Pitagora con due disegni hai fatto tutto; se devi dimostrare delle teorie false, alchemiche, vengono fuori delle illustrazioni.",
+   "text": "Recently someone asked me why I collect only false books and not true ones: because they are more beautiful. To prove Pythagoras' theorem two drawings will do; to prove false theories, alchemical ones, illustrations come out."
+  },
+  {
+   "video_id": "M8IWTOFNlOc",
+   "timestamp_s": 1350,
+   "source": "Louisiana Channel, Writer Umberto Eco: I Was Always Narrating (2015)",
+   "speaker": "Umberto Eco",
+   "target": "antichi",
+   "text": "I am a rare books collector too. And my collection concerns only fake books, books that say the contrary: so I don't have Galileo Galilei, but I have Ptolemy, because it was wrong about the movement of the Earth.",
+   "context": "Louisiana Channel interview"
+  }
+ ]
+}

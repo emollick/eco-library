@@ -1,0 +1,12 @@
+[
+ {"id": "s001", "title": "Il nome della rosa", "author": "Umberto Eco", "language": "it", "year": 1980, "publisher": "Bompiani", "source_kind": "catalog", "confidence": "high"},
+ {"id": "s002", "title": "Les Mots et les choses : une archéologie des sciences humaines", "author": "Foucault, Michel", "language": "fre", "year": 1966, "publisher": "Gallimard", "source_kind": "catalog", "confidence": "high"},
+ {"id": "s003", "title": "Sein und Zeit", "author": "Martin Heidegger", "language": "de", "year": 1927, "source_kind": "photo", "confidence": "medium"},
+ {"id": "s004", "title": "De docta ignorantia", "author": "Nicolaus Cusanus", "language": "lat", "year": 1440, "source_kind": "catalog", "confidence": "high"},
+ {"id": "s005", "title": "The Name of the Rose", "author": "Umberto Eco", "language": "en", "year": 1983, "source_kind": "video", "confidence": "medium"},
+ {"id": "s006", "title": "Il trattato delle ombre sottili, vol. 2", "author": "Anonimo", "language": "it", "source_kind": "video", "confidence": "low"},
+ {"id": "s007", "title": "Appunti sul silenzio dei manoscritti", "author": "Umberto Eco", "language": "it", "source_kind": "video", "confidence": "low"},
+ {"id": "s008", "title": "Le Désordre des familles : lettres de cachet des archives de la Bastille", "author": "Foucault, Michel", "language": "fr", "year": 1982, "source_kind": "catalog", "confidence": "high"},
+ {"id": "s009", "title": "3. Opera aperta: forma e indeterminazione nelle poetiche contemporanee", "author": "Eco, Umberto <1932-2016>", "language": "Italian", "year": 1962, "source_kind": "catalog", "confidence": "high"},
+ {"id": "s010", "title": "Der Zauberberg, Bd. 2", "author": "Mann, Thomas", "language": "ger", "source_kind": "photo", "confidence": "medium"}
+]
