@@ -66,12 +66,12 @@ Counts from the About panel and the footer of the published page:
 | certainty tiers | 1,592 certain, 3,759 guess, 22,196 unknown (a Braidense ECO.02 or ECO.03 record names a section of the catalogue, not a shelf, so it is a guess); objects 94 high, 36 medium, 3 low confidence |
 | catalogue records | 2,105 Braidense, of which 1,816 (sections ECO.01 to ECO.03) are drawn as spines, 185 are set records drawn through their volumes' own records, and 104 belong to ECO.04, the section the library created to gather Eco's own publications for research; 3,047 Bologna, 28 of them with no subject match, laid on the unshelved table |
 | with a public description | 2,264 |
-| copy notes (Bologna records) | 1,014 dedications to Eco and 6 he wrote himself, 859 with the words transcribed, 1,697 with marginalia, 1,658 underlined, 1,402 dog-eared, 693 with inserts, 2,604 with the ex-libris stamp |
+| copy notes (Bologna records) | 1,014 dedications to Eco and 6 he wrote himself, 860 with the words transcribed, 1,698 with marginalia, 1,659 underlined, 1,403 dog-eared, 695 with inserts, 2,607 with the ex-libris stamp |
 | notable books, books in piles, objects | 154, 112, 133 |
 | the piano | 12 piles stacked pile for pile from the film's pull-back (6 on the lid, 6 on the keyboard shelf), 118 books, 86 identified and 32 blank spines, each pile linked to the film |
 | on film | 26 of 57 bookcases have direct film evidence; 31 are drawn in fog |
 | guided tours | 14 tours and 261 stops, every stop a book on the shelves but four (a bookcase and three comic piles); 96 stops quote Eco or his family word for word from a named, linked source, and 47 show a public-domain or Creative Commons picture of the book |
-| English titles | 4,409 of the identified books: 819 titles of published English editions or standard English titles of classical works, 3,590 literal translations made for the map; 1,718 descriptions translated |
+| English titles | 4,408 of the identified books: 819 titles of published English editions or standard English titles of classical works, 3,589 literal translations made for the map; 1,718 descriptions translated |
 
 A record is a catalogue entry, never a count of volumes: a set record stands behind its
 volumes, works bound together share a shelfmark, and the ECO.04 entries are references.

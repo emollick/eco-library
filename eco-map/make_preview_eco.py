@@ -5,7 +5,7 @@
 
 Serves dist/ locally, opens the loose page at 1200 by 630 with the opening card dismissed, flies to the room's tour view, waits for the
 frame and writes a JPEG. build_eco.py copies preview.jpg into dist/ when it exists, and netlify/stage.py must stage it beside index.html.
-The picture leaves out the footer, the hint box and the plates."""
+It is drawn without the footer, the hint box and the plates."""
 import argparse, functools, glob, http.server, os, socketserver, threading, sys
 H = os.path.dirname(os.path.abspath(__file__))
 ap = argparse.ArgumentParser()

@@ -63,12 +63,12 @@ written as null, on the unshelved and reference entries. Fields marked optional 
                                      // composed and then set aside, so it may run one higher
         "part_titles_from_responsibility": 2, "title_tails_cleaned": 4, "authors_from_set": {"braidense": 58, "bologna": 2, "note": "..."},
         "bologna_copies": {"with_copy_notes": 3046, "with_eco_inventory": 2606, "with_dedication": 877, "with_annotation_note": 2695,
-                           "marks": {"underlinings": 1658, ...}, "with_inscription": 859, "inscribed": 1014, "with_named_giver": 870,
+                           "marks": {"underlinings": 1659, ...}, "with_inscription": 860, "inscribed": 1014, "with_named_giver": 870,
                            "givers": 503, "top_givers": [["Alberto Arbasino", 31], ...],    // distinct givers, and the twelve who inscribed most
                            "given": {"plain": 2026, "named": 870, "unnamed": 144, "eco": 6},   // the classes the "Given to Eco" legend paints
                            "inscribed_by_eco": 6,                                              // copies whose dedication is in Eco's own hand
-                           "inscription_how": {"closed": 839, "unclosed": 18, "no-quote": 2},  // how the transcribed inscription was closed
-                           "hand": {"0": 1107, "1": 237, "2": 282, "3": 1031, "4": 389}, "hand_any": 1939,   // copies by how many of the four kinds of mark in Eco's hand the note records (marginalia, underlinings, dog-ears, inserts; the ex-libris stamp is the heirs' and does not count)
+                           "inscription_how": {"closed": 840, "unclosed": 18, "no-quote": 2},  // how the transcribed inscription was closed
+                           "hand": {"0": 1105, "1": 238, "2": 282, "3": 1031, "4": 390}, "hand_any": 1941,   // copies by how many of the four kinds of mark in Eco's hand the note records (marginalia, underlinings, dog-ears, inserts; the ex-libris stamp is the heirs' and does not count)
                            "copy_notes_applied": [{"id": "UBO00189116", "dropped": ["Serao, Matilde"], "note": "..."}]}},   // the copy records copy_notes_eco.json qualified
       "spine": {"frames": 2405, "frames_by_level": {"bookcase": 560, "room": 556, "pile": 425, "subject": 186, "context": 18, "label": 4},
                 "frames_unresolved": 0, "rows": 1720, "readings": 508, "consolidated": "books_by_wall_eco.json", "consolidated_books": 587,
@@ -269,13 +269,18 @@ written as null, on the unshelved and reference entries. Fields marked optional 
         "givers": ["Michel Costantini"],   // the dedication's authors as a reader says the name ('Alberoni, Francesco <1929-2023>' -> 'Francesco Alberoni'); the catalogue form stays in dedication_by
         "inscription": "Per Umberto Eco, con amicizia",   // the words the cataloguer transcribed after the dedication remark, verbatim (the [?] marks kept): that span and only
                                      // that, closed at its own quotation mark (a quotation inside the words stays whole), or the sentence where the export's quote is not closed or
-                                     // never opened. A quoted source title, card, page number or clipping is not an inscription. The final stop is kept; four characters is the floor
+                                     // never opened. A quoted source title, card, page number or clipping is not an inscription. The final stop is kept; four characters is the floor.
+                                     // The span is read from the notes line ("Note e decorazioni") or, when that line carries none, from the condition line ("Stato di
+                                     // conservazione"); a closing mark followed by a semicolon ends it only when no more words and no further closing mark follow before the next remark
         "inscribed_by_eco": true,    // the dedication's author heading (317) is Eco's own, so the copy is one he inscribed to someone else: the mark "dedication by Eco" in place of
                                      // "dedication", no givers, the class "eco"
-        "giver_note": "The catalogue names Matilde Serao ...",   // from copy_notes_eco.json, printed under the catalogue's dedication line on the card when the record's own fields
-                                     // contradict the name; with drop_givers the givers are empty and the copy reads "Inscribed, no giver named"
+        "giver_note": "The catalogue names Matilde Serao ...",   // from copy_notes_eco.json, when the record's own fields contradict the name: the card's "Inscribed by" row carries
+                                     // the note in place of the name, the catalogue's own line stays in the notes row, and with drop_givers the givers are empty, so the copy counts
+                                     // as inscribed with no giver named and sits under "Giver not named" in the copies list
         "annotation": "Sull'occhietto tracce del timbro tratto da ex libris di Umberto Eco ...; frequenti sottolineature a penna ...",
         "condition": "...", "marks": ["ex-libris stamp", "dedication", "dedication by Eco", "underlinings", "marginalia", "dog-ears", "inserts"], "bub_shelfmark": "BU T 4616 /751160"},
+                                     // marks are read from the notes line and the condition line both; the name of the library's folder of loose papers ("FONDO SPEC. Eco, Inserti")
+                                     // standing alone in a condition line counts as no mark
       "incunabulum": true, "istc": "ib00526000", "istc_url": "https://data.cerl.org/istc/ib00526000",   // the 36 incunabula (experience/incunabula.json, matched to the Braidense records)
       "card": {"place": "Venice", "printer": "...", "date": "1482", "format": "4to", "size_cm": "21 x 15", "binding_condition": "...", "provenance": "...",
                "price_dealer": "...", "note": "...", "istc": "...", "istc_url": "...", "source": "Nuovo & Coletto, AIB Studi 2022", "source_url": "...",
@@ -369,7 +374,8 @@ reference entry or that is the stop's own target.
 
 A stop's `id` is its stable name in `tours_eco.json`, not its position in the tour. The tours are ordered by the `stops` list, so
 a stop may keep its id after the list is reordered: the Baudolino tour's seventh stop is `baudolino-06`, its fifth `baudolino-08`.
-A record that names a stop by number counts along the list.
+A record that names a stop by number counts along the list. The page's `window.__tours.list()` returns each tour with its
+stops' `ids` in this order.
 
 
 ## Notable tours
@@ -566,7 +572,7 @@ Two further input files sit next to the generator rather than in `experience/`:
   "note": "...", "source": "...", "posthumous": true}`. The export's own date stays in `date`, and `date_note` says why the year
   differs.
 * `copy_notes_eco.json` (`--copy-notes`): qualifications of University of Bologna copy records whose own fields contradict one
-  another, keyed by record id: `giver_note` (printed under the catalogue's dedication line on the card), `drop_givers` (the name
+  another, keyed by record id: `giver_note` (the card's "Inscribed by" row, in place of the name), `drop_givers` (the name
   comes off the "Given to Eco" colouring and the givers list, while the catalogue's line stays as evidence), `status` and
   `source`. One record uses it, UBO00189116, the Serao line; `meta.counts.catalog.bologna_copies.copy_notes_applied` lists what
   was applied.
@@ -834,8 +840,8 @@ for the library (`meta.counts.by_*`), each room (`meta.counts.by_room[].by_*`) a
 | Century | `by_century` | `year` by hundred-year block, `1400s` to `2000s`; `unknown` when the record or reading has no year; `unlabelled` for the filler |
 | Language | `by_language` | `language` (ISO 639-1); `unknown` and `unlabelled` as above |
 | On film | `on_film`, `rooms[].bookcases[].on_camera` | the bookcase was on camera (a reading, a pile or an inventoried object of the film was placed on it) |
-| Eco's hand | counted by the page from `copy.marks` (`meta.counts.catalog.bologna_copies.hand` is the generator's tally) | `4`, `3`, `2`, `1`, `0`: how many of marginalia, underlinings, dog-ears and inserts the copy note records; a copy record without a `marks` array is `0`, a copy with no mark noted. `-1`: no copy record (a rare book, a film reading, a photographed book, the one Bologna record without one). `unlabelled` for the filler, by origin, so a reading with no title is still a reading |
-| Given to Eco | counted by the page from `copy.givers`, `copy.marks` and `copy.inscribed_by_eco` (`bologna_copies.given` is the generator's tally) | `named`: a giver is named. `unnamed`: a dedication noted, no name. `eco`: a dedication in Eco's own hand, "Inscribed by Eco himself". `plain`: a Bologna copy without a dedication, and a copy record without marks. `none`: no copy record. `unlabelled` for the filler. The legend lists `bologna_copies.top_givers` as links into Eco's copies |
+| Eco's hand | counted by the page from `copy.marks` (`meta.counts.catalog.bologna_copies.hand` is the generator's tally) | `4`, `3`, `2`, `1`, `0`: how many of marginalia, underlinings, dog-ears and inserts the copy's notes and condition lines record; a copy record without a `marks` array is `0`, a copy with no mark noted. `-1`: no copy record (a rare book, a film reading, a photographed book, the one Bologna record without one). `unlabelled` for the filler, by origin, so a reading with no title is still a reading |
+| Given to Eco | counted by the page from `copy.givers`, `copy.marks` and `copy.inscribed_by_eco` (`bologna_copies.given` is the generator's tally) | `named`: a giver is named. `unnamed`: a dedication noted, no name (the copies list's "Giver not named" group). `eco`: a dedication in Eco's own hand, "Inscribed by Eco himself". `plain`: a Bologna copy without a dedication, and a copy record without marks. `none`: no copy record. `unlabelled` for the filler. The legend lists `bologna_copies.top_givers` as links into Eco's copies |
 
 A Bologna record with a copy record is "Eco's copy": the colour, the tooltip, the legends and the copies list share that one
 definition. `meta.counts.overlay_note` gives one sentence per overlay stating what it rests on, for the About panel.

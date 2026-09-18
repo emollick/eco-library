@@ -1274,7 +1274,7 @@ if args.braidense_mrc and os.path.exists(args.braidense_mrc):
             if any(t == '461' and subs for t, ind, subs in fields): _par += 1
         RARE_RECON = dict(export_records=len(_recs), set_records_not_drawn=len(RARE_SET_ONLY), records_with_parent_set=_par, records_noting_works_bound_together=_bw,
                           distinct_shelfmarks_eco01_03=len(_sm), distinct_running_numbers_eco01_03=len({re.sub(r'/.*$', '', k) for k in _sm}), shelfmarks_shared_by_several_records=sum(1 for k, n in _sm.items() if n > 1),
-                          braidense_volumes_at_transfer=1328, note='a record is a catalogue entry, not a spine: a set record stands behind its volumes, works bound together share a shelfmark, and the ECO.04 entries are the library\'s reference copies; the 1,328 volumes the Braidense counted at the transfer of August 2021 are not equated with any record count (eco-map/reconcile_braidense.py)')
+                          braidense_volumes_at_transfer=1328, note='a record is a catalogue entry, not a spine: a set record stands behind its volumes, works bound together share a shelfmark, and the ECO.04 entries are the library\'s reference copies; the 1,328 volumes the Braidense counted at the transfer of August 2021 are not equated with any record count')
     except Exception as e: warn('Braidense UNIMARC set links unreadable (%s): every record is drawn' % e)
 VOLUME_TITLES = collections.Counter()   # how many numbered volumes got a composed title, per catalogue
 AUTHORS_FROM_SET = collections.Counter()   # how many records without a statement of responsibility of their own took the set's, per catalogue
@@ -1610,8 +1610,8 @@ INSCR_DATE_RE = re.compile(r"^[\[\]\s]*(?:[A-ZÀ-Ý][A-Za-zÀ-ÿ'’.-]*[ ,]+)?\
 INSCR_JUNK = ' \t.,;:•*–—-' + INSCR_QUOTES
 def inscr_unbracket(t): return re.sub(r'\[[^\]]*\]', '', t)
 
-def inscr_remark_end(note, start, intro):
-    """Where the cataloguer's next remark begins after `start`: a remark word outside brackets and parentheses, a capitalised remark after a full stop, a closing quotation mark followed by a semicolon; else the end of the note. In the introduction (the words between 'dedica' and the quotation) only the hard remark words count, since 'sul frontespizio' there says where the dedication is."""
+def inscr_remark_end(note, start, intro, join=True):
+    """Where the cataloguer's next remark begins after `start`: a remark word outside brackets and parentheses, a capitalised remark after a full stop, a closing quotation mark followed by a semicolon (unless the mark closes a quotation inside the words, see inscr_inner_quote); else the end of the note. In the introduction (the words between 'dedica' and the quotation) only the hard remark words count, since 'sul frontespizio' there says where the dedication is."""
     rx = INSCR_HARD_RE if intro else INSCR_FULL_RE
     depth = 0; i = start; n = len(note)
     while i < n:
@@ -1623,9 +1623,15 @@ def inscr_remark_end(note, start, intro):
             if ch == '.':
                 cm = INSCR_CAP_RE.match(note, i)
                 if cm: return cm.end()
-            if not intro and ch in '"”»' and INSCR_JOIN_RE.match(note, i): return i + 1
+            if join and not intro and ch in '"”»' and INSCR_JOIN_RE.match(note, i) and not inscr_inner_quote(note, i + 1): return i + 1
         i += 1
     return n
+
+def inscr_inner_quote(note, j):
+    """Whether the closing mark just before `j`, followed by a semicolon, closes a quotation inside the dedication rather than the dedication itself: more words and another closing mark follow it before the cataloguer's next remark or the end of the note ('ces variations "èpicuriennes" ; en[!] Avec toute ma admiration J. Charles Darmon"'). The look-ahead reads the remark words and the capitalised remarks but not a further semicolon join."""
+    end = inscr_remark_end(note, j, False, join=False)
+    qs = inscr_quotes_in(note, j, end)
+    return bool(qs) and bool(re.search(r'[^\W\d_]{2,}', inscr_unbracket(note[j:qs[0]])))
 
 def inscr_quotes_in(note, a, b):
     out = []; depth = 0
@@ -1729,7 +1735,8 @@ def bologna_copy(rec):
         if head.lower().startswith('stato di conservazione'): cond.append(body.strip() or x)
         elif head.lower().startswith('note e decorazioni'): ann.append(body.strip() or x)
         elif x: ann.append(x)
-    text = ' '.join(ann).lower()
+    # the cataloguer sometimes writes the notes into the condition line (a dedication with its words, the stamp, dog-ears, papers left inside): the marks and the inscription are read from it too, the name of the folder the loose papers went to ("FONDO SPEC. Eco, Inserti") left out of the count there, since a torn jacket kept in that folder is no paper left inside
+    text = (' '.join(ann) + ' ' + INSERTS_FOLDER_RE.sub(' ', ' '.join(cond))).lower()
     marks = [k for k, pat in (('ex-libris stamp', r'ex libris|timbro'), ('dedication', r'dedica'), ('underlinings', r'sottolineat'), ('marginalia', r'postill|annotazion|note manoscritt|segni di attenzione'),
                                ('dog-ears', r'orecchi'), ('inserts', r'inserit|allegat|segnalibro|inserti')) if re.search(pat, text)]
     by_eco = [d for d in dedic if ECO_HEADING_RE.match(d)]   # 'Autore della dedica: Eco, Umberto': a dedication Eco wrote in this copy, to someone else; the copy was not given to him
@@ -1739,10 +1746,11 @@ def bologna_copy(rec):
         if others and 'dedication' not in marks: marks.append('dedication')
     elif dedic and 'dedication' not in marks: marks.append('dedication')
     givers = [g for g in (giver_name(d) for d in others) if g]                                   # the givers as a reader names them
-    out = {k: v for k, v in dict(inventory=inv, provenance=prov, dedication_by=dedic, givers=givers, inscription=inscription_of(' '.join(ann)), annotation=' '.join(ann) or None, condition=' '.join(cond) or None, marks=marks,
+    out = {k: v for k, v in dict(inventory=inv, provenance=prov, dedication_by=dedic, givers=givers, inscription=inscription_of(' '.join(ann)) or inscription_of(' '.join(cond)), annotation=' '.join(ann) or None, condition=' '.join(cond) or None, marks=marks,
                                  inscribed_by_eco=bool(by_eco) or None, bub_shelfmark=(rec.get('bub_shelfmark') or [None])[0]).items() if v}
     return out or None
 ECO_HEADING_RE = re.compile(r'\s*Eco,\s*Umberto\b', re.I)
+INSERTS_FOLDER_RE = re.compile(r'FONDO\s+SPEC\.?\s*Eco,?\s*Inserti', re.I)   # the library's folder of loose papers, named in a condition line when a torn jacket or cover went there
 seen_ids = set(); per_target = collections.defaultdict(list); unknown_n = 0
 RULE_HOW = collections.Counter(); RESCUED = []   # records placed only through the 461 set title / responsibility / publisher
 UNSHELVED = []   # Bologna records no subject rule places: kept in books[] with placement "unshelved" and no bookcase (the page lists them; they sit on no bay)

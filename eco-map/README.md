@@ -62,7 +62,7 @@ From `eco-sources/`:
 |---|---|
 | `braidense_eco_all.csv` | 2,105 Braidense records of the rare-book room, shelfmarks ECO.01 to ECO.04. |
 | `braidense_eco_all.mrc` | The same records as UNIMARC. Only the 461/462 set titles of numbered volumes are read from it. Tolerated when absent. |
-| `bologna_eco_modern.jsonl` | 3,047 SBN-UBO records of the working library: title, author, year, language, subjects, ISBN, and the copy fields (inventory number, provenance, dedication, ex-libris stamp, underlinings, marginalia, dog-ears, inserts). |
+| `bologna_eco_modern.jsonl` | 3,047 SBN-UBO records of the working library: title, author, year, language, subjects, ISBN, and the copy fields (inventory number, provenance, dedication, and the notes and condition lines that record the ex-libris stamp, underlinings, marginalia, dog-ears, inserts and the words of an inscription). |
 | `fondazione_galleries.json` | The Fondazione Umberto Eco's gallery pictures and captions. |
 | `experience/` | `quotes.json`, `objects.json`, `notable_books.json`, `incunabula.json`, all optional. |
 
@@ -146,18 +146,26 @@ live: once a session, and never on a link that names a state.
 
 Clicking a book, a bookcase, a room or an object opens its panel: the sources with their links, the
 description, the reason it is placed where it is, the Bologna copy notes, the incunabulum card.
+A Bologna copy's panel quotes the words the cataloguer transcribed from its dedication, read from
+the notes line or, when that line has none, from the condition line, and names the giver the data
+serves; where the catalogue's own fields contradict each other, the row carries the note from
+`copy_notes_eco.json` in place of the name. Eco's copies, under More, lists the inscribed copies by
+giver, with the copies whose giver the catalogue does not name last, under "Giver not named".
 Search runs over titles, authors, subjects, descriptions, givers, inscriptions, marks, tours and
 objects.
 
 A tour flies the camera to each stop in Orbit, or stands the visitor at a clear station in front of
 it in Walk, opens the stop's panel and shows a card with the caption, the quotation and the source.
+While the card is up, the pile the stop's book lies on is the one whose spines are lettered.
 Eco's walk replays the film's path along `meta.walk`, with the quotations at their shelves and links
 back into the video.
 
 The address carries the state: `#book=`, `#case=`, `#object=`, `#room=`, `#tour=` with `stop=`, and
 `mode=walk`, `lang=en`, `colour=`, `show=`. Copy link on a book card and Link on a tour card add the
 exact viewpoint as `eye=` and `at=`, so a link lands where it was copied. Back and Forward walk the
-entries the page itself made.
+entries the page itself made: a book, a bookcase, an object or a tour opened in either view is an
+entry of its own, written before the camera moves, so Back from a book opened in Walk returns to the
+walk.
 
 ## The build
 
@@ -207,13 +215,16 @@ panel; search; the walk toggle; the colour overlays, their legend counts against
 the certainty filters; object thumbnails, spine lettering and the Eco's copies index; works in no
 record shown as ghost cards; spine luminance at eye level and label occlusion measured from the
 screenshots; an incunabulum pickable through the cabinet glass; the opening card on desktop and on a
-phone; the address, the links that land on it and Copy link; the More menu;
-the two copy-note colour modes with their legends and inscriptions; Any book; the preview tags and
-picture; the phone layout, with the tour card clear of the joystick and the Exit walk button; and
-every tour, stop by stop, with the target resolving, the camera arriving, the panel opening, the
-spine unoccluded and no nearer than 0.9 m in Orbit, and a walk station inside the stop's room and out
-of the furniture. A book hidden by the certainty filter must still appear at its stop as a stand-in
-spine, and Esc must leave the filter as it was.
+phone; the address, the links that land on it and Copy link; Back from a book opened in Walk; the
+More menu; the two copy-note colour modes with their legends and inscriptions, each inscription a
+passage of its copy note or its condition line; the copies list with its "Giver not named" group;
+Any book; the preview tags and picture; the phone layout, with the tour card clear of the joystick
+and the Exit walk button; the stop's own pile lettered while its card is up; and every tour, stop by
+stop, with the target resolving, the camera arriving, the panel opening, the spine unoccluded and no
+nearer than 0.9 m in Orbit, and a walk station inside the stop's room and out of the furniture. A
+book hidden by the certainty filter must still appear at its stop as a stand-in spine, and Esc must
+leave the filter as it was. The built page and the data must carry no note that names a version of
+the map.
 
 It then loads `eco-map.html` and `eco-map-artifact.html` from `file://` and requires both to reach
 the same ready state, and finally runs `check_piano.py` over `books.json`. Exit code 1 on any

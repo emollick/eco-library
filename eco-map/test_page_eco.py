@@ -22,8 +22,11 @@ preview tags and picture, the About text, the copy-note data and the literature 
 copies list counted from the data, the inscriptions closed at their own quotation marks, the six copies Eco inscribed himself, the
 Serao note, the Bologna titles composed with ISBD punctuation and the English titles that follow them, the elisions closed, Back
 walking the page's own entries, the opening card's click, the preview drawn without the footer, the hint box above a two-line
-footer, the search without near-misses, and the viewpoint rule at every book stop; then the self-contained eco-map.html and
-eco-map-artifact.html are loaded from file:// and must reach the same ready state. Exit code 1 on any failure.
+footer, the search without near-misses, the viewpoint rule at every book stop, the copies list's group for a giver the catalogue
+cannot name, an inscription run on past an inner quotation, a dedication read from the condition line, Back from a book opened in
+the walk view, the stop's own pile lettered at the Rose stop, and the page and the data free of version notes; then the
+self-contained eco-map.html and eco-map-artifact.html are loaded from file:// and must reach the same ready state. Exit code 1 on
+any failure.
 """
 import argparse, functools, http.server, json, math, os, re, socketserver, sys, threading, time
 
@@ -503,14 +506,14 @@ with sync_playwright() as pw:
       out.inscr = 0; out.inscrBad = []; out.givers = 0; out.giverBad = []; out.hand4 = 0; out.island = []; out.theoryN = 0; out.lit = 0; out.litOff = [];
       const LIT = { 'Italian literature': /^corridor-0[1-8]$/, 'French literature': /^corridor-(09|1[0-3])$/, 'English-language literature': /^corridor-1[4-8]$/, 'German literature': /^corridor-(19|20)$/ };
       for (const b of D.books) { const c = b.copy;
-        if (c && c.inscription) { out.inscr++; if (!(c.annotation || '').includes(c.inscription) || c.inscription.length < 4) out.inscrBad.push(b.id); }
+        if (c && c.inscription) { out.inscr++; if (!((c.annotation || '') + ' ' + (c.condition || '')).includes(c.inscription) || c.inscription.length < 4) out.inscrBad.push(b.id); }
         if (c && c.givers && c.givers.length) { out.givers++; for (const g of c.givers) if (/[<>]|,\s*$/.test(g)) out.giverBad.push([b.id, g]); }
         if (c && c.marks && H.filter((k) => c.marks.includes(k)).length === 4) out.hand4++;
         if (b.placement_rule === 'semiotics, linguistics, literary theory (islands)') { out.theoryN++; if ((b.subjects || []).some((s) => NAT.test(s))) out.island.push([b.id, b.title]); }
         if (LIT[b.placement_rule]) { out.lit++; if (!LIT[b.placement_rule].test(b.bookcase || '')) out.litOff.push([b.id, b.placement_rule, b.bookcase]); } }
       out.meta = (D.meta.counts.catalog || {}).bologna_copies || null; out.note = D.meta.counts.overlay_note || {}; return out; }""")
     bc20 = v20['meta'] or {}
-    check(v20['inscr'] >= 800 and not v20['inscrBad'] and bc20.get('with_inscription') == v20['inscr'], '%d Bologna copies carry the words the cataloguer transcribed from the dedication, each verbatim in the copy note, the count in meta (%s)' % (v20['inscr'], v20['inscrBad'][:3] or bc20.get('with_inscription')))
+    check(v20['inscr'] >= 800 and not v20['inscrBad'] and bc20.get('with_inscription') == v20['inscr'], '%d Bologna copies carry the words the cataloguer transcribed from the dedication, each verbatim in the copy note or its condition line, the count in meta (%s)' % (v20['inscr'], v20['inscrBad'][:3] or bc20.get('with_inscription')))
     check(v20['givers'] >= 800 and not v20['giverBad'] and bc20.get('with_named_giver') == v20['givers'] and len(bc20.get('top_givers') or []) == 12 and (bc20.get('top_givers') or [[None]])[0][0] == 'Alberto Arbasino', '%d copies name their giver as a reader says the name, the twelve who inscribed most in meta (%s)' % (v20['givers'], v20['giverBad'][:3] or (bc20.get('top_givers') or [None])[0]))
     check(bc20.get('hand', {}).get('4') == v20['hand4'] and bc20.get('hand_any', 0) > 1500 and 'hand' in v20['note'] and 'given' in v20['note'], 'the hand counts of meta agree with the copies (%d with all four kinds of mark) and both colour modes carry their note' % v20['hand4'])
     check(v20['theoryN'] > 0 and not v20['island'], 'no record classed as a national literature sits on the literary-theory island (%d records there; %s)' % (v20['theoryN'], v20['island'][:3] or 'none'))
@@ -633,7 +636,7 @@ with sync_playwright() as pw:
       for (const b of D.books) { const k = window.__classes(b.id), un = b.origin === 'unlabelled'; const gk = un ? 'unlabelled' : k.given, hk = un ? 'unlabelled' : String(k.hand); out.given[gk] = (out.given[gk] || 0) + 1; out.hand[hk] = (out.hand[hk] || 0) + 1;
         const c = b.copy; if (c && c.inscribed_by_eco) out.eco.push(b.id);
         if (c && (c.givers || []).some((g) => /\bEco\b/.test(g))) out.ecoGiver.push(b.id);
-        if (c && c.inscription) { out.inscr++; if (!(c.annotation || '').includes(c.inscription)) out.inscrBad.push(b.id); if (c.inscription.length < 4) out.inscrShort.push(b.id); if (REM.test(c.inscription)) out.inscrRemark.push(b.id); if (c.inscription.endsWith('.')) out.inscrStop++; }
+        if (c && c.inscription) { out.inscr++; if (!((c.annotation || '') + ' ' + (c.condition || '')).includes(c.inscription)) out.inscrBad.push(b.id); if (c.inscription.length < 4) out.inscrShort.push(b.id); if (REM.test(c.inscription)) out.inscrRemark.push(b.id); if (c.inscription.endsWith('.')) out.inscrStop++; }
         if (b.catalog === 'bologna' && b.title && b.title.includes(' : ')) { out.colon++; if (/: :|\s:\s*$/.test(b.title)) out.colonBad.push(b.id); if (b.title_raw && b.title_raw !== b.title) out.rawKept++; }
         for (const f of ['title', 'author', 'title_en', 'set_title', 'description']) if (b[f] && EL.test(b[f])) out.apos.push([b.id, f]);
         if (c) for (const g of c.givers || []) { if (EL.test(g)) out.apos.push([b.id, 'giver']); if (g === "Jean d'Ormesson") out.ormesson++; }
@@ -663,11 +666,11 @@ with sync_playwright() as pw:
     page.screenshot(path=os.path.join(args.shots, 'hand-tabs.png'), clip={'x': 0, 'y': 0, 'width': 1440, 'height': 400})
     page.evaluate("() => document.getElementById('hand').classList.remove('show')")
     # the inscriptions: closed at their own quotation marks, whole, verbatim in the note, none running into the cataloguer's remarks
-    check(v21['inscr'] >= 850 and not v21['inscrBad'] and not v21['inscrShort'] and not v21['inscrRemark'] and v21['inscrStop'] >= 40 and bc21.get('with_inscription') == v21['inscr'] and (bc21.get('inscription_how') or {}).get('closed', 0) > 800, '%d inscriptions, each a passage of its copy note, none shorter than four characters, none running on into the cataloguer\'s remarks, %d keeping their final stop (%s)' % (v21['inscr'], v21['inscrStop'], v21['inscrBad'][:2] + v21['inscrRemark'][:2] or bc21.get('inscription_how')))
+    check(v21['inscr'] >= 850 and not v21['inscrBad'] and not v21['inscrShort'] and not v21['inscrRemark'] and v21['inscrStop'] >= 40 and bc21.get('with_inscription') == v21['inscr'] and (bc21.get('inscription_how') or {}).get('closed', 0) > 800, '%d inscriptions, each a passage of its copy note or its condition line, none shorter than four characters, none running on into the cataloguer\'s remarks, %d keeping their final stop (%s)' % (v21['inscr'], v21['inscrStop'], v21['inscrBad'][:2] + v21['inscrRemark'][:2] or bc21.get('inscription_how')))
     s21 = v21['samples']
     check(bool(s21['a']) and s21['a'].endswith('10.IX.1867') and s21['b'] == 'A Umberto lo "zio" Val maggio \'90' and bool(s21['c']) and s21['c'].endswith('Alberto.') and s21['d'] is None and s21['e'] == 'Per Umberto, con amicizia A. A.' and bool(s21['f']) and s21['f'].startswith('Christmas 1987') and s21['g'] == 'A Stefano Sara da Umberto', 'the inscriptions end where the dedication ends: the Scheiwiller date, the zio Val, the Alberto with its stop, the Barker greeting; the pre-print date is no inscription (%s)' % ({k: (v or '')[:30] for k, v in s21.items()},))
     check(sorted(v21['eco']) == sorted(['bologna:UBO01226909', 'bologna:UBO09791533', 'bologna:UBO09399488', 'bologna:UBO09261831', 'bologna:UBO00291803', 'bologna:UBO08627411']) and not v21['ecoGiver'] and bc21.get('inscribed_by_eco') == 6 and not any(g[0] == 'Umberto Eco' for g in bc21.get('top_givers') or []), 'the six copies Eco inscribed for others are his own hand, never counted among his givers (%s)' % (v21['ecoGiver'] or len(v21['eco']),))
-    for id21, want21, name21 in (('bologna:UBO01226909', ('A Stefano Sara da Umberto', 'Written in the book by Umberto Eco', 'a dedication in his own hand'), 'Eco to Stefano and Sara'), ('bologna:UBO09399488', ('a dedication in his own hand', 'the catalogue notes it without quoting it'), 'Eco, unquoted'), ('bologna:UBO00189116', ('A Umbert da Matilde', 'someone else', 'Serao, Matilde'), 'the Serao copy')):
+    for id21, want21, name21 in (('bologna:UBO01226909', ('A Stefano Sara da Umberto', 'Written in the book by Umberto Eco', 'a dedication in his own hand'), 'Eco to Stefano and Sara'), ('bologna:UBO09399488', ('a dedication in his own hand', 'the catalogue notes it without quoting it'), 'Eco, unquoted'), ('bologna:UBO00189116', ('A Umbert da Matilde', 'someone else', 'Matilde Serao'), 'the Serao copy')):
         page.evaluate("(id) => window.__openBook(id)", id21); settle(page, 400)
         c21 = page.evaluate("() => ({ body: document.getElementById('pBody').textContent.replace(/\\s+/g, ' '), inscr: (document.querySelector('#pBody .inscr') || {}).textContent || '' })")
         check(all(w in c21['body'] for w in want21) and ('by Matilde Serao' not in c21['inscr']), "the card for %s reads as the catalogue records it (%s)" % (name21, [w for w in want21 if w not in c21['body']] or 'all present'))
@@ -791,6 +794,100 @@ with sync_playwright() as pw:
         sq21[q21] = page.evaluate("() => [...document.querySelectorAll('#results .r')].map((e) => e.textContent.replace(/\\s+/g, ' '))")
     page.fill('#q', ''); page.keyboard.press('Escape')
     check(1 <= len(sq21['Serao']) <= 4 and any('Matilde Serao' in r for r in sq21['Serao']) and 4 <= len(sq21['Faye']) <= 12 and sum(1 for r in sq21['Faye'] if 'Faye' in r) >= 4 and 1 <= len(sq21['Ormesson']) <= 4 and all("Ormesson, Jean d'" in r for r in sq21['Ormesson']), 'search finds Serao, Faye and Ormesson without the near-misses (%d, %d and %d results)' % (len(sq21['Serao']), len(sq21['Faye']), len(sq21['Ormesson'])))
+    # ---- the copies with a giver note and no giver, the inscriptions run on past an inner quotation and read from the condition line, Back from a book opened in the walk view, the stop's own pile and the page and the data free of version notes ----
+    v22 = page.evaluate(r"""() => { const D = window.__data(), out = { unnamed: [], noteNoGiver: [], byNoGiver: [], inscr: 0, inscrOut: [], semi: [], condDed: [], condMarks: 0, given: {} };
+      const g = (id) => D.books[D._index.get(id)];
+      for (const b of D.books) { const c = b.copy; if (!c) continue; const k = window.__classes(b.id); out.given[k.given] = (out.given[k.given] || 0) + 1;
+        if (k.given === 'unnamed') out.unnamed.push(b.id);
+        if (c.giver_note && !(c.givers && c.givers.length)) out.noteNoGiver.push(b.id);
+        if (c.dedication_by && c.dedication_by.length && !(c.givers && c.givers.length) && !c.giver_note && !c.inscribed_by_eco) out.byNoGiver.push(b.id);
+        if (c.inscription) { out.inscr++; if (!((c.annotation || '') + ' ' + (c.condition || '')).includes(c.inscription)) out.inscrOut.push(b.id); if (/ ; /.test(c.inscription)) out.semi.push([b.id, c.inscription]); }
+        if (c.condition && /dedica/i.test(c.condition)) out.condDed.push([b.id, !!c.inscription, (c.marks || []).includes('dedication')]);
+        if (c.condition && !c.annotation && (c.marks || []).length) out.condMarks++; }
+      const pick = (id) => { const b = g(id); return b && b.copy ? { inscr: b.copy.inscription || null, givers: b.copy.givers || [], marks: b.copy.marks || [], ann: b.copy.annotation || null, cond: b.copy.condition || null, note: b.copy.giver_note || null } : null; };
+      out.darmon = pick('bologna:UBO00101116'); out.burkert = pick('bologna:UBO00343613'); out.serao = pick('bologna:UBO00189116'); out.marks3 = { a: pick('bologna:UBO09846324'), b: pick('bologna:UBO09799684') };
+      out.meta = (D.meta.counts.catalog || {}).bologna_copies || {}; return out; }""")
+    dm22, bk22, sr22b, m3 = v22['darmon'] or {}, v22['burkert'] or {}, v22['serao'] or {}, v22['marks3']
+    check(dm22.get('inscr') == 'En Hommage à Umberto Eco, ces variations "èpicuriennes" ; en [sic] Avec toute ma admiration J. Charles Darmon' and dm22.get('givers') == ['Jean-Charles Darmon'] and len(v22['semi']) == 1, "the Darmon inscription runs on past its inner quotation to the giver's name, the only inscription with a semicolon inside it (%s)" % ((dm22.get('inscr') or '')[-44:],))
+    check(bk22.get('inscr') == "Omaggio dell'autore WB" and bk22.get('givers') == ['Walter Burkert'] and bk22.get('ann') is None and 'dedica autografa di Walter Burkert' in (bk22.get('cond') or '') and 'ex-libris stamp' in (bk22.get('marks') or []) and v22['condDed'] == [['bologna:UBO00343613', True, True]], 'the Burkert dedication is read from the condition line, the only dedication remark written there, with the stamp beside it (%s)' % (v22['condDed'],))
+    check(sorted((m3.get('a') or {}).get('marks') or []) == sorted(['ex-libris stamp', 'underlinings', 'marginalia', 'dog-ears', 'inserts']) and sorted((m3.get('b') or {}).get('marks') or []) == ['ex-libris stamp', 'inserts'] and v22['condMarks'] >= 3, 'the marks written into the condition line are read too: the stamp, the underlinings, the marginalia, the dog-ears and the insert of UBO09846324, the stamp and the inserts of UBO09799684 (%d copies with marks from the condition line alone)' % v22['condMarks'])
+    check(v22['inscr'] >= 860 and v22['inscr'] == v22['meta'].get('with_inscription') and not v22['inscrOut'] and (v22['meta'].get('inscription_how') or {}).get('closed', 0) >= 840, '%d inscriptions, each a passage of its copy note or its condition line, %d closed at their own quotation mark (%s)' % (v22['inscr'], (v22['meta'].get('inscription_how') or {}).get('closed', 0), v22['inscrOut'][:3] or 'none outside its note'))
+    check(v22['noteNoGiver'] == ['bologna:UBO00189116'] and not v22['byNoGiver'] and sr22b.get('givers') == [] and 'died in 1927' in (sr22b.get('note') or ''), 'the Serao copy is the one copy with a giver note and no giver, and no other copy carries a catalogue name the data does not serve as a giver (%s)' % (v22['byNoGiver'][:3] or 'none',))
+    # the copies list: a copy whose giver the catalogue cannot name sits under Giver not named, the last group
+    menu_click(page, '#handBtn')
+    gr22 = page.evaluate(r"""() => { const t = [...document.querySelectorAll('#handTabs button')].find((b) => b.dataset.hand === 'dedication'); if (t) t.click();
+      const heads = [...document.querySelectorAll('#handList .notable-cat')].map((h) => [h.dataset.giver, +(((h.querySelector('span') || {}).textContent || '').replace(/\D/g, '') || 0)]);
+      const row = document.querySelector('#handList .r[data-id="bologna:UBO00189116"]'); let prev = row ? row.previousElementSibling : null; while (prev && !prev.classList.contains('notable-cat')) prev = prev.previousElementSibling;
+      const un = document.querySelector('#handList .notable-cat[data-giver="Giver not named"]'); if (un) un.scrollIntoView({ block: 'start' });
+      return { heads, seraoGroup: prev ? prev.dataset.giver : null, tab: t ? t.textContent.trim().replace(/\s+/g, ' ') : null, rowText: row ? row.textContent.replace(/\s+/g, ' ') : null }; }""")
+    hd22 = dict(gr22['heads'])
+    check(gr22['tab'] is not None and 'Serao, Matilde' not in hd22 and gr22['heads'] and gr22['heads'][-1][0] == 'Giver not named' and hd22.get('Giver not named') == len(v22['unnamed']) and gr22['seraoGroup'] == 'Giver not named' and 'A Umbert da Matilde' in (gr22['rowText'] or '') and all(h != 'Giver not named' for h, n in gr22['heads'][:-1]), "the copies list's Dedicated to Eco tab puts the Serao copy under Giver not named, the last group, which counts the %d copies whose giver the catalogue does not name; no group is headed by a name the data does not serve as a giver (%s)" % (len(v22['unnamed']), gr22['heads'][-2:]))
+    page.wait_for_timeout(300); page.screenshot(path=os.path.join(args.shots, 'hand-unnamed.png'))
+    page.evaluate("() => document.getElementById('hand').classList.remove('show')")
+    # the cards: the Serao row carries the note, the Darmon inscription runs to the name, the Burkert card reads its dedication from the condition line
+    for id22, want22, name22, shot22 in (('bologna:UBO00189116', {'row': 'The catalogue names Matilde Serao', 'absent': 'Serao, Matilde', 'inscr': 'A Umbert da Matilde'}, 'the Serao copy', 'card-serao-row.png'), ('bologna:UBO00101116', {'row': 'Jean-Charles Darmon', 'inscr': '"èpicuriennes" ; en [sic] Avec toute ma admiration J. Charles Darmon'}, 'the Darmon copy', 'card-darmon.png'), ('bologna:UBO00343613', {'row': 'Walter Burkert', 'inscr': "Omaggio dell'autore WB", 'cond': 'dedica autografa di Walter Burkert', 'summary': 'dedication'}, 'the Burkert copy', 'card-burkert.png')):
+        page.evaluate("(id) => window.__openBook(id)", id22); settle(page, 400)
+        c22 = page.evaluate("() => ({ rows: [...document.querySelectorAll('#pBody dt')].map((d) => [d.textContent.trim(), ((d.nextElementSibling || {}).textContent || '').trim()]), body: document.getElementById('pBody').textContent.replace(/\\s+/g, ' '), inscr: (document.querySelector('#pBody .inscr') || {}).textContent || '', summary: [...document.querySelectorAll('#pBody summary')].map((s) => s.textContent).join(' | ') })")
+        rows22 = dict(c22['rows']); ins22 = rows22.get('Inscribed by', '')
+        ok22 = ins22.startswith(want22['row']) and want22['inscr'] in c22['inscr'] and (want22.get('absent') is None or want22['absent'] not in c22['body']) and (want22.get('cond') is None or want22['cond'] in rows22.get('Condition', '')) and (want22.get('summary') is None or want22['summary'] in c22['summary'].lower()) and ('Notes and marks' in rows22) == (id22 != 'bologna:UBO00343613')
+        check(ok22, 'the card for %s heads its Inscribed by row with "%s" and quotes the inscription whole (%s)' % (name22, want22['row'], ins22[:40] if ok22 else {'row': ins22[:60], 'inscr': c22['inscr'][:90], 'cond': rows22.get('Condition', '')[:40], 'summary': c22['summary'][:60]}))
+        page.screenshot(path=os.path.join(args.shots, shot22))
+    page.evaluate("() => document.getElementById('pClose').click()"); page.wait_for_timeout(300)
+    # Back from a book opened in the walk view: the page taken into the walk view by its address (a second live WebGL page starves the software renderer), a book from a search row, a second from its card, Back, Back, Forward; a tour and a bookcase from the walk; the two opens must each add an entry
+    page.evaluate("() => { if (document.getElementById('panel').classList.contains('open')) document.getElementById('pClose').click(); }"); page.wait_for_timeout(300)
+    page.evaluate("() => { location.hash = '#mode=walk'; }"); settle(page, 1500)
+    def st22(p):
+        try: return p.evaluate("() => ({ hash: location.hash, mode: window.__tours.state().mode, open: document.getElementById('panel').classList.contains('open'), title: document.getElementById('pTitle').textContent, tour: window.__tours.state().id, st: window.__historyState(), len: history.length, alive: true })")
+        except Exception as ex22: return {'alive': False, 'url': p.url, 'err': str(ex22)[:60]}
+    def nav22(p, how):
+        try: p.evaluate("(h) => h === 'back' ? history.back() : history.forward()", how); p.wait_for_timeout(1500); settle(p, 800)
+        except Exception: pass
+        return st22(p)
+    w0 = st22(page)
+    page.fill('#q', 'Torah e filosofia'); page.wait_for_timeout(700)
+    id1 = page.evaluate("() => { const r = document.querySelector('#results .r[data-id]'); if (!r) return null; r.click(); return r.dataset.id; }"); settle(page, 800); w1 = st22(page)
+    page.evaluate("(id) => window.__openBook(id)", 'bologna:UBO00812491'); settle(page, 800); w2 = st22(page)
+    w3 = nav22(page, 'back'); w4 = nav22(page, 'back')
+    if w4.get('alive'): page.screenshot(path=os.path.join(args.shots, 'walk-history.png'))
+    w5 = nav22(page, 'forward'); w6 = nav22(page, 'back')
+    hs22 = lambda w: w.get('hash') or ''
+    # the browser keeps at most 50 entries of session history, so the lengths are read only below that cap; the Back, Back, Forward sequence is the proof either way (a book that replaced the walk entry would put the second Back on the state before the walk)
+    check(w0.get('alive') and 'mode=walk' in hs22(w0) and w0.get('mode') == 'walk' and id1 == 'bologna:UBO00436664' and w1.get('open') and 'book=bologna%3AUBO00436664' in hs22(w1) and (w1.get('st') or {}).get('panel') is True and (w1.get('len') == w0.get('len') + 1 or w0.get('len', 0) >= 50) and w2.get('open') and 'book=bologna%3AUBO00812491' in hs22(w2) and (w2.get('len') == w1.get('len') + 1 or w1.get('len', 0) >= 50) and w3.get('alive') and w3.get('open') and 'book=bologna%3AUBO00436664' in hs22(w3) and w4.get('alive') and not w4.get('open') and 'mode=walk' in hs22(w4) and 'book=' not in hs22(w4) and w4.get('mode') == 'walk' and w5.get('alive') and w5.get('open') and (w5.get('title') or '').startswith('Torah e filosofia') and w6.get('alive') and w6.get('mode') == 'walk' and not w6.get('open'), 'in the walk view a book opened from a search row is a new entry and a second book from its card another: Back reopens the first, Back again returns to the walk with the page still there, Forward reopens the book (%s)' % ({'0': (hs22(w0), w0.get('len')), '1': (hs22(w1), w1.get('len')), '2': (hs22(w2), w2.get('len')), '3': hs22(w3) if w3.get('alive') else w3, '4': hs22(w4) if w4.get('alive') else w4, '5': hs22(w5) if w5.get('alive') else w5, '6': (hs22(w6), w6.get('mode')) if w6.get('alive') else w6},))
+    if w6.get('alive'):
+        page.evaluate("() => window.__tours.start('rose')"); settle(page, 1200); w7 = st22(page); w8 = nav22(page, 'back')
+        if w8.get('alive'): page.evaluate("(id) => window.__openCase(id)", 'rare-01'); settle(page, 1000); w9 = st22(page); w10 = nav22(page, 'back')
+        else: w9 = w10 = {}
+    else: w7 = w8 = w9 = w10 = {}
+    check(w7.get('tour') == 'rose' and 'tour=rose' in hs22(w7) and (w7.get('st') or {}).get('tour') is True and w8.get('alive') and w8.get('tour') is None and w8.get('mode') == 'walk' and w9.get('alive') and w9.get('open') and 'case=rare-01' in hs22(w9) and w10.get('alive') and not w10.get('open') and w10.get('mode') == 'walk', 'a tour and a bookcase opened from the walk view are entries too, and Back from each returns to the walk with the page still there (%s)' % ({'7': hs22(w7), '8': (hs22(w8), w8.get('mode')) if w8.get('alive') else w8, '9': hs22(w9), '10': (hs22(w10), w10.get('mode')) if w10.get('alive') else w10},))
+    page.evaluate("() => { if (document.getElementById('panel').classList.contains('open')) document.getElementById('pClose').click(); window.__tour.end(); }"); page.wait_for_timeout(300)
+    page.evaluate("() => window.__setMode('orbit')"); page.wait_for_timeout(400); page.evaluate("() => window.__flyToRoom('all')"); settle(page)
+    # the stops on a pile: the stop's own pile letters its titles while the card is up, in both views
+    tl22 = page.evaluate('() => window.__tours.list()')
+    obj22 = page.evaluate("() => { const D = window.__data(), o = {}; for (const b of D.books) if (b.bookcase && b.bookcase.startsWith('obj:')) o[b.id] = b.bookcase; return o; }")
+    piles22 = [(t['id'], k, t['ids'][k], obj22[tg]) for t in tl22 for k, tg in enumerate(t['targets']) if isinstance(tg, str) and tg in obj22]
+    check(len(piles22) >= 2 and {p[2] for p in piles22} >= {'rose-01', 'own-books-01'} and all(p[3] == 'obj:salotto:piano-pile-07' for p in piles22), 'the stops whose book lies on a pile (%s)' % ([p[2] for p in piles22],))
+    pr22 = {}
+    for view22 in ('orbit', 'walk'):
+        page.evaluate("(m) => window.__setMode(m)", view22); page.wait_for_timeout(400)
+        for tid22, k22, sid22, pile22 in piles22:
+            page.evaluate('(id) => window.__tours.start(id)', tid22); page.wait_for_timeout(300)
+            for _ in range(k22): page.evaluate('() => window.__tour.next()'); page.wait_for_timeout(120)
+            settle(page, 600)
+            n22 = page.evaluate('() => window.__labelPass || 0')
+            try: page.wait_for_function('(n) => (window.__labelPass || 0) >= n', arg=n22 + 2, timeout=60000)
+            except Exception: page.wait_for_timeout(2500)
+            pl22 = page.evaluate('() => window.__plates()'); lb22 = page.evaluate('() => window.__pileLabels || {}')
+            pr22[view22 + ':' + sid22] = {'stop': pl22['stop'], 'stopPile': pl22['stopPile'], 'listed': pl22['listedPile'], 'lines': lb22.get(pile22), 'others': [k for k in lb22 if k != pile22], 'pile': pile22}
+            if view22 == 'orbit' and sid22 == 'rose-01': page.screenshot(path=os.path.join(args.shots, 'rose-01-pile.png'))
+            page.evaluate('() => window.__tour.end()'); page.wait_for_timeout(300)
+    page.evaluate("() => window.__setMode('orbit')"); page.wait_for_timeout(400)
+    check(pr22 and all(v['stopPile'] == v['pile'] and v['listed'] == v['pile'] and (v['lines'] or 0) >= 1 and not v['others'] for v in pr22.values()), "at every stop on a pile the stop's own pile letters its titles while the card is up, in both views, and no other pile does (%s)" % ({k: (v['listed'], v['lines']) for k, v in pr22.items()},))
+    # the page source and the served metadata carry no version notes
+    src22 = open(os.path.join(args.dist, 'index.html'), encoding='utf-8').read()
+    nar22 = re.findall(r'.{0,30}\b(?:version \d+|v\d\d? fix|audit-v\d+|backup-v\d+)\b.{0,30}', src22, re.I)
+    meta22 = page.evaluate("() => JSON.stringify(window.__data().meta)")
+    narm22 = re.findall(r'.{0,30}\b(?:version \d+|audit-v\d+|backup-v\d+)\b.{0,30}', meta22, re.I)
+    check(not nar22 and not narm22, 'the page source and the served metadata carry no version notes (%s)' % ((nar22 + narm22)[:3] or 'none',))
     # the Origin badge: an ECO.02 or ECO.03 record names a section of the catalogue, an ECO.01 record a position
     sec_id = page.evaluate(r"() => { const b = window.__data().books.find((b) => b.placement === 'catalogued' && /^ECO\.02\b/.test(b.shelfmark || '')); return b ? b.id : null; }")
     pos_id = page.evaluate(r"() => { const b = window.__data().books.find((b) => b.placement === 'catalogued' && /^ECO\.01\b/.test(b.shelfmark || '')); return b ? b.id : null; }")
@@ -1042,7 +1139,7 @@ with sync_playwright() as pw:
     bl_c = page.evaluate("() => window.__blocksOf('obj:studio:eco-paperbacks')"); cab_c = page.evaluate("() => window.__blocksOf('salotto-wood')")
     page.evaluate("() => window.__overlay.filter('all')"); page.wait_for_timeout(300)
     check(bl_all['blocks'] >= 20 and bl_all['shown'] == bl_all['blocks'] and bl_c['shown'] == 0, 'study: the ECO paperback row (%d blocks) hides under "certain only" and shows under "all"' % bl_all['blocks'])
-    check(cab_all['blocks'] >= 3 and cab_all['shown'] == cab_all['blocks'] and cab_c['shown'] == 0, 'curiosity cabinet: its %d flat and standing books hide under "certain only" (seventh look)' % cab_all['blocks'])
+    check(cab_all['blocks'] >= 3 and cab_all['shown'] == cab_all['blocks'] and cab_c['shown'] == 0, 'curiosity cabinet: its %d flat and standing books hide under "certain only"' % cab_all['blocks'])
     check(set(st['windows']) == {'W@0.9', 'S@1', 'S@3.7'}, 'study: the layout\'s three windows are drawn (W wall by the door, two over the desk row): %s' % st['windows'])
 
     # nothing placed on top of a desk, a cabinet or a bookcase hangs past its top (the desk piles floated 1.2 m past the desk),
